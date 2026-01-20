@@ -150,9 +150,11 @@ export function DanceTable() {
                     <p className="text-xs text-[#92400e] uppercase tracking-wide mb-1 font-semibold">
                       Musik
                     </p>
-                    <p className="text-[#78350f] text-sm line-clamp-2">
-                      {dance.songs.join(", ")}
-                    </p>
+                    <div className="text-[#78350f] text-sm space-y-0.5">
+                      {dance.songs.map((song, index) => (
+                        <p key={index}>{song}</p>
+                      ))}
+                    </div>
                   </div>
 
                   {/* Links */}
