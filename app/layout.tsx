@@ -34,6 +34,10 @@ export const metadata: Metadata = {
     "Tanzgruppe",
   ],
   authors: [{ name: "BCH Line Dancer" }],
+  icons: {
+    icon: "/icon.png",
+    apple: "/apple-icon.png",
+  },
   openGraph: {
     title: "BCH Line Dancer | Gemeinsam tanzen in Buchen",
     description:
@@ -41,7 +45,7 @@ export const metadata: Metadata = {
     locale: "de_DE",
     type: "website",
   },
-    generator: 'v0.app'
+  generator: "v0.app",
 };
 
 export const viewport: Viewport = {

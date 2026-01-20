@@ -200,11 +200,11 @@ export default function ResourcesPage() {
                 <div className="flex flex-col sm:flex-row items-center gap-6">
                   <div className="w-24 h-24 bg-[#faebd7] rounded-xl flex items-center justify-center border-2 border-[#d4a574] text-center p-3">
                     <div>
-                      <p className="font-bold text-sm text-[#3d2314]">Mehr</p>
-                      <p className="font-bold text-sm text-[#15803d]">
-                        Generationen
-                      </p>
-                      <p className="font-bold text-sm text-[#3d2314]">Haus</p>
+                      <img
+                        src="/logos/mgh-logo.svg"
+                        alt="Mehrgenerationenhaus Buchen"
+                        className="w-full h-full object-cover"
+                      />
                     </div>
                   </div>
                   <div className="flex-1 text-center sm:text-left">
