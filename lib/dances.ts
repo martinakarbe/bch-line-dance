@@ -362,7 +362,7 @@ export const dances: Dance[] = [
     id: "29",
   },
   {
-    name: "Bread A nd Butter",
+    name: "Bread And Butter",
     isPairDance: false,
     level: "Intermediate",
     songs: [
@@ -377,7 +377,7 @@ export const dances: Dance[] = [
     id: "30",
   },
   {
-    name: "Bring Down The House)",
+    name: "Bring Down The House",
     isPairDance: false,
     level: "Intermediate",
     songs: [
@@ -576,7 +576,7 @@ export const dances: Dance[] = [
     id: "45",
   },
   {
-    name: "Copperhead Roa d",
+    name: "Copperhead Road",
     isPairDance: false,
     level: "Beginner",
     songs: ["Copperhead Road - Steve Earl"],
@@ -754,7 +754,7 @@ export const dances: Dance[] = [
     id: "59",
   },
   {
-    name: "Designate d Drinker",
+    name: "Designated Drinker",
     isPairDance: false,
     level: "Improver",
     songs: [
@@ -766,7 +766,7 @@ export const dances: Dance[] = [
     id: "60",
   },
   {
-    name: "Devil in D isguise",
+    name: "Devil in Disguise",
     isPairDance: false,
     level: "Improver",
     songs: [
@@ -816,7 +816,7 @@ export const dances: Dance[] = [
     id: "64",
   },
   {
-    name: "Do It With Sty le",
+    name: "Do It With Style",
     isPairDance: false,
     level: "Improver",
     songs: ["Style - Danger Twins"],
@@ -903,7 +903,7 @@ export const dances: Dance[] = [
     id: "72",
   },
   {
-    name: "Eatin‘ Rig ht And Drinkin‘ Bad",
+    name: "Eatin‘ Right And Drinkin‘ Bad",
     isPairDance: false,
     level: "Beginner",
     songs: [
@@ -1811,7 +1811,7 @@ export const dances: Dance[] = [
     id: "153",
   },
   {
-    name: "Pina Co -Cha-Cha",
+    name: "Pina Co-Cha-Cha",
     isPairDance: false,
     level: "Improver",
     songs: [
@@ -1903,7 +1903,7 @@ export const dances: Dance[] = [
     id: "162",
   },
   {
-    name: "Rose -A-Lee",
+    name: "Rose-A-Lee",
     isPairDance: false,
     level: "Improver",
     songs: ["Rose -A-Lee - Smokie"],
@@ -2179,13 +2179,7 @@ export const dances: Dance[] = [
     ],
     id: "186",
   },
-  {
-    name: "193",
-    isPairDance: false,
-    level: "NA",
-    songs: [],
-    id: "187",
-  },
+
   {
     name: "Tennessee Waltz",
     isPairDance: false,
@@ -2573,7 +2567,7 @@ export const dances: Dance[] = [
     id: "224",
   },
   {
-    name: "You're So Nau ghty - Kiss My Body",
+    name: "You're So Naughty - Kiss My Body",
     isPairDance: false,
     level: "Improver",
     songs: ["He Drinks Tequila - Sammy Kershaw & Lorrie Morgan"],
