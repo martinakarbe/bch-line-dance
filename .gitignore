@@ -6,6 +6,7 @@
 # next.js
 /.next/
 /out/
+/out.zip
 
 # production
 /build
@@ -25,3 +26,6 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# macOS Finder
+.DS_Store
