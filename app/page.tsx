@@ -3,7 +3,6 @@ import { Footer } from "@/components/footer";
 import { HeroSection } from "@/components/home/hero-section";
 import { FeaturesSection } from "@/components/home/features-section";
 import { CTASection } from "@/components/home/cta-section";
-import { TestimonialSection } from "@/components/home/testimonial-section";
 
 export default function HomePage() {
   return (
@@ -13,7 +12,6 @@ export default function HomePage() {
         <HeroSection />
         <FeaturesSection />
         <CTASection />
-        <TestimonialSection />
       </main>
       <Footer />
     </>
