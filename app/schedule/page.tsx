@@ -39,7 +39,7 @@ const scheduleInfo: ScheduleItem[] = [
   {
     icon: Clock,
     title: "Trainingszeiten",
-    description: "Alle aktuellen Zeiten im Kalender unten!",
+    description: "Dienstags ab 19:30 Uhr",
     color: "bg-[#b45309]",
   },
   {
@@ -124,7 +124,7 @@ export default function SchedulePage() {
                 <span>Zeitzone: Mitteleuropäische Zeit (Berlin)</span>
               </div>
               <a
-                href="https://calendar.google.com/calendar/u/0?cid=YmNobGluZWRhbmNlckBnbWFpbC5jb20"
+                href="https://calendar.google.com/calendar/ical/4b908492aeb69dc087e3d3b0441d52319ad398b36c09ec6fd47ebf0e94c6b018%40group.calendar.google.com/public/basic.ics"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-2 text-sm text-[#b45309] hover:text-[#78350f] font-medium"
