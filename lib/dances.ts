@@ -26,12 +26,18 @@ export const dances: Dance[] = [
       "Rocky Top - Osborne Brothers",
       "Sold - John Michael Montgomery",
       "If your gonna play in Texas - Alabama",
-      "I don’t even know her name - Alan Jackson",
+      "I don't even know her name - Alan Jackson",
       "Fishin in the dark - Nitty Gritty Dirt Band",
       "Love Like This - Gamblers",
       "Down On The Farm - Tim Mc Craw",
+      "Back To Tourmakeady by Nathan Carter",
+      "Yankee Doodle by Boxcar Willie",
     ],
-    videoLink: ["https://youtu.be/e5lxueUtcPQ?si=IZ3dLiOmgaMPZJXY"],
+    videoLink: [
+      "https://youtu.be/e5lxueUtcPQ?si=IZ3dLiOmgaMPZJXY"
+    ],
+    stepsheetLink: 
+      "https://nolimit-linedancer.at/wp-content/uploads/2019/02/16-Step.pdf",
     id: "1",
   },
   {
@@ -39,10 +45,15 @@ export const dances: Dance[] = [
     isPairDance: false,
     level: "Beginner",
     songs: [
-      "1976 - Alan Jackson – Country / Billie Jean - Michael Jackson - Non Country",
-      "It’s 5 o’clock somethere - Al an Jackson",
+      "1976 - Alan Jackson - Country", 
+      "Billie Jean - Michael Jackson - Non Country",
+      "It's 5 o'clock somethere - Alan Jackson",
     ],
-    videoLink: ["https://youtu.be/JHTACL4kY74?si=OCOAAPLNaKk2uAbP"],
+    videoLink: [
+      "https://youtu.be/JHTACL4kY74?si=OCOAAPLNaKk2uAbP"
+    ],
+    stepsheetLink: 
+      "https://www.dancer-in-line.de/docs/taenze/1976_OBrien.pdf",
     id: "2",
   },
   {
@@ -51,21 +62,29 @@ export const dances: Dance[] = [
     level: "Beginner",
     songs: [
       "A Bar Song (Tipsy) - Shaboozey",
-      "My only wish v. Britney Spears (Restart i.d. 12. Wand nach 8 counts, tag n.d 14.Wd.)",
+      "My only wish - Britney Spears (Restart i.d. 12. Wand nach 8 counts, tag n.d 14.Wd.)",
     ],
-    videoLink: ["https://youtu.be/UTOI9jPY8uo?si=cYDp-Jvgm3-4-cmJ"],
+    videoLink: [
+      "https://youtu.be/UTOI9jPY8uo?si=cYDp-Jvgm3-4-cmJ"
+    ],
+    stepsheetLink: 
+      "https://www.get-in-line.de/dances/A%20Bar%20Song_-_B%20Murphy.htm",
     id: "3",
   },
   {
     name: "A country high",
     isPairDance: false,
     level: "Intermediate",
-    songs: ["High on a Country Song - Sam Riggs Sharp dressed Man"],
-    aliases: ["High on a Country"],
+    songs: [
+      "High on a Country Song - Sam Riggs", 
+      "Sharp dressed Man"
+    ],
     videoLink: [
       "https://youtu.be/BsWeUZ8BJKA?si=lJ8g-fzcTpu4e4Ns",
       "https://youtu.be/0k6bwPk9XZE?si=ClE9vZXpZEYAtwZh",
     ],
+    stepsheetLink: 
+      "https://www.get-in-line.de/dances/A%20Country%20High_-_Gifford.htm",
     id: "4",
   },
   {
@@ -75,21 +94,27 @@ export const dances: Dance[] = [
     songs: [
       "Country Music Made Me Do It - Mike Henderson,",
       "Setting The Woods On Fire - The Tractors",
-      "Ashes of Love v. Kentucky Headhunters",
+      "Ashes of Love - Kentucky Headhunters",
     ],
     videoLink: ["https://youtu.be/uSTJB84g8us?si=QnaoQIcD3LfvfUFo"],
+    stepsheetLink: "https://www.get-in-line.de/dances/After_Five_Stomp_-_Horner.htm",
     id: "5",
   },
+
+
   {
     name: "Ah Si!",
     isPairDance: false,
     level: "Beginner",
     songs: [
       "Levantando Las Manos - El Simbolo,",
-      "Te Quiero Mas - Formula Albierta",
-      "Hinwei s: Der Tanz beginnt mit dem Einsatz des Gesangs",
+      "Te Quiero Mas - Formula Albierta",      
     ],
-    videoLink: ["https://youtu.be/YHbADO5GbtU?si=lJFGFE4sWf9ztq7z"],
+    videoLink: [
+      "https://youtu.be/YHbADO5GbtU?si=lJFGFE4sWf9ztq7z"
+    ],
+    stepsheetLink: 
+      "https://www.get-in-line.de/dances/Ah_Si!_-_Masur.htm",
     id: "6",
   },
   {
@@ -97,48 +122,71 @@ export const dances: Dance[] = [
     isPairDance: false,
     level: "Intermediate",
     songs: [
-      "See You Later Alligator/R.O.C.K./Rock Around The Clock - Johnny Earle",
-      "You never can tell - v. Bruce Springsteen",
+      "See You Later Alligator/R.O.C.K./",
+      "Rock Around The Clock - Johnny Earle",
+      "You never can tell - Bruce Springsteen",
       "Run Rudolph run - Bryan Adams",
     ],
-    aliases: ["neu in Mudau 2025"],
     videoLink: [
       "https://youtu.be/d-c3wLpDwWQ?si=IC-TJN0ks4C1rFWA",
       "https://youtu.be/nj1rkseEmDg?si=dwEpH-xRogT7upe3",
     ],
+    stepsheetLink: 
+      "https://www.get-in-line.de/dances/Alligator%20Rock_-_Lescarbeau.htm",
     id: "7",
   },
   {
     name: "All Shook Up",
     isPairDance: false,
     level: "Advanced",
-    songs: ["All Shook Up - Billy Joel,", "All Shook Up - Elvis Presley"],
-    videoLink: ["https://youtu.be/yCXqW9xXgnw?si=wE-sTyBTmwayn6YP"],
+    songs: [
+      "All Shook Up - Billy Joel,", "All Shook Up - Elvis Presley"
+    ],
+    videoLink: [
+      "https://youtu.be/yCXqW9xXgnw?si=wE-sTyBTmwayn6YP"
+    ],
+    stepsheetLink: 
+      "https://www.get-in-line.de/dances/All_Shook_Up_-_Fleetwood_Pyle.htm",
     id: "8",
   },
-  {
+  /*{
     name: "American Kids",
     isPairDance: false,
     level: "Beginner",
     songs: ["American Kids - Kenny Chesney"],
     aliases: ["lernen", "gesehen am 20.12.25 in Billingsbach"],
-    videoLink: ["https://youtu.be/lnJL8QYWqNE?si=goPAZ_i6-sgR9aBl"],
+    videoLink: [
+      "https://youtu.be/lnJL8QYWqNE?si=goPAZ_i6-sgR9aBl"
+    ],
+    stepsheetLink: 
+      "https://www.get-in-line.de/dances/American%20Kids_-_Pelletier.htm"
+    ,
     id: "9",
-  },
+  },*/
   {
     name: "An Irish Pub",
     isPairDance: false,
     level: "Beginner",
     songs: ["Irish Pub Song - The High Kings"],
-    videoLink: ["https://youtu.be/o317_KwyjU4?si=F56ni9_L4b1UZWBV"],
+    videoLink: [
+      "https://youtu.be/o317_KwyjU4?si=F56ni9_L4b1UZWBV"
+    ],
+    stepsheetLink: 
+      "https://www.get-in-line.de/dances/Irish%20Pub%20Song%20EZ_-_Joergensen.htm",
     id: "10",
   },
   {
     name: "Another Song",
     isPairDance: false,
     level: "Beginner",
-    songs: ["Another Song I Had To Write - Jacob Lyda"],
-    videoLink: ["https://youtu.be/-JKrHODcq5o?si=FR0smfi-5QEEhVv3"],
+    songs: [
+      "Another Song I Had To Write - Jacob Lyda"
+    ],
+    videoLink: [
+      "https://youtu.be/-JKrHODcq5o?si=FR0smfi-5QEEhVv3"
+    ],
+    stepsheetLink: 
+      "https://www.get-in-line.de/dances/Another_Song_-_Sala-McGowan_Hickie.htm",
     id: "11",
   },
   {
@@ -147,7 +195,7 @@ export const dances: Dance[] = [
     level: "Beginner",
     songs: [
       "I Love You Arizona - Rex Allen Jr. : (Arizona State Song)",
-      "Alt music : almost any sl ow to medium tempo waltz",
+      "Alt music : almost any slow to medium tempo waltz",
     ],
     id: "12",
   },
@@ -155,17 +203,28 @@ export const dances: Dance[] = [
     name: "Ashes Of Love",
     isPairDance: false,
     level: "Improver",
-    songs: ["Ashes Of Love - Kent ucky Headhunters"],
-    videoLink: ["https://youtu.be/_GQMeYHweso?si=bmq_4-JF1ULaGfMc"],
+    songs: [
+      "Ashes Of Love - Kentucky Headhunters"
+    ],
+    videoLink: [
+      "https://youtu.be/_GQMeYHweso?si=bmq_4-JF1ULaGfMc"
+    ],
+    stepsheetLink: 
+      "https://www.get-in-line.de/dances/Ashes_Of_Love_-_Lafferty.htm",
     id: "13",
   },
   {
     name: "Austin",
     isPairDance: false,
     level: "Improver",
-    songs: ["Austin - Dasha"],
-    aliases: ["neu 2025 von Martina"],
-    videoLink: ["https://youtu.be/MuaAVgjJcjk?si=72otnsKLcu1xOAMC"],
+    songs: [
+      "Austin - Dasha"
+    ],
+    videoLink: [
+      "https://youtu.be/MuaAVgjJcjk?si=72otnsKLcu1xOAMC"
+    ],
+    stepsheetLink: 
+      "https://www.get-in-line.de/dances/Austin%20(mod%204w)_-_Dasha.htm",
     id: "14",
   },
   {
@@ -187,7 +246,7 @@ export const dances: Dance[] = [
     songs: [
       "Baby Ride Easy - Carlene Carter",
       "The lucky one - Alison Krauss",
-      "Tequilla makes her clothes fall off v. Joe Nichols",
+      "Tequilla makes her clothes fall off - Joe Nichols",
     ],
     videoLink: [
       "https://youtu.be/BciZ-8E8Pm8?si=r-QuXSH_GG18D5fS",
@@ -219,7 +278,9 @@ export const dances: Dance[] = [
     name: "Bad moon on the rise",
     isPairDance: false,
     level: "Intermediate",
-    songs: ["Bad Moon Rising - Creedence Clearwater Revival"],
+    songs: [
+      "Bad Moon Rising - Creedence Clearwater Revival"
+    ],
     videoLink: [
       "https://youtu.be/PPmxmR9XYfE?si=EOZ6qWDSt56ZJBrD",
       "https://youtu.be/E0zq_iXG43o?si=QQGsAZ0KSxRq35sO",
@@ -261,7 +322,9 @@ export const dances: Dance[] = [
     name: "Billy's Dance",
     isPairDance: true,
     level: "Improver",
-    songs: ["“San Francisco” - Olsen Brothers"],
+    songs: [
+      "San Francisco - Olsen Brothers"
+    ],
     videoLink: [
       "https://youtu.be/muR_htbpIyY?si=VEmPngQM11wJi__U",
       "https://youtu.be/3wG-iaFVrE8?si=I8v-sGj1X7wB3san",
@@ -278,6 +341,7 @@ export const dances: Dance[] = [
       "Lucky Lips – Rote Lippen",
       "Whiskey over you - Daisy Town",
       "Little sister - Elvis Presley",
+      "Mitternacht - E Nomine",
     ],
     videoLink: [
       "https://www.youtube.com/@killlis",
@@ -302,7 +366,9 @@ export const dances: Dance[] = [
     name: "Blue Rose",
     isPairDance: true,
     level: "NA",
-    songs: ["Why Do I Feel Like Running by Montgomery G entry"],
+    songs: [
+      "Why Do I Feel Like Running by Montgomery G entry"
+    ],
     videoLink: [
       "https://youtu.be/yCL6WmKlluU?si=MtaL6YlpW333Izpf",
       "https://youtu.be/1hUk0Scp8WI?si=zZf5Mazyr1B3e4Kb",
@@ -315,7 +381,7 @@ export const dances: Dance[] = [
     level: "Intermediate",
     songs: [
       "On The Boat To Liverpool - Nathan Carter",
-      "You make me feel like Christmas v. Gwen Stefani",
+      "You make me feel like Christmas - Gwen Stefani",
     ],
     videoLink: [
       "https://youtu.be/ZdYBmE_tH-k?si=tk8oOcrqV4XtjJ-I",
@@ -339,7 +405,9 @@ export const dances: Dance[] = [
     name: "Boot Scootin Boogie",
     isPairDance: false,
     level: "NA",
-    songs: ["Brooks & Dunn / Boot Scootin Boogie"],
+    songs: [
+      "Boot Scootin Boogie - Brooks & Dunn"
+    ],
     videoLink: [
       "https://youtu.be/9CXVhnNm0hg?si=ZKR_zSLMhyUUbaJS",
       "https://youtu.be/wZITUOchwQQ?si=HhiVwxAmABap848-",
@@ -352,7 +420,7 @@ export const dances: Dance[] = [
     level: "Improver",
     songs: [
       "Blame It On The Bossa Nova - Jane McDonald",
-      "Let it snow v. Charley Pride",
+      "Let it snow - Charley Pride",
     ],
     videoLink: [
       "https://youtu.be/he_qRrOisF8?si=vT8NW64VLqm3Kzah",
@@ -382,9 +450,8 @@ export const dances: Dance[] = [
     level: "Intermediate",
     songs: [
       "Bring Down the House - Dean Brody",
-      "Pick out a christ mas tree v. Dan+Shay",
+      "Pick out a christ mas tree - Dan+Shay",
     ],
-    aliases: ["neu 2025 bei Hans -Dieter"],
     videoLink: ["https://youtu.be/xLqtx6CvVz4?si=02-Mbr_XPBxr2e_l"],
     id: "31",
   },
@@ -418,7 +485,6 @@ export const dances: Dance[] = [
     isPairDance: false,
     level: "Beginner",
     songs: ["Calm After The Storm - The Common Linnets"],
-    aliases: ["After the Storm"],
     videoLink: [
       "https://youtu.be/aPugMGMLTvQ?si=J00p27yoXUHmLew0",
       "https://youtu.be/WQW8Iqhn96E?si=EDRQqTGuTvoolMLb",
@@ -431,10 +497,13 @@ export const dances: Dance[] = [
     isPairDance: false,
     level: "Beginner",
     songs: [
-      "Copperhead Road - Steve Earle, Louisiana Saturday night - Mel McDaniel",
+      "Copperhead Road - Steve Earle",
+      "Louisiana Saturday night - Mel McDaniel",
       "Any Man Of Mine - Shania Twain One beer can vom Brad Paisley",
-      "What makes you country vonLuke Bryan Beer never broke my heart - Luke Combs",
-      "Sweet home Alabama - Lynyrd Skynyrd Liquor Talking - Don Louis",
+      "What makes you country - Luke Bryan",
+      "Beer never broke my heart - Luke Combs",
+      "Sweet home Alabama - Lynyrd Skynyrd", 
+      "Liquor Talking - Don Louis",
     ],
     videoLink: [
       "https://youtu.be/ps79VA4HFUc?si=YzKKQlzntekJFqOh",
@@ -468,8 +537,8 @@ export const dances: Dance[] = [
       "Chattahoochee - Alan Jackson,",
       "Chattahoochee (Extended Mix) - Alan Jackson,",
       "Dallas Days And Fort Worth Nights - Chris LeDoux",
-      "The night I called the old man out v. Gar th Brooks",
-      "Cherokee Boogie - BR5 -49",
+      "The night I called the old man out - Garth Brooks",
+      "Cherokee Boogie - BR5-49",
     ],
     videoLink: [
       "https://youtu.be/oroaUj0s2v8?si=aah04_cqSrtUSMt7",
@@ -492,7 +561,9 @@ export const dances: Dance[] = [
     name: "Chica Boom Boom",
     isPairDance: false,
     level: "Improver",
-    songs: ["Boom Boom Goes My Heart - Alex Swings Oscar Sings"],
+    songs: [
+      "Boom Boom Goes My Heart - Alex Swings Oscar Sings"
+    ],
     videoLink: [
       "https://youtu.be/PnnU4wqnvQU?si=2pMmZauYTS84Q8RI",
       "https://youtu.be/7AknftqE_jQ?si=Lx6HIbbBftP3Uwpo",
@@ -516,17 +587,25 @@ export const dances: Dance[] = [
     name: "Closer",
     isPairDance: false,
     level: "Improver",
-    songs: ["Closer - Susan Ashton,", "Little Unlucky At Love - Jenai"],
-    videoLink: ["https://youtu.be/eNiuLUHhD_s?si=T_b5biJe2M9PgGOI"],
+    songs: [
+      "Closer - Susan Ashton,", 
+      "Little Unlucky At Love - Jenai"
+    ],
+    videoLink: [
+      "https://youtu.be/eNiuLUHhD_s?si=T_b5biJe2M9PgGOI"
+    ],
     id: "41",
   },
   {
-    name: "Coastin",
+    name: "Coastin'",
     isPairDance: false,
     level: "Improver",
-    songs: ["Lord Of The Dance - Ronan Ha rdiman"],
-    aliases: ["Lord of the Dance"],
-    videoLink: ["https://youtu.be/_7xGvGX3OHc?si=4GEaAl6KbdkxJbaj"],
+    songs: [
+      "Lord Of The Dance - Ronan Hardiman"
+    ],
+    videoLink: [
+      "https://youtu.be/_7xGvGX3OHc?si=4GEaAl6KbdkxJbaj"
+    ],
     id: "42",
   },
   {
@@ -535,7 +614,7 @@ export const dances: Dance[] = [
     level: "Improver",
     songs: [
       "Código - George Strait",
-      "I don’t need anything this christmas v. Shawn Colvin",
+      "I don’t need anything this christmas - Shawn Colvin",
     ],
     videoLink: [
       "https://youtu.be/qOU48uhELgc?si=IstTPWDODMmt-WCJ",
@@ -549,10 +628,9 @@ export const dances: Dance[] = [
     level: "Beginner",
     songs: [
       "Coffee Days And Whiskey Nights - Robynn Shayne",
-      "Ashes of love",
+      "Ashes of love - Kentucky Headhunters",
       "Straight to hell - Darius Rucker",
     ],
-    aliases: ["Neu am 05.08.25"],
     videoLink: [
       "https://youtu.be/5IR-iB563Vg?si=lM97Y3DJfxWuFwST",
       "https://youtu.be/Cnu-I7R1Cy8?si=V8pj-95J78Ip8kxn",
@@ -576,11 +654,10 @@ export const dances: Dance[] = [
     id: "45",
   },
   {
-    name: "Copperhead Road",
+    name: "Copperhead Road aka Drunken Cowboy",
     isPairDance: false,
     level: "Beginner",
     songs: ["Copperhead Road - Steve Earl"],
-    aliases: ["Drunken Cowboy"],
     videoLink: [
       "https://youtu.be/1D1m0ajN-5o?si=OOoroH2vCAYU5KIy",
       "https://youtu.be/g3zwEDiU53I?si=ei17Tmxm3EHJp7YA",
@@ -596,11 +673,10 @@ export const dances: Dance[] = [
     id: "47",
   },
   {
-    name: "Corn don’t grow",
+    name: "Corn don't grow",
     isPairDance: false,
     level: "Improver",
     songs: ["Where Corn Don't Grow - Travis Tritt"],
-    aliases: ["neu 2024"],
     videoLink: [
       "https://youtu.be/vPup0rMFV_s?si=TwIRLji3xHOmGiUT",
       "https://youtu.be/OixEfO9Rlnw?si=OPlDT04s-4-dbT4x",
@@ -612,7 +688,8 @@ export const dances: Dance[] = [
     isPairDance: false,
     level: "Beginner",
     songs: [
-      "A better man - Clint Black (langsam) Flieg junger Adler",
+      "A better man - Clint Black (langsam)", 
+      "Flieg junger Adler - Tom Astor",
       "Country roads - John Denver",
       "I Just Want My Baby Back - Jerry Kilgore",
       "Listen to your sens es - Alan Jackson",
@@ -630,9 +707,12 @@ export const dances: Dance[] = [
     name: "Country In The City",
     isPairDance: false,
     level: "Beginner",
-    songs: ["Country In The City - Lesley Kernochan"],
-    aliases: ["gelernt am 14.09.25 in Wü -Heidingsfeld"],
-    videoLink: ["https://youtu.be/28Qm7VyC6SI?si=wClEtBN_r0Ne0-og"],
+    songs: [
+      "Country In The City - Lesley Kernochan"
+    ],
+    videoLink: [
+      "https://youtu.be/28Qm7VyC6SI?si=wClEtBN_r0Ne0-og"
+    ],
     id: "50",
   },
   {
@@ -640,11 +720,10 @@ export const dances: Dance[] = [
     isPairDance: false,
     level: "Beginner",
     songs: [
-      "Walkin' The Country - The Ranch,",
-      "Strike It Up - Black Box,",
+      "Walkin' The Country - The Ranch",
+      "Strike It Up - Black Box",
       "Old Pop In An Oak - Rednex",
     ],
-    aliases: ["neu: 10/2025"],
     videoLink: ["https://youtu.be/uWZDHMiZUfs?si=QuWYpU2pl-Qg0xUj"],
     id: "51",
   },
@@ -655,8 +734,8 @@ export const dances: Dance[] = [
     songs: [
       "A Hot Dog & A Daiquiri by Bill Crews",
       "Gone Country by Alan Jackson",
-      "Tequ ila Sunrise by Alan Jackson",
-      "Dancin` Cowboys by The Bellamy Brother",
+      "Tequila Sunrise by Alan Jackson",
+      "Dancin' Cowboys by The Bellamy Brother",
       "Neon Moon by Brooks & Dunn",
       "Margaritaville by Jimmy Buffett",
       "Segler aus Papier by Fair Play",
@@ -673,20 +752,22 @@ export const dances: Dance[] = [
     isPairDance: false,
     level: "Beginner",
     songs: [
-      "New Y ork, New York - Frank Sinatra,",
+      "New York, New York - Frank Sinatra,",
       "(This Thing Called) Wantin' And Havin' It All - Sawyer Brown,",
       "Sold - John Michael Montgomery,",
       "In The Mode (Club Mix) - Asleep At The Wheel",
-      "Walking in the Winter Wonderland v. Jerry Jeff Walter",
+      "Walking in the Winter Wonderland - Jerry Jeff Walter",
     ],
-    videoLink: ["https://youtu.be/AdyVGPT2Teg?si=l7zYAKyKOQmSPihl"],
+    videoLink: [
+      "https://youtu.be/AdyVGPT2Teg?si=l7zYAKyKOQmSPihl"
+    ],
     id: "53",
   },
   {
     name: "Crazy Friends",
     isPairDance: false,
     level: "NA",
-    songs: ["Crazy As Me (feat. Blake Wood) – Belles"],
+    songs: ["Crazy As Me (feat. Blake Wood) - Belles"],
     id: "54",
   },
   {
@@ -694,11 +775,8 @@ export const dances: Dance[] = [
     isPairDance: false,
     level: "Beginner",
     songs: [
-      "Crossfire by DJ Ötzi & The Bel lamy Brothers",
-      "Intro: 32 Counts",
-      "Restart: In der 8. Wand nach 24 Counts",
+      "Crossfire by DJ Ötzi & The Bellamy Brothers",   
     ],
-    aliases: ["neu 2025"],
     videoLink: ["https://youtu.be/Gz7r0dE90_8?si=x1T6Gpiz1Ewp9w7X"],
     id: "55",
   },
@@ -707,22 +785,29 @@ export const dances: Dance[] = [
     isPairDance: false,
     level: "Beginner",
     songs: [
-      "Shadows In The Night - Scooter Lee, I need more of you vo n Bellamy Brothers",
-      "What Kind Of Fool - Scooter Lee,",
+      "Shadows In The Night - Scooter Lee",
+      "I need more of you - Bellamy Brothers",
+      "What Kind Of Fool - Scooter Lee",
       "Still Cruisin' - Beach Boys",
       "If I Said You Had a Beautiful Body - The Bellamy Brothers",
       "Amarillo by Morning - George Strait",
       "Margaritaville - Alan Jackson & Jimmy Buffett",
     ],
-    videoLink: ["https://youtu.be/hZBK3pt-7u0?si=8UJduGIpRYUk2QbP"],
+    videoLink: [
+      "https://youtu.be/hZBK3pt-7u0?si=8UJduGIpRYUk2QbP"
+    ],
     id: "56",
   },
   {
     name: "Cucaracha",
     isPairDance: false,
     level: "Beginner",
-    songs: ["All you ever do is bring me down – Mavericks"],
-    videoLink: ["https://youtu.be/ftogsZM8WWg?si=dIpjR7TYWw4IaLB8"],
+    songs: [
+      "All you ever do is bring me down - Mavericks"
+    ],
+    videoLink: [
+      "https://youtu.be/ftogsZM8WWg?si=dIpjR7TYWw4IaLB8"
+    ],
     id: "57",
   },
   {
@@ -743,7 +828,7 @@ export const dances: Dance[] = [
     songs: [
       "Smoke Rings In The Dark - Gary Allan,",
       "I Should Have Been True - Mavericks",
-      "Knockin on heaven’s door - Guns & Roses",
+      "Knockin on heaven's door - Guns & Roses",
       "Old lucky diamond motel - Vince Gill",
       "One horse town - Blackberry Smoke",
     ],
@@ -761,7 +846,7 @@ export const dances: Dance[] = [
       "Designated Drinker - Alan Jackson",
       "Ain't Much Fun - Toby Keith,",
       "Slow Me Down - Shelby Lynne,",
-      "Whiskey Under The Bridge - Brooks & Dun n",
+      "Whiskey Under The Bridge - Brooks & Dunn",
     ],
     id: "60",
   },
@@ -811,7 +896,6 @@ export const dances: Dance[] = [
     isPairDance: false,
     level: "Improver",
     songs: ["Do It All Again - Guilty Ple asure, Enisa & Faydee"],
-    aliases: ["neu 2025"],
     videoLink: ["https://youtu.be/QtPkuRt0st0?si=Uzps8xuvBluud3ki"],
     id: "64",
   },
@@ -820,7 +904,6 @@ export const dances: Dance[] = [
     isPairDance: false,
     level: "Improver",
     songs: ["Style - Danger Twins"],
-    aliases: ["neu 2025"],
     videoLink: [
       "https://youtu.be/FxeUaO5ljPc?si=rqMH4TkJm958m_BB",
       "https://youtu.be/Rx-cZPAuqxw?si=3CKXkemIaO8GDLR6",
@@ -839,7 +922,7 @@ export const dances: Dance[] = [
     id: "66",
   },
   {
-    name: "Don’t you wish",
+    name: "Don't you wish",
     isPairDance: false,
     level: "Beginner",
     songs: ["Don't You Wish It Was True - John Fogerty"],
@@ -854,7 +937,7 @@ export const dances: Dance[] = [
     isPairDance: false,
     level: "Intermediate",
     songs: [
-      "Down On The C orner - Mavericks",
+      "Down On The Corner - Mavericks",
       "I need more of you - Bellamy brothers",
       "Jeans on - Keith Urban",
     ],
@@ -873,10 +956,10 @@ export const dances: Dance[] = [
     id: "69",
   },
   {
-    name: "Drivin‘ my life away",
+    name: "Drivin' my life away",
     isPairDance: false,
     level: "Beginner",
-    songs: ["Drivin‘ My Life Away - Rhett Akins"],
+    songs: ["Drivin' My Life Away - Rhett Akins"],
     videoLink: [
       "https://youtu.be/8DPiddgWhO0?si=IHYfiu7-kR61B-mq",
       "https://youtu.be/544dMQL1rkk?si=XBS5SygRT63Fm7TF",
@@ -887,7 +970,7 @@ export const dances: Dance[] = [
     name: "Eagles Rock",
     isPairDance: false,
     level: "Intermediate",
-    songs: ["How Long - T he Eagles"],
+    songs: ["How Long - The Eagles"],
     videoLink: [
       "https://youtu.be/UMgXvofY3tA?si=6ZNtnxRX8QDRU2b0",
       "https://youtu.be/LUPAaaf_T4o?si=HrIfHzQenFtmKQ01",
@@ -903,12 +986,12 @@ export const dances: Dance[] = [
     id: "72",
   },
   {
-    name: "Eatin‘ Right And Drinkin‘ Bad",
+    name: "Eatin' Right And Drinkin' Bad",
     isPairDance: false,
     level: "Beginner",
     songs: [
-      "Eatin‘ Rig ht And Drinkin‘ Bad - Ronny Beard",
-      "All My Ex‘s Live In Texas - George Strait",
+      "Eatin' Right And Drinkin' Bad - Ronny Beard",
+      "All My Ex's Live In Texas - George Strait",
       "Bringing back the sunshine - Blake Shelton",
     ],
     videoLink: [
@@ -947,7 +1030,6 @@ export const dances: Dance[] = [
     isPairDance: false,
     level: "Beginner",
     songs: ["Less and Less - Josh Grider"],
-    aliases: ["neu von Hans -Dieter am 07.08.25"],
     id: "76",
   },
   {
@@ -970,7 +1052,6 @@ export const dances: Dance[] = [
       "I'm Holdin' On To Love (To Save My Life) - Shania Twain,",
       "Big Bang Boogie - The Judds",
     ],
-    aliases: ["neu 2025 bei Hans -Dieter"],
     videoLink: [
       "https://youtu.be/xcLC-X8ytxs?si=OZEft4_lYvOPG9g7",
       "https://youtu.be/YCBSKcXT2iE?si=SR0glkT2gT8t-Nuh",
@@ -981,7 +1062,7 @@ export const dances: Dance[] = [
     name: "The Flute",
     isPairDance: false,
     level: "Intermediate",
-    songs: ["Flute - Barcode Brothers (ca. 3:23 min)"],
+    songs: ["Flute - Barcode Brothers"],
     videoLink: [
       "https://youtu.be/r8VWQxr118c?si=99_7hoi_VufJh1on",
       "https://youtu.be/vAvepBJkLDA?si=9BvM43TNOq_ELvce",
@@ -993,7 +1074,9 @@ export const dances: Dance[] = [
     name: "Footloose",
     isPairDance: false,
     level: "Intermediate",
-    songs: ["Footloose - Kenny Loggins,", "Footloose - Blake Shelton"],
+    songs: [
+      "Footloose - Kenny Loggins,", 
+      "Footloose - Blake Shelton"],
     videoLink: ["https://youtu.be/fvbmQU9Y1Sg?si=LONnvS2xE0EXkX76"],
     id: "80",
   },
@@ -1001,7 +1084,7 @@ export const dances: Dance[] = [
     name: "Forever to Me",
     isPairDance: false,
     level: "Improver",
-    songs: ["F orever T o Me - Cole Swindell"],
+    songs: ["Forever To Me - Cole Swindell"],
     id: "81",
   },
   {
@@ -1017,7 +1100,6 @@ export const dances: Dance[] = [
     isPairDance: false,
     level: "Improver",
     songs: ["Front Door Famous - Luke Combs"],
-    aliases: ["neu von Berthold am 05.08.25"],
     videoLink: [
       "https://youtu.be/AflnXnf3hAI?si=cEOjHfZbNMDfhumI",
       "https://youtu.be/gUMadvY8OY8?si=pqaoB-Oy5Pw7imdB",
@@ -1039,7 +1121,9 @@ export const dances: Dance[] = [
     name: "Ghost Town",
     isPairDance: false,
     level: "Beginner",
-    songs: ["Ghost Town von: Sam Outlaw"],
+    songs: [
+      "Ghost Town - Sam Outlaw"
+    ],
     videoLink: [
       "https://youtu.be/1b0lNaaOH0I?si=FRGayRi3tRdkhWvq",
       "https://youtu.be/7q6s1WILdE8?si=s5Wm9SL6F-e3d6mK",
@@ -1052,7 +1136,7 @@ export const dances: Dance[] = [
     level: "NA",
     songs: [
       "Ghost Train - Australia's Tornados",
-      "Baby likes to rock it vo The Tractors",
+      "Baby likes to rock it - The Tractors",
       "Zorbas Dance (Sirtaki)",
     ],
     videoLink: [
@@ -1066,7 +1150,6 @@ export const dances: Dance[] = [
     isPairDance: false,
     level: "Beginner",
     songs: ["Cry to Me - Kilotile"],
-    aliases: ["Cry to me", "gelernt am 17.01.26 in Stammheim/Nashville"],
     videoLink: [
       "https://youtu.be/rbU9jPFCTi4?si=DMKd9h6LaGCop11t",
       "https://youtu.be/3qj2Mvxu1F4?si=hCoqGs3p7yFbl85u&t=210",
@@ -1089,7 +1172,6 @@ export const dances: Dance[] = [
     isPairDance: false,
     level: "Beginner",
     songs: ["Golden Ring (ft. Dierks Bentley) - Terri Clark"],
-    aliases: ["neu 2025 bei Hans -Dieter"],
     videoLink: ["https://www.youtube.com/watch?v=CXVSsyPVVEs"],
     id: "89",
   },
@@ -1117,7 +1199,6 @@ export const dances: Dance[] = [
     isPairDance: false,
     level: "Beginner",
     songs: ["Good Time - Alan Jackson"],
-    aliases: ["The Dance From The Video"],
     videoLink: ["https://youtu.be/vTY5hwqxRLs?si=c2wOM8xQEIR1ePs_"],
     id: "92",
   },
@@ -1129,8 +1210,7 @@ export const dances: Dance[] = [
       "Sold - John M. Montgomery [120 bpm]",
       "To Be Loved By You - Wynonna [96 bpm]",
       "Dust On The Bottle - David Lee Murphy [102 bpm]",
-      "No No Never - Texas Lightning [ bpm]",
-      "Hinw eis: Der Tanz beginnt mit dem Gesang",
+      "No No Never - Texas Lightning [ bpm]"
     ],
     videoLink: ["https://youtu.be/dZKv36dj5zk?si=k9CHyacbDmkQfvm1"],
     id: "93",
@@ -1139,22 +1219,21 @@ export const dances: Dance[] = [
     name: "Gypsy Queen",
     isPairDance: false,
     level: "Intermediate",
-    songs: ["Gypsy Queen - Chris N orman", "Wake up little Suzie"],
+    songs: ["Gypsy Queen - Chris Norman", "Wake up little Suzie"],
     videoLink: ["https://youtu.be/FZfLxANTUBM?si=VJjlekFOdIv5yXLO"],
     id: "94",
   },
-  {
+  /*{
     name: "Half a Cha",
     isPairDance: false,
     level: "Beginner",
     songs: [
       "Half A Song - Cody Johnson",
-      "Til my last day - Justin Moore",
+      "'Til my last day - Justin Moore",
       "Country - Mo Pitney",
-    ],
-    aliases: ["lernen – mindestens 3x in Viechtach"],
+    ],  
     id: "95",
-  },
+ },*/
   {
     name: "Happy, Happy, Happy",
     isPairDance: false,
@@ -1171,7 +1250,6 @@ export const dances: Dance[] = [
     isPairDance: false,
     level: "Beginner",
     songs: ["Healing Hands - Drop Box Cowboys"],
-    aliases: ["neu 2025 bei Hans -Dieter"],
     videoLink: ["https://youtu.be/1cC3AyeHl5I?si=TCWRHtXV83MqCAiV"],
     id: "97",
   },
@@ -1182,11 +1260,10 @@ export const dances: Dance[] = [
     songs: [
       "Hearts And Flowers - Dave Sheriff",
       "Working man blues - Merke Haggard",
-      "Five Minutes - Lorrie Morga n",
+      "Five Minutes - Lorrie Morgan",
       "Hello Mary Lou - Creedence Clearwater Revival",
-      "I believe in Santa Claus v. Dolly Parton",
+      "I believe in Santa Claus - Dolly Parton",
     ],
-    aliases: ["neu 2024"],
     videoLink: ["https://youtu.be/nFCA9iVW8aM?si=CvM9ONf1ZaevhX8o"],
     id: "98",
   },
@@ -1195,7 +1272,6 @@ export const dances: Dance[] = [
     isPairDance: false,
     level: "Improver",
     songs: ["Cowboy Up - Kaylee Bell"],
-    aliases: ["neu 2025"],
     videoLink: ["https://youtu.be/_KccikoFlYw?si=U6P8PjZOgoRmitl1"],
     id: "99",
   },
@@ -1234,7 +1310,6 @@ export const dances: Dance[] = [
       "Looking For A Good Time - Lady Antebellum,",
       "Everybody Wants To Go To Heaven - Kenny Chesney,",
     ],
-    aliases: ["neu am 15.01.26 bei Hans -Dieter"],
     id: "102",
   },
   {
@@ -1242,7 +1317,6 @@ export const dances: Dance[] = [
     isPairDance: false,
     level: "Improver",
     songs: ["Home To Louisiana - Ann Tayler"],
-    aliases: ["neu am 04.11.25 bei Hans -Dieter"],
     videoLink: ["https://youtu.be/CqaVE4XNWfs?si=DeTiJba1ZBTibhl2"],
     id: "103",
   },
@@ -1258,7 +1332,7 @@ export const dances: Dance[] = [
     name: "Homeward Bound",
     isPairDance: false,
     level: "Improver",
-    songs: ["Take Me Home - Tol & To l"],
+    songs: ["Take Me Home - Tol & Tol"],
     videoLink: [
       "https://youtu.be/rB-UWXQuHdM?si=0l52AF_OuQrDEqDH",
       "https://youtu.be/yCn_8yWZzuY?si=EyK8rFRRK96acl5A",
@@ -1269,7 +1343,10 @@ export const dances: Dance[] = [
     name: "Horseshoe Shuffle",
     isPairDance: true,
     level: "Beginner",
-    songs: ["jeder Cha Cha", "Amarillo by Morning - Geo rge Strait"],
+    songs: [
+      "jeder Cha Cha", 
+      "Amarillo by Morning - George Strait"
+    ],
     videoLink: ["https://youtu.be/BZCjMbUy7aA?si=aW3oDA-6tIXkdDAH"],
     id: "106",
   },
@@ -1278,7 +1355,6 @@ export const dances: Dance[] = [
     isPairDance: false,
     level: "Beginner",
     songs: ["Toora Loora Lay - Celtic Thunder"],
-    aliases: ["Toora Loora Lay", "neu 2025 bei Hans -Diet er"],
     videoLink: ["https://youtu.be/daqLayXW6Mg?si=BnbcfPV9WUoEKF34"],
     id: "107",
   },
@@ -1306,7 +1382,6 @@ export const dances: Dance[] = [
     isPairDance: false,
     level: "Improver",
     songs: ["I Never Lie - Zach Top"],
-    aliases: ["Neu am 04.09.25 bei Hans -Dieter"],
     videoLink: [
       "https://youtu.be/g8lvfIGUJEA?si=kDLdxbirMwPCp9fV",
       "https://youtu.be/nt73vGAQZhs?si=BPV31B4hu2iU5xKf",
@@ -1319,7 +1394,7 @@ export const dances: Dance[] = [
     level: "Beginner",
     songs: [
       "Seminole Wind - John Anderson",
-      "Hold Your Horses (Radio Version) - E -Type",
+      "Hold Your Horses (Radio Version) - E-Type",
     ],
     aliases: ["Seminole Wind"],
     videoLink: [
@@ -1337,10 +1412,13 @@ export const dances: Dance[] = [
     id: "112",
   },
   {
-    name: "Irish Stew – Whiskey in the jar",
+    name: "Irish Stew - Whiskey in the jar",
     isPairDance: false,
     level: "Improver",
-    songs: ["Irish Stew - Sham Rock", "Bells over belfast - The irish rover"],
+    songs: [
+      "Irish Stew - Sham Rock", 
+      "Bells over belfast - The irish rover"
+    ],
     videoLink: [
       "https://youtu.be/wjLbYShd3Pc?si=sAx8soQ2yQbUygbU",
       "https://youtu.be/rva6P7HRBII?si=-Q0Oa_ZSYD0kETNM",
@@ -1354,7 +1432,7 @@ export const dances: Dance[] = [
     level: "Intermediate",
     songs: [
       "Islands In The Stream - Kenny Rogers & Dolly Parton",
-      "Swingin home for christmas - The tractors",
+      "Swingin' home for christmas - The tractors",
     ],
     id: "114",
   },
@@ -1362,8 +1440,7 @@ export const dances: Dance[] = [
     name: "It must be love",
     isPairDance: false,
     level: "Beginner",
-    songs: ["It Must Be Love Alan Jackson"],
-    aliases: ["Must Be"],
+    songs: ["It Must Be Love - Alan Jackson"],
     videoLink: ["https://youtu.be/3U4XVci9oaY?si=B8_yyWHzZjAS7Su6"],
     id: "115",
   },
@@ -1373,7 +1450,7 @@ export const dances: Dance[] = [
     level: "Intermediate",
     songs: [
       "Jambalaya - Led Loader & The Barrels",
-      "Long hot summer - Keith U rban",
+      "Long hot summer - Keith Urban",
     ],
     videoLink: [
       "https://youtu.be/5kAi7aqndEg?si=Q-ZFHWo_CZCXR8av",
@@ -1390,9 +1467,8 @@ export const dances: Dance[] = [
       "Going nowhere - Daisy Town",
       "Little Bitty - Alan Jackson",
       "Dallas",
-      "Chaisin the neon rainbow - Alan Jackson",
+      "Chaisin' the neon rainbow - Alan Jackson",
     ],
-    aliases: ["neu 2023 Eichelsdorf"],
     videoLink: [
       "https://www.youtube.com/@killlis",
       "https://youtu.be/tKw0iDJ_dQE?si=24NMs4oA7Kn66JAE",
@@ -1405,7 +1481,6 @@ export const dances: Dance[] = [
     isPairDance: false,
     level: "Intermediate",
     songs: ["Jolene (ft. The Common Linnets) - The BossHoss"],
-    aliases: ["The BossHoss"],
     videoLink: ["https://youtu.be/RbQBCoox-t4?si=kKP9ELCSMQ9D4sFh"],
     id: "118",
   },
@@ -1414,7 +1489,6 @@ export const dances: Dance[] = [
     isPairDance: false,
     level: "Beginner",
     songs: ["C'est La Vie - Chely Wright"],
-    aliases: ["gesehen am 14.09.25 in Wü -Heidingsfeld"],
     id: "119",
   },
   {
@@ -1423,12 +1497,11 @@ export const dances: Dance[] = [
     level: "Beginner",
     songs: [
       "Redneck Girl - Bellamy Brothers [125 bpm]",
-      "Lot Of Leavin’ Left To Do - Dierks Bentley [118 bpm]",
+      "Lot Of Leavin' Left To Do - Dierks Bentley [118 bpm]",
       "Kawliga - Hank Williams Jr [ bpm]",
       "Indian Outlaw - Tim McGraw [110 bpm]",
       "No Way Jose - Ray Kennedy [144 bpm]",
     ],
-    aliases: ["neu 2025"],
     id: "120",
   },
   {
@@ -1437,7 +1510,7 @@ export const dances: Dance[] = [
     level: "Improver",
     songs: [
       "All Summer Long - Kid Rock",
-      "Walking the country vo nKeith Urban",
+      "Walking the country von Keith Urban",
       "Sweet home Alabama - Lynyrd Skynyrd",
     ],
     videoLink: ["https://youtu.be/lR4aupVGcHo?si=Luh7G3nRdMQuiUQ8"],
@@ -1449,7 +1522,7 @@ export const dances: Dance[] = [
     level: "Intermediate",
     songs: [
       "My Kind Of Music - Ray Scott",
-      "Santa Claus is comin´ to town by Mariah Carey",
+      "Santa Claus is comin' to town by Mariah Carey",
     ],
     videoLink: ["https://youtu.be/h-AvG4ilHCA?si=mZQ9JBuRlCeEVuv6"],
     id: "122",
@@ -1458,8 +1531,7 @@ export const dances: Dance[] = [
     name: "Kiss of Death",
     isPairDance: false,
     level: "Improver",
-    songs: ["Kiss Of Death - ERNEST"],
-    aliases: ["neu 2025"],
+    songs: ["Kiss Of Death - Ernest"],
     videoLink: ["https://youtu.be/l6fh_svO31I?si=OwOcLnqqpPmE-yIS"],
     id: "123",
   },
@@ -1499,8 +1571,8 @@ export const dances: Dance[] = [
     level: "Intermediate",
     songs: [
       "Lay Low - Josh Turner",
-      "Til my last day - Justin Moore",
-      "Christm as - Chris Young",
+      "'Til my last day - Justin Moore",
+      "Christmas - Chris Young",
     ],
     videoLink: ["https://youtu.be/UzspKjYeeh4?si=pdwBw0ASSmc_Wx6T"],
     id: "127",
@@ -1513,7 +1585,7 @@ export const dances: Dance[] = [
       "Sin Wagon - Dixie Chicks,",
       "I Want You To Want Me - Jim Witter,",
       "Little Bird - Sherrié Austin,",
-      "Ghost Ride rs In The Sky - Ned Sublette",
+      "Ghost Riders In The Sky - Ned Sublette",
     ],
     videoLink: [
       "https://youtu.be/ra8ORwkxTT8?si=Hp6_jeGXChDQCwvS",
@@ -1527,13 +1599,12 @@ export const dances: Dance[] = [
     level: "Beginner",
     songs: [
       "Billy Bill - Twister Alley (Original -Choreo)",
-      "I Can’t Wait For Payday - Dave Sheriff",
+      "I Can't Wait For Payday - Dave Sheriff",
       "I Need More Of You (122 bpm) - Bellamy Brothers",
       "Love U Too Much - Brady Seals",
-      "Restless“ - Shelby Lynne",
-      "Shooter“ (164 bpm) - Rednex",
+      "Restless - Shelby Lynne",
+      "Shooter (164 bpm) - Rednex",
     ],
-    aliases: ["neu in Mudau 2025"],
     videoLink: [
       "https://youtu.be/4wav3Dr16t4?si=ulJeEjb-UPioqqEw",
       "https://youtu.be/Q9E9D9v9NHs?si=8V-TQipYmFyaLKHW",
@@ -1549,7 +1620,6 @@ export const dances: Dance[] = [
       "Like She's Not Yours - The Bellamy Brothers",
       "Things change by Dwight Yaokam",
     ],
-    aliases: ["neu 2025"],
     videoLink: [
       "https://youtu.be/ZAJwIXXhKxw?si=NSY2HeN4JJhq4HF2",
       "https://youtu.be/yy_MF1bARN8?si=_YvBbVlWELLEwEpt",
@@ -1560,7 +1630,11 @@ export const dances: Dance[] = [
     name: "Lonely Drum",
     isPairDance: false,
     level: "Intermediate",
-    songs: ["Lonely Drum - Aaron Goodvin", "Tulsa Time", "Roots - Zac B rown"],
+    songs: [
+      "Lonely Drum - Aaron Goodvin", 
+      "Tulsa Time", 
+      "Roots - Zac Brown"
+    ],
     videoLink: [
       "https://youtu.be/RPfROw0mTTg?si=ThSGYHwwAh1nJ5eM",
       "https://youtu.be/CbwRomj2bXw?si=DqFzdK-HNRcdnEnk",
@@ -1572,15 +1646,14 @@ export const dances: Dance[] = [
     isPairDance: false,
     level: "Beginner",
     songs: ["Long Black Train - Josh Turner"],
-    aliases: ["neu 10/2025 bei Hans -Dieter"],
     videoLink: [
       "https://youtu.be/NYCdvZ8E0iA?si=Y-CTs8We2HnRLecY",
       "https://youtu.be/gurCtoLCh5o?si=QtnZH7Qo8C23TkfY",
     ],
     id: "132",
   },
-  {
-    name: "Lorrie’s Dance",
+  /*{
+    name: "Lorrie's Dance",
     isPairDance: true,
     level: "NA",
     songs: [],
@@ -1589,13 +1662,12 @@ export const dances: Dance[] = [
       "https://youtu.be/NlIlqvurpAE?si=_FS9ST6achAaocNS",
     ],
     id: "133",
-  },
+  },*/
   {
     name: "Love Potion 666",
     isPairDance: false,
     level: "Beginner",
     songs: ["Love Potion 666 - DJTEXX"],
-    aliases: ["gelernt am 10.01.26 in Karlstein -Dettingen"],
     id: "134",
   },
   {
@@ -1603,7 +1675,6 @@ export const dances: Dance[] = [
     isPairDance: false,
     level: "Beginner",
     songs: ["Lucky Lips - The Conquerors"],
-    aliases: ["Beginner – neu 2025"],
     videoLink: [
       "https://youtu.be/gU1PQDm3aXQ?si=8qEyW2rXCf0xQnLl",
       "https://youtu.be/qM64yxQDDyY?si=4J4AF1N9rhFScyNP",
@@ -1615,7 +1686,6 @@ export const dances: Dance[] = [
     isPairDance: false,
     level: "Beginner",
     songs: ["Made In Mexico - Neon Union"],
-    aliases: ["neu 2025"],
     videoLink: ["https://youtu.be/gbZdQ1hVols?si=lxlWUt7bEjMFNVTw"],
     id: "136",
   },
@@ -1624,7 +1694,6 @@ export const dances: Dance[] = [
     isPairDance: false,
     level: "Beginner",
     songs: ["Hey Old Lover - Kip Moore"],
-    aliases: ["Hey old lover", "neu 2025"],
     videoLink: [
       "https://youtu.be/2vnOYszuHBU?si=U_Nvc2-qFoW9s5kx",
       "https://youtu.be/LfKtXlEEVBs?si=B-Gq8c81LMyibP6u",
@@ -1654,8 +1723,7 @@ export const dances: Dance[] = [
     isPairDance: false,
     level: "Beginner",
     songs: [
-      "Margaritaville By Alan Jackson & Jimmy Buffett",
-      "Hinwies: Intro: 22 Counts. Beginne beim Gesang",
+      "Margaritaville - Alan Jackson & Jimmy Buffett",
     ],
     videoLink: ["https://youtu.be/MBj8URs7Pgc?si=KWnMdeit_kG16GnW"],
     id: "139",
@@ -1665,7 +1733,6 @@ export const dances: Dance[] = [
     isPairDance: true,
     level: "Intermediate",
     songs: ["Memory Lane - Old Dominion"],
-    aliases: ["Paarta nz"],
     videoLink: ["https://youtu.be/tgcnyjGo8Zw?si=x7grb8j8jBGtrYnt"],
     id: "140",
   },
@@ -1695,7 +1762,10 @@ export const dances: Dance[] = [
     name: "My Maria",
     isPairDance: false,
     level: "Improver",
-    songs: ["Un Momento Alla - Rick Trevino,", "My Maria - Brooks & Dunn"],
+    songs: [
+      "Un Momento Alla - Rick Trevino", 
+      "My Maria - Brooks & Dunn"
+    ],
     videoLink: [
       "https://youtu.be/RRedbW4qFOg?si=BMgJbfwefucapAGP",
       "https://youtu.be/BDcmAxzAs-s?si=MvlJnG5GkB7-IJT7",
@@ -1707,7 +1777,6 @@ export const dances: Dance[] = [
     isPairDance: false,
     level: "Beginner",
     songs: ["„No No Never (Niemals)“ - Jill Fisher"],
-    aliases: ["No", "never", "2023 in Düren"],
     videoLink: ["https://youtu.be/w73IKVDlBzU?si=e7_OBmrPK8mfrjtO"],
     stepsheetLink:
       "https://www.countrybears-linedancer.com/taenze/no-no-never-niemals/",
@@ -1717,8 +1786,9 @@ export const dances: Dance[] = [
     name: "No Body",
     isPairDance: false,
     level: "Intermediate",
-    songs: [],
-    aliases: ["neu 10/2025 bei Hans -Dieter"],
+    songs: [
+      "No Body - Blake Shelton"
+    ],
     videoLink: ["https://youtu.be/SC3xAzGu_TM?si=dovbV9ieNQX3nMpu"],
     id: "145",
   },
@@ -1728,17 +1798,16 @@ export const dances: Dance[] = [
     level: "Beginner",
     songs: [
       "Not Fair - Lily Allen",
-      "Black pearl aus Pirates oft he Carribean",
+      "Black pearl aus Pirates of the Carribean",
     ],
     videoLink: ["https://youtu.be/knaF5-7QHcY?si=D_qxVHjWGYMwX5j9"],
     id: "146",
-  },
+  }, 
   {
     name: "Nothing But You",
     isPairDance: false,
     level: "Intermediate",
     songs: ["Nothing but You - Leaving Austin"],
-    aliases: ["neu 2025"],
     videoLink: [
       "https://youtu.be/aFdKyX4Kx_s?si=BiB5hhDxcBBjnx1S",
       "https://youtu.be/J5Bl2PZyRuQ?si=rggMLcRmW1b_hJ8E",
@@ -1751,8 +1820,6 @@ export const dances: Dance[] = [
     level: "NA",
     songs: [
       "On My Knees - The Red Clay Strays",
-      "Position Sweetheart face à LOD",
-      "Die Schritte des Mannes und der Frau sind gleich, sofern nicht anders angegeben",
     ],
     videoLink: [
       "https://youtu.be/uGI5tQnY6s4?si=dR2UiVoIotKPoOTy",
@@ -1775,7 +1842,7 @@ export const dances: Dance[] = [
     name: "Peaceful Easy Feeling",
     isPairDance: false,
     level: "NA",
-    songs: ["Peaceful Easy Feeling by The Eagles"],
+    songs: ["Peaceful Easy Feeling - The Eagles"],
     id: "150",
   },
   {
@@ -1794,7 +1861,6 @@ export const dances: Dance[] = [
     isPairDance: false,
     level: "Beginner",
     songs: ["Most People Are Good - Luke Bryan"],
-    aliases: ["neu 2025 by Hans -Diet er"],
     videoLink: ["https://youtu.be/4rkgMEXAnpM?si=g_xs3Nvw8xgkBz28"],
     id: "152",
   },
@@ -1803,7 +1869,6 @@ export const dances: Dance[] = [
     isPairDance: false,
     level: "Beginner",
     songs: ["I Want To Be A Cowboy's Sweetheart - LeAnn Rimes"],
-    aliases: ["gelernt am 14.09.25 in Wü -Heidingsfeld"],
     videoLink: [
       "https://youtu.be/dZAxmL8CPAo?si=yM_glO-6GuIv_3F1",
       "https://youtu.be/pXDv77GhA6c?si=iZRUzBNKqCoxkqBA",
@@ -1815,11 +1880,10 @@ export const dances: Dance[] = [
     isPairDance: false,
     level: "Improver",
     songs: [
-      "Two Pina Coladas - Garth Brooks,",
-      "Just L ike A Rodeo - Roger Brown & Swing City,",
+      "Two Pina Coladas - Garth Brooks",
+      "Just Like A Rodeo - Roger Brown & Swing City",
       "Are You In It For Love - Ricky Martin",
     ],
-    aliases: ["Two Pina Coladas"],
     id: "154",
   },
   {
@@ -1834,8 +1898,10 @@ export const dances: Dance[] = [
     name: "Playboys",
     isPairDance: false,
     level: "Improver",
-    songs: ["Playboys - Midland", "Lit this year - Florida Georgia Line"],
-    aliases: ["neu 2025"],
+    songs: [
+      "Playboys - Midland", 
+      "Lit this year - Florida Georgia Line"
+    ],
     videoLink: ["https://youtu.be/cqhF4rP-7LY?si=88ohetF3mDtTnVPx"],
     id: "156",
   },
@@ -1854,8 +1920,10 @@ export const dances: Dance[] = [
     name: "Ready For It",
     isPairDance: false,
     level: "Improver",
-    songs: ["This Is It - Oh The Larceny", "Honky -Tonk - Josiah Siska"],
-    aliases: ["neu 2025"],
+    songs: [
+      "This Is It - Oh The Larceny", 
+      "Honky-Tonk - Josiah Siska"
+    ],
     videoLink: ["https://youtu.be/CZD9a9LXdQc?si=Rjkp9SohZJjKc5e7"],
     id: "158",
   },
@@ -1875,7 +1943,6 @@ export const dances: Dance[] = [
     isPairDance: false,
     level: "Intermediate",
     songs: ["Red Solo Cup - Toby Keith"],
-    aliases: ["Neu am 04.09.25 bei Hans -Dieter"],
     videoLink: ["https://youtu.be/cpXlSm2x0Gk?si=zhU00BzXt4PjSwZI"],
     id: "160",
   },
@@ -1883,7 +1950,10 @@ export const dances: Dance[] = [
     name: "Rhyme Or Reason",
     isPairDance: false,
     level: "Improver",
-    songs: ["It Happens - Sugarland", "Here comes Santa Claus - Elvis Presley"],
+    songs: [
+      "It Happens - Sugarland", 
+      "Here comes Santa Claus - Elvis Presley"
+    ],
     videoLink: [
       "https://youtu.be/0HjroP-wuiI?si=5txHJaTKDmmZGpyB",
       "https://youtu.be/rva6P7HRBII?si=-Q0Oa_ZSYD0kETNM",
@@ -1895,7 +1965,6 @@ export const dances: Dance[] = [
     isPairDance: false,
     level: "Intermediate",
     songs: ["Roots - Zac Brown Band"],
-    aliases: ["Neu am 15.01.26 bei Hans -Dieter"],
     videoLink: [
       "https://youtu.be/6VGHYHR_f4M?si=SiY04kgttGodZ6Qp",
       "https://youtu.be/pkAraEV2Seg?si=Aag5h2STE4_PcN0C",
@@ -1903,11 +1972,10 @@ export const dances: Dance[] = [
     id: "162",
   },
   {
-    name: "Rose-A-Lee",
+    name: "Rose-A-Lee aka Heel And Toe",
     isPairDance: false,
     level: "Improver",
-    songs: ["Rose -A-Lee - Smokie"],
-    aliases: ["Heel And Toe"],
+    songs: ["Rose-A-Lee - Smokie"],
     videoLink: [
       "https://youtu.be/wyyIjrWE0LI?si=v0oyqY4BoXyrsCTD",
       "https://youtu.be/vMIt-LBT5zg?si=B2oxIU53gUCO0c5H",
@@ -1918,7 +1986,10 @@ export const dances: Dance[] = [
     name: "Rosegarden",
     isPairDance: false,
     level: "Intermediate",
-    songs: [],
+    songs: [
+      "Rose Garden - Scooter Lee oder Lynn Anderson",
+      "Merry christmas - Ed Sheeran & Elton John"
+    ],
     videoLink: [
       "https://youtu.be/e4Bvwjo-OMk?si=1lvl3gPSl4JGVKdB",
       "https://youtu.be/Qidt26HkhWM?si=icrkAw6cwtp1VUuD",
@@ -1929,8 +2000,7 @@ export const dances: Dance[] = [
     name: "Sam's Ghost Town",
     isPairDance: false,
     level: "Beginner",
-    songs: ["Ghost Town - Sam Out law"],
-    aliases: ["neu am 11.12.25 bei Hans -Dieter"],
+    songs: ["Ghost Town - Sam Outlaw"],
     videoLink: [
       "https://youtu.be/7Zmd9IKvXmU?si=a-r_RZYbhjvxUt8e",
       "https://youtu.be/TkHIw4hl_kc?si=Jc6zQdho_eaEzFlx",
@@ -1946,8 +2016,8 @@ export const dances: Dance[] = [
       "Write this down - George Strait",
       "Suspicious minds - Fankie Ballard",
       "Mexican Flower - Larissia Murphy",
-      "Trail of Tears - Tany a Tucker",
-      "My next broken heart - Brooks & D unn",
+      "Trail of Tears - Tanya Tucker",
+      "My next broken heart - Brooks & Dunn",
     ],
     videoLink: ["https://youtu.be/_Y1lMkcwV3E?si=x6PDZBE_epaaPZPA"],
     id: "166",
@@ -1973,7 +2043,6 @@ export const dances: Dance[] = [
     isPairDance: false,
     level: "Improver",
     songs: ["Silverado Bench Seat - Granger Smith"],
-    aliases: ["04.10.25 in Erfurt"],
     videoLink: ["https://youtu.be/tnvOHpVslB4?si=4H8_6NVl6lDaQkhi"],
     id: "169",
   },
@@ -1985,7 +2054,6 @@ export const dances: Dance[] = [
       "I Recall a Gypsy Woman - Ricus Nel",
       "Christmas in the country - Thomas Rhett",
     ],
-    aliases: ["neu 2024"],
     videoLink: ["https://youtu.be/L4QwspE2eKc?si=KnjRi8NDIwCDQG-8"],
     id: "170",
   },
@@ -2005,9 +2073,9 @@ export const dances: Dance[] = [
     isPairDance: false,
     level: "Beginner",
     songs: [
-      "Anthem – Brett Kissel",
-      "No Excuses – Meghan Trainor",
-      "You broke up with me – Walker Hayes",
+      "Anthem - Brett Kissel",
+      "No Excuses - Meghan Trainor",
+      "You broke up with me - Walker Hayes",
     ],
     videoLink: ["https://youtu.be/kG_yRiwwH6Q?si=kZFjriYFAUxA92ca"],
     id: "172",
@@ -2019,8 +2087,8 @@ export const dances: Dance[] = [
     songs: [
       "Some Beach - Blake Shelton,",
       "I Want To Be The First One - Darryl & Don Ellis,",
-      "Me, Mar ie - Billy Yates",
-      "Last Christmas v. Wham",
+      "Me, Marie - Billy Yates",
+      "Last Christmas - Wham",
     ],
     videoLink: [
       "https://youtu.be/D2VeWstivYw?si=-DsWqV-H0V0xU22d",
@@ -2049,7 +2117,6 @@ export const dances: Dance[] = [
     isPairDance: false,
     level: "Beginner",
     songs: ["Stand by Me (Ivan Jack Remix) - 45 Stars"],
-    aliases: ["neu 2024"],
     videoLink: ["https://youtu.be/bol2KAE8IfI?si=_rU41ruy2ijdn0cC"],
     id: "176",
   },
@@ -2061,9 +2128,7 @@ export const dances: Dance[] = [
       "Sticks And Stones - Tracy Lawrence",
       "Part of me, part of you - Glenn Frey",
       "Write this down - George Strait",
-      "Hinwei s: Der Tanz beginnt mit dem Einsatz des Gesangs",
     ],
-    aliases: ["neu 2025"],
     videoLink: [
       "https://youtu.be/IwYlKXN0NTI?si=lEyDZ4WDPfwSKLP4",
       "https://youtu.be/hPB2pb8fcbg?si=rRk1-oyplTVk0wJs",
@@ -2075,7 +2140,6 @@ export const dances: Dance[] = [
     isPairDance: false,
     level: "Improver",
     songs: ["Elvis Medley - Dean Brothers"],
-    aliases: ["neu 25.09.25 bei Hans -Dieter"],
     id: "178",
   },
   {
@@ -2094,13 +2158,11 @@ export const dances: Dance[] = [
     isPairDance: false,
     level: "Beginner",
     songs: [
-      "Designated Drinker on Alan Jackson & George Strait",
-      "I’m from the country vo n Tracy Byrd",
+      "Designated Drinker - Alan Jackson & George Strait",
+      "I'm from the country - Tracy Byrd",
       "Walk Softly Heart of Mine - Kentucky Headhunters",
       "Adalida - George Strait",
-    ],
-    aliases: ["URALT"],
-    videoLink: [
+    ],videoLink: [
       "https://youtu.be/ggte6B6XmmA?si=-oqhHFOx84zynEDv",
       "https://youtu.be/4GtkNt8SAEA?si=Kye0rhaakvnToUcg",
     ],
@@ -2119,7 +2181,6 @@ export const dances: Dance[] = [
     isPairDance: false,
     level: "Intermediate",
     songs: ["Suit and Tie (Sixteen Tons ) - Cooper Alan"],
-    aliases: ["16 Tons", "neu 2025 bei Hans -Dieter"],
     videoLink: [
       "https://youtu.be/gWwSZsnvar4",
       "https://youtu.be/51geN8QWbpw?si=bQ6UuVMt2CaFGsvD",
@@ -2130,8 +2191,10 @@ export const dances: Dance[] = [
     name: "Summer Fly",
     isPairDance: false,
     level: "Improver",
-    songs: ["Summer Fly - Hayley Westenra", "Much to young - Garth Brooks"],
-    aliases: ["Summerfly"],
+    songs: [
+      "Summer Fly - Hayley Westenra", 
+      "Much to young - Garth Brooks"
+    ],
     videoLink: [
       "https://youtu.be/bs7lK-VtwdI?si=UVIJ_9vCMPkIYbw_",
       "https://youtu.be/5zd5jGLfBsw?si=wDT3nnrMSFyqv-Ts",
@@ -2144,20 +2207,18 @@ export const dances: Dance[] = [
     isPairDance: false,
     level: "Improver",
     songs: [
-      "Sweet Sweet S mile - Sharon B,",
+      "Sweet Sweet Smile - Sharon B,",
       "Sweet Sweet Smile - Carpenters",
       "Turn it on, turn it up - Dwight Yoakam",
-      "Catfish John – Nitty Gritty Dirt Band & Alison Krauss",
-    ],
-    aliases: ["neu 2025"],
-    videoLink: [
+      "Catfish John - Nitty Gritty Dirt Band & Alison Krauss",
+    ],videoLink: [
       "https://youtu.be/U6Y1byCim40?si=JhgHCjz1mafbWwgu",
       "https://youtu.be/RwZwtHlF0Ys?si=aSpAR4cPclxvHgrN",
     ],
     id: "184",
   },
   {
-    name: "Swingin",
+    name: "Swingin'",
     isPairDance: false,
     level: "NA",
     songs: [],
@@ -2180,14 +2241,14 @@ export const dances: Dance[] = [
     id: "186",
   },
 
-  {
+  /*{
     name: "Tennessee Waltz",
     isPairDance: false,
     level: "Improver",
     songs: ["The Tennessee Waltz - Patti Page"],
     aliases: ["lernen"],
     id: "188",
-  },
+  },*/
   {
     name: "Tennessee Waltz for Two",
     isPairDance: true,
@@ -2209,7 +2270,6 @@ export const dances: Dance[] = [
     isPairDance: false,
     level: "Improver",
     songs: ["Texas - Blake Shelton"],
-    aliases: ["neu am 25.09.25 be i Hans -Dieter"],
     videoLink: ["https://youtu.be/sCt4phw3tDQ?si=e5uZDlNU_feDgbWe"],
     id: "191",
   },
@@ -2217,8 +2277,10 @@ export const dances: Dance[] = [
     name: "Texas Hold 'Em",
     isPairDance: false,
     level: "Improver",
-    songs: ["Texas hold 'em - Beyoncé", "Fiddle in the B and - Kane Brown"],
-    aliases: ["neu 2025"],
+    songs: [
+      "Texas hold 'em - Beyoncé", 
+      "Fiddle in the Band - Kane Brown",
+    ],
     videoLink: ["https://youtu.be/OArFg3Uprds?si=v1FM8DOEYzuIxB8M"],
     id: "192",
   },
@@ -2227,7 +2289,6 @@ export const dances: Dance[] = [
     isPairDance: false,
     level: "Beginner",
     songs: ["Thank God for the Radio - Kendalls"],
-    aliases: ["neu 2025 bei Hans -Dieter"],
     videoLink: ["https://youtu.be/mWA7g9RU928?si=5or-jVgAQBjQkw2X"],
     id: "193",
   },
@@ -2236,7 +2297,6 @@ export const dances: Dance[] = [
     isPairDance: false,
     level: "Beginner",
     songs: ["Thank You - Gary Perkins & The Breeze"],
-    aliases: ["neu 2025"],
     videoLink: ["https://youtu.be/Q5fpZSPwJm4?si=MZpu4RDjwZskqNUc"],
     id: "194",
   },
@@ -2247,7 +2307,6 @@ export const dances: Dance[] = [
     songs: [
       "The Card You Gamble (Main Theme From Monarch) - Monarch Cast & Caitlyn Smith",
     ],
-    aliases: ["neu 2025"],
     videoLink: [
       "https://youtu.be/uZ5HRWHdly8?si=N1DQLH3jC_R225Fi",
       "https://youtu.be/LukDm1yE49M?si=0gVHo1ulUp2FqVRh",
@@ -2267,7 +2326,6 @@ export const dances: Dance[] = [
     isPairDance: false,
     level: "Improver",
     songs: ["The Last Living Cowboy by Toby Keith"],
-    aliases: ["neu 2025"],
     videoLink: [
       "https://youtu.be/G_ElxFbRYOQ?si=pINAQJ8mJYTOBvYB",
       "https://youtu.be/tfnm2mJAQtQ?si=VDJIPRnqZLHAwfTT",
@@ -2279,7 +2337,6 @@ export const dances: Dance[] = [
     isPairDance: false,
     level: "Beginner",
     songs: ["The Last Shanty - Patrick Feeney"],
-    aliases: ["gelernt 08/2025 in Viechtach"],
     videoLink: ["https://youtu.be/tuBJTKLPqtk?si=LfrG4lRp6f5Ao1zN"],
     id: "198",
   },
@@ -2288,7 +2345,6 @@ export const dances: Dance[] = [
     isPairDance: false,
     level: "Beginner",
     songs: ["The Farmer - Robert Mizzel"],
-    aliases: ["neu 2025 bei Hans -Dieter"],
     videoLink: ["https://youtu.be/p2929OG47bk?si=zFaR9ukd_TyTt5NE"],
     id: "199",
   },
@@ -2297,7 +2353,6 @@ export const dances: Dance[] = [
     isPairDance: false,
     level: "Beginner",
     songs: ["The Morning After - Nathan Carter"],
-    aliases: ["neu 2025 bei Hans -Dieter"],
     videoLink: ["https://youtu.be/cikJp1bHW6U?si=i13kCc45JEW2Nb9r"],
     id: "200",
   },
@@ -2305,7 +2360,8 @@ export const dances: Dance[] = [
     name: "The Trail",
     isPairDance: false,
     level: "Intermediate",
-    songs: ["Trail Of Tears - Billy Ray Cyrus", "0 restarts, 1 bridge/restart"],
+    songs: ["Trail Of Tears - Billy Ray Cyrus", 
+    ],
     videoLink: ["https://youtu.be/rxBfZ59gqmU?si=U604lSSPr-MAj-to"],
     id: "201",
   },
@@ -2316,7 +2372,6 @@ export const dances: Dance[] = [
     songs: [
       "The Wellerman (Sea Shanty) - From TikTok to Epic Remix - The Kiffness",
     ],
-    aliases: ["gelernt am 07.08.25 bei Hans -Dieter"],
     id: "202",
   },
   {
@@ -2324,21 +2379,19 @@ export const dances: Dance[] = [
     isPairDance: false,
     level: "Intermediate",
     songs: [
-      "He`s go t the whole world - Brendon Walmsley (feat. Steve Grace & Colin Buchanan)",
+      "He`s got the whole world - Brendon Walmsley (feat. Steve Grace & Colin Buchanan)",
     ],
-    aliases: ["04.10.25 in Erfurt"],
     videoLink: ["https://youtu.be/SwAJHBVFYwA?si=OqrlgJtjNosR8vqr"],
     id: "203",
   },
-  {
+ /* {
     name: "This Barn",
     isPairDance: false,
     level: "Improver",
     songs: ["This Bar - Morgan Wallen"],
-    aliases: ["evtl. lernen"],
     videoLink: ["https://youtu.be/jC_dqLF7UGs?si=GUf1zJXHYe1RjE5D"],
     id: "204",
-  },
+  },*/
   {
     name: "This Is Me missing you",
     isPairDance: false,
@@ -2355,7 +2408,6 @@ export const dances: Dance[] = [
     isPairDance: false,
     level: "Intermediate",
     songs: ["'Til You Can't - Cody Johnson"],
-    aliases: ["neu 2024"],
     id: "206",
   },
   {
@@ -2367,11 +2419,10 @@ export const dances: Dance[] = [
     id: "207",
   },
   {
-    name: "Tomorrow n ever comes",
+    name: "Tomorrow never comes",
     isPairDance: false,
     level: "Intermediate",
-    songs: ["Tomorrow never comes – Zac Brown Band"],
-    aliases: ["neu 2025"],
+    songs: ["Tomorrow never comes - Zac Brown Band"],
     id: "208",
   },
   {
@@ -2379,7 +2430,6 @@ export const dances: Dance[] = [
     isPairDance: false,
     level: "NA",
     songs: ["Heaven Cried - Tony Ramey"],
-    aliases: ["neu 2025"],
     videoLink: ["https://youtu.be/SMSIGzsgoZ0?si=IN4BzDs2lVVPNHOQ"],
     id: "209",
   },
@@ -2389,14 +2439,14 @@ export const dances: Dance[] = [
     level: "Intermediate",
     songs: [
       "Chattahoochee - Alan Jackson,",
-      "Ain’t going down - Garth Brooks",
+      "Ain't going down - Garth Brooks",
       "Born To Boogie - Hank Williams Jr",
-      "Drivin‘ My Life Away - Rhett Akins",
+      "Drivin' My Life Away - Rhett Akins",
       "I like it, I love it - Tim McGraw",
       "Fall in love - Kenny Chesney",
-      "God bless ed Texas - Little Texas",
+      "God blessed Texas - Little Texas",
       "Take it easy",
-      "The night I called the old man out v. Garth Brooks",
+      "The night I called the old man out - Garth Brooks",
     ],
     videoLink: ["https://youtu.be/T4TNgig7yRQ?si=dxSFvofMSzgDpGrU"],
     id: "210",
@@ -2406,7 +2456,6 @@ export const dances: Dance[] = [
     isPairDance: false,
     level: "Beginner",
     songs: ["You look like you love me - Ella Langle y & Riley Green"],
-    aliases: ["22", "neu 2025 von Martina"],
     videoLink: ["https://youtu.be/luQb4lPTvMs?si=HlYphIQ4VigG7Dr9"],
     id: "211",
   },
@@ -2415,7 +2464,6 @@ export const dances: Dance[] = [
     isPairDance: false,
     level: "Beginner",
     songs: ["Unlove Me - Julie Roberts"],
-    aliases: ["neu 2 025"],
     videoLink: ["https://youtu.be/fl35RhTa-IE?si=H03_KMG4xqcCKAwA"],
     id: "212",
   },
@@ -2443,7 +2491,6 @@ export const dances: Dance[] = [
     isPairDance: false,
     level: "Improver",
     songs: ["As She's Walking Away - The Zac Brown Band with Alan Jackson"],
-    aliases: ["neu bei Hans -Dieter a m 10.09.2025"],
     videoLink: [
       "https://youtu.be/AUcsqgTw2oI?si=M1KbTBZFwrFsIf9D",
       "https://youtu.be/bTRrjoF3JZA?si=jL5PWTETsf299sXt",
@@ -2456,7 +2503,7 @@ export const dances: Dance[] = [
     level: "Beginner",
     songs: [
       "Waltz Across Texas - Dean Brothers",
-      "oder jeder andere langsam e bis mittelschnelle Walzer",
+      "oder jeder andere langsame bis mittelschnelle Walzer",
     ],
     videoLink: [
       "https://youtu.be/jKGkZ-TFOKQ?si=_6YrL-odZdqibyUp",
@@ -2469,10 +2516,10 @@ export const dances: Dance[] = [
     isPairDance: false,
     level: "Beginner",
     songs: [
-      "The Wanderer Eddie Rabbitt",
-      "I Wanna Dance With You Eddie Rabbitt",
-      "I Love A Rainy Night Eddie Rabbitt",
-      "Leaving Louisiana Oak Ridge Boys",
+      "The Wanderer - Eddie Rabbitt",
+      "I Wanna Dance With You - Eddie Rabbitt",
+      "I Love A Rainy Night - Eddie Rabbitt",
+      "Leaving Louisiana - Oak Ridge Boys",
       "The Wanderer -115 bpm - Dion and The Belmonts",
       "The Majestic -137 bpm - Dion and The Belmonts",
     ],
@@ -2486,7 +2533,11 @@ export const dances: Dance[] = [
     name: "Watermelon Crawl",
     isPairDance: false,
     level: "Intermediate",
-    songs: [],
+    songs: [
+      "Watermelon Crawl - Tracy Byrd",
+      "Shut Up And Kiss Me - Mary Chapin Carpenter",
+      "Eugene You Genius - Bryan White",
+    ],
     id: "218",
   },
   {
@@ -2501,13 +2552,12 @@ export const dances: Dance[] = [
     id: "219",
   },
   {
-    name: "Whiskey's Gone Video: CLDF Videowai Filmprodukti onen",
+    name: "Whiskey's Gone",
     isPairDance: false,
     level: "NA",
     songs: [
-      "Whiskey's Gone - The Zac Brown Band Hinweis: Der Tanz beginnt mit dem Einsatz des Gesangs",
-      "Kick, kick, sailor step, step, pivot ½ r 2x",
-    ],
+      "Whiskey's Gone - The Zac Brown Band",
+        ],
     videoLink: [
       "https://youtu.be/s7zRVLTUd_A?si=coD0z3lgM51VTktm",
       "https://youtu.be/8Ut3Ewz_d4k?si=MgwKyQuQOB_Tk487",
@@ -2515,12 +2565,11 @@ export const dances: Dance[] = [
     id: "220",
   },
   {
-    name: "When you’re drunk",
+    name: "When you're drunk",
     isPairDance: false,
     level: "Intermediate",
     songs: ["I Hate You When You're Drunk - Olly Murs"],
-    aliases: ["neu 2024"],
-    videoLink: ["https://youtu.be/yfWb9owbrUY?si=4tVm-0QU2_JjRkPB"],
+    
     id: "221",
   },
   {
@@ -2545,14 +2594,21 @@ export const dances: Dance[] = [
     isPairDance: false,
     level: "Improver",
     songs: [
-      "Breathe - Faith Hill Is that a tear - Tracey Lawrence",
-      "Linda Lou - Tractors Let’s make love - Faith Hill",
-      "Route 66 - J.Mayer Lovin' All Night - Rodney Crowell",
-      "Nobody knows v. Kevin Sharp Somedays you gotta dance v. Dixie Chicks",
-      "Shortenin' Bread - Tractors Sounds like something I do v. Dra ke Milligan",
-      "Lay down Sally v. Eric Clapton The Bug v. Mary C. Carpenter",
-      "Little Liza Jane Queen of hearts v. Juice Newton (sehr langsam)",
-      "Another Rock’n Roll Christmas - Garry Glitter",
+      "Breathe - Faith Hill",
+      "Is that a tear - Tracey Lawrence",
+      "Linda Lou - Tractors" ,
+      "Let's make love - Faith Hill",
+      "Route 66 - J.Mayer" ,
+      "Lovin' All Night - Rodney Crowell",
+      "Nobody knows - Kevin Sharp" ,
+      "Somedays you gotta dance - Dixie Chicks",
+      "Shortenin' Bread - Tractors" ,
+      "Sounds like something I do - Drake Milligan",
+      "Lay down Sally - Eric Clapton", 
+      "The Bug - Mary C. Carpenter",
+      "Little Liza Jane", 
+      "Queen of hearts - Juice Newton (sehr langsam)",
+      "Another Rock'n Roll Christmas - Garry Glitter",
     ],
     videoLink: ["https://youtu.be/vNVZRpHOwSI?si=_Jt8QBMd6F5k42fO"],
     id: "223",
@@ -2562,7 +2618,6 @@ export const dances: Dance[] = [
     isPairDance: false,
     level: "Improver",
     songs: ["Wrong Direction - Ilse DeLange & Michael Schulte"],
-    aliases: ["neu 2025 bei Hans -Dieter"],
     videoLink: ["https://youtu.be/_p3vBcM9rz4?si=GAyiy5EDE98BRa4n"],
     id: "224",
   },
@@ -2571,7 +2626,6 @@ export const dances: Dance[] = [
     isPairDance: false,
     level: "Improver",
     songs: ["He Drinks Tequila - Sammy Kershaw & Lorrie Morgan"],
-    aliases: ["He drinks Tequila"],
     videoLink: ["https://youtu.be/J2bGzuPb2X0?si=pR_zY5YsyoAD2XHQ"],
     id: "225",
   },
