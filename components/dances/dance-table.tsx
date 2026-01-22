@@ -128,10 +128,7 @@ export function DanceTable() {
                 <div className="bg-[#f5e6d3] px-4 py-3 border-b-2 border-[#d4a574] flex items-center justify-between">
                   <div className="flex items-center gap-2">
                     {dance.isPairDance && (
-                      <Users2
-                        className="w-5 h-5 text-[#b45309]"
-                        title="Paartanz"
-                      />
+                      <Users2 className="w-5 h-5 text-[#b45309]" />
                     )}
                     <h3 className="font-serif text-lg text-[#3d2314] group-hover:text-[#b45309] transition-colors">
                       {dance.name}
@@ -161,20 +158,24 @@ export function DanceTable() {
                   <div className="flex gap-2 pt-3 border-t border-dashed border-[#d4a574]">
                     {dance.videoLink && dance.videoLink.length > 0 && (
                       <div className="flex gap-2 flex-wrap">
-                        {dance.videoLink.map((link, index) => (
-                          <a
-                            key={link + index}
-                            href={link}
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            className="flex items-center gap-1 bg-[#dc2626] text-white text-sm px-3 py-1.5 rounded-full hover:bg-[#b91c1c] transition-colors"
-                          >
-                            <Video className="h-3.5 w-3.5" />
-                            {dance.videoLink.length > 1
-                              ? `Video ${index + 1}`
-                              : "Video"}
-                          </a>
-                        ))}
+                        {dance.videoLink.map((link, index) => {
+                          const hasMultipleVideos =
+                            dance.videoLink && dance.videoLink.length > 1;
+                          return (
+                            <a
+                              key={link + index}
+                              href={link}
+                              target="_blank"
+                              rel="noopener noreferrer"
+                              className="flex items-center gap-1 bg-[#dc2626] text-white text-sm px-3 py-1.5 rounded-full hover:bg-[#b91c1c] transition-colors"
+                            >
+                              <Video className="h-3.5 w-3.5" />
+                              {hasMultipleVideos
+                                ? `Video ${index + 1}`
+                                : "Video"}
+                            </a>
+                          );
+                        })}
                       </div>
                     )}
                     {dance.stepsheetLink && (
