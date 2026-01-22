@@ -100,8 +100,19 @@ export const dances: Dance[] = [
     stepsheetLink: "https://www.get-in-line.de/dances/After_Five_Stomp_-_Horner.htm",
     id: "5",
   },
-
-
+  {
+    name: "After the storm",
+    isPairDance: false,
+    level: "Beginner",
+    songs: ["Calm After The Storm - The Common Linnets"],
+    videoLink: [
+      "https://youtu.be/aPugMGMLTvQ?si=J00p27yoXUHmLew0",
+      "https://youtu.be/WQW8Iqhn96E?si=EDRQqTGuTvoolMLb",
+      "https://youtu.be/MHVIrOopSBo?si=F1XqpNCA6RctaqA6",
+    ],
+    stepsheetLink:"https://www.get-in-line.de/dances/After%20The%20Storm_-_Argyle.htm",
+    id: "34",
+  },
   {
     name: "Ah Si!",
     isPairDance: false,
@@ -197,6 +208,7 @@ export const dances: Dance[] = [
       "I Love You Arizona - Rex Allen Jr. : (Arizona State Song)",
       "Alt music : almost any slow to medium tempo waltz",
     ],
+    stepsheetLink:"https://www.copperknob.co.uk/downloadsheetpdf?StepsheetID=83808",
     id: "12",
   },
   {
@@ -237,6 +249,7 @@ export const dances: Dance[] = [
       "https://youtu.be/gRxZPDi8MMk?si=ykEtikZRctpWV_5q",
       "https://youtu.be/lRRMAM9UVXQ?si=vs5JP8u3f0S3CNHR",
     ],
+    stepsheetLink:"https://www.get-in-line.de/dances/Baby_Belle_-_Teather.htm",
     id: "15",
   },
   {
@@ -253,25 +266,27 @@ export const dances: Dance[] = [
       "https://youtu.be/fco-MdJrPaA?si=G9H3LfCk8NkysPLg",
       "https://youtu.be/Adqbg1h_AWM?si=A9gkARLjTFQ1ZzzW",
     ],
+    stepsheetLink:"https://www.get-in-line.de/dances/Baby_Ride_Easy_-_Dynamite_Dot.htm",
     id: "16",
   },
   {
-    name: "Bacco Per Bacco",
+    name: "Bacco Per Bacco aka Zjozzys Funk",
     isPairDance: false,
     level: "Improver",
     songs: ["Bacco Per Bacco - Zucchero"],
-    aliases: ["Zjozzys Funk"],
     videoLink: [
       "https://youtu.be/4nrehj1jxaI?si=93hKh1c8vmy93ue2",
       "https://youtu.be/pm5rD7WdUbE?si=qlco1yv19l6bBgzA",
     ],
+    stepsheetLink:"https://www.get-in-line.de/dances/Zjozzys%20Funk_-_Velde.htm",
     id: "17",
   },
   {
     name: "Back When",
     isPairDance: false,
     level: "Improver",
-    songs: [],
+    songs: ["Back When - Tim McGraw"],
+    stepsheetLink:"https://www.copperknob.co.uk/stepsheets/63878/back-when",
     id: "18",
   },
   {
@@ -285,6 +300,7 @@ export const dances: Dance[] = [
       "https://youtu.be/PPmxmR9XYfE?si=EOZ6qWDSt56ZJBrD",
       "https://youtu.be/E0zq_iXG43o?si=QQGsAZ0KSxRq35sO",
     ],
+    stepsheetLink:"https://www.get-in-line.de/dances/Bad%20Moon%20On%20The%20Rise_-_Biggs.htm",
     id: "19",
   },
   {
@@ -300,6 +316,7 @@ export const dances: Dance[] = [
       "https://youtu.be/7DMeJVIeF2g?si=BTl9Mzx7O6a-Nccz",
       "https://youtu.be/nken2g1F6rQ?si=Z0xGEnJEizFxrp5C",
     ],
+    stepsheetLink:"https://www.get-in-line.de/dances/Barn%20Dance%20(P)_-_Klietsch.htm",
     id: "20",
   },
   {
@@ -316,21 +333,22 @@ export const dances: Dance[] = [
       "https://youtu.be/ZmnEFxACy3s?si=y2oxtFk0vBBdYHC2",
       "https://youtu.be/FGp8BiNz-rA?si=_aYE6RZJfsIpTB92",
     ],
+    stepsheetLink:"https://www.get-in-line.de/dances/Beer%20For%20My%20Horses_-_CBass.htm", 
     id: "21",
   },
-  {
+ /* {
     name: "Billy's Dance",
     isPairDance: true,
-    level: "Improver",
-    songs: [
-      "San Francisco - Olsen Brothers"
+    level: "Improver",Olsen Brothers"
     ],
     videoLink: [
       "https://youtu.be/muR_htbpIyY?si=VEmPngQM11wJi__U",
       "https://youtu.be/3wG-iaFVrE8?si=I8v-sGj1X7wB3san",
     ],
+    songs: [
+      "San Francisco - 
     id: "22",
-  },
+  },*/
   {
     name: "Black Coffee",
     isPairDance: false,
@@ -338,20 +356,20 @@ export const dances: Dance[] = [
     songs: [
       "Black Coffee - Lacy J. Dalton Western Girls - Marty Stuart",
       "As good as I once was - Toby Keith",
-      "Lucky Lips – Rote Lippen",
+      "Lucky Lips - Rote Lippen",
       "Whiskey over you - Daisy Town",
       "Little sister - Elvis Presley",
       "Mitternacht - E Nomine",
     ],
     videoLink: [
-      "https://www.youtube.com/@killlis",
       "https://youtu.be/orm-7T9LNNE?si=UB0Wo7sxrR_lmtd7",
       "https://youtu.be/jLhSus4kYOw?si=M9acEorMdSbJv5NB",
       "https://youtu.be/y28D1ekRjok?si=pgTMF2326FmRcB0K",
     ],
+      stepsheetLink:"https://www.get-in-line.de/dances/Black%20Coffee_-_O%27Malley.htm",
     id: "23",
   },
-  {
+  /*{
     name: "Blue Night Cha",
     isPairDance: false,
     level: "Beginner",
@@ -360,9 +378,10 @@ export const dances: Dance[] = [
       "https://youtu.be/7jToAyvoyBQ?si=SKktGUvSmF2FAlC2",
       "https://youtu.be/uCujlUwrJtM?si=iLORWrc7RiET1SqN",
     ],
+    stepsheetLink:"https://www.get-in-line.de/dances/Blue_Night_Cha_-_Ray.htm",
     id: "24",
-  },
-  {
+  },*/
+  /*{
     name: "Blue Rose",
     isPairDance: true,
     level: "NA",
@@ -373,8 +392,9 @@ export const dances: Dance[] = [
       "https://youtu.be/yCL6WmKlluU?si=MtaL6YlpW333Izpf",
       "https://youtu.be/1hUk0Scp8WI?si=zZf5Mazyr1B3e4Kb",
     ],
+    stepsheetLink:"https://www.copperknob.co.uk/stepsheets/62774/blue-rose-p",
     id: "25",
-  },
+  },*/
   {
     name: "Boat To Liverpool",
     isPairDance: false,
@@ -388,10 +408,11 @@ export const dances: Dance[] = [
       "https://youtu.be/4306lzGTJTk?si=6UiGnE8X2dMiUpXy",
       "https://youtu.be/k2s4yXaVGKg?si=yw4s0BiVsgQxPp5f",
     ],
+    stepsheetLink:"https://www.get-in-line.de/dances/The%20Boat%20To%20Liverpool_-_Brown.htm",
     id: "26",
   },
   {
-    name: "Bonaparte’s Retreat",
+    name: "Bonaparte's Retreat",
     isPairDance: false,
     level: "Beginner",
     songs: ["Bonaparte's Retreat - Glen Campbell"],
@@ -399,6 +420,7 @@ export const dances: Dance[] = [
       "https://youtu.be/OY_1B8cawOE?si=nxQs0F4wUMxYegrK",
       "https://youtu.be/1OYjEL4ZBlI?si=D7izsAyHRWv5YNxC",
     ],
+    stepsheetLink:"https://www.get-in-line.de/dances/Bonaparte%27s%20Retreat_-_Glover.htm",
     id: "27",
   },
   {
@@ -412,6 +434,7 @@ export const dances: Dance[] = [
       "https://youtu.be/9CXVhnNm0hg?si=ZKR_zSLMhyUUbaJS",
       "https://youtu.be/wZITUOchwQQ?si=HhiVwxAmABap848-",
     ],
+    stepsheetLink:"https://linedance-berlin.de/wp-content/uploads/2009/10/Boot-Scootin-Boogie-.pdf",
     id: "28",
   },
   {
@@ -427,6 +450,7 @@ export const dances: Dance[] = [
       "https://youtu.be/QZvr6HA2Sf8?si=a05ciDJYKZP02Ibn",
       "https://youtu.be/r-HLlhvhrsw?si=qUvO9_Rsa3x05Con",
     ],
+    stepsheetLink:"https://www.get-in-line.de/dances/Bosa_Nova_-_Dennington.htm",
     id: "29",
   },
   {
@@ -442,6 +466,7 @@ export const dances: Dance[] = [
       "https://youtu.be/GYWv9RBx2EE?si=S8e9zrY9P-WSmlNK",
       "https://youtu.be/6j9oehuV7mM?si=BZWE-RdbitjruOd7",
     ],
+    stepsheetLink:"https://www.get-in-line.de/dances/Bread_And_Butter_-_Morgan.htm",
     id: "30",
   },
   {
@@ -453,6 +478,7 @@ export const dances: Dance[] = [
       "Pick out a christ mas tree - Dan+Shay",
     ],
     videoLink: ["https://youtu.be/xLqtx6CvVz4?si=02-Mbr_XPBxr2e_l"],
+    stepsheetLink:"https://www.get-in-line.de/dances/Bring%20Down%20The%20House_-_Cormier-Henley.htm",
     id: "31",
   },
   {
@@ -464,6 +490,7 @@ export const dances: Dance[] = [
       "A long and happy life - Delta Rae",
     ],
     videoLink: ["https://youtu.be/7_hruLKnwZ8?si=Ch_-iCXTgfz7g93y"],
+    stepsheetLink:"https://www.get-in-line.de/dances/Butterfly_-_Unbekannt.htm",  
     id: "32",
   },
   {
@@ -478,19 +505,8 @@ export const dances: Dance[] = [
       "https://youtu.be/NnL1D12Rq2A?si=VkM1r-ERu7nvFGgG",
       "https://youtu.be/13onhnhUMKY?si=Xn6okFe67b0rG3HD",
     ],
+    stepsheetLink:"https://www.get-in-line.de/dances/Cabo_San_Lucas_-_Ghazali.htm", 
     id: "33",
-  },
-  {
-    name: "Calm after the storm",
-    isPairDance: false,
-    level: "Beginner",
-    songs: ["Calm After The Storm - The Common Linnets"],
-    videoLink: [
-      "https://youtu.be/aPugMGMLTvQ?si=J00p27yoXUHmLew0",
-      "https://youtu.be/WQW8Iqhn96E?si=EDRQqTGuTvoolMLb",
-      "https://youtu.be/MHVIrOopSBo?si=F1XqpNCA6RctaqA6",
-    ],
-    id: "34",
   },
   {
     name: "Canadian Stomp",
@@ -510,6 +526,7 @@ export const dances: Dance[] = [
       "https://youtu.be/Amujecgz67Q?si=yplOwXbdOtXwZmwC",
       "https://youtu.be/SspeJUF1SjU?si=n0wKafyx86HbOcGQ",
     ],
+    stepsheetLink:"https://www.get-in-line.de/dances/Canadian_Stomp_Circle_-_Pflug.htm",
     id: "35",
   },
   {
@@ -522,11 +539,11 @@ export const dances: Dance[] = [
       "Oh Girl - Vince Gill",
       "Your man - Josh Turner",
     ],
-    aliases: ["C.C.S"],
     videoLink: [
       "https://youtu.be/KWNULXemUn0?si=j5IyplmPCxknIqhJ",
       "https://youtu.be/jzXdIlS2GtI?si=QC44C3aE72GwmdrY",
     ],
+    stepsheetLink:"https://www.get-in-line.de/dances/C_C_S_-_Davis-Hammer.htm",
     id: "36",
   },
   {
@@ -545,6 +562,7 @@ export const dances: Dance[] = [
       "https://youtu.be/44T3yo5OREY?si=Iw5zZX5xTvk-vdmY",
       "https://youtu.be/TPXs0Ofv2qA?si=P7uJmd_qS5Th2_p_",
     ],
+    stepsheetLink:"https://www.get-in-line.de/dances/Chattahoochee_-_Unbekannt.htm",
     id: "37",
   },
   {
@@ -555,6 +573,7 @@ export const dances: Dance[] = [
       "Past The Point Of Rescue - Hal Ketchum,",
       "(Tonight We Just Might) Fall in Love Again - Hal Ketchum",
     ],
+    stepsheetLink:"https://www.get-in-line.de/dances/Cheyenne%20Rock_-_Reeves.htm",
     id: "38",
   },
   {
@@ -568,6 +587,7 @@ export const dances: Dance[] = [
       "https://youtu.be/PnnU4wqnvQU?si=2pMmZauYTS84Q8RI",
       "https://youtu.be/7AknftqE_jQ?si=Lx6HIbbBftP3Uwpo",
     ],
+    stepsheetLink:"https://www.get-in-line.de/dances/Chica_Boom_Boom_-_Morris.htm",
     id: "39",
   },
   {
@@ -580,7 +600,10 @@ export const dances: Dance[] = [
       "Guitar Cadillacs - D. Yoakam",
       "Beer & woman - Steve Forde",
     ],
-    videoLink: ["https://youtu.be/nRmvdZZ6ths?si=nGXsyNbt9xS-ZdI8"],
+    videoLink: [
+      "https://youtu.be/nRmvdZZ6ths?si=nGXsyNbt9xS-ZdI8"
+    ],
+    stepsheetLink:"https://www.get-in-line.de/dances/Clickety_Clack_-_Metelnick-Hunyadi.htm",
     id: "40",
   },
   {
@@ -594,6 +617,7 @@ export const dances: Dance[] = [
     videoLink: [
       "https://youtu.be/eNiuLUHhD_s?si=T_b5biJe2M9PgGOI"
     ],
+    stepsheetLink:"https://www.get-in-line.de/dances/Closer_-_Kelly.htm",
     id: "41",
   },
   {
@@ -606,6 +630,7 @@ export const dances: Dance[] = [
     videoLink: [
       "https://youtu.be/_7xGvGX3OHc?si=4GEaAl6KbdkxJbaj"
     ],
+    stepsheetLink:"https://www.get-in-line.de/dances/Coastin%27_-_Yeoman.htm",
     id: "42",
   },
   {
@@ -614,12 +639,13 @@ export const dances: Dance[] = [
     level: "Improver",
     songs: [
       "Código - George Strait",
-      "I don’t need anything this christmas - Shawn Colvin",
+      "I don't need anything this christmas - Shawn Colvin",
     ],
     videoLink: [
       "https://youtu.be/qOU48uhELgc?si=IstTPWDODMmt-WCJ",
       "https://youtu.be/B0P4Wd1C_dc?si=Ib9_MuvsDjt102Mj",
     ],
+    stepsheetLink:"https://www.get-in-line.de/dances/Codigo_-_Stott.htm",
     id: "43",
   },
   {
@@ -635,6 +661,7 @@ export const dances: Dance[] = [
       "https://youtu.be/5IR-iB563Vg?si=lM97Y3DJfxWuFwST",
       "https://youtu.be/Cnu-I7R1Cy8?si=V8pj-95J78Ip8kxn",
     ],
+    stepsheetLink:"https://www.get-in-line.de/dances/Coffee%20Days%20and%20Whiskey%20Nights_-_Verhagen.htm",
     id: "44",
   },
   {
@@ -651,6 +678,7 @@ export const dances: Dance[] = [
       "https://youtu.be/IjmShXNKl9k?si=-El9caZwsjHLP8UX",
       "https://youtu.be/NXNByOkG2FM?si=ERd92Zwh0Jv9NvOQ",
     ],
+    stepsheetLink:"https://www.get-in-line.de/dances/Come_Dance_With_Me_-_Thompson.htm",
     id: "45",
   },
   {
@@ -662,6 +690,7 @@ export const dances: Dance[] = [
       "https://youtu.be/1D1m0ajN-5o?si=OOoroH2vCAYU5KIy",
       "https://youtu.be/g3zwEDiU53I?si=ei17Tmxm3EHJp7YA",
     ],
+    stepsheetLink:"https://www.get-in-line.de/dances/Copperhead_Road-20_-_Unbekannt.htm",
     id: "46",
   },
   {
@@ -669,7 +698,10 @@ export const dances: Dance[] = [
     isPairDance: false,
     level: "Improver",
     songs: ["Corn - Blake Shelton"],
-    videoLink: ["https://youtu.be/CcGUBp-lWcc?si=cG5OkauzfQkV6GUt"],
+    videoLink: [
+      "https://youtu.be/CcGUBp-lWcc?si=cG5OkauzfQkV6GUt"
+    ],
+    stepsheetLink:"https://www.get-in-line.de/dances/Corn_-_Fowler.htm",
     id: "47",
   },
   {
@@ -681,6 +713,7 @@ export const dances: Dance[] = [
       "https://youtu.be/vPup0rMFV_s?si=TwIRLji3xHOmGiUT",
       "https://youtu.be/OixEfO9Rlnw?si=OPlDT04s-4-dbT4x",
     ],
+    stepsheetLink:"https://www.get-in-line.de/dances/Corn%20Don%27t%20Grow_-_Argyle.htm",
     id: "48",
   },
   {
@@ -689,18 +722,19 @@ export const dances: Dance[] = [
     level: "Beginner",
     songs: [
       "A better man - Clint Black (langsam)", 
-      "Flieg junger Adler - Tom Astor",
       "Country roads - John Denver",
+      "Flieg junger Adler - Tom Astor",
       "I Just Want My Baby Back - Jerry Kilgore",
       "Listen to your sens es - Alan Jackson",
       "Mr. Rock and Roll - Amy McDonald",
-      "The best thing - Brad Paisley",
       "Rockin little Christmas - Carlene Carter",
-    ],
+      "The best thing - Brad Paisley",
+      ],
     videoLink: [
       "https://youtu.be/EKSeFK2m81c?si=NLddFGwzlb6-c21y",
       "https://youtu.be/p7objprgyic?si=a5zDqVkFW1fJqKes",
     ],
+    stepsheetLink:"https://www.get-in-line.de/dances/Country_2_Step_-_Masters_In_Line.htm",
     id: "49",
   },
   {
@@ -713,6 +747,7 @@ export const dances: Dance[] = [
     videoLink: [
       "https://youtu.be/28Qm7VyC6SI?si=wClEtBN_r0Ne0-og"
     ],
+    stepsheetLink:"https://www.get-in-line.de/dances/Country%20In%20The%20City_-_Markof.htm",
     id: "50",
   },
   {
@@ -724,13 +759,16 @@ export const dances: Dance[] = [
       "Strike It Up - Black Box",
       "Old Pop In An Oak - Rednex",
     ],
-    videoLink: ["https://youtu.be/uWZDHMiZUfs?si=QuWYpU2pl-Qg0xUj"],
+    videoLink: [
+      "https://youtu.be/uWZDHMiZUfs?si=QuWYpU2pl-Qg0xUj"
+    ],
+    stepsheetLink:"https://www.get-in-line.de/dances/Country_Walkin%27_-_Desarro.htm",
     id: "51",
   },
   {
     name: "Cowboy Cha Cha",
     isPairDance: true,
-    level: "NA",
+    level: "Beginner",
     songs: [
       "A Hot Dog & A Daiquiri by Bill Crews",
       "Gone Country by Alan Jackson",
@@ -745,6 +783,7 @@ export const dances: Dance[] = [
       "https://youtu.be/kVMqgSEBhZM?si=BmRdHOm3RJJAivIZ",
       "https://youtu.be/FJLjEsGefX8?si=48M6bRygP4v3u4Ty",
     ],
+    stepsheetLink:"https://linedance-berlin.de/wp-content/uploads/2010/03/Cowboy-Cha-Cha-.pdf",
     id: "52",
   },
   {
@@ -761,13 +800,21 @@ export const dances: Dance[] = [
     videoLink: [
       "https://youtu.be/AdyVGPT2Teg?si=l7zYAKyKOQmSPihl"
     ],
+    stepsheetLink:"https://www.get-in-line.de/dances/Cowboy_Charleston_-_Unbekannt.htm",
     id: "53",
   },
   {
     name: "Crazy Friends",
     isPairDance: false,
-    level: "NA",
-    songs: ["Crazy As Me (feat. Blake Wood) - Belles"],
+    level: "Improver",
+    songs: [
+      "Crazy As Me (feat. Blake Wood) - Belles"
+    ],
+    videoLink: [
+      "https://www.youtube.com/watch?v=Hk1l729xLtw"
+
+    ],
+    stepsheetLink:"https://www.copperknob.co.uk/stepsheets/199680/crazy-friends",
     id: "54",
   },
   {
@@ -777,7 +824,10 @@ export const dances: Dance[] = [
     songs: [
       "Crossfire by DJ Ötzi & The Bellamy Brothers",   
     ],
-    videoLink: ["https://youtu.be/Gz7r0dE90_8?si=x1T6Gpiz1Ewp9w7X"],
+    videoLink: [
+      "https://youtu.be/Gz7r0dE90_8?si=x1T6Gpiz1Ewp9w7X"
+    ],
+    stepsheetLink:"https://www.copperknob.co.uk/stepsheets/181210/crossfire",
     id: "55",
   },
   {
@@ -796,6 +846,7 @@ export const dances: Dance[] = [
     videoLink: [
       "https://youtu.be/hZBK3pt-7u0?si=8UJduGIpRYUk2QbP"
     ],
+    stepsheetLink:"https://www.get-in-line.de/dances/Cruisin%27_-_Hale.htm",
     id: "56",
   },
   {
@@ -808,6 +859,7 @@ export const dances: Dance[] = [
     videoLink: [
       "https://youtu.be/ftogsZM8WWg?si=dIpjR7TYWw4IaLB8"
     ],
+    stepsheetLink:"https://www.get-in-line.de/dances/Cucaracha_-_Dahl-Dahl.htm",
     id: "57",
   },
   {
@@ -819,6 +871,7 @@ export const dances: Dance[] = [
       "https://youtu.be/UVKooAlER20?si=vyknFJZiuqUQ6TpJ",
       "https://youtu.be/wBeVHvgm8Es?si=4d6d4-3laOfMQCCb",
     ],
+    stepsheetLink:"https://www.get-in-line.de/dances/Cupid_Shuffle_-_Cupid.htm",
     id: "58",
   },
   {
@@ -879,7 +932,7 @@ export const dances: Dance[] = [
     ],
     id: "62",
   },
-  {
+  /*{
     name: "Dizzy",
     isPairDance: false,
     level: "Intermediate",
@@ -890,7 +943,7 @@ export const dances: Dance[] = [
       "https://youtu.be/k21ZrJFjR_8?si=zqIjjOmy7A0AZBtm",
     ],
     id: "63",
-  },
+  },*/
   {
     name: "Do It All Again",
     isPairDance: false,
