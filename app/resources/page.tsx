@@ -79,6 +79,13 @@ interface ExternalResource {
 
 const externalResources: ExternalResource[] = [
   {
+    name: "Get-in-line",
+    description:
+      "Tanzbeschreibungen auf Deutsch und dazu die Originalbeschreibung von CopperKnob!",
+    link: "https://www.get-in-line.de/",
+    icon: FileText,
+  },
+  {
     name: "CopperKnob",
     description:
       "Die größte Stepsheet-Datenbank weltweit mit tausenden Tänzen.",
@@ -92,9 +99,21 @@ const externalResources: ExternalResource[] = [
     icon: FileText,
   },
   {
+    name: "Mianii22",
+    description: "Tolle deutsche Video-Tutorials auf YouTube.",
+    link: "https://www.youtube.com/@Mianii22",
+    icon: Video,
+  },
+  {
     name: "Moni Line Dance",
-    description: "Tolle Video-Tutorials und Anleitungen auf YouTube.",
+    description: "weitere deutsche Video-Tutorials auf YouTube.",
     link: "https://www.youtube.com/@monilinedance6529",
+    icon: Video,
+  },
+  {
+    name: "Annette Heuer Tanztrainerin",
+    description: "deutsche LineDance-Grundlagen-Tutorials auf YouTube.",
+    link: "https://www.youtube.com/@annetteheuertanztrainerin",
     icon: Video,
   },
 ];

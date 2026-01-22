@@ -33,7 +33,7 @@ const scheduleInfo: ScheduleItem[] = [
   {
     icon: Calendar,
     title: "Regelmäßiges Training",
-    description: "Wir treffen uns jede Woche zum gemeinsamen Tanzen.",
+    description: "Wir treffen uns jede Woche zum gemeinsamen Tanzen. Wenn Du Interesse hast, schau einfach mal zum Schnuppern vorbei. Wir würden uns freuen, wenn Du dich dann so wohl fühlst, dass Du immer wieder kommst!",
     color: "bg-[#15803d]",
   },
   {
@@ -69,7 +69,7 @@ export default function SchedulePage() {
               Unsere Termine
             </h1>
             <p className="text-xl text-[#78350f] max-w-2xl mx-auto leading-relaxed">
-              Schau in unseren Kalender und komm vorbei, wenn es dir passt!
+              
             </p>
           </div>
         </section>
@@ -105,7 +105,7 @@ export default function SchedulePage() {
               <h2 className="font-serif text-3xl text-[#3d2314] mb-2 flex items-center justify-center gap-3">
                 <Calendar className="w-8 h-8 text-[#b45309]" /> Unser Kalender
               </h2>
-              <p className="text-[#78350f]">Alle Termine im Überblick</p>
+              <p className="text-[#78350f]">Im folgenden Kalender sind (überwiegend öffentliche) Events in der Umgebung gelistet, die wir eventuell besuchen wollen.</p>
             </div>
 
             {/* Google Calendar Embed */}
