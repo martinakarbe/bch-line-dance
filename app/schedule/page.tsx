@@ -111,7 +111,7 @@ export default function SchedulePage() {
             {/* Google Calendar Embed */}
             <div className="bg-[#fff9f2] rounded-2xl border-4 border-[#8b5a2b] overflow-hidden shadow-xl max-w-5xl mx-auto">
               <iframe
-                src="https://calendar.google.com/calendar/embed?src=bchlinedancer%40gmail.com&ctz=Europe%2FBerlin&showTitle=0&showNav=1&showPrint=0&showTabs=1&showCalendars=0&mode=MONTH"
+                src="https://calendar.google.com/calendar/embed?src=4b908492aeb69dc087e3d3b0441d52319ad398b36c09ec6fd47ebf0e94c6b018%40group.calendar.google.com&ctz=Europe%2FBerlin&showTitle=0&showNav=1&showPrint=0&showTabs=1&showCalendars=0&mode=MONTH"
                 className="w-full h-[500px] md:h-[600px] border-0"
                 title="BCH Line Dancer Kalender"
                 loading="lazy"
