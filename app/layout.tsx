@@ -1,7 +1,7 @@
 import React from "react";
 import type { Metadata, Viewport } from "next";
 import { Quicksand, Rye } from "next/font/google";
-import { ConsentBanner, AnalyticsWithConsent } from "@/components/consent";
+import { ConsentBanner } from "@/components/consent";
 import "./globals.css";
 
 const quicksand = Quicksand({
@@ -64,7 +64,6 @@ export default function RootLayout({
       <body className="font-sans antialiased min-h-screen flex flex-col">
         {children}
         <ConsentBanner />
-        <AnalyticsWithConsent />
       </body>
     </html>
   );

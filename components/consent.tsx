@@ -1,19 +1,16 @@
-'use client';
+"use client";
 
 import React from "react";
-import { Analytics } from "@vercel/analytics/next";
 import { Button } from "@/components/ui/button";
 
 const CONSENT_STORAGE_KEY = "bch-consent-v1";
 
 export type ConsentState = {
-  analytics: boolean;
   calendar: boolean;
   decided: boolean;
 };
 
 const defaultConsent: ConsentState = {
-  analytics: false,
   calendar: false,
   decided: false,
 };
@@ -72,11 +69,11 @@ export function ConsentBanner() {
   if (!hydrated || consent.decided) return null;
 
   const acceptAll = () => {
-    updateConsent(() => ({ analytics: true, calendar: true, decided: true }));
+    updateConsent(() => ({ calendar: true, decided: true }));
   };
 
   const onlyNecessary = () => {
-    updateConsent(() => ({ analytics: false, calendar: false, decided: true }));
+    updateConsent(() => ({ calendar: false, decided: true }));
   };
 
   return (
@@ -85,9 +82,8 @@ export function ConsentBanner() {
         <div className="space-y-1 text-sm">
           <p className="font-semibold">Datenschutzeinstellungen</p>
           <p className="text-xs md:text-sm text-[#fcd34d]">
-            Wir verwenden ein technisch notwendiges Cookie für die Navigation
-            und würden gerne zusätzlich anonyme Nutzungsstatistiken (Vercel
-            Analytics) erfassen sowie Inhalte von Google (Kalender) einbinden.
+            Wir verwenden ein technisch notwendiges Cookie für die Navigation.
+            Zusätzlich können Inhalte von Google (Kalender) eingebunden werden.
             Du kannst dem zustimmen oder nur die notwendigen Funktionen nutzen.
           </p>
         </div>
@@ -104,21 +100,12 @@ export function ConsentBanner() {
             className="bg-[#b45309] hover:bg-[#92400e] text-[#fef3c7]"
             onClick={acceptAll}
           >
-            Alle akzeptieren
+            Kalender akzeptieren
           </Button>
         </div>
       </div>
     </div>
   );
-}
-
-export function AnalyticsWithConsent() {
-  const { consent, hydrated } = useConsent();
-
-  if (!hydrated) return null;
-  if (!consent.analytics) return null;
-
-  return <Analytics />;
 }
 
 type CalendarWithConsentProps = {
