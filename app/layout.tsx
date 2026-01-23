@@ -1,7 +1,7 @@
 import React from "react";
 import type { Metadata, Viewport } from "next";
 import { Quicksand, Rye } from "next/font/google";
-import { Analytics } from "@vercel/analytics/next";
+import { ConsentBanner, AnalyticsWithConsent } from "@/components/consent";
 import "./globals.css";
 
 const quicksand = Quicksand({
@@ -63,7 +63,8 @@ export default function RootLayout({
     <html lang="de" className={`${quicksand.variable} ${rye.variable}`}>
       <body className="font-sans antialiased min-h-screen flex flex-col">
         {children}
-        <Analytics />
+        <ConsentBanner />
+        <AnalyticsWithConsent />
       </body>
     </html>
   );
