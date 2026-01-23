@@ -1170,7 +1170,7 @@ export const dances: Dance[] = [
     ],
     id: "84",
   },
-  {
+  /*{
     name: "Ghost Town",
     isPairDance: false,
     level: "Beginner",
@@ -1182,7 +1182,7 @@ export const dances: Dance[] = [
       "https://youtu.be/7q6s1WILdE8?si=s5Wm9SL6F-e3d6mK",
     ],
     id: "85",
-  },
+  },*/
   {
     name: "Ghost Train",
     isPairDance: false,
