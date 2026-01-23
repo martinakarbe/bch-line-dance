@@ -29,16 +29,16 @@ export function Header() {
             {/* Logo */}
             <Link href="/" className="flex items-center gap-3 group">
               <div className="relative">
-                <div className="w-14 h-14  rounded-full flex items-center justify-center shadow-lg group-hover:rotate-12 transition-transform duration-300">
+                <div className="w-22 h-22  rounded-full flex items-center justify-center shadow-lg group-hover:rotate-12 transition-transform duration-300">
                   <img
-                    src="/icon.png"
-                    alt="Buchen More-Generation Line Dancer"
+                    src="/images/logo.png"
+                    alt="Buchens Multi-Generation Line Dancer"
                   />
                 </div>
               </div>
               <div>
                 <h1 className="font-serif text-2xl md:text-3xl text-[#78350f] leading-none tracking-wide drop-shadow-sm">
-                  BCH Line Dancer
+                  Buchens Multi-Generation<br /> Line Dancer
                 </h1>
                 <p className="text-xs text-[#92400e] font-bold tracking-[0.2em] uppercase">
                   Buchen tanzt!

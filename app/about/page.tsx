@@ -19,7 +19,7 @@ import type { LucideIcon } from "lucide-react";
 export const metadata: Metadata = {
   title: "Wer wir sind",
   description:
-    "Erfahre mehr über die BCH Line Dancer - eine fröhliche Gruppe von Line Dance Fans im Mehrgenerationenhaus Buchen.",
+    "Erfahre mehr über Buchens Multi-Generation Line Dancer - eine fröhliche Gruppe von Line Dance Fans im Mehrgenerationenhaus Buchen.",
 };
 
 interface Value {
@@ -204,10 +204,19 @@ export default function AboutPage() {
               </p>
 
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                <Link href="/contact">
+                {false && (<Link href="/contact">
                   <Button className="bg-[#b45309] hover:bg-[#92400e] text-[#fef3c7] font-bold text-lg px-8 py-6 rounded-full border-3 border-[#d4a574] shadow-lg w-full sm:w-auto">
                     <Hand className="w-5 h-5 mr-2" />
                     Sag Hallo!
+                  </Button>
+                </Link>)}
+                <Link href="/resources">
+                  <Button
+                    variant="outline"
+                    className="bg-transparent border-3 border-[#d4a574] text-[#fef3c7] hover:bg-[#d4a574]/20 hover:text-[#fef3c7] font-bold text-lg px-8 py-6 rounded-full w-full sm:w-auto"
+                  >
+                    <Calendar className="w-5 h-5 mr-2" />
+                    Grundlagen-Videos
                   </Button>
                 </Link>
                 <Link href="/schedule">

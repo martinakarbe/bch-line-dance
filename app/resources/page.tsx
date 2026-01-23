@@ -75,9 +75,17 @@ interface ExternalResource {
   description: string;
   link: string;
   icon: LucideIcon;
+  fullWidth?: boolean;
 }
-
 const externalResources: ExternalResource[] = [
+  {
+    name: "Line Dance Guide",
+    description:
+      "Diese wunderbare Grundlagenzusammenfassung habe ich vor vielen Jahren bei https://wildblackhorses.de/ gefunden. Leider gibt es diese auf der Seite offenbar nicht mehr, ich habe die pdf-Datei für euch aber hier zum Download bereitgestellt. So könnt ihr euch in aller Ruhe damit beschäftigen.",
+    link: "https://www.dropbox.com/scl/fi/7lzatotir43w2g899e1ic/Line-Dance-Guide.pdf?rlkey=2eazpj3v9nfrt7sxn3tktcnw2&dl=0",
+    icon: FileText,
+    fullWidth: true, //
+  },
   {
     name: "Get-in-line",
     description:
@@ -137,7 +145,7 @@ export default function ResourcesPage() {
               Links & Tipps
             </h1>
             <p className="text-xl text-[#78350f] max-w-2xl mx-auto leading-relaxed">
-              YouTube-Playlists zum Üben daheim, Stepsheet-Seiten und hilfreiche
+              YouTube-Playlists zum Üben daheim, <br />Stepsheet-Seiten und hilfreiche
               Links für Line Dancer!
             </p>
           </div>
@@ -267,7 +275,9 @@ export default function ResourcesPage() {
                   href={resource.link}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="group bg-[#fff9f2] rounded-xl border-2 border-[#d4a574] p-5 hover:border-[#b45309] hover:shadow-lg transition-all"
+                  className={`group bg-[#fff9f2] rounded-xl border-2 
+                  border-[#d4a574] p-5 hover:border-[#b45309] 
+                  hover:shadow-lg transition-all ${resource.fullWidth ? "md:col-span-3" : ""}`}
                 >
                   <div className="flex items-start justify-between gap-2 mb-2">
                     <div className="w-10 h-10 bg-[#f5e6d3] rounded-lg flex items-center justify-center">
@@ -297,15 +307,15 @@ export default function ResourcesPage() {
               Bereit loszulegen?
             </h2>
             <p className="text-[#d4a574] mb-8 max-w-md mx-auto">
-              Komm vorbei und lerne mit uns zusammen - wir freuen uns auf dich!
+              Komm vorbei und lerne mit uns zusammen. <br />Wir freuen uns auf dich!
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <Link href="/contact">
+              {false && (<Link href="/contact">
                 <Button className="bg-[#b45309] hover:bg-[#92400e] text-[#fef3c7] font-bold text-lg px-8 py-6 rounded-full border-3 border-[#d4a574] shadow-lg w-full sm:w-auto">
                   <Hand className="w-5 h-5 mr-2" />
                   Kontakt aufnehmen
                 </Button>
-              </Link>
+              </Link>)}
               <Link href="/dances">
                 <Button
                   variant="outline"
