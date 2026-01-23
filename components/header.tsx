@@ -29,11 +29,11 @@ export function Header() {
             {/* Logo */}
             <Link href="/" className="flex items-center gap-3 group">
               <div className="relative">
-                <div className="w-14 h-14 bg-[#b45309] rounded-full flex items-center justify-center border-4 border-[#78350f] shadow-lg group-hover:rotate-12 transition-transform duration-300">
-                  <Music className="w-7 h-7 text-[#fef3c7]" />
-                </div>
-                <div className="absolute -bottom-1 -right-1 w-6 h-6 bg-[#15803d] rounded-full flex items-center justify-center border-2 border-[#f5e6d3]">
-                  <Sparkles className="w-3 h-3 text-[#fef3c7]" />
+                <div className="w-14 h-14  rounded-full flex items-center justify-center shadow-lg group-hover:rotate-12 transition-transform duration-300">
+                  <img
+                    src="/icon.png"
+                    alt="Buchen More-Generation Line Dancer"
+                  />
                 </div>
               </div>
               <div>

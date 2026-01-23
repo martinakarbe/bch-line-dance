@@ -3,6 +3,7 @@ import Link from "next/link";
 import { Header } from "@/components/header";
 import { Footer } from "@/components/footer";
 import { Button } from "@/components/ui/button";
+import { CalendarWithConsent } from "@/components/consent";
 import {
   ExternalLink,
   Calendar,
@@ -68,9 +69,7 @@ export default function SchedulePage() {
             <h1 className="font-serif text-5xl sm:text-6xl text-[#3d2314] mb-6 text-balance">
               Unsere Termine
             </h1>
-            <p className="text-xl text-[#78350f] max-w-2xl mx-auto leading-relaxed">
-              
-            </p>
+            <p className="text-xl text-[#78350f] max-w-2xl mx-auto leading-relaxed"></p>
           </div>
         </section>
 
@@ -105,18 +104,18 @@ export default function SchedulePage() {
               <h2 className="font-serif text-3xl text-[#3d2314] mb-2 flex items-center justify-center gap-3">
                 <Calendar className="w-8 h-8 text-[#b45309]" /> Unser Kalender
               </h2>
-              <p className="text-[#78350f]">Im folgenden Kalender sind (überwiegend öffentliche) Events in der Umgebung gelistet, die wir eventuell besuchen wollen.</p>
+              <p className="text-[#78350f]">
+                Im folgenden Kalender sind (überwiegend öffentliche) Events in
+                der Umgebung gelistet, die wir eventuell besuchen wollen.
+              </p>
             </div>
 
-            {/* Google Calendar Embed */}
-            <div className="bg-[#fff9f2] rounded-2xl border-4 border-[#8b5a2b] overflow-hidden shadow-xl max-w-5xl mx-auto">
-              <iframe
-                src="https://calendar.google.com/calendar/embed?src=4b908492aeb69dc087e3d3b0441d52319ad398b36c09ec6fd47ebf0e94c6b018%40group.calendar.google.com&ctz=Europe%2FBerlin&showTitle=0&showNav=1&showPrint=0&showTabs=1&showCalendars=0&mode=MONTH"
-                className="w-full h-[500px] md:h-[600px] border-0"
-                title="BCH Line Dancer Kalender"
-                loading="lazy"
-              />
-            </div>
+            {/* Google Calendar Embed mit Consent */}
+            <CalendarWithConsent
+              src="https://calendar.google.com/calendar/embed?src=4b908492aeb69dc087e3d3b0441d52319ad398b36c09ec6fd47ebf0e94c6b018%40group.calendar.google.com&ctz=Europe%2FBerlin&showTitle=0&showNav=1&showPrint=0&showTabs=1&showCalendars=0&mode=MONTH"
+              title="BCH Line Dancer Kalender"
+              className="bg-[#fff9f2] rounded-2xl border-4 border-[#8b5a2b] overflow-hidden shadow-xl max-w-5xl mx-auto"
+            />
 
             <div className="mt-6 flex flex-col sm:flex-row items-center justify-center gap-4">
               <div className="flex items-center gap-2 text-sm text-[#78350f] bg-[#fff9f2] px-4 py-2 rounded-full border border-[#d4a574]">
