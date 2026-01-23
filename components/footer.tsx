@@ -119,7 +119,7 @@ export function Footer() {
                     </span>
                   </a>
                 </li>
-                <li>
+                {false && (<li>
                   <Link
                     href="/contact"
                     className="flex items-center gap-3 group"
@@ -131,11 +131,9 @@ export function Footer() {
                       Schreib uns!
                     </span>
                   </Link>
-                </li>
+                  </li>)} 
               </ul>
             </div>
-          </div>
-
           {/* Divider - rope style */}
           <div className="my-10 flex items-center gap-4">
             <div className="flex-1 h-px bg-[#5c4033]" />
@@ -172,6 +170,7 @@ export function Footer() {
             </p>
           </div>
         </div>
+      </div>
       </div>
     </footer>
   );

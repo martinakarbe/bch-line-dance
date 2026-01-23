@@ -85,12 +85,12 @@ export function CTASection() {
 
             {/* CTA Buttons */}
             <div className="flex flex-col sm:flex-row gap-4">
-              <Link href="/contact">
+              {false && (<Link href="/contact">
                 <Button className="bg-[#b45309] hover:bg-[#92400e] text-[#fef3c7] font-bold text-lg px-8 py-6 rounded-full border-3 border-[#78350f] shadow-lg hover:shadow-xl transition-all hover:-translate-y-1 w-full sm:w-auto">
                   <Mail className="w-5 h-5 mr-2" />
                   Schreib uns!
                 </Button>
-              </Link>
+              </Link>)}
               <Link href="/resources">
                 <Button
                   variant="outline"
