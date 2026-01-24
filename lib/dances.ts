@@ -2657,11 +2657,11 @@ export const dances: Dance[] = [
       "What if - Daisy Town",
     ],
     videoLink: [
-      "https://www.youtube.com/@killlis",
       "https://youtu.be/5-vlo2eAheQ?si=7p5XtoxvCSA8Udi0",
       "https://youtu.be/wfefuj_OeMw?si=lr2IxUCEUrNX1keI",
       "https://youtu.be/9q9L40ZiNrc?si=wLLCR4wkuVmdLESa",
     ],
+    stepsheetLink: "https://www.get-in-line.de/dances/White_Rose_-_Teather.htm",
     id: "222",
   },
   {
