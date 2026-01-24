@@ -143,7 +143,7 @@ export default function AboutPage() {
                       Mehrgenerationenhaus Buchen
                     </p>
                     <p className="text-[#78350f]">
-                      Hier tanzen wir jeden Mittwoch!
+                      Hier tanzen wir jeden Dienstag von 19:30 - 22:00 Uhr!
                     </p>
                   </div>
                 </div>

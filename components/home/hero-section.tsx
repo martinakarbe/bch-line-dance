@@ -27,7 +27,7 @@ export function HeroSection() {
           <div className="inline-flex items-center gap-3 bg-[#b45309]/90 backdrop-blur-sm px-5 py-2 rounded-full mb-8 shadow-lg">
             <Music className="w-5 h-5 text-[#fef3c7]" />
             <span className="text-[#fef3c7] font-medium">
-              Willkommen bei den BCH Line Dancern!
+              Willkommen bei Buchens Multi-Generation Line Dancer!
             </span>
           </div>
 

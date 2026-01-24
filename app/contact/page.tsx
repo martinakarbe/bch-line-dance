@@ -22,7 +22,7 @@ import type { LucideIcon } from "lucide-react";
 
 export const metadata: Metadata = {
   title: "Mitmachen",
-  description: "Kontaktiere die BCH Line Dancer - wir freuen uns auf dich!",
+  description: "Kontaktiere die Buchens Multi-Generation Line Dancer - wir freuen uns auf dich!",
 };
 
 interface InfoCard {

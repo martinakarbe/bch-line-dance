@@ -38,7 +38,7 @@ export function Footer() {
                 </div>
                 <div>
                   <h3 className="font-serif text-2xl text-[#f5d076]">
-                    BCH Line Dancer
+                    Buchens Multi-Generation Line Dancer
                   </h3>
                   <p className="text-[#d4a574] text-sm">Buchen (Odenwald)</p>
                 </div>
@@ -135,7 +135,7 @@ export function Footer() {
               </ul>
             </div>
           {/* Divider - rope style */}
-          <div className="my-10 flex items-center gap-4">
+          <p><div className="my-10 flex items-center gap-4">
             <div className="flex-1 h-px bg-[#5c4033]" />
             <div className="flex gap-2">
               <Star className="w-4 h-4 text-[#b45309]" />
@@ -143,7 +143,7 @@ export function Footer() {
               <Star className="w-4 h-4 text-[#b45309]" />
             </div>
             <div className="flex-1 h-px bg-[#5c4033]" />
-          </div>
+          </div></p>
 
           {/* Bottom Bar */}
           <div className="flex flex-col md:flex-row justify-between items-center gap-4 text-sm">
@@ -166,7 +166,7 @@ export function Footer() {
               </ul>
             </nav>
             <p className="text-[#92400e]">
-              © {new Date().getFullYear()} BCH Line Dancer
+              © {new Date().getFullYear()} Buchens Multi-Generation Line Dancer
             </p>
           </div>
         </div>

@@ -889,6 +889,7 @@ export const dances: Dance[] = [
       "https://youtu.be/3buaoK_GZlI?si=1ZDQrw5X7jV8tqch",
       "https://youtu.be/7oQW_a_uOWU?si=7LvMkRFufLvSm5u9",
     ],
+    stepsheetLink:"https://www.get-in-line.de/dances/Dancing_In_The_Dark_-_Thompson.htm",
     id: "59",
   },
   {
@@ -901,6 +902,7 @@ export const dances: Dance[] = [
       "Slow Me Down - Shelby Lynne,",
       "Whiskey Under The Bridge - Brooks & Dunn",
     ],
+    stepsheetLink:"https://www.get-in-line.de/dances/Designated_Drinker_-_Brady.htm",
     id: "60",
   },
   {
@@ -916,6 +918,7 @@ export const dances: Dance[] = [
       "https://youtu.be/vF4Dogui1o4?si=fwbZaT1qbG5oeuTD",
       "https://youtu.be/Px_aqBrRLfQ?si=4PIjQkAmILmCRRKk",
     ],
+    stepsheetLink:"https://www.get-in-line.de/dances/A_Devil_In_Disguise_-_Stott-Birchall.htm",
     id: "61",
   },
   {
@@ -930,6 +933,7 @@ export const dances: Dance[] = [
       "https://youtu.be/ydvjSKxNuaQ?si=xib2dN26Q1yMsk2u",
       "https://youtu.be/C5Xpm1aEEkQ?si=QHTBoF5OeqokwqbX",
     ],
+    stepsheetLink:"https://www.get-in-line.de/dances/Disappearing_Tail_Lights_-_Metelnick-Biggs.htm",
     id: "62",
   },
   /*{
@@ -942,6 +946,7 @@ export const dances: Dance[] = [
       "https://youtu.be/N8jhSXUJhMQ?si=ldwhHRjCD99ZimIs",
       "https://youtu.be/k21ZrJFjR_8?si=zqIjjOmy7A0AZBtm",
     ],
+    stepsheetLink:"https://www.get-in-line.de/dances/Dizzy_-_Thompson.htm",
     id: "63",
   },*/
   {
@@ -950,6 +955,7 @@ export const dances: Dance[] = [
     level: "Improver",
     songs: ["Do It All Again - Guilty Ple asure, Enisa & Faydee"],
     videoLink: ["https://youtu.be/QtPkuRt0st0?si=Uzps8xuvBluud3ki"],
+    stepsheetLink:"https://www.get-in-line.de/dances/Do%20It%20All%20Again_-_O%27Reilly-Gallagher.htm",
     id: "64",
   },
   {
@@ -961,6 +967,7 @@ export const dances: Dance[] = [
       "https://youtu.be/FxeUaO5ljPc?si=rqMH4TkJm958m_BB",
       "https://youtu.be/Rx-cZPAuqxw?si=3CKXkemIaO8GDLR6",
     ],
+    stepsheetLink:"https://www.get-in-line.de/dances/Do%20It%20With%20Style_-_Gagnon-Beauchamp.htm",
     id: "65",
   },
   {
@@ -972,6 +979,7 @@ export const dances: Dance[] = [
       "https://youtu.be/d9cXzJucMWM?si=-KZJuEaqugVCbuhr",
       "https://youtu.be/y9RKzQPF4ak?si=dZfZfN39mGLB7WOI",
     ],
+    stepsheetLink:"https://www.get-in-line.de/dances/Doctor%20Doctor_-_MIL.htm",
     id: "66",
   },
   {
@@ -983,6 +991,7 @@ export const dances: Dance[] = [
       "https://youtu.be/Q9wY9bsJ1qs?si=ow_GqT3Yt1ichQol",
       "https://youtu.be/XQqwu62LrVE?si=LCRFAgCwwvvh18-i",
     ],
+    stepsheetLink:"https://www.get-in-line.de/dances/Don%27t_You_Wish_-_Simons.htm",
     id: "67",
   },
   {
@@ -995,6 +1004,7 @@ export const dances: Dance[] = [
       "Jeans on - Keith Urban",
     ],
     videoLink: ["https://youtu.be/71owBFlVB0o?si=ShCyBI87fRpPH44O"],
+    stepsheetLink:"https://www.get-in-line.de/dances/Down_On_The_Corner_-_Metelnick.htm",
     id: "68",
   },
   {
@@ -1006,6 +1016,7 @@ export const dances: Dance[] = [
       "https://youtu.be/PYFqw0NTBq8?si=H9ElCy2Gfg9KjmvA",
       "https://youtu.be/FyifTTC3Itk?si=mzF7wxyUWxakB7fW",
     ],
+    stepsheetLink:"https://www.get-in-line.de/dances/Drinking%20Problem_-_Bailey.htm",
     id: "69",
   },
   {
@@ -1017,6 +1028,7 @@ export const dances: Dance[] = [
       "https://youtu.be/8DPiddgWhO0?si=IHYfiu7-kR61B-mq",
       "https://youtu.be/544dMQL1rkk?si=XBS5SygRT63Fm7TF",
     ],
+    stepsheetLink:"https://www.get-in-line.de/dances/Drivin%27_My_Life_Away_-_Castle-Castle.htm",
     id: "70",
   },
   {
@@ -1028,6 +1040,7 @@ export const dances: Dance[] = [
       "https://youtu.be/UMgXvofY3tA?si=6ZNtnxRX8QDRU2b0",
       "https://youtu.be/LUPAaaf_T4o?si=HrIfHzQenFtmKQ01",
     ],
+    stepsheetLink:"https://www.get-in-line.de/dances/Eagles_Rock_-_Teather.htm",
     id: "71",
   },
   {
@@ -1036,6 +1049,7 @@ export const dances: Dance[] = [
     level: "NA",
     songs: ["East Bound and Down - Jerry Reed"],
     videoLink: ["https://youtu.be/44Zqk7Jxyfw?si=cfibQnzvQ_8EqJYa"],
+    stepsheetLink:"https://www.get-in-line.de/dances/East_Bound_And_Down_2000_-_Hunyadi.htm",
     id: "72",
   },
   {
@@ -1051,6 +1065,7 @@ export const dances: Dance[] = [
       "https://youtu.be/GhXyFevB8dA?si=7NgjKo9gZi3jQK3U",
       "https://youtu.be/llLR3tOVkNU?si=WI6L6geSjQgejUoY",
     ],
+    stepsheetLink:"https://www.get-in-line.de/dances/Eatin%27_Right_And_Drinkin%27_Bad_-_Perry.htm",
     id: "73",
   },
   {
@@ -1059,6 +1074,7 @@ export const dances: Dance[] = [
     level: "Beginner",
     songs: ["Neon Moon - Brooks & Dunn", "Tequila Sunrise - Eagles"],
     videoLink: ["https://youtu.be/vk7xvD1ezXM?si=HWCC9nMgA0RX_eKU"],
+    stepsheetLink:"https://www.get-in-line.de/dances/El_Paso_-_Unbekannt.htm",
     id: "74",
   },
   {
@@ -1076,6 +1092,7 @@ export const dances: Dance[] = [
       "https://youtube.com/shorts/dHUCuqgIX5I?si=ugVRJfAus9FolXYq",
       "https://youtu.be/IaAjJIkkNwg?si=u2io4xDTTwqjPS4N",
     ],
+    stepsheetLink:"https://www.get-in-line.de/dances/Electric%20Slide_-_Silver.htm",
     id: "75",
   },
   {
@@ -1083,6 +1100,11 @@ export const dances: Dance[] = [
     isPairDance: false,
     level: "Beginner",
     songs: ["Less and Less - Josh Grider"],
+    videoLink: [
+      "https://youtu.be/ygbJc_gTB-8?si=S4ByK2oVF7sRcyAx",
+      "https://youtu.be/-9PlgylskfU?si=ESo9xvR6FkupqVAv",
+    ],
+    stepsheetLink:"https://www.get-in-line.de/dances/Endless_-_Ryan.htm",
     id: "76",
   },
   {
