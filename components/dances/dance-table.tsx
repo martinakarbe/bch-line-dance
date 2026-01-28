@@ -155,7 +155,7 @@ export function DanceTable() {
                   </div>
 
                   {/* Links */}
-                  <div className="flex gap-2 pt-3 border-t border-dashed border-[#d4a574]">
+                  <div className="flex items-start gap-2 pt-3 border-t border-dashed border-[#d4a574]">
                     {dance.videoLink && dance.videoLink.length > 0 && (
                       <div className="flex gap-2 flex-wrap">
                         {dance.videoLink.map((link, index) => {
