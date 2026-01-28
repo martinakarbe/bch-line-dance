@@ -213,9 +213,8 @@ export default function ResourcesPage() {
             <div className="text-center mb-10">
               <h2 className="font-serif text-3xl text-[#3d2314] mb-2 flex items-center justify-center gap-3">
                 <Handshake className="w-7 h-7 text-[#b45309]" /> Unser Partner
-              </h2>
-              <p className="text-[#78350f]">Hier tanzen wir!</p>
-            </div>
+              </h2>              
+           </div>
 
             <div className="max-w-xl mx-auto">
               <a
@@ -239,7 +238,7 @@ export default function ResourcesPage() {
                       Mehrgenerationenhaus Buchen
                     </h3>
                     <p className="text-[#b45309] font-medium text-sm mt-1">
-                      Miteinander - Füreinander
+                      Hier tanzen wir!
                     </p>
                     <p className="text-[#78350f] mt-2">
                       Unser Trainingsort mit tollen Räumlichkeiten für
@@ -252,6 +251,39 @@ export default function ResourcesPage() {
                   </div>
                 </div>
               </a>
+            </div><br />
+          </div>
+
+           <div className="container mx-auto px-4">
+                      
+            <div className="max-w-xl mx-auto"> 
+              <div className="group block bg-[#fff9f2] rounded-2xl border-3 border-[#d4a574] p-6 hover:border-[#b45309] hover:shadow-xl transition-all">
+              
+                <div className="flex flex-col sm:flex-row items-center gap-6">
+                  <div className="w-24 h-30 bg-[#faebd7] rounded-xl flex items-center justify-center border-2 border-[#d4a574] text-center p-3">
+                    <div>
+                      <img
+                        src="/logos/Logo-Sundowner.jpg"
+                        alt="Sundowner Großeicholzheim"
+                        className="w-full h-full object-cover"
+                      />
+                    </div>
+                  </div>
+                  <div className="flex-1 text-center sm:text-left">
+                    <h3 className="font-serif text-2xl text-[#3d2314] group-hover:text-[#b45309] transition-colors">
+                      Sundowner Großeicholzheim
+                    </h3>
+                    <p className="text-[#b45309] font-medium text-sm mt-1">
+                      Miteinander - Füreinander
+                    </p>
+                    <p className="text-[#78350f] mt-2">
+                      Unsere Partnergruppe "Sundowner" in Großeicholzheim tanzt nach dem gleichen Prinzip wie wir - einfach aus Spaß an der Freude. <br/><br/>
+                      Und so haben wir die Möglichkeit, auf Wunsch einen zweiten Trainingstermin jeweils donnerstags von 18:30 - 21:30 Uhr im Schloss Großeicholzheim wahrzunehmen. 
+                    </p>
+                    
+                  </div>,
+                </div>
+              </div>
             </div>
           </div>
         </section>
