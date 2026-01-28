@@ -1376,6 +1376,7 @@ export const dances: Dance[] = [
       "I believe in Santa Claus - Dolly Parton",
     ],
     videoLink: ["https://youtu.be/nFCA9iVW8aM?si=CvM9ONf1ZaevhX8o"],
+    stepsheetLink:"https://www.get-in-line.de/dances/Hearts_And_Flowers_-_Churm.htm",
     id: "98",
   },
   {
