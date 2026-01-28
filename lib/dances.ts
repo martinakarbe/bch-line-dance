@@ -1116,6 +1116,7 @@ export const dances: Dance[] = [
       "https://youtu.be/Fyha771R3fU?si=W9R13HgR8YbU4BBZ",
       "https://youtu.be/w52PuhJxkJo?si=lUz4nT2qkvtU2g1J",
     ],
+    stepsheetLink:"https://www.get-in-line.de/dances/Fisher%27s%20Hornpipe_-_Reeves.htm",
     id: "77",
   },
   {
@@ -1131,6 +1132,7 @@ export const dances: Dance[] = [
       "https://youtu.be/xcLC-X8ytxs?si=OZEft4_lYvOPG9g7",
       "https://youtu.be/YCBSKcXT2iE?si=SR0glkT2gT8t-Nuh",
     ],
+    stepsheetLink:"https://www.get-in-line.de/dances/Flobie_Slide_-_Cook.htm", 
     id: "78",
   },
   {
@@ -1143,6 +1145,7 @@ export const dances: Dance[] = [
       "https://youtu.be/vAvepBJkLDA?si=9BvM43TNOq_ELvce",
       "https://youtu.be/IpCGvojs1XA?si=DwXZsxMctC5E0bCW",
     ],
+    stepsheetLink:"https://www.get-in-line.de/dances/The%20Flute_-_Gallagher.htm",
     id: "79",
   },
   {
@@ -1152,7 +1155,10 @@ export const dances: Dance[] = [
     songs: [
       "Footloose - Kenny Loggins,", 
       "Footloose - Blake Shelton"],
-    videoLink: ["https://youtu.be/fvbmQU9Y1Sg?si=LONnvS2xE0EXkX76"],
+    videoLink: [
+      "https://youtu.be/fvbmQU9Y1Sg?si=LONnvS2xE0EXkX76"
+    ],
+    stepsheetLink:"https://www.get-in-line.de/dances/Footloose_-_Hubbard-Rodgers.htm",
     id: "80",
   },
   {
@@ -1160,6 +1166,10 @@ export const dances: Dance[] = [
     isPairDance: false,
     level: "Improver",
     songs: ["Forever To Me - Cole Swindell"],
+    videoLink: [
+      "https://youtu.be/Bxulh60bUtQ?si=SYhnub5Y8RSUVShi",
+    ],
+    stepsheetLink:"https://www.get-in-line.de/dances/Forever%20to%20Me_-_Morel.htm",
     id: "81",
   },
   {
@@ -1167,7 +1177,10 @@ export const dances: Dance[] = [
     isPairDance: false,
     level: "Improver",
     songs: ["Guitars, Cadillacs - Dwight Yoakam"],
-    videoLink: ["https://youtu.be/gTncpCChro4?si=mK1giYt6QVOGiSkj"],
+    videoLink: [
+      "https://youtu.be/gTncpCChro4?si=mK1giYt6QVOGiSkj"
+    ],
+    stepsheetLink:"https://www.get-in-line.de/dances/Four%20Corner_-_Unbekannt.htm",  
     id: "82",
   },
   {
@@ -1179,6 +1192,7 @@ export const dances: Dance[] = [
       "https://youtu.be/AflnXnf3hAI?si=cEOjHfZbNMDfhumI",
       "https://youtu.be/gUMadvY8OY8?si=pqaoB-Oy5Pw7imdB",
     ],
+    stepsheetLink:"https://www.get-in-line.de/dances/Front%20Door%20Famous_-_Sala-Trepat-Belloque.htm",
     id: "83",
   },
   {
@@ -1190,6 +1204,7 @@ export const dances: Dance[] = [
       "https://youtu.be/8ZD2hR01YM4?si=ENw7c8D3JYQeiaVQ",
       "https://youtu.be/3wrZOqhvqnA?si=3qUxTty3uSruDf1R",
     ],
+    stepsheetLink:"https://www.get-in-line.de/dances/Galway_Girls_-_Hodgson.htm",
     id: "84",
   },
   /*{
@@ -1218,6 +1233,7 @@ export const dances: Dance[] = [
       "https://youtu.be/7ZW63hu6hhY?si=0eD9l8c3XOqR76UM",
       "https://youtu.be/9WqcikLfIH0?si=d0br8AROaGJ4ulh2",
     ],
+    stepsheetLink:"https://www.get-in-line.de/dances/Ghost_Train_-_Hunyadi.htm",
     id: "86",
   },
   {
@@ -1229,6 +1245,7 @@ export const dances: Dance[] = [
       "https://youtu.be/rbU9jPFCTi4?si=DMKd9h6LaGCop11t",
       "https://youtu.be/3qj2Mvxu1F4?si=hCoqGs3p7yFbl85u&t=210",
     ],
+    stepsheetLink:"https://www.get-in-line.de/dances/Glass%20of%20Wine_-_Jakobsen.htm",
     id: "87",
   },
   {
@@ -1240,6 +1257,7 @@ export const dances: Dance[] = [
       "https://youtu.be/CIWc69F6SA8?si=xhQ6UlCI9nF_rwl5",
       "https://youtu.be/ZwYR6EQFP98?si=x6uRpsLoqx1S0Up-",
     ],
+    stepsheetLink:"https://www.get-in-line.de/dances/God_Blessed_Texas_-_Batson.htm",
     id: "88",
   },
   {
@@ -1247,7 +1265,10 @@ export const dances: Dance[] = [
     isPairDance: false,
     level: "Beginner",
     songs: ["Golden Ring (ft. Dierks Bentley) - Terri Clark"],
-    videoLink: ["https://www.youtube.com/watch?v=CXVSsyPVVEs"],
+    videoLink: [
+      "https://www.youtube.com/watch?v=CXVSsyPVVEs"
+    ],
+    stepsheetLink:"https://www.get-in-line.de/dances/Golden%20Wedding%20Ring_-_Fillion.htm",
     id: "89",
   },
   {
@@ -1259,6 +1280,7 @@ export const dances: Dance[] = [
       "https://youtu.be/Wbl2hH1ia-8?si=892DojiN2DJK78rv",
       "https://youtu.be/hzmsrR2PV18?si=uFyd5xanHWg6MB9J",
     ],
+    stepsheetLink:"https://www.get-in-line.de/dances/Gone%20West_-_O%27Reilly-Gallagher.htm",
     id: "90",
   },
   {
@@ -1266,7 +1288,10 @@ export const dances: Dance[] = [
     isPairDance: false,
     level: "Beginner",
     songs: ["A Good Day To Run - Darryl Worley"],
-    videoLink: ["https://youtu.be/yR1ILtWmYLI?si=gS-Gw2bnpEpt13Ef"],
+    videoLink: [
+      "https://youtu.be/yR1ILtWmYLI?si=gS-Gw2bnpEpt13Ef"
+    ],
+    stepsheetLink:"https://www.get-in-line.de/dances/Good_Day_To_Run_-_Ray.htm",
     id: "91",
   },
   {
@@ -1274,7 +1299,10 @@ export const dances: Dance[] = [
     isPairDance: false,
     level: "Beginner",
     songs: ["Good Time - Alan Jackson"],
-    videoLink: ["https://youtu.be/vTY5hwqxRLs?si=c2wOM8xQEIR1ePs_"],
+    videoLink: [
+      "https://youtu.be/vTY5hwqxRLs?si=c2wOM8xQEIR1ePs_"
+    ],
+    stepsheetLink:"https://www.get-in-line.de/dances/Good_Time_-_Cain.htm",
     id: "92",
   },
   {
@@ -1287,7 +1315,10 @@ export const dances: Dance[] = [
       "Dust On The Bottle - David Lee Murphy [102 bpm]",
       "No No Never - Texas Lightning [ bpm]"
     ],
-    videoLink: ["https://youtu.be/dZKv36dj5zk?si=k9CHyacbDmkQfvm1"],
+    videoLink: [
+      "https://youtu.be/dZKv36dj5zk?si=k9CHyacbDmkQfvm1"
+    ],
+    stepsheetLink:"https://www.lucky-country.de/lucky/userfiles/downloads/sheetsline/G/Grundy%20Gallop%20-32-2%20by%20Jenny%20Rockett%20DE.pdf",
     id: "93",
   },
   {
@@ -1295,7 +1326,10 @@ export const dances: Dance[] = [
     isPairDance: false,
     level: "Intermediate",
     songs: ["Gypsy Queen - Chris Norman", "Wake up little Suzie"],
-    videoLink: ["https://youtu.be/FZfLxANTUBM?si=VJjlekFOdIv5yXLO"],
+    videoLink: [
+      "https://youtu.be/FZfLxANTUBM?si=VJjlekFOdIv5yXLO"
+    ],
+    stepsheetLink:"https://www.get-in-line.de/dances/Gypsy%20Queen_-_Pace.htm",
     id: "94",
   },
   /*{
