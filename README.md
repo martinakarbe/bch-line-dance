@@ -18,7 +18,7 @@ Die Seite zeigt u.a.
 - **Sprache:** TypeScript / JavaScript
 - **Styling:** Tailwind CSS + eigene CSS-Dateien
 - **Icons & UI:** `lucide-react`, shadcn/ui-Komponenten
-- **Deployment:** Statischer Export mit `next export` → Upload des `out/`-Ordners per FileZilla auf den Webspace
+- **Deployment:** Automatisches Deployment über [Vercel](https://vercel.com) (Git-Push → Build & Live-Update)
 
 Du musst kein Profi-Entwickler sein, um kleine Änderungen (Texte, Links, Bilder) vorzunehmen.
 
@@ -76,63 +76,36 @@ Bei jeder Änderung an den Dateien im `app/`- oder `components/`-Ordner lädt di
 
 ---
 
-## 5. Production-Build & statischer Export
+## 5. Production-Build & Deployment mit Vercel
 
-Für ein Deployment auf deinen Webspace brauchst du einen **statischen Export** der Seite.
+Für ein Deployment über Vercel brauchst du **keinen statischen Export** mehr, sondern nur einen normalen Next.js-Production-Build.
 
-### 5.1 Production-Build
+### 5.1 Production-Build lokal testen (optional)
 
 ```bash
 yarn build
 ```
 
-Das erzeugt einen optimierten Produktionsbuild. Dieser Schritt sollte vor jedem Export einmal sauber durchlaufen.
+Das erzeugt einen optimierten Produktionsbuild und prüft, ob das Projekt baubar ist. Das ist hilfreich, bevor du Änderungen ins Remote-Repository pushst.
 
-### 5.2 Statischen Export erstellen
-
-```bash
-yarn export
-```
-
-- Next.js baut die Seite erneut für den Export.
-- Das Ergebnis landet im Ordner **`out/`** im Projekt-Root.
-
-Wichtige Dateien dort:
-
-- `out/index.html` → Startseite
-- `out/contact.html` → Kontaktseite
-- `out/about.html`, `out/schedule.html`, `out/dances.html`, `out/resources.html`, `out/imprint.html`, `out/privacy.html` usw.
-
-Diesen `out/`-Inhalt lädst du später auf deinen Webspace hoch.
-
-> Hinweis: Es ist eine gute Idee, vor jedem Upload **immer** zuerst `yarn build` und dann `yarn export` auszuführen, damit wirklich der aktuelle Stand exportiert wird.
-
----
-
-## 6. Deployment mit FileZilla (Webspace)
+### 5.2 Deployment über Vercel (Git-basiert)
 
 Der typische Ablauf, um die Seite online zu aktualisieren:
 
-1. **Lokal:**
-   - Sicherstellen, dass alle Änderungen committed sind (optional, aber empfehlenswert).
-   - Im Projektordner nacheinander ausführen:
+1. Änderungen lokal machen und mit `yarn dev` testen.
+2. Änderungen committen und ins Git-Remote (z.B. GitHub) pushen.
+3. Vercel ist mit dem Repository verknüpft und startet automatisch einen neuen Build.
+4. Nach erfolgreichem Build ist die neue Version unter der Produktions-URL erreichbar.
 
-     ```bash
-     yarn build
-     yarn export
-     ```
+Hinweis: Vercel erstellt für Branches bzw. Pull Requests automatische **Preview Deployments**, mit denen du Änderungen vor dem Merge testen kannst.
 
-2. **FileZilla öffnen** und mit deinem Webspace verbinden.
+Für die einmalige Einrichtung in Vercel:
 
-3. **Webroot-Verzeichnis öffnen** (rechte Seite in FileZilla), also den Ordner, in dem auch deine `index.html` liegt.
-
-4. **In deinem Projekt links** in FileZilla in den `out/`-Ordner gehen.
-
-5. **Alle Dateien und Ordner aus `out/`** markieren und in das Webroot auf der rechten Seite ziehen.
-
-6. Wenn FileZilla fragt, ob Dateien überschrieben werden sollen → **Ja** (überschreiben).
-
-7. Im Browser deine Domain aufrufen und prüfen, ob die Änderungen sichtbar sind.
+1. Auf https://vercel.com einloggen.
+2. "Add New Project" wählen und dieses Repository verbinden.
+3. Framework: **Next.js** (wird automatisch erkannt).
+4. Build Command: `next build` (Standard).
+5. Danach die eigene Domain im Projekt unter **Settings → Domains** hinzufügen und die DNS-Einträge laut Vercel-Dokumentation setzen.
 
 ---
 
@@ -189,7 +162,7 @@ Ein paar Beispiele, was du gefahrlos anpassen kannst:
 Nach jeder Änderung:
 
 1. Lokal mit `yarn dev` prüfen.
-2. Für Live-Update: `yarn build`, `yarn export`, `out/` per FileZilla hochladen.
+2. Änderungen committen und ins Git-Remote pushen → Vercel baut und deployed automatisch.
 
 ---
 
@@ -232,14 +205,10 @@ yarn install
    git push
    ```
 
-3. Für ein Live-Update auf dem Webspace:
+3. Für ein Live-Update in der Produktion:
 
-   ```bash
-   yarn build
-   yarn export
-   ```
-
-   Danach den Inhalt des `out/`-Ordners per FileZilla auf den Server hochladen (siehe Abschnitt „Deployment mit FileZilla“).
+   - Änderungen committen und mit `git push` ins Remote-Repository hochladen.
+   - Vercel startet automatisch einen neuen Build und stellt die Seite nach erfolgreichem Build live.
 
 ---
 
