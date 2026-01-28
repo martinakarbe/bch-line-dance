@@ -38,7 +38,7 @@ export function Footer() {
                 </div>
                 <div>
                   <h3 className="font-serif text-2xl text-[#f5d076]">
-                    Buchens Multi-Generation Line Dancer
+                    BCH Line Dancer
                   </h3>
                   <p className="text-[#d4a574] text-sm">Buchen (Odenwald)</p>
                 </div>
@@ -119,7 +119,7 @@ export function Footer() {
                     </span>
                   </a>
                 </li>
-                {false && (<li>
+                {/* <li>
                   <Link
                     href="/contact"
                     className="flex items-center gap-3 group"
@@ -131,11 +131,13 @@ export function Footer() {
                       Schreib uns!
                     </span>
                   </Link>
-                  </li>)} 
+                </li> */}
               </ul>
             </div>
+          </div>
+
           {/* Divider - rope style */}
-          <p><div className="my-10 flex items-center gap-4">
+          <div className="my-10 flex items-center gap-4">
             <div className="flex-1 h-px bg-[#5c4033]" />
             <div className="flex gap-2">
               <Star className="w-4 h-4 text-[#b45309]" />
@@ -143,7 +145,7 @@ export function Footer() {
               <Star className="w-4 h-4 text-[#b45309]" />
             </div>
             <div className="flex-1 h-px bg-[#5c4033]" />
-          </div></p>
+          </div>
 
           {/* Bottom Bar */}
           <div className="flex flex-col md:flex-row justify-between items-center gap-4 text-sm">
@@ -170,7 +172,6 @@ export function Footer() {
             </p>
           </div>
         </div>
-      </div>
       </div>
     </footer>
   );
