@@ -1352,6 +1352,7 @@ export const dances: Dance[] = [
       "https://youtu.be/i9zhQUTu4Pg?si=aPhNx5F0ycp2SOCv",
       "https://youtu.be/iZmox7066lM?si=0TyQy1DFWVfPX6N5",
     ],
+    stepsheetLink:"https://www.get-in-line.de/dances/Happy,%20Happy,%20Happy_-_Mateu.htm",
     id: "96",
   },
   {
@@ -1360,6 +1361,7 @@ export const dances: Dance[] = [
     level: "Beginner",
     songs: ["Healing Hands - Drop Box Cowboys"],
     videoLink: ["https://youtu.be/1cC3AyeHl5I?si=TCWRHtXV83MqCAiV"],
+    stepsheetLink:"https://www.get-in-line.de/dances/Healing%20Hands_-_Argyle.htm",
     id: "97",
   },
   {
