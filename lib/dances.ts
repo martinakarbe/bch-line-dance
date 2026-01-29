@@ -1625,6 +1625,10 @@ export const dances: Dance[] = [
     isPairDance: false,
     level: "Intermediate",
     songs: ["C'est La Vie - Chely Wright"],
+    videoLink: [
+      "https://youtu.be/70VmT95wGn8?si=rBGmc4McxeeJErA7",
+      "https://youtu.be/vUm5jooJiE0?si=HLtkukzzUU2DrCFs"
+    ],
     stepsheetLink:"https://www.get-in-line.de/dances/Just_Wright_-_Gallagher.htm",
     id: "119",
   },
@@ -2099,17 +2103,19 @@ export const dances: Dance[] = [
       "Honky-Tonk - Josiah Siska"
     ],
     videoLink: ["https://youtu.be/CZD9a9LXdQc?si=Rjkp9SohZJjKc5e7"],
+    stepsheetLink:"https://www.get-in-line.de/dances/Ready%20For%20It_-_VanScoyk.htm",
     id: "158",
   },
   {
     name: "Red Hot Salsa",
     isPairDance: false,
-    level: "NA",
+    level: "Intermediate",
     songs: ["Red Hot Salsa - Dave Sheriff"],
     videoLink: [
       "https://youtu.be/pj0EQ_XSkmI?si=xOH2voZMAXFYJDGJ",
       "https://youtu.be/0zOdZFMBCM4?si=Crwwp2hFJshGnqJL",
     ],
+    stepsheetLink:"https://www.get-in-line.de/dances/Red_Hot_Salsa_-_Browne.htm",
     id: "159",
   },
   {
@@ -2118,6 +2124,7 @@ export const dances: Dance[] = [
     level: "Intermediate",
     songs: ["Red Solo Cup - Toby Keith"],
     videoLink: ["https://youtu.be/cpXlSm2x0Gk?si=zhU00BzXt4PjSwZI"],
+    stepsheetLink:"https://www.get-in-line.de/dances/Red_Solo_Cup_-_Manning.htm",
     id: "160",
   },
   {
@@ -2132,6 +2139,7 @@ export const dances: Dance[] = [
       "https://youtu.be/0HjroP-wuiI?si=5txHJaTKDmmZGpyB",
       "https://youtu.be/rva6P7HRBII?si=-Q0Oa_ZSYD0kETNM",
     ],
+    stepsheetLink:"https://www.get-in-line.de/dances/Rhyme_Or_Reason_-_McEnaney.htm",
     id: "161",
   },
   {
@@ -2143,6 +2151,7 @@ export const dances: Dance[] = [
       "https://youtu.be/6VGHYHR_f4M?si=SiY04kgttGodZ6Qp",
       "https://youtu.be/pkAraEV2Seg?si=Aag5h2STE4_PcN0C",
     ],
+    stepsheetLink:"https://www.get-in-line.de/dances/Roots_-_Argyle.htm",
     id: "162",
   },
   {
@@ -2154,6 +2163,7 @@ export const dances: Dance[] = [
       "https://youtu.be/wyyIjrWE0LI?si=v0oyqY4BoXyrsCTD",
       "https://youtu.be/vMIt-LBT5zg?si=B2oxIU53gUCO0c5H",
     ],
+    stepsheetLink:"https://www.get-in-line.de/dances/Rose-A-Lee_-_Klitgaard.htm",
     id: "163",
   },
   {
@@ -2168,6 +2178,7 @@ export const dances: Dance[] = [
       "https://youtu.be/e4Bvwjo-OMk?si=1lvl3gPSl4JGVKdB",
       "https://youtu.be/Qidt26HkhWM?si=icrkAw6cwtp1VUuD",
     ],
+    stepsheetLink:"https://www.get-in-line.de/dances/Rose%20Garden_-_Thompson.htm",
     id: "164",
   },
   {
@@ -2179,6 +2190,7 @@ export const dances: Dance[] = [
       "https://youtu.be/7Zmd9IKvXmU?si=a-r_RZYbhjvxUt8e",
       "https://youtu.be/TkHIw4hl_kc?si=Jc6zQdho_eaEzFlx",
     ],
+    stepsheetLink:"https://www.get-in-line.de/dances/Sam%27s%20Ghost%20Town_-_Gueldenfuss.htm",
     id: "165",
   },
   {
@@ -2194,6 +2206,7 @@ export const dances: Dance[] = [
       "My next broken heart - Brooks & Dunn",
     ],
     videoLink: ["https://youtu.be/_Y1lMkcwV3E?si=x6PDZBE_epaaPZPA"],
+    stepsheetLink:"http://www.lucky-train-line-dancers.de/Taenze/Kreis-%20und%20Paartaenze/Shadow.pdf",
     id: "166",
   },
   {
@@ -2202,6 +2215,7 @@ export const dances: Dance[] = [
     level: "Beginner",
     songs: ["Hitmix - Shakin' Stevens"],
     videoLink: ["https://youtu.be/Mry9Xg60Q1o?si=RFGutWWVff8bA0V3"],
+    stepsheetLink:"https://www.get-in-line.de/dances/Shakin_Mix_-_Baalen.htm",
     id: "167",
   },
   {
@@ -2210,6 +2224,7 @@ export const dances: Dance[] = [
     level: "Improver",
     songs: ["Sheltered - The Castellows"],
     videoLink: ["https://youtu.be/k0_uVE6Rf8o?si=YziypFG1FSy8hAPU"],
+    stepsheetLink:"https://www.get-in-line.de/dances/Sheltered_-_Gueldenfuss-Dorn.htm",
     id: "168",
   },
   {
@@ -2218,10 +2233,11 @@ export const dances: Dance[] = [
     level: "Improver",
     songs: ["Silverado Bench Seat - Granger Smith"],
     videoLink: ["https://youtu.be/tnvOHpVslB4?si=4H8_6NVl6lDaQkhi"],
+    stepsheetLink:"https://www.get-in-line.de/dances/Silverado%20Cowboy_-_Gueldenfuss.htm",
     id: "169",
   },
   {
-    name: "Silvercoins",
+    name: "Silver Coins",
     isPairDance: false,
     level: "Improver",
     songs: [
@@ -2229,6 +2245,7 @@ export const dances: Dance[] = [
       "Christmas in the country - Thomas Rhett",
     ],
     videoLink: ["https://youtu.be/L4QwspE2eKc?si=KnjRi8NDIwCDQG-8"],
+    stepsheetLink:"https://www.get-in-line.de/dances/Silver%20Coins_-_Jacobson.htm",
     id: "170",
   },
   {
@@ -2240,6 +2257,7 @@ export const dances: Dance[] = [
       "https://youtu.be/yq-mrsw3fPA?si=fN818NIVazM77ea2",
       "https://youtu.be/cvXsz1ZNRt4?si=nGtKX4cJiHJ1JNVO",
     ],
+    stepsheetLink:"https://www.get-in-line.de/dances/Silver%20Lining_-_Gallagher.htm",
     id: "171",
   },
   {
