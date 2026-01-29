@@ -130,6 +130,17 @@ export default function DancesPage() {
                 <ul className="space-y-2 text-sm">
                   <li>
                     <a
+                      href="https://get-in-line.de/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="inline-flex items-center gap-1 text-[#b45309] hover:underline font-medium"
+                    >
+                      Get-in-Line
+                      <ExternalLink className="h-3 w-3" />
+                    </a> - unsere bevorzugte Stepsheet-Seite
+                  </li>
+                  <li>
+                    <a
                       href="https://www.copperknob.co.uk/"
                       target="_blank"
                       rel="noopener noreferrer"

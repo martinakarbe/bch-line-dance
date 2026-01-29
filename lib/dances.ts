@@ -38,6 +38,8 @@ export const dances: Dance[] = [
     ],
     stepsheetLink: 
       "https://nolimit-linedancer.at/wp-content/uploads/2019/02/16-Step.pdf",
+      counts: 24,
+      walls: 0,
     id: "1",
   },
   {
@@ -54,6 +56,8 @@ export const dances: Dance[] = [
     ],
     stepsheetLink: 
       "https://www.dancer-in-line.de/docs/taenze/1976_OBrien.pdf",
+      counts: 32,
+      walls: 2,
     id: "2",
   },
   {
@@ -69,6 +73,9 @@ export const dances: Dance[] = [
     ],
     stepsheetLink: 
       "https://www.get-in-line.de/dances/A%20Bar%20Song_-_B%20Murphy.htm",
+     counts: 32,
+     walls: 4,
+
     id: "3",
   },
   {
@@ -2702,6 +2709,7 @@ export const dances: Dance[] = [
       "https://youtu.be/jKGkZ-TFOKQ?si=_6YrL-odZdqibyUp",
       "https://youtu.be/vvKVFz6-dO8?si=3mJc0xWbh6bR83VN",
     ],
+    stepsheetLink: "https://www.get-in-line.de/dances/Waltz_Across_Texas_-_Nielson-Nielson.htm",
     id: "216",
   },
   {
