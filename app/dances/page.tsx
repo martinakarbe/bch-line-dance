@@ -50,7 +50,7 @@ export default function DancesPage() {
                     Neu beim Line Dance?
                   </p>
                   <p className="text-sm text-[#78350f]">
-                    Starte mit den Beginner-Tänzen und schau dir unsere
+                    Starte mit den <a href="/resources">Grundschritten</a> und nebenher <br />mit den Beginner-Tänzen (nutze die Filter neben/unter der Suchleiste) <br />und schau dir unsere
                     YouTube-Tutorials an!
                   </p>
                 </div>
