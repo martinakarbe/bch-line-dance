@@ -33,8 +33,8 @@ export const dances: Dance[] = [
       "Fishin in the dark - Nitty Gritty Dirt Band",
       "Love Like This - Gamblers",
       "Down On The Farm - Tim Mc Craw",
-      "Back To Tourmakeady by Nathan Carter",
-      "Yankee Doodle by Boxcar Willie",
+      "Back To Tourmakeady - Nathan Carter",
+      "Yankee Doodle - Boxcar Willie",
     ],
     choreo: "unbekannt",
     videoLink: [
@@ -244,7 +244,7 @@ export const dances: Dance[] = [
       "I Love You Arizona - Rex Allen Jr. : (Arizona State Song)",
       "Alt music : almost any slow to medium tempo waltz",
     ],
-    choreo: "Mark Magdanz & Rebecca Magdanz",
+    choreo: "Mark & Rebecca Magdanz",
     videoLink: ["https://www.youtube.com/watch?v=hqV8N_b1B3o"],
     stepsheetLink:"https://www.copperknob.co.uk/stepsheets/83808/arizona-waltz",
     counts: 36,
@@ -258,11 +258,14 @@ export const dances: Dance[] = [
     songs: [
       "Ashes Of Love - Kentucky Headhunters"
     ],
+    choreo: "Gary Lafferty",
     videoLink: [
       "https://youtu.be/_GQMeYHweso?si=bmq_4-JF1ULaGfMc"
     ],
     stepsheetLink: 
       "https://www.get-in-line.de/dances/Ashes_Of_Love_-_Lafferty.htm",
+      counts: 64,
+      walls: 2,
     id: "13",
   },
   {
@@ -379,14 +382,18 @@ export const dances: Dance[] = [
  /* {
     name: "Billy's Dance",
     isPairDance: true,
-    level: "Improver",Olsen Brothers"
+    level: "Improver",
     ],
     videoLink: [
       "https://youtu.be/muR_htbpIyY?si=VEmPngQM11wJi__U",
       "https://youtu.be/3wG-iaFVrE8?si=I8v-sGj1X7wB3san",
     ],
     songs: [
-      "San Francisco - 
+      "San Francisco - The Olsen Brothers"
+      ],
+choreo: "Pierre Mercier",
+      stepsheetLink:"https://www.countrybears-linedancer.com/taenze/billys-dance/",
+      counts: 48,
     id: "22",
   },*/
   {
@@ -426,7 +433,7 @@ export const dances: Dance[] = [
     isPairDance: true,
     level: "NA",
     songs: [
-      "Why Do I Feel Like Running by Montgomery G entry"
+      "Why Do I Feel Like Running - Montgomery G entry"
     ],
     videoLink: [
       "https://youtu.be/yCL6WmKlluU?si=MtaL6YlpW333Izpf",
@@ -810,13 +817,13 @@ export const dances: Dance[] = [
     isPairDance: true,
     level: "Beginner",
     songs: [
-      "A Hot Dog & A Daiquiri by Bill Crews",
-      "Gone Country by Alan Jackson",
-      "Tequila Sunrise by Alan Jackson",
-      "Dancin' Cowboys by The Bellamy Brother",
-      "Neon Moon by Brooks & Dunn",
-      "Margaritaville by Jimmy Buffett",
-      "Segler aus Papier by Fair Play",
+      "A Hot Dog & A Daiquiri - Bill Crews",
+      "Gone Country - Alan Jackson",
+      "Tequila Sunrise - Alan Jackson",
+      "Dancin' Cowboys - The Bellamy Brothers",
+      "Neon Moon - Brooks & Dunn",
+      "Margaritaville - Jimmy Buffett",
+      "Segler aus Papier - Fair Play",
     ],
     videoLink: [
       "https://youtu.be/yIqieY2QS3Y?si=p17tFrosnsal452f",
@@ -862,7 +869,7 @@ export const dances: Dance[] = [
     isPairDance: false,
     level: "Beginner",
     songs: [
-      "Crossfire by DJ Ötzi & The Bellamy Brothers",   
+      "Crossfire - DJ Ötzi & The Bellamy Brothers",   
     ],
     videoLink: [
       "https://youtu.be/Gz7r0dE90_8?si=x1T6Gpiz1Ewp9w7X"
@@ -1101,11 +1108,14 @@ export const dances: Dance[] = [
       "All My Ex's Live In Texas - George Strait",
       "Bringing back the sunshine - Blake Shelton",
     ],
+    choreo: "Max Perry",  
     videoLink: [
       "https://youtu.be/GhXyFevB8dA?si=7NgjKo9gZi3jQK3U",
       "https://youtu.be/llLR3tOVkNU?si=WI6L6geSjQgejUoY",
     ],
     stepsheetLink:"https://www.get-in-line.de/dances/Eatin%27_Right_And_Drinkin%27_Bad_-_Perry.htm",
+    counts: 32,
+    walls: 2,
     id: "73",
   },
   {
@@ -1692,7 +1702,7 @@ export const dances: Dance[] = [
     level: "Improver",
     songs: [
       "All Summer Long - Kid Rock",
-      "Walking the country von Keith Urban",
+      "Walking the country - Keith Urban",
       "Sweet home Alabama - Lynyrd Skynyrd",
     ],
     videoLink: ["https://youtu.be/lR4aupVGcHo?si=Luh7G3nRdMQuiUQ8"],
@@ -1705,7 +1715,7 @@ export const dances: Dance[] = [
     level: "Intermediate",
     songs: [
       "My Kind Of Music - Ray Scott",
-      "Santa Claus is comin' to town by Mariah Carey",
+      "Santa Claus is comin' to town - Mariah Carey",
     ],
     videoLink: ["https://youtu.be/h-AvG4ilHCA?si=mZQ9JBuRlCeEVuv6"],
     stepsheetLink:"https://www.get-in-line.de/dances/Kiss%20My%20Country%20Ass_-_Moggia.htm",
@@ -1809,7 +1819,7 @@ export const dances: Dance[] = [
     level: "Beginner",
     songs: [
       "Like She's Not Yours - The Bellamy Brothers",
-      "Things change by Dwight Yaokam",
+      "Things change - Dwight Yaokam",
     ],
     videoLink: [
       "https://youtu.be/ZAJwIXXhKxw?si=NSY2HeN4JJhq4HF2",
@@ -2557,7 +2567,7 @@ export const dances: Dance[] = [
     name: "The Last Living Cowboy",
     isPairDance: false,
     level: "Improver",
-    songs: ["The Last Living Cowboy by Toby Keith"],
+    songs: ["The Last Living Cowboy - Toby Keith"],
     videoLink: [
       "https://youtu.be/G_ElxFbRYOQ?si=pINAQJ8mJYTOBvYB",
       "https://youtu.be/tfnm2mJAQtQ?si=VDJIPRnqZLHAwfTT",
