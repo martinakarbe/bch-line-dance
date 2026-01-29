@@ -208,7 +208,8 @@ export const dances: Dance[] = [
       "I Love You Arizona - Rex Allen Jr. : (Arizona State Song)",
       "Alt music : almost any slow to medium tempo waltz",
     ],
-    stepsheetLink:"https://www.copperknob.co.uk/downloadsheetpdf?StepsheetID=83808",
+    videoLink: ["https://www.youtube.com/watch?v=hqV8N_b1B3o"],
+    stepsheetLink:"https://www.copperknob.co.uk/stepsheets/83808/arizona-waltz",
     id: "12",
   },
   {
