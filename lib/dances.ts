@@ -5,7 +5,7 @@ export type Level =
   | "Advanced"
   | "NA";
 
-export interface Dance {
+ export interface Dance {
   id: string;
   name: string;
   aliases?: string[];
@@ -14,6 +14,9 @@ export interface Dance {
   songs: string[];
   videoLink?: string[];
   stepsheetLink?: string;
+  choreo?: string;
+  counts?: number;
+  walls?: 1 | 2 | 4;
 }
 
 export const dances: Dance[] = [
@@ -33,13 +36,13 @@ export const dances: Dance[] = [
       "Back To Tourmakeady by Nathan Carter",
       "Yankee Doodle by Boxcar Willie",
     ],
+    choreo: "unbekannt",
     videoLink: [
       "https://youtu.be/e5lxueUtcPQ?si=IZ3dLiOmgaMPZJXY"
     ],
     stepsheetLink: 
       "https://nolimit-linedancer.at/wp-content/uploads/2019/02/16-Step.pdf",
       counts: 24,
-      walls: 0,
     id: "1",
   },
   {
@@ -51,6 +54,7 @@ export const dances: Dance[] = [
       "Billie Jean - Michael Jackson - Non Country",
       "It's 5 o'clock somethere - Alan Jackson",
     ],
+    choreo: "Mike O'Brien",
     videoLink: [
       "https://youtu.be/JHTACL4kY74?si=OCOAAPLNaKk2uAbP"
     ],
@@ -68,6 +72,7 @@ export const dances: Dance[] = [
       "A Bar Song (Tipsy) - Shaboozey",
       "My only wish - Britney Spears (Restart i.d. 12. Wand nach 8 counts, tag n.d 14.Wd.)",
     ],
+    choreo: "Ben Murphy",
     videoLink: [
       "https://youtu.be/UTOI9jPY8uo?si=cYDp-Jvgm3-4-cmJ"
     ],
@@ -86,12 +91,15 @@ export const dances: Dance[] = [
       "High on a Country Song - Sam Riggs", 
       "Sharp dressed Man"
     ],
+    choreo: "Norman Gifford",  
     videoLink: [
       "https://youtu.be/BsWeUZ8BJKA?si=lJ8g-fzcTpu4e4Ns",
       "https://youtu.be/0k6bwPk9XZE?si=ClE9vZXpZEYAtwZh",
     ],
     stepsheetLink: 
       "https://www.get-in-line.de/dances/A%20Country%20High_-_Gifford.htm",
+    counts: 64, 
+    walls: 2, 
     id: "4",
   },
   {
@@ -103,8 +111,11 @@ export const dances: Dance[] = [
       "Setting The Woods On Fire - The Tractors",
       "Ashes of Love - Kentucky Headhunters",
     ],
+    choreo: "Diane Horner",
     videoLink: ["https://youtu.be/uSTJB84g8us?si=QnaoQIcD3LfvfUFo"],
     stepsheetLink: "https://www.get-in-line.de/dances/After_Five_Stomp_-_Horner.htm",
+    counts: 32,
+    walls: 4,
     id: "5",
   },
   {
@@ -112,12 +123,15 @@ export const dances: Dance[] = [
     isPairDance: false,
     level: "Beginner",
     songs: ["Calm After The Storm - The Common Linnets"],
+    choreo: "Tina Argyle",
     videoLink: [
       "https://youtu.be/aPugMGMLTvQ?si=J00p27yoXUHmLew0",
       "https://youtu.be/WQW8Iqhn96E?si=EDRQqTGuTvoolMLb",
       "https://youtu.be/MHVIrOopSBo?si=F1XqpNCA6RctaqA6",
     ],
     stepsheetLink:"https://www.get-in-line.de/dances/After%20The%20Storm_-_Argyle.htm",
+    counts: 32,
+    walls: 2,
     id: "34",
   },
   {
@@ -128,11 +142,14 @@ export const dances: Dance[] = [
       "Levantando Las Manos - El Simbolo,",
       "Te Quiero Mas - Formula Albierta",      
     ],
+    choreo: "Rita Masu",
     videoLink: [
       "https://youtu.be/YHbADO5GbtU?si=lJFGFE4sWf9ztq7z"
     ],
     stepsheetLink: 
       "https://www.get-in-line.de/dances/Ah_Si!_-_Masur.htm",
+      counts: 32,
+      walls: 4,
     id: "6",
   },
   {
@@ -145,12 +162,15 @@ export const dances: Dance[] = [
       "You never can tell - Bruce Springsteen",
       "Run Rudolph run - Bryan Adams",
     ],
+    choreo: "The Berkshire County Line Dancers & Todd Lescarbeau",
     videoLink: [
       "https://youtu.be/d-c3wLpDwWQ?si=IC-TJN0ks4C1rFWA",
       "https://youtu.be/nj1rkseEmDg?si=dwEpH-xRogT7upe3",
     ],
     stepsheetLink: 
       "https://www.get-in-line.de/dances/Alligator%20Rock_-_Lescarbeau.htm",
+      counts: 48,
+      walls: 4,
     id: "7",
   },
   {
@@ -160,11 +180,14 @@ export const dances: Dance[] = [
     songs: [
       "All Shook Up - Billy Joel,", "All Shook Up - Elvis Presley"
     ],
+    choreo: "Naomi Fleetwood-Pyle",
     videoLink: [
       "https://youtu.be/yCXqW9xXgnw?si=wE-sTyBTmwayn6YP"
     ],
     stepsheetLink: 
       "https://www.get-in-line.de/dances/All_Shook_Up_-_Fleetwood_Pyle.htm",
+    counts: 80,  
+    walls: 1,
     id: "8",
   },
   /*{
@@ -172,13 +195,13 @@ export const dances: Dance[] = [
     isPairDance: false,
     level: "Beginner",
     songs: ["American Kids - Kenny Chesney"],
-    aliases: ["lernen", "gesehen am 20.12.25 in Billingsbach"],
-    videoLink: [
+    choreo: "Randy Pelletier",
       "https://youtu.be/lnJL8QYWqNE?si=goPAZ_i6-sgR9aBl"
     ],
     stepsheetLink: 
-      "https://www.get-in-line.de/dances/American%20Kids_-_Pelletier.htm"
-    ,
+      "https://www.get-in-line.de/dances/American%20Kids_-_Pelletier.htm",
+      counts: 32,
+      walls: 4,
     id: "9",
   },*/
   {
@@ -186,11 +209,14 @@ export const dances: Dance[] = [
     isPairDance: false,
     level: "Beginner",
     songs: ["Irish Pub Song - The High Kings"],
+    choreo: "Henning Jørgensen",
     videoLink: [
       "https://youtu.be/o317_KwyjU4?si=F56ni9_L4b1UZWBV"
     ],
     stepsheetLink: 
       "https://www.get-in-line.de/dances/Irish%20Pub%20Song%20EZ_-_Joergensen.htm",
+      counts: 32,
+      walls: 4,
     id: "10",
   },
   {
@@ -200,11 +226,14 @@ export const dances: Dance[] = [
     songs: [
       "Another Song I Had To Write - Jacob Lyda"
     ],
+    choreo: "Kate Sala & Robbie McGowan Hickie",
     videoLink: [
       "https://youtu.be/-JKrHODcq5o?si=FR0smfi-5QEEhVv3"
     ],
     stepsheetLink: 
       "https://www.get-in-line.de/dances/Another_Song_-_Sala-McGowan_Hickie.htm",
+    counts: 32,
+    walls: 4,
     id: "11",
   },
   {
@@ -215,8 +244,11 @@ export const dances: Dance[] = [
       "I Love You Arizona - Rex Allen Jr. : (Arizona State Song)",
       "Alt music : almost any slow to medium tempo waltz",
     ],
+    choreo: "Mark Magdanz & Rebecca Magdanz",
     videoLink: ["https://www.youtube.com/watch?v=hqV8N_b1B3o"],
     stepsheetLink:"https://www.copperknob.co.uk/stepsheets/83808/arizona-waltz",
+    counts: 36,
+    walls: 1,
     id: "12",
   },
   {
