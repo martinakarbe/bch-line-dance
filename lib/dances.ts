@@ -2953,6 +2953,7 @@ export const dances: Dance[] = [
       "https://youtu.be/-SJHLqXDPeA?si=TwuVuQEVAq8vrmZx",
       "https://youtu.be/sauR5fzAsyQ?si=skjwEvV-eAML-bkz",
     ],
+    stepsheetLink: "https://www.tuses.de/fileadmin/user_upload/Fotos/sparten/Line_Dance/Stepsheets/Wanderer.pdf",
     counts: 48,
     walls: 1,
     id: "217",
