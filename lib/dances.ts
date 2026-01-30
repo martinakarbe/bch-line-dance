@@ -277,7 +277,7 @@ export const dances: Dance[] = [
     ],
     choreo: "Dasha",
     videoLink: [
-      "https://youtu.be/MuaAVgjJcjk?si=72otnsKLcu1xOAMC"
+      "https://youtu.be/MuaAVgjJcjk?si=72otnsKLcub1xOAMC"
     ],
     stepsheetLink: 
       "https://www.get-in-line.de/dances/Austin%20(mod%204w)_-_Dasha.htm",
@@ -2987,6 +2987,19 @@ export const dances: Dance[] = [
     id: "221",
   },
   {
+    name: "Whiskey bridges",
+    isPairDance: false,
+    level: "beginner",
+    songs: ["Whiskey Under the Bridge - Brooks & Dunn"],
+    videoLink: [
+      "https://youtu.be/qVbPb84pP1U?si=Hz0SNJ9WgOr5fWgQ",
+    ],
+    stepsheetLink: "https://www.get-in-line.de/dances/Whiskey%20Bridges_-_Glover.htm",
+    counts: 32,
+    walls: 4,
+    id: "222",
+  },
+  {
     name: "White Rose",
     isPairDance: false,
     level: "Improver",
@@ -3001,7 +3014,7 @@ export const dances: Dance[] = [
       "https://youtu.be/9q9L40ZiNrc?si=wLLCR4wkuVmdLESa",
     ],
     stepsheetLink: "https://www.get-in-line.de/dances/White_Rose_-_Teather.htm",
-    id: "222",
+    id: "223",
   },
   {
     name: "Wishful Thinking",
@@ -3024,23 +3037,35 @@ export const dances: Dance[] = [
       "Queen of hearts - Juice Newton (sehr langsam)",
       "Another Rock'n Roll Christmas - Garry Glitter",
     ],
+    choreo: "Jim O'Neill",
     videoLink: ["https://youtu.be/vNVZRpHOwSI?si=_Jt8QBMd6F5k42fO"],
-    id: "223",
+    stepsheetLink: "https://www.get-in-line.de/dances/Wishful_Thinking_-_O%27Neill.htm",
+    counts: 48,
+    walls: 2,
+    id: "224",
   },
   {
     name: "Wrong Direction",
     isPairDance: false,
     level: "Improver",
     songs: ["Wrong Direction - Ilse DeLange & Michael Schulte"],
+    choreo: "Gudrun Schneider",
     videoLink: ["https://youtu.be/_p3vBcM9rz4?si=GAyiy5EDE98BRa4n"],
-    id: "224",
+    stepsheetLink: "https://www.get-in-line.de/dances/Wrong%20Direction_-_Schneider.htm",
+    counts: 32,
+    walls: 4,
+    id: "225",
   },
   {
     name: "You're So Naughty - Kiss My Body",
     isPairDance: false,
     level: "Improver",
     songs: ["He Drinks Tequila - Sammy Kershaw & Lorrie Morgan"],
+    choreo: "Brian Holland",
     videoLink: ["https://youtu.be/J2bGzuPb2X0?si=pR_zY5YsyoAD2XHQ"],
-    id: "225",
+    stepsheetLink: "https://www.get-in-line.de/dances/You%27re_So_Naughty_-_Holland.htm",
+    counts: 32,
+    walls: 4,
+    id: "226",
   },
 ];
