@@ -2893,10 +2893,14 @@ export const dances: Dance[] = [
     isPairDance: false,
     level: "Improver",
     songs: ["Wagon Wheel - Nathan Carter"],
+    choreo: "Yvonne Anderson",
     videoLink: [
       "https://youtu.be/ExnB1nYoNho?si=5xIF6uoj7rScCudS",
       "https://youtu.be/qfNxUi040HU?si=Wms4En6fsHvpPbEM",
     ],
+    stepsheetLink: "https://www.get-in-line.de/dances/Wagon_Wheel_Rock_-_Anderson.htm",
+    counts: 64,
+    walls: 4,
     id: "214",
   },
   {
@@ -2904,10 +2908,14 @@ export const dances: Dance[] = [
     isPairDance: false,
     level: "Improver",
     songs: ["As She's Walking Away - The Zac Brown Band with Alan Jackson"],
+    choreo: "Rachael McEnaney",
     videoLink: [
       "https://youtu.be/AUcsqgTw2oI?si=M1KbTBZFwrFsIf9D",
       "https://youtu.be/bTRrjoF3JZA?si=jL5PWTETsf299sXt",
     ],
+    stepsheetLink: "https://www.get-in-line.de/dances/Walking_Away_-_McEnaney.htm",
+    counts: 32,
+    walls: 4,
     id: "215",
   },
   {
@@ -2918,11 +2926,14 @@ export const dances: Dance[] = [
       "Waltz Across Texas - Dean Brothers",
       "oder jeder andere langsame bis mittelschnelle Walzer",
     ],
+    choreo: "Lois & John Nielson",
     videoLink: [
       "https://youtu.be/jKGkZ-TFOKQ?si=_6YrL-odZdqibyUp",
       "https://youtu.be/vvKVFz6-dO8?si=3mJc0xWbh6bR83VN",
     ],
     stepsheetLink: "https://www.get-in-line.de/dances/Waltz_Across_Texas_-_Nielson-Nielson.htm",
+    counts: 48,
+    walls: 1,
     id: "216",
   },
   {
@@ -2937,10 +2948,13 @@ export const dances: Dance[] = [
       "The Wanderer -115 bpm - Dion and The Belmonts",
       "The Majestic -137 bpm - Dion and The Belmonts",
     ],
+    choreo: "June Wilson",
     videoLink: [
       "https://youtu.be/-SJHLqXDPeA?si=TwuVuQEVAq8vrmZx",
       "https://youtu.be/sauR5fzAsyQ?si=skjwEvV-eAML-bkz",
     ],
+    counts: 48,
+    walls: 1,
     id: "217",
   },
   {
@@ -2952,6 +2966,13 @@ export const dances: Dance[] = [
       "Shut Up And Kiss Me - Mary Chapin Carpenter",
       "Eugene You Genius - Bryan White",
     ],
+    choreo: "Sue Lipscomb",
+    videoLink: [
+      "https://youtu.be/0W9I8QoWQHs?si=7LGTLJduXQcAi68g",
+         ],
+    stepsheetLink: "https://www.get-in-line.de/dances/Watermelon_Crawl_-_Lipscomb.htm",
+    counts: 40,
+    walls: 4,
     id: "218",
   },
   {
@@ -2959,23 +2980,31 @@ export const dances: Dance[] = [
     isPairDance: false,
     level: "Improver",
     songs: ["Wave On Wave - Pat Green"],
+    choreo: "Alan G. Birchall",
     videoLink: [
       "https://youtu.be/Kg-DKMqs7QM?si=p4pdCjPh-K69V4DQ",
       "https://youtu.be/_zq6fwfHpIk?si=WpyCO5JxkPRZp8mp",
     ],
+    stepsheetLink: "https://www.get-in-line.de/dances/Wave_On_Wave_-_Birchall.htm",
+    counts: 32,
+    walls: 2, 
     id: "219",
   },
   {
     name: "Whiskey's Gone",
     isPairDance: false,
-    level: "NA",
+    level: "Improver",
     songs: [
       "Whiskey's Gone - The Zac Brown Band",
         ],
+    choreo: "Rob Fowler",
     videoLink: [
       "https://youtu.be/s7zRVLTUd_A?si=coD0z3lgM51VTktm",
       "https://youtu.be/8Ut3Ewz_d4k?si=MgwKyQuQOB_Tk487",
     ],
+    counts: 72,
+    walls: 4,
+     stepsheetLink: "https://www.get-in-line.de/dances/Whiskey%27s%20Gone_-_Fowler.htm",
     id: "220",
   },
   {
@@ -2983,7 +3012,11 @@ export const dances: Dance[] = [
     isPairDance: false,
     level: "Intermediate",
     songs: ["I Hate You When You're Drunk - Olly Murs"],
-    
+    choreo: "Heather Barton & Glynn Rodgers",
+    videoLink: ["https://youtu.be/yfWb9owbrUY?si=4tVm-0QU2_JjRkPB"],
+    stepsheetLink: "https://www.get-in-line.de/dances/When%20You%27re%20Drunk_-_Barton-Rodgers.htm",
+    counts: 48,
+    walls: 2,
     id: "221",
   },
   {
@@ -3008,12 +3041,15 @@ export const dances: Dance[] = [
       "Shut up and drive - Chely Wright",
       "What if - Daisy Town",
     ],
+    choreo: "Gaye Teather",
     videoLink: [
       "https://youtu.be/5-vlo2eAheQ?si=7p5XtoxvCSA8Udi0",
       "https://youtu.be/wfefuj_OeMw?si=lr2IxUCEUrNX1keI",
       "https://youtu.be/9q9L40ZiNrc?si=wLLCR4wkuVmdLESa",
     ],
     stepsheetLink: "https://www.get-in-line.de/dances/White_Rose_-_Teather.htm",
+    counts: 36,
+    walls: 4,
     id: "223",
   },
   {
