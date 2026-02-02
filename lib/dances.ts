@@ -16,7 +16,7 @@ export type Level =
   stepsheetLink?: string;
   choreo?: string;
   counts?: number;
-  walls?: 1 | 2 | 4;
+  walls?: 1 | 2 | 3 | 4;
 }
 
 export const dances: Dance[] = [
@@ -1293,9 +1293,11 @@ export const dances: Dance[] = [
     isPairDance: true,
     level: "Beginner",
     songs: ["Neon Moon - Brooks & Dunn", "Tequila Sunrise - Eagles"],
+    choreo: "Unbekannt",
     videoLink: ["https://youtu.be/vk7xvD1ezXM?si=HWCC9nMgA0RX_eKU"],
     stepsheetLink:"https://www.get-in-line.de/dances/El_Paso_-_Unbekannt.htm",
-    id: "74",
+    counts: 28,
+    id: "74",  
   },
   {
     name: "Electric Slide",
@@ -1308,12 +1310,15 @@ export const dances: Dance[] = [
       "Play something country - Brooks & Dunn",
       "Walk softly - Kentucky Headhunters",
     ],
+    choreo: "Ric Silver",
     videoLink: [
       "https://youtu.be/jHpyJa_h_TU?si=g4Uy3BLvt78-nAev",
       "https://youtube.com/shorts/dHUCuqgIX5I?si=ugVRJfAus9FolXYq",
       "https://youtu.be/IaAjJIkkNwg?si=u2io4xDTTwqjPS4N",
     ],
     stepsheetLink:"https://www.get-in-line.de/dances/Electric%20Slide_-_Silver.htm",
+    counts: 18,
+    walls: 4,
     id: "75",
   },
   {
@@ -1321,23 +1326,44 @@ export const dances: Dance[] = [
     isPairDance: false,
     level: "Beginner",
     songs: ["Less and Less - Josh Grider"],
+    choreo: "Pol F. Ryan",
     videoLink: [
       "https://youtu.be/ygbJc_gTB-8?si=S4ByK2oVF7sRcyAx",
       "https://youtu.be/-9PlgylskfU?si=ESo9xvR6FkupqVAv",
     ],
     stepsheetLink:"https://www.get-in-line.de/dances/Endless_-_Ryan.htm",
+    counts: 32,
+    walls: 4,
     id: "76",
+  },
+  {
+    name: "Everybody dance",
+    isPairDance: false,
+    level: "Beginner",
+    songs: ["Everybody Dance (Joe Mangione Edit Mix) - Sister Sledge"],
+    choreo: "Ben Murphy & Sascha Wolf",
+    videoLink: [
+      "https://youtu.be/pj6LIB-piFw?si=BYGFtiiX3NNEM0XA",
+      "https://youtu.be/QSP3GvNNsGc?si=F0Qx55doApX5b321",
+    ],
+    stepsheetLink:"https://www.get-in-line.de/dances/Everybody%20Dance_-_Murphy-S%20Wolf.htm",
+    counts: 32,
+    walls: 4,
+    id: "227",
   },
   {
     name: "Fisher's Hornpipe",
     isPairDance: false,
     level: "Improver",
     songs: ["Fisher's Hornpipe - David Schnaufer"],
+    choreo: "Val Reeves",
     videoLink: [
       "https://youtu.be/Fyha771R3fU?si=W9R13HgR8YbU4BBZ",
       "https://youtu.be/w52PuhJxkJo?si=lUz4nT2qkvtU2g1J",
     ],
     stepsheetLink:"https://www.get-in-line.de/dances/Fisher%27s%20Hornpipe_-_Reeves.htm",
+    counts: 32,
+    walls: 4,
     id: "77",
   },
   {
@@ -1349,11 +1375,14 @@ export const dances: Dance[] = [
       "I'm Holdin' On To Love (To Save My Life) - Shania Twain,",
       "Big Bang Boogie - The Judds",
     ],
+    choreo: "Flo Cook",
     videoLink: [
       "https://youtu.be/xcLC-X8ytxs?si=OZEft4_lYvOPG9g7",
       "https://youtu.be/YCBSKcXT2iE?si=SR0glkT2gT8t-Nuh",
     ],
     stepsheetLink:"https://www.get-in-line.de/dances/Flobie_Slide_-_Cook.htm", 
+    counts: 32,
+    walls: 2,
     id: "78",
   },
   {
@@ -1361,12 +1390,15 @@ export const dances: Dance[] = [
     isPairDance: false,
     level: "Intermediate",
     songs: ["Flute - Barcode Brothers"],
+    choreo: "Maggie Gallagher",
     videoLink: [
       "https://youtu.be/r8VWQxr118c?si=99_7hoi_VufJh1on",
       "https://youtu.be/vAvepBJkLDA?si=9BvM43TNOq_ELvce",
       "https://youtu.be/IpCGvojs1XA?si=DwXZsxMctC5E0bCW",
     ],
     stepsheetLink:"https://www.get-in-line.de/dances/The%20Flute_-_Gallagher.htm",
+    counts: 64,
+    walls: 3,
     id: "79",
   },
   {
@@ -1376,10 +1408,13 @@ export const dances: Dance[] = [
     songs: [
       "Footloose - Kenny Loggins,", 
       "Footloose - Blake Shelton"],
+    choreo: "Levi J. Hubbard & Starla Rodgers",  
     videoLink: [
       "https://youtu.be/fvbmQU9Y1Sg?si=LONnvS2xE0EXkX76"
     ],
     stepsheetLink:"https://www.get-in-line.de/dances/Footloose_-_Hubbard-Rodgers.htm",
+    counts: 32,
+    walls: 4,
     id: "80",
   },
   {
@@ -1387,10 +1422,13 @@ export const dances: Dance[] = [
     isPairDance: false,
     level: "Improver",
     songs: ["Forever To Me - Cole Swindell"],
+    choreo: "Bruno Morel",
     videoLink: [
       "https://youtu.be/Bxulh60bUtQ?si=SYhnub5Y8RSUVShi",
     ],
     stepsheetLink:"https://www.get-in-line.de/dances/Forever%20to%20Me_-_Morel.htm",
+    counts: 32,
+    walls: 4,
     id: "81",
   },
   {
@@ -1398,10 +1436,13 @@ export const dances: Dance[] = [
     isPairDance: false,
     level: "Improver",
     songs: ["Guitars, Cadillacs - Dwight Yoakam"],
+    choreo: "Unbekannt",
     videoLink: [
       "https://youtu.be/gTncpCChro4?si=mK1giYt6QVOGiSkj"
     ],
-    stepsheetLink:"https://www.get-in-line.de/dances/Four%20Corner_-_Unbekannt.htm",  
+    stepsheetLink:"https://www.get-in-line.de/dances/Four%20Corner_-_Unbekannt.htm",    
+    counts: 32,
+    walls: 4,
     id: "82",
   },
   {
@@ -1409,11 +1450,14 @@ export const dances: Dance[] = [
     isPairDance: false,
     level: "Improver",
     songs: ["Front Door Famous - Luke Combs"],
+    choreo: "Kate Sala, Daniel Trepat & José Miguel Belloque Vane",
     videoLink: [
       "https://youtu.be/AflnXnf3hAI?si=cEOjHfZbNMDfhumI",
       "https://youtu.be/gUMadvY8OY8?si=pqaoB-Oy5Pw7imdB",
     ],
     stepsheetLink:"https://www.get-in-line.de/dances/Front%20Door%20Famous_-_Sala-Trepat-Belloque.htm",
+    counts: 32,
+    walls: 4,
     id: "83",
   },
   {
@@ -1421,11 +1465,14 @@ export const dances: Dance[] = [
     isPairDance: false,
     level: "Improver",
     songs: ["Galway Girl - Sharon Shannon & Steve Earle"],
+    choreo: "Chris Hodgson",
     videoLink: [
       "https://youtu.be/8ZD2hR01YM4?si=ENw7c8D3JYQeiaVQ",
       "https://youtu.be/3wrZOqhvqnA?si=3qUxTty3uSruDf1R",
     ],
     stepsheetLink:"https://www.get-in-line.de/dances/Galway_Girls_-_Hodgson.htm",
+    counts: 31,
+    walls: 2,
     id: "84",
   },
   /*{
@@ -1435,26 +1482,33 @@ export const dances: Dance[] = [
     songs: [
       "Ghost Town - Sam Outlaw"
     ],
+    choreo: "Arnaud Marraffa",
     videoLink: [
       "https://youtu.be/1b0lNaaOH0I?si=FRGayRi3tRdkhWvq",
       "https://youtu.be/7q6s1WILdE8?si=s5Wm9SL6F-e3d6mK",
     ],
+    stepsheetLink:"https://www.copperknob.co.uk/de/stepsheets/142723/ghost-town-de",
+    counts: 32,
+    walls: 4,
     id: "85",
   },*/
   {
     name: "Ghost Train",
     isPairDance: false,
-    level: "NA",
+    level: "Beginner",
     songs: [
       "Ghost Train - Australia's Tornados",
       "Baby likes to rock it - The Tractors",
       "Zorbas Dance (Sirtaki)",
     ],
+    choreo: "Kathy Hunyadi",
     videoLink: [
       "https://youtu.be/7ZW63hu6hhY?si=0eD9l8c3XOqR76UM",
       "https://youtu.be/9WqcikLfIH0?si=d0br8AROaGJ4ulh2",
     ],
     stepsheetLink:"https://www.get-in-line.de/dances/Ghost_Train_-_Hunyadi.htm",
+    counts: 32,   
+    walls: 4,
     id: "86",
   },
   {
@@ -1462,23 +1516,29 @@ export const dances: Dance[] = [
     isPairDance: false,
     level: "Beginner",
     songs: ["Cry to Me - Kilotile"],
+    choreo: "Malene Jakobsen",
     videoLink: [
       "https://youtu.be/rbU9jPFCTi4?si=DMKd9h6LaGCop11t",
       "https://youtu.be/3qj2Mvxu1F4?si=hCoqGs3p7yFbl85u&t=210",
     ],
     stepsheetLink:"https://www.get-in-line.de/dances/Glass%20of%20Wine_-_Jakobsen.htm",
+    counts: 32,   
+    walls: 4,
     id: "87",
   },
   {
     name: "God Blessed Texas",
     isPairDance: false,
-    level: "NA",
+    level: "Beginner",
     songs: ["God Blessed Texas - Little Texas"],
+    choreo: "Shirley K. Batson",
     videoLink: [
       "https://youtu.be/CIWc69F6SA8?si=xhQ6UlCI9nF_rwl5",
       "https://youtu.be/ZwYR6EQFP98?si=x6uRpsLoqx1S0Up-",
     ],
     stepsheetLink:"https://www.get-in-line.de/dances/God_Blessed_Texas_-_Batson.htm",
+    counts: 32, 
+    walls: 2,
     id: "88",
   },
   {
@@ -1486,10 +1546,13 @@ export const dances: Dance[] = [
     isPairDance: false,
     level: "Beginner",
     songs: ["Golden Ring (ft. Dierks Bentley) - Terri Clark"],
+    choreo: "Séverine Fillion",
     videoLink: [
       "https://www.youtube.com/watch?v=CXVSsyPVVEs"
     ],
     stepsheetLink:"https://www.get-in-line.de/dances/Golden%20Wedding%20Ring_-_Fillion.htm",
+    counts: 32,
+    walls: 4,
     id: "89",
   },
   {
@@ -1497,11 +1560,14 @@ export const dances: Dance[] = [
     isPairDance: false,
     level: "Improver",
     songs: ["Gone West - Gone West"],
+    choreo: "Gary O'Reilly & Maggie Gallagher",
     videoLink: [
       "https://youtu.be/Wbl2hH1ia-8?si=892DojiN2DJK78rv",
       "https://youtu.be/hzmsrR2PV18?si=uFyd5xanHWg6MB9J",
     ],
     stepsheetLink:"https://www.get-in-line.de/dances/Gone%20West_-_O%27Reilly-Gallagher.htm",
+    counts: 32,
+    walls: 4,
     id: "90",
   },
   {
@@ -1509,10 +1575,13 @@ export const dances: Dance[] = [
     isPairDance: false,
     level: "Beginner",
     songs: ["A Good Day To Run - Darryl Worley"],
+    choreo: "Benny Ray",
     videoLink: [
       "https://youtu.be/yR1ILtWmYLI?si=gS-Gw2bnpEpt13Ef"
     ],
     stepsheetLink:"https://www.get-in-line.de/dances/Good_Day_To_Run_-_Ray.htm",
+    counts: 32, 
+    walls: 4,
     id: "91",
   },
   {
@@ -1520,37 +1589,47 @@ export const dances: Dance[] = [
     isPairDance: false,
     level: "Beginner",
     songs: ["Good Time - Alan Jackson"],
+    choreo: "Jenny Cain",
     videoLink: [
       "https://youtu.be/vTY5hwqxRLs?si=c2wOM8xQEIR1ePs_"
     ],
     stepsheetLink:"https://www.get-in-line.de/dances/Good_Time_-_Cain.htm",
+    counts: 32, 
+    walls: 4,
     id: "92",
   },
   {
     name: "Grundy Gallop",
     isPairDance: true,
-    level: "NA",
+    level: "Beginner",
     songs: [
       "Sold - John M. Montgomery [120 bpm]",
       "To Be Loved By You - Wynonna [96 bpm]",
       "Dust On The Bottle - David Lee Murphy [102 bpm]",
       "No No Never - Texas Lightning [ bpm]"
     ],
+    choreo: "Jenny Rockett",
     videoLink: [
       "https://youtu.be/dZKv36dj5zk?si=k9CHyacbDmkQfvm1"
     ],
     stepsheetLink:"https://www.lucky-country.de/lucky/userfiles/downloads/sheetsline/G/Grundy%20Gallop%20-32-2%20by%20Jenny%20Rockett%20DE.pdf",
+    counts: 32,
+    walls: 2,
     id: "93",
   },
   {
     name: "Gypsy Queen",
     isPairDance: false,
     level: "Intermediate",
-    songs: ["Gypsy Queen - Chris Norman", "Wake up little Suzie"],
+    songs: ["Gypsy Queen - Chris Norman", 
+      "Wake up little Suzie"],
+    choreo: "Hazel Pace",
     videoLink: [
       "https://youtu.be/FZfLxANTUBM?si=VJjlekFOdIv5yXLO"
     ],
     stepsheetLink:"https://www.get-in-line.de/dances/Gypsy%20Queen_-_Pace.htm",
+    counts: 32,
+    walls: 4,
     id: "94",
   },
   /*{
@@ -1562,6 +1641,13 @@ export const dances: Dance[] = [
       "'Til my last day - Justin Moore",
       "Country - Mo Pitney",
     ],  
+    choreo: "Rob Fowler",
+    videoLink: [
+      "https://youtu.be/5PvgsYuN7x0?si=ziKKwM0u__uN34_d", 
+    ],
+    stepsheetLink:"https://www.get-in-line.de/dances/Half%20a%20Cha_-_Fowler.htm",
+    counts: 32,
+    walls: 4,
     id: "95",
  },*/
   {
@@ -1569,11 +1655,14 @@ export const dances: Dance[] = [
     isPairDance: false,
     level: "Intermediate",
     songs: ["Soggy Bottom Summer - Dean Brody"],
+    choreo: "Mª Angeles Mateu Simon",
     videoLink: [
       "https://youtu.be/i9zhQUTu4Pg?si=aPhNx5F0ycp2SOCv",
       "https://youtu.be/iZmox7066lM?si=0TyQy1DFWVfPX6N5",
     ],
     stepsheetLink:"https://www.get-in-line.de/dances/Happy,%20Happy,%20Happy_-_Mateu.htm",
+    counts: 32,
+    walls: 2,
     id: "96",
   },
   {
@@ -1581,8 +1670,11 @@ export const dances: Dance[] = [
     isPairDance: false,
     level: "Beginner",
     songs: ["Healing Hands - Drop Box Cowboys"],
+    choreo: "Tina Argyle",
     videoLink: ["https://youtu.be/1cC3AyeHl5I?si=TCWRHtXV83MqCAiV"],
     stepsheetLink:"https://www.get-in-line.de/dances/Healing%20Hands_-_Argyle.htm",
+    counts: 64,
+    walls: 4,
     id: "97",
   },
   {
@@ -1596,8 +1688,11 @@ export const dances: Dance[] = [
       "Hello Mary Lou - Creedence Clearwater Revival",
       "I believe in Santa Claus - Dolly Parton",
     ],
+    choreo: "Adrian Churm",
     videoLink: ["https://youtu.be/nFCA9iVW8aM?si=CvM9ONf1ZaevhX8o"],
     stepsheetLink:"https://www.get-in-line.de/dances/Hearts_And_Flowers_-_Churm.htm",
+    counts: 32,
+    walls: 4,
     id: "98",
   },
   {
@@ -1605,8 +1700,11 @@ export const dances: Dance[] = [
     isPairDance: false,
     level: "Improver",
     songs: ["Cowboy Up - Kaylee Bell"],
+    choreo: "Gary O'Reilly",
     videoLink: ["https://youtu.be/_KccikoFlYw?si=U6P8PjZOgoRmitl1"],
     stepsheetLink:"https://www.get-in-line.de/dances/Heel%20Toe%20Rodeo_-_O%27Reilly.htm",
+    counts: 32,
+    walls: 4,
     id: "99",
   },
   {
@@ -1620,21 +1718,27 @@ export const dances: Dance[] = [
       "Anything for love - James House",
       "Tall tall trees - Alan Jackson",
     ],
+    choreo: "Micaela Svensson Erlandsson",
     videoLink: [
       "https://www.youtube.com/@killlis",
       "https://youtu.be/KXYh4wOxXEk?si=nUxtapiKSlzzzKu6",
       "https://youtu.be/pam3fPRHbYY?si=H8e-QJemphoxSUxE",
     ],
     stepsheetLink:"https://www.get-in-line.de/dances/Hey%20Girl_-_MSE.htm",
+    counts: 32,
+    walls: 4,
     id: "100",
   },
   {
     name: "High Cotton",
     isPairDance: false,
-    level: "NA",
+    level: "Improver",
     songs: ["High Cotton - Alabama"],
+    choreo: "Niels B. Poulsen",
     videoLink: ["https://youtu.be/3U4XVci9oaY?si=B8_yyWHzZjAS7Su6"],
     stepsheetLink:"https://www.get-in-line.de/dances/High%20Cotton_-_Poulsen.htm",
+    counts: 32,
+    walls: 4,
     id: "101",
   },
   {
@@ -1646,7 +1750,10 @@ export const dances: Dance[] = [
       "Looking For A Good Time - Lady Antebellum,",
       "Everybody Wants To Go To Heaven - Kenny Chesney,",
     ],
+    choreo: "Margo LaMotta",
     stepsheetLink:"https://www.get-in-line.de/dances/Hillbilly_Strut_-_LaMotta.htm",
+    counts: 32,
+    walls: 4,
     id: "102",
   },
   {
@@ -1654,8 +1761,11 @@ export const dances: Dance[] = [
     isPairDance: false,
     level: "Improver",
     songs: ["Home To Louisiana - Ann Tayler"],
+    choreo: "Gilles Labrecque",
     videoLink: ["https://youtu.be/CqaVE4XNWfs?si=DeTiJba1ZBTibhl2"],
     stepsheetLink:"https://www.get-in-line.de/dances/Home_To_Louisiana_-_Labrecque.htm",
+    counts: 32,
+    walls: 4,
     id: "103",
   },
   {
@@ -1663,8 +1773,11 @@ export const dances: Dance[] = [
     isPairDance: false,
     level: "Improver",
     songs: ["Homesick - Kane Brown"],
+    choreo: "Maddison Glover",
     videoLink: ["https://youtu.be/kmom4PL3_ak?si=CIk5fUG2lYAORDBx"],
     stepsheetLink:"https://www.get-in-line.de/dances/Homesick%20Heart_-_Glover.htm",
+    counts: 32,
+    walls: 4,
     id: "104",
   },
   {
@@ -1672,10 +1785,13 @@ export const dances: Dance[] = [
     isPairDance: false,
     level: "Improver",
     songs: ["Take Me Home - Tol & Tol"],
+    choreo: "Paul & Karla Dornstedt",
     videoLink: [
       "https://youtu.be/rB-UWXQuHdM?si=0l52AF_OuQrDEqDH",
       "https://youtu.be/yCn_8yWZzuY?si=EyK8rFRRK96acl5A",
     ],
+    counts: 32,
+    walls: 4,
     stepsheetLink:"https://www.get-in-line.de/dances/Homeward_Bound_-_Dornstedt-Dornstedt.htm",
     id: "105",
   },
@@ -1687,8 +1803,10 @@ export const dances: Dance[] = [
       "jeder Cha Cha", 
       "Amarillo by Morning - George Strait"
     ],
+    choreo: "Joe Serna",
     videoLink: ["https://youtu.be/BZCjMbUy7aA?si=aW3oDA-6tIXkdDAH"],
     stepsheetLink:"https://www.get-in-line.de/dances/Horseshoe_Shuffle_-_Serna.htm",
+    counts: 28,
     id: "106",
   },
   {
@@ -1696,8 +1814,11 @@ export const dances: Dance[] = [
     isPairDance: false,
     level: "Beginner",
     songs: ["Toora Loora Lay - Celtic Thunder"],
+    choreo: "Maggie Gallagher",
     videoLink: ["https://youtu.be/daqLayXW6Mg?si=BnbcfPV9WUoEKF34"],
     stepsheetLink:"https://www.get-in-line.de/dances/I%27m%20on%20My%20Way_-_Gallagher.htm",
+    counts: 32,
+    walls: 2,
     id: "107",
   },
   {
@@ -1708,8 +1829,11 @@ export const dances: Dance[] = [
       "I Love A Rainy Night - Eddie Rabbitt,",
       "Honky Tonk History - The Dean Brothers",
     ],
+    choreo: "Iris M. Mooney",
     videoLink: ["https://youtu.be/73XVuNmpBKc?si=QRSkbnd0EQOqzgi0"],
     stepsheetLink:"https://www.get-in-line.de/dances/I%20Love%20A%20Rainy%20Night_-_Mooney.htm",
+    counts: 32,
+    walls: 4,
     id: "108",
   },
   {
@@ -1717,8 +1841,11 @@ export const dances: Dance[] = [
     isPairDance: false,
     level: "Improver",
     songs: ["I Love This Bar - Toby Keith"],
+    choreo: "Thorsten Scheumann",
     videoLink: ["https://youtu.be/kuVbdjOE_qs?si=z3jOUNt30DBISs-z"],
     stepsheetLink:"https://www.get-in-line.de/dances/I_Love_This_Bar_-_Scheumann.htm",
+    counts: 32,
+    walls: 4,
     id: "109",
   },
   {
@@ -1726,11 +1853,14 @@ export const dances: Dance[] = [
     isPairDance: false,
     level: "Improver",
     songs: ["I Never Lie - Zach Top"],
+    choreo: "Sophie Cournoyer ",
     videoLink: [
       "https://youtu.be/g8lvfIGUJEA?si=kDLdxbirMwPCp9fV",
       "https://youtu.be/nt73vGAQZhs?si=BPV31B4hu2iU5xKf",
     ],
     stepsheetLink:"https://www.copperknob.co.uk/stepsheets/194296/i-never-lie",
+    counts: 32,
+    walls: 4,
     id: "110",
   },
   {
@@ -1741,12 +1871,14 @@ export const dances: Dance[] = [
       "Seminole Wind - John Anderson",
       "Hold Your Horses (Radio Version) - E-Type",
     ],
-    aliases: ["Seminole Wind"],
+    choreo: "Mary Kelly",
     videoLink: [
       "https://youtu.be/Sp-V1CV_Stw?si=e0j7Nz1FqO-lcOut",
       "https://youtu.be/O9He_z27H48?si=lovSP6RtJ1nkKiKD",
     ],
     stepsheetLink:"https://www.get-in-line.de/dances/Ice%20Breaker_-_Kelly.htm",
+    counts: 32,
+    walls: 4,
     id: "111",
   },
   {
@@ -1754,8 +1886,11 @@ export const dances: Dance[] = [
     isPairDance: false,
     level: "Improver",
     songs: ["Heaven In My Woman's Eyes - Tracy Byrd"],
+    choreo: "Robbie McGowan Hickie", 
     videoLink: ["https://youtu.be/ZtzyJ-f719Y?si=S3Nj73peinKuZiTt"],
     stepsheetLink:"https://www.get-in-line.de/dances/Inspiration_-_McGowan_Hickie.htm",
+    counts: 32,
+    walls: 4,
     id: "112",
   },
   {
@@ -1766,12 +1901,15 @@ export const dances: Dance[] = [
       "Irish Stew - Sham Rock", 
       "Bells over belfast - The irish rover"
     ],
+    choreo: "Lois Lightfoot",
     videoLink: [
       "https://youtu.be/wjLbYShd3Pc?si=sAx8soQ2yQbUygbU",
       "https://youtu.be/rva6P7HRBII?si=-Q0Oa_ZSYD0kETNM",
       "https://youtu.be/Krh__Vs8bi8?si=kn7WgAprHmMA9xor",
     ],
     stepsheetLink:"https://www.get-in-line.de/dances/Irish%20Stew_-_Lightfoot.htm",
+    counts: 32,
+    walls: 4,
     id: "113",
   },
   {
@@ -1782,11 +1920,14 @@ export const dances: Dance[] = [
       "Islands In The Stream - Kenny Rogers & Dolly Parton",
       "Swingin' home for christmas - The tractors",
     ],
+    choreo: "Karen Jones",
     videoLink: [
       "https://youtu.be/9eiXWfMcxVg?si=9-kNyB_Zt6MlxlfF",
       "https://youtu.be/v7ISpg6nkYo?si=XjmSA7MmNW66Pjq8",
     ],
     stepsheetLink:"https://www.get-in-line.de/dances/Islands_In_The_Stream_-_Jones.htm",
+    counts: 32,
+    walls: 4,
     id: "114",
   },
   {
@@ -1794,8 +1935,11 @@ export const dances: Dance[] = [
     isPairDance: false,
     level: "Beginner",
     songs: ["It Must Be Love - Alan Jackson"],
+    choreo: "Nancy A. Morgan",
     videoLink: ["https://youtu.be/3U4XVci9oaY?si=B8_yyWHzZjAS7Su6"],
     stepsheetLink:"https://center.ssi.at/smart_users/ssi/user75/page107/explorer/sheet/must_be_vamos.pdf",
+    counts: 32,
+    walls: 4,
     id: "115",
   },
   {
@@ -1806,11 +1950,14 @@ export const dances: Dance[] = [
       "Jambalaya - Led Loader & The Barrels",
       "Long hot summer - Keith Urban",
     ],
+    choreo: "Ian St. Leon",
     videoLink: [
       "https://youtu.be/5kAi7aqndEg?si=Q-ZFHWo_CZCXR8av",
       "https://youtu.be/RwZwtHlF0Ys?si=GIkULhCLRkKY1IZd",
     ],
     stepsheetLink:"https://www.get-in-line.de/dances/Jambalaya_-_St._Leon.htm",
+    counts: 32,
+    walls: 4,
     id: "116",
   },
   {
@@ -1824,12 +1971,15 @@ export const dances: Dance[] = [
       "Dallas",
       "Chaisin' the neon rainbow - Alan Jackson",
     ],
+    choreo: "Xose Massotti",
     videoLink: [
       "https://www.youtube.com/@killlis",
       "https://youtu.be/tKw0iDJ_dQE?si=24NMs4oA7Kn66JAE",
       "https://youtu.be/615vN_J7U5A?si=gMWNgZxAOZN68Xof",
     ],
     stepsheetLink:"https://www.get-in-line.de/dances/Joana_-_Massotti.htm",
+    counts: 32,
+    walls: 4,
     id: "117",
   },
   {
@@ -1837,8 +1987,11 @@ export const dances: Dance[] = [
     isPairDance: false,
     level: "Intermediate",
     songs: ["Jolene (ft. The Common Linnets) - The BossHoss"],
+    choreo: "Sylvia Schill",
     videoLink: ["https://youtu.be/RbQBCoox-t4?si=kKP9ELCSMQ9D4sFh"],
     stepsheetLink:"https://www.get-in-line.de/dances/Jolene%20Jolene%20(The%20BossHoss)_-_Schill.htm",
+    counts: 40,
+    walls: 2,
     id: "118",
   },
   {
@@ -1846,11 +1999,14 @@ export const dances: Dance[] = [
     isPairDance: false,
     level: "Intermediate",
     songs: ["C'est La Vie - Chely Wright"],
+    choreo: "Maggie Gallagher",
     videoLink: [
       "https://youtu.be/70VmT95wGn8?si=rBGmc4McxeeJErA7",
       "https://youtu.be/vUm5jooJiE0?si=HLtkukzzUU2DrCFs"
     ],
     stepsheetLink:"https://www.get-in-line.de/dances/Just_Wright_-_Gallagher.htm",
+    counts: 64,
+    walls: 2,
     id: "119",
   },
   {
@@ -2030,7 +2186,7 @@ export const dances: Dance[] = [
 /*{
     name: "Lorrie's Dance",
     isPairDance: true,
-    level: "NA",
+    level: "Intermediate",
     songs: [],
     videoLink: [
       "https://youtu.be/EaSn-UCEEO4?si=HCJ8lXXG0aUTnILS",
@@ -2206,7 +2362,7 @@ export const dances: Dance[] = [
   {
     name: "On My Knees",
     isPairDance: true,
-    level: "NA",
+    level: "Beginner",
     songs: [
       "On My Knees - The Red Clay Strays",
     ],
@@ -2630,13 +2786,13 @@ export const dances: Dance[] = [
     ],
     id: "184",
   },
-  {
+  /*{
     name: "Swingin'",
     isPairDance: false,
     level: "NA",
     songs: [],
     id: "185",
-  },
+  },*/
   {
     name: "Tag On",
     isPairDance: false,
@@ -2647,10 +2803,14 @@ export const dances: Dance[] = [
       "Jingle my bells - The tractors",
       "Take it easy",
     ],
+    choreo: "David 'Lizard' Villellas",
     videoLink: [
       "https://youtu.be/ZQaqrX8CDkM?si=DlWj0tLpKopzcttU",
       "https://youtu.be/55CL-WN8HOY?si=QFGokEup1fcAFL5A",
     ],
+    stepsheetLink:"https://www.get-in-line.de/dances/Tag%20On_-_Villellas.htm",
+    counts: 64,
+    walls: 2,
     id: "186",
   },
 
@@ -2841,7 +3001,7 @@ export const dances: Dance[] = [
   {
     name: "Touch Of Heaven",
     isPairDance: false,
-    level: "NA",
+    level: "Beginner",
     songs: ["Heaven Cried - Tony Ramey"],
     videoLink: ["https://youtu.be/SMSIGzsgoZ0?si=IN4BzDs2lVVPNHOQ"],
     id: "209",
@@ -3023,7 +3183,7 @@ export const dances: Dance[] = [
   {
     name: "Whiskey bridges",
     isPairDance: false,
-    level: "beginner",
+    level: "Beginner",
     songs: ["Whiskey Under the Bridge - Brooks & Dunn"],
     videoLink: [
       "https://youtu.be/qVbPb84pP1U?si=Hz0SNJ9WgOr5fWgQ",
