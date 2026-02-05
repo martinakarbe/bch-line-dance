@@ -3,7 +3,16 @@
 import { useState, useMemo } from "react";
 import { Input } from "@/components/ui/input";
 import { Button } from "@/components/ui/button";
-import { Search, FileText, Video, Users2, Music, SearchX } from "lucide-react";
+import {
+  Search,
+  FileText,
+  Video,
+  Users2,
+  Music,
+  SearchX,
+  Footprints,
+  Compass,
+} from "lucide-react";
 import { dances, Dance } from "@/lib/dances";
 
 const levels = ["Alle", "Beginner", "Improver", "Intermediate", "Advanced"];
@@ -29,11 +38,11 @@ export function DanceTable() {
   const [showPairDancesOnly, setShowPairDancesOnly] = useState(false);
 
   const filteredDances = useMemo(() => {
-    return dances.filter((dance) => {
+    const result = dances.filter((dance) => {
       const matchesSearch =
         dance.name.toLowerCase().includes(searchQuery.toLowerCase()) ||
         dance.songs.some((song) =>
-          song.toLowerCase().includes(searchQuery.toLowerCase())
+          song.toLowerCase().includes(searchQuery.toLowerCase()),
         );
 
       const matchesLevel =
@@ -43,6 +52,10 @@ export function DanceTable() {
 
       return matchesSearch && matchesLevel && matchesPairDance;
     });
+
+    return result.sort((a, b) =>
+      a.name.localeCompare(b.name, "de", { sensitivity: "base" }),
+    );
   }, [searchQuery, selectedLevel, showPairDancesOnly]);
 
   return (
@@ -119,26 +132,50 @@ export function DanceTable() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
           {filteredDances.map((dance) => {
             const levelStyle = getLevelStyle(dance.level);
+            const choreo = dance.choreo?.trim();
             return (
               <div
                 key={dance.id}
                 className="bg-[#fff9f2] rounded-xl border-3 border-[#d4a574] overflow-hidden hover:border-[#b45309] hover:shadow-lg transition-all group"
               >
                 {/* Header */}
-                <div className="bg-[#f5e6d3] px-4 py-3 border-b-2 border-[#d4a574] flex items-center justify-between">
-                  <div className="flex items-center gap-2">
+                <div className="bg-[#f5e6d3] px-4 py-3 border-b-2 border-[#d4a574] flex flex-col gap-2 sm:flex-row sm:items-center sm:justify-between sm:gap-3">
+                  <div className="flex items-center gap-2 min-w-0">
                     {dance.isPairDance && (
-                      <Users2 className="w-5 h-5 text-[#b45309]" />
+                      <Users2 className="w-5 h-5 text-[#b45309] shrink-0" />
                     )}
-                    <h3 className="font-serif text-lg text-[#3d2314] group-hover:text-[#b45309] transition-colors">
+                    <h3 className="font-serif text-lg text-[#3d2314] group-hover:text-[#b45309] transition-colors truncate">
                       {dance.name}
                     </h3>
                   </div>
-                  <span
-                    className={`${levelStyle.bg} ${levelStyle.text} text-xs font-bold px-3 py-1 rounded-full`}
-                  >
-                    {dance.level}
-                  </span>
+                  <div className="flex flex-wrap items-center gap-2 sm:justify-end">
+                    {(dance.counts !== undefined ||
+                      dance.walls !== undefined) && (
+                      <span className="bg-[#fef3c7] text-[#92400e] text-[0.7rem] font-semibold px-2 py-0.5 rounded-full border border-[#d4a574] whitespace-nowrap inline-flex items-center">
+                        {dance.counts !== undefined && (
+                          <span className="inline-flex items-center gap-1">
+                            <Footprints className="w-3 h-3" />
+                            <span>{dance.counts}</span>
+                          </span>
+                        )}
+                        {dance.counts !== undefined &&
+                          dance.walls !== undefined && (
+                            <span className="mx-2 text-[#92400e]/60">•</span>
+                          )}
+                        {dance.walls !== undefined && (
+                          <span className="inline-flex items-center gap-1">
+                            <Compass className="w-3 h-3" />
+                            <span>{dance.walls}</span>
+                          </span>
+                        )}
+                      </span>
+                    )}
+                    <span
+                      className={`${levelStyle.bg} ${levelStyle.text} text-xs font-bold px-3 py-1 rounded-full`}
+                    >
+                      {dance.level}
+                    </span>
+                  </div>
                 </div>
 
                 {/* Content */}
@@ -152,6 +189,16 @@ export function DanceTable() {
                         <p key={index}>{song}</p>
                       ))}
                     </div>
+                    {choreo && (
+                      <>
+                        <p className="text-xs text-[#92400e] uppercase tracking-wide mb-1 mt-4 font-semibold">
+                          Choreo
+                        </p>
+                        <div className="text-[#78350f] text-sm space-y-0.5">
+                          {choreo}
+                        </div>
+                      </>
+                    )}
                   </div>
 
                   {/* Links */}
@@ -183,7 +230,7 @@ export function DanceTable() {
                         href={dance.stepsheetLink}
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="flex items-center gap-1 bg-[#1e40af] text-white text-sm px-3 py-1.5 rounded-full hover:bg-[#1e3a8a] transition-colors"
+                        className="flex items-center gap-1 bg-[#0f766e] text-white text-sm px-3 py-1.5 rounded-full hover:bg-[#115e59] transition-colors"
                       >
                         <FileText className="h-3.5 w-3.5" />
                         Stepsheet
