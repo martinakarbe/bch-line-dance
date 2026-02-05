@@ -8,6 +8,7 @@ import {
   Music,
   Star,
 } from "lucide-react";
+import { getObfuscatedContactEmail } from "@/lib/contact-email";
 
 const quickLinks = [
   { href: "/about", label: "Wer wir sind" },
@@ -119,19 +120,19 @@ export function Footer() {
                     </span>
                   </a>
                 </li>
-                {/* <li>
-                  <Link
-                    href="/contact"
-                    className="flex items-center gap-3 group"
-                  >
-                    <div className="w-8 h-8 bg-[#5c4033] rounded-lg flex items-center justify-center group-hover:bg-[#b45309] transition-colors">
-                      <Mail className="w-4 h-4 text-[#b45309] group-hover:text-white transition-colors" />
+                <li>
+                  <div className="flex items-start gap-3">
+                    <div className="w-8 h-8 bg-[#5c4033] rounded-lg flex items-center justify-center shrink-0">
+                      <Mail className="w-4 h-4 text-[#b45309]" />
                     </div>
-                    <span className="text-[#d4a574] group-hover:text-[#fef3c7] transition-colors">
-                      Schreib uns!
-                    </span>
-                  </Link>
-                </li> */}
+                    <div>
+                      <p className="font-medium text-[#fef3c7]">E-Mail</p>
+                      <p className="text-sm text-[#d4a574]">
+                        {getObfuscatedContactEmail()}
+                      </p>
+                    </div>
+                  </div>
+                </li>
               </ul>
             </div>
           </div>

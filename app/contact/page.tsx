@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { Header } from "@/components/header";
 import { Footer } from "@/components/footer";
-import { ContactForm } from "@/components/contact/contact-form";
+import { ObfuscatedEmail } from "@/components/contact/obfuscated-email";
 import {
   ExternalLink,
   MapPin,
@@ -22,7 +22,8 @@ import type { LucideIcon } from "lucide-react";
 
 export const metadata: Metadata = {
   title: "Mitmachen",
-  description: "Kontaktiere die Buchens Multi-Generation Line Dancer - wir freuen uns auf dich!",
+  description:
+    "Kontaktiere die Buchens Multi-Generation Line Dancer - wir freuen uns auf dich!",
 };
 
 interface InfoCard {
@@ -194,6 +195,25 @@ export default function ContactPage() {
                       ))}
                     </ul>
                   </div>
+                </div>
+              </div>
+
+              {/* Form */}
+              <div>
+                <div className="bg-[#fff9f2] rounded-xl border-3 border-[#d4a574] p-6">
+                  <h2 className="font-serif text-3xl text-[#3d2314] mb-2 flex items-center gap-3">
+                    <Mail className="w-7 h-7 text-[#b45309]" /> Schreib uns
+                  </h2>
+                  <p className="text-[#78350f] mb-4">
+                    Aktuell erreichst du uns am besten per E-Mail.
+                  </p>
+                  <p className="text-[#78350f] mb-6">
+                    <ObfuscatedEmail
+                      withCopy
+                      className="text-[#78350f]"
+                      buttonClassName="border-[#d4a574] text-[#b45309] hover:bg-[#faebd7] hover:border-[#b45309]"
+                    />
+                  </p>
                 </div>
               </div>
             </div>

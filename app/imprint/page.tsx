@@ -4,6 +4,7 @@ import { Header } from "@/components/header";
 import { Footer } from "@/components/footer";
 import { ArrowLeft } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import { ObfuscatedEmail } from "@/components/contact/obfuscated-email";
 
 export const metadata: Metadata = {
   title: "Impressum",
@@ -44,10 +45,11 @@ export default function ImprintPage() {
             <section className="space-y-4 mt-8">
               <h2 className="text-xl font-semibold text-foreground">Kontakt</h2>
               <p className="text-muted-foreground">
-                E-Mail: Über unser{" "}
-                <Link href="/contact" className="text-primary hover:underline">
-                  Kontaktformular
-                </Link>
+                E-Mail-Adresse:{" "}
+                <ObfuscatedEmail
+                  withCopy
+                  buttonClassName="border-border text-muted-foreground hover:text-foreground"
+                />
               </p>
             </section>
 
