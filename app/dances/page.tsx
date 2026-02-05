@@ -4,7 +4,18 @@ import { Header } from "@/components/header";
 import { Footer } from "@/components/footer";
 import { DanceTable } from "@/components/dances/dance-table";
 import { Button } from "@/components/ui/button";
-import { ExternalLink, ListMusic, Lightbulb, BarChart3, Users2, Link2, Target } from "lucide-react";
+import {
+  ExternalLink,
+  ListMusic,
+  Lightbulb,
+  BarChart3,
+  Users2,
+  Link2,
+  Target,
+  List,
+  Footprints,
+  Compass,
+} from "lucide-react";
 
 export const metadata: Metadata = {
   title: "Unsere Tänze",
@@ -50,8 +61,11 @@ export default function DancesPage() {
                     Neu beim Line Dance?
                   </p>
                   <p className="text-sm text-[#78350f]">
-                    Starte mit den <a href="/resources">Grundschritten</a> und nebenher <br />mit den Beginner-Tänzen (nutze die Filter neben/unter der Suchleiste) <br />und schau dir unsere
-                    YouTube-Tutorials an!
+                    Starte mit den <a href="/resources">Grundschritten</a> und
+                    nebenher <br />
+                    mit den Beginner-Tänzen (nutze die Filter neben/unter der
+                    Suchleiste) <br />
+                    und schau dir unsere YouTube-Tutorials an!
                   </p>
                 </div>
               </div>
@@ -88,15 +102,21 @@ export default function DancesPage() {
                 <ul className="space-y-2 text-sm">
                   <li className="flex items-center gap-2">
                     <span className="inline-flex h-3 w-3 rounded-full bg-[#15803d]" />
-                    <span className="text-[#78350f]">Beginner - Einsteiger</span>
+                    <span className="text-[#78350f]">
+                      Beginner - Einsteiger
+                    </span>
                   </li>
                   <li className="flex items-center gap-2">
                     <span className="inline-flex h-3 w-3 rounded-full bg-[#1e40af]" />
-                    <span className="text-[#78350f]">Improver - Aufsteiger</span>
+                    <span className="text-[#78350f]">
+                      Improver - Aufsteiger
+                    </span>
                   </li>
                   <li className="flex items-center gap-2">
                     <span className="inline-flex h-3 w-3 rounded-full bg-[#b45309]" />
-                    <span className="text-[#78350f]">Intermediate - Mittel</span>
+                    <span className="text-[#78350f]">
+                      Intermediate - Mittel
+                    </span>
                   </li>
                   <li className="flex items-center gap-2">
                     <span className="inline-flex h-3 w-3 rounded-full bg-[#dc2626]" />
@@ -108,16 +128,18 @@ export default function DancesPage() {
               {/* Dance Types */}
               <div className="bg-[#fff9f2] rounded-xl p-5 border-2 border-[#d4a574]">
                 <h3 className="font-semibold text-[#3d2314] mb-3 flex items-center gap-2">
-                  <Users2 className="w-5 h-5 text-[#b45309]" /> Tanzarten
+                  <List className="w-5 h-5 text-[#b45309]" /> Legende
                 </h3>
                 <ul className="space-y-2 text-sm text-[#78350f]">
                   <li className="flex items-center gap-2">
-                    <Users2 className="w-4 h-4 text-[#92400e]" /> Line Dance - In
-                    Reihen
-                  </li>
-                  <li className="flex items-center gap-2">
                     <Users2 className="w-4 h-4 text-[#92400e]" /> Paartanz - Mit
                     Partner
+                  </li>
+                  <li className="flex items-center gap-2">
+                    <Footprints className="w-4 h-4 text-[#92400e]" /> Counts
+                  </li>
+                  <li className="flex items-center gap-2">
+                    <Compass className="w-4 h-4 text-[#92400e]" /> Walls
                   </li>
                 </ul>
               </div>
@@ -137,7 +159,8 @@ export default function DancesPage() {
                     >
                       Get-in-Line
                       <ExternalLink className="h-3 w-3" />
-                    </a> - unsere bevorzugte Stepsheet-Seite
+                    </a>{" "}
+                    - unsere bevorzugte Stepsheet-Seite
                   </li>
                   <li>
                     <a
