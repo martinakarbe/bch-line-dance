@@ -686,6 +686,10 @@ export const dances: Dance[] = [
       "(Tonight We Just Might) Fall in Love Again - Hal Ketchum",
     ],
     choreo: "Val Reeves",
+    videoLink: [
+      "https://youtu.be/u6TYICb2pXI?si=38gcTygbsOT8WfTl",
+      "https://youtu.be/BcGyBOC7rFY?si=ICVIDVmzzNiP5ctn",
+    ],
     stepsheetLink:"https://www.get-in-line.de/dances/Cheyenne%20Rock_-_Reeves.htm",
     counts: 46,
     walls: 4,
@@ -2434,6 +2438,11 @@ export const dances: Dance[] = [
       "Two Pina Coladas - Garth Brooks",
       "Just Like A Rodeo - Roger Brown & Swing City",
       "Are You In It For Love - Ricky Martin",
+      "I sing a Liad für di - Andreas Gabalier",
+    ],
+    videoLink: [
+      "https://youtu.be/L2h1IL3RoL4?si=t5bIL89A7FVLhJXT",
+      "https://youtu.be/xnrs_KsABng?si=_EClC_yCooY9Zui6"
     ],
     stepsheetLink:"https://www.get-in-line.de/dances/Pina_Co-Cha-Cha_-_Birch-Hagan.htm",
     id: "154",
@@ -2733,6 +2742,9 @@ export const dances: Dance[] = [
     isPairDance: false,
     level: "Improver",
     songs: ["Elvis Medley - Dean Brothers"],
+    videoLink: [
+      "https://youtu.be/LbyDSfD7bxU?si=9LxUtW-UqW3kqh87",
+    ],
     stepsheetLink:"https://www.get-in-line.de/dances/Stitch_It_Up_-_McGowan_Hickie.htm",
     choreo: "Robbie McGowan Hickie",
     counts:64,
@@ -3056,6 +3068,10 @@ export const dances: Dance[] = [
     songs: [
       "The Wellerman (Sea Shanty) - From TikTok to Epic Remix - The Kiffness",
     ],
+    videoLink: [
+      "https://youtu.be/YkAuHHiM08s?si=Li933AKUXMUwqiTC",
+      "https://youtu.be/YRa5k_IjOD0?si=hDe6I1dF1Zp2LBc8"
+    ],
     stepsheetLink:"https://www.get-in-line.de/dances/The%20Wellerman_-_Weber.htm",
     choreo: "Tanzschule Weber",
     counts:32,
@@ -3108,6 +3124,7 @@ export const dances: Dance[] = [
     isPairDance: false,
     level: "Intermediate",
     songs: ["'Til You Can't - Cody Johnson"],
+    videoLink: ["https://youtu.be/226wu11_XAk?si=Zg-qWrgEEpoDXAfb"],
     stepsheetLink:"https://www.get-in-line.de/dances/%27Til%20You%20Can%27t_-_O%27Reilly.htm",
     choreo: "Gary O'Reilly",
     counts:32,
@@ -3131,6 +3148,7 @@ export const dances: Dance[] = [
     isPairDance: false,
     level: "Intermediate",
     songs: ["Tomorrow never comes - Zac Brown Band"],
+    videoLink: ["https://youtu.be/dC4cy0dUS3U?si=UGjGkzN0rIysYYfn"],
     stepsheetLink:"https://www.copperknob.co.uk/stepsheets/105302/tomorrow-never-comes",
     choreo: "Magali Chabret Erhard",
     counts:32,
