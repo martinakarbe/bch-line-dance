@@ -44,7 +44,7 @@ const infoCards: InfoCard[] = [
     icon: Calendar,
     title: "Trainingszeiten",
     content: "Wöchentlich",
-    subtext: "Dienstags ab 19:30 Uhr",
+    subtext: "Dienstags 19:30 - 22:00 Uhr",
   },
   {
     icon: Heart,
