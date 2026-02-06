@@ -3471,4 +3471,18 @@ export const dances: Dance[] = [
     walls: 4,
     id: "228",
   },
+  {
+    name: "Rocking Susanna",
+    isPairDance: false,
+    level: "Improver",
+    songs: [
+      "All My Friends Drink Beer - Craig Campbell",
+    ],
+    choreo: "Dan Albro & David Villellas ",
+    videoLink: ["https://youtu.be/BKVi-yZSv1c?si=f1YtUaNKGlte4D0U"],
+    stepsheetLink:"https://www.copperknob.co.uk/stepsheets/203053/rocking-susanna",
+    counts: 32,
+    walls: 2,
+    id: "229",
+  },
 ];
