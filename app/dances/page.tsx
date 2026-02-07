@@ -14,7 +14,7 @@ import {
   Target,
   List,
   Footprints,
-  Compass,
+  Square,
 } from "lucide-react";
 
 export const metadata: Metadata = {
@@ -62,8 +62,9 @@ export default function DancesPage() {
                   </p>
                   <p className="text-sm text-[#78350f]">
                     Starte mit den <a href="/resources">Grundschritten</a> und
-                    nebenher mit den Beginner-Tänzen (nutze die Filter neben/unter der
-                    Suchleiste) und schau dir unsere YouTube-Tutorials an!
+                    nebenher mit den Beginner-Tänzen (nutze die Filter
+                    neben/unter der Suchleiste) und schau dir unsere
+                    YouTube-Tutorials an!
                   </p>
                 </div>
               </div>
@@ -137,7 +138,7 @@ export default function DancesPage() {
                     <Footprints className="w-4 h-4 text-[#92400e]" /> Counts
                   </li>
                   <li className="flex items-center gap-2">
-                    <Compass className="w-4 h-4 text-[#92400e]" /> Walls
+                    <Square className="w-4 h-4 text-[#92400e]" /> Walls
                   </li>
                 </ul>
               </div>

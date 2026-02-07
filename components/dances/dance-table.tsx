@@ -11,7 +11,7 @@ import {
   Music,
   SearchX,
   Footprints,
-  Compass,
+  Square,
 } from "lucide-react";
 import { dances, Dance } from "@/lib/dances";
 
@@ -164,7 +164,7 @@ export function DanceTable() {
                           )}
                         {dance.walls !== undefined && (
                           <span className="inline-flex items-center gap-1">
-                            <Compass className="w-3 h-3" />
+                            <Square className="w-3 h-3" />
                             <span>{dance.walls}</span>
                           </span>
                         )}
