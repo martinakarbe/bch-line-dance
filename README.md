@@ -1,6 +1,6 @@
-# BCH Line Dancer Website
+# Buchens Multi-Generation Line Dancer Website
 
-Eine kleine statische Website für die **BCH Line Dancer** in Buchen (Odenwald), gebaut mit Next.js (App Router) und React.
+Eine kleine statische Website für **Buchens Multi-Generation Line Dancer** in Buchen (Odenwald), gebaut mit Next.js (App Router) und React.
 
 Die Seite zeigt u.a.
 - **Startseite** mit Hero, Call-to-Action und Infos

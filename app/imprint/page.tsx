@@ -34,7 +34,7 @@ export default function ImprintPage() {
                 Angaben gemäß § 5 TMG
               </h2>
               <p className="text-muted-foreground">
-                BCH Line Dancer
+                Buchens Multi-Generation Line Dancer
                 <br />
                 c/o Mehrgenerationenhaus Buchen
                 <br />

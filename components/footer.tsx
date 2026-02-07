@@ -39,7 +39,7 @@ export function Footer() {
                 </div>
                 <div>
                   <h3 className="font-serif text-2xl text-[#f5d076]">
-                    BCH Line Dancer
+                    Buchens Multi-Generation Line Dancer
                   </h3>
                   <p className="text-[#d4a574] text-sm">Buchen (Odenwald)</p>
                 </div>

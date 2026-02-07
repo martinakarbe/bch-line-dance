@@ -19,7 +19,7 @@ const rye = Rye({
 
 export const metadata: Metadata = {
   title: {
-    default: "BCH Line Dancer | Gemeinsam tanzen in Buchen",
+    default: "BCH Multi-Generation-Line-Dancer | Gemeinsam tanzen in Buchen",
     template: "%s | BCH Line Dancer",
   },
   description:
@@ -33,13 +33,13 @@ export const metadata: Metadata = {
     "Hobby",
     "Tanzgruppe",
   ],
-  authors: [{ name: "BCH Line Dancer" }],
+  authors: [{ name: "Buchens Multi-Generation Line Dancer" }],
   icons: {
     icon: "/icon.png",
     apple: "/apple-icon.png",
   },
   openGraph: {
-    title: "BCH Line Dancer | Gemeinsam tanzen in Buchen",
+    title: "Buchens Multi-Generation Line Dancer | Gemeinsam tanzen in Buchen",
     description:
       "Line Dance Gruppe im Mehrgenerationenhaus Buchen - für Anfänger und Fortgeschrittene",
     locale: "de_DE",

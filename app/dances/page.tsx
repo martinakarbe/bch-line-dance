@@ -20,7 +20,7 @@ import {
 export const metadata: Metadata = {
   title: "Unsere Tänze",
   description:
-    "Entdecke alle Tänze der BCH Line Dancer - von Anfänger bis Fortgeschritten, mit Links zu Videos und Stepsheets.",
+    "Entdecke alle Tänze von Buchens Multi-Generation Line Dancer - von Anfänger bis Fortgeschritten, mit Links zu Videos und Stepsheets.",
 };
 
 export default function DancesPage() {
@@ -29,7 +29,7 @@ export default function DancesPage() {
       <Header />
       <main>
         {/* Hero Section */}
-        <section className="relative py-16 lg:py-20 bg-[#f5e6d3] overflow-hidden">
+        <section className="relative py-8 lg:py-8 bg-[#f5e6d3] overflow-hidden">
           <div className="container mx-auto px-4 text-center">
             <div className="inline-flex items-center gap-2 bg-[#b45309] px-4 py-2 rounded-full mb-6">
               <ListMusic className="w-5 h-5 text-[#fef3c7]" />
@@ -51,7 +51,7 @@ export default function DancesPage() {
         {/* Tip Banner */}
         <section className="bg-[#fdf6ee] py-6 border-b-4 border-[#d4a574]">
           <div className="container mx-auto px-4">
-            <div className="flex flex-col sm:flex-row items-center justify-between gap-4 bg-[#fff9f2] p-4 rounded-xl border-2 border-[#d4a574]">
+            <div className="flex flex-col sm:flex-row w-full md:w-1/2items-center justify-between gap-4 bg-[#fff9f2] p-4 rounded-xl border-2 border-[#d4a574]">
               <div className="flex items-center gap-3">
                 <div className="w-12 h-12 bg-[#15803d] rounded-full flex items-center justify-center shrink-0">
                   <Lightbulb className="w-6 h-6 text-white" />
@@ -62,10 +62,8 @@ export default function DancesPage() {
                   </p>
                   <p className="text-sm text-[#78350f]">
                     Starte mit den <a href="/resources">Grundschritten</a> und
-                    nebenher <br />
-                    mit den Beginner-Tänzen (nutze die Filter neben/unter der
-                    Suchleiste) <br />
-                    und schau dir unsere YouTube-Tutorials an!
+                    nebenher mit den Beginner-Tänzen (nutze die Filter neben/unter der
+                    Suchleiste) und schau dir unsere YouTube-Tutorials an!
                   </p>
                 </div>
               </div>

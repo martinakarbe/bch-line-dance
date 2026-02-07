@@ -20,7 +20,7 @@ import type { LucideIcon } from "lucide-react";
 export const metadata: Metadata = {
   title: "Termine",
   description:
-    "Finde heraus, wann und wo die BCH Line Dancer trainieren. Unser Kalender zeigt alle kommenden Termine.",
+    "Finde heraus, wann und wo Buchens Multi-Generation Line Dancer trainieren. Unser Kalender zeigt alle kommenden Termine.",
 };
 
 interface ScheduleItem {
@@ -40,13 +40,13 @@ const scheduleInfo: ScheduleItem[] = [
   {
     icon: Clock,
     title: "Trainingszeiten",
-    description: "Dienstags ab 19:30 Uhr",
+    description: "Dienstag von 19:30 - 22:00 Uhr",
     color: "bg-[#b45309]",
   },
   {
     icon: MapPin,
     title: "Trainingsort",
-    description: "Mehrgenerationenhaus Buchen",
+    description: "Wir trainieren im Mehrgenerationenhaus in Buchen - ein wunderbarer Ort mit viel Platz zum Tanzen!",
     color: "bg-[#1e40af]",
   },
 ];
@@ -57,7 +57,7 @@ export default function SchedulePage() {
       <Header />
       <main>
         {/* Hero Section */}
-        <section className="relative py-16 lg:py-20 bg-[#f5e6d3] overflow-hidden">
+        <section className="relative py-8 lg:py-8 bg-[#f5e6d3] overflow-hidden">
           <div className="container mx-auto px-4 text-center">
             <div className="inline-flex items-center gap-2 bg-[#b45309] px-4 py-2 rounded-full mb-6">
               <Calendar className="w-5 h-5 text-[#fef3c7]" />
@@ -69,8 +69,7 @@ export default function SchedulePage() {
             <h1 className="font-serif text-5xl sm:text-6xl text-[#3d2314] mb-6 text-balance">
               Unsere Termine
             </h1>
-            <p className="text-xl text-[#78350f] max-w-2xl mx-auto leading-relaxed"></p>
-          </div>
+            </div>
         </section>
 
         {/* Info Cards */}
@@ -98,7 +97,7 @@ export default function SchedulePage() {
         </section>
 
         {/* Calendar Section */}
-        <section className="py-12 lg:py-16 bg-[#f5e6d3]">
+        <section className="py-8 lg:py-8 bg-[#f5e6d3]">
           <div className="container mx-auto px-4">
             <div className="text-center mb-8">
               <h2 className="font-serif text-3xl text-[#3d2314] mb-2 flex items-center justify-center gap-3">
@@ -137,23 +136,15 @@ export default function SchedulePage() {
         </section>
 
         {/* Location Section */}
-        <section className="py-16 lg:py-20 bg-[#fdf6ee]">
+        <section className="py-8 lg:py-8 bg-[#fdf6ee]">
           <div className="container mx-auto px-4">
             <div className="max-w-4xl mx-auto">
-              <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
+              <div className="grid grid-cols-1 lg:grid-cols-1 gap-8 items-center">
                 <div>
                   <h2 className="font-serif text-4xl text-[#3d2314] mb-6 flex items-center gap-3">
                     <MapPin className="w-8 h-8 text-[#b45309]" /> Wo wir tanzen
                   </h2>
-                  <p className="text-lg text-[#78350f] leading-relaxed mb-6">
-                    Wir trainieren im{" "}
-                    <strong className="text-[#3d2314]">
-                      Mehrgenerationenhaus in Buchen
-                    </strong>{" "}
-                    - ein wunderbarer Ort mit viel Platz zum Tanzen!
-                  </p>
-
-                  {/* Location card */}
+                   {/* Location card */}
                   <div className="bg-[#fff9f2] border-3 border-[#d4a574] rounded-xl p-5">
                     <div className="flex items-center gap-3 mb-3">
                       <div className="w-10 h-10 bg-[#15803d] rounded-full flex items-center justify-center">
@@ -181,26 +172,7 @@ export default function SchedulePage() {
                   </div>
                 </div>
 
-                {/* Map placeholder */}
-                <div className="bg-[#f5e6d3] rounded-2xl border-3 border-[#d4a574] aspect-square flex flex-col items-center justify-center p-8 text-center">
-                  <div className="w-16 h-16 bg-[#b45309] rounded-full flex items-center justify-center mb-4">
-                    <Map className="w-8 h-8 text-[#fef3c7]" />
-                  </div>
-                  <p className="text-[#78350f] font-medium mb-2">
-                    Mehrgenerationenhaus Buchen
-                  </p>
-                  <p className="text-[#92400e] text-sm mb-4">
-                    Buchen (Odenwald), Deutschland
-                  </p>
-                  <a
-                    href="https://www.google.com/maps/search/Mehrgenerationenhaus+Buchen"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="bg-[#b45309] hover:bg-[#92400e] text-[#fef3c7] font-bold px-4 py-2 rounded-full text-sm transition-colors"
-                  >
-                    Route planen →
-                  </a>
-                </div>
+              
               </div>
             </div>
           </div>
