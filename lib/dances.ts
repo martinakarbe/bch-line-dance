@@ -3485,20 +3485,6 @@ export const dances: Dance[] = [
     walls: 2,
     id: "229",
   },
-  {
-    name: "Hoedown",
-    isPairDance: false,
-    level: "Beginner",
-    songs: [
-      "Hoedown - Ink",
-    ],
-    choreo: "Gary O'Reilly",
-    videoLink: ["https://youtu.be/8JlQrLfan3E?si=DnjpX_ZiidOJt0Z3"],
-    stepsheetLink:"https://www.get-in-line.de/dances/Hoedown_-_O%27Reilly.htm",
-    counts: 32,
-    walls: 4,
-    id: "231",
-  },
 {
     name: "Jitterbuggin'",
     isPairDance: false,
@@ -3514,7 +3500,7 @@ export const dances: Dance[] = [
     stepsheetLink:"https://www.get-in-line.de/dances/Jitterbuggin%27_-_Burton-Burton.htm",
     counts: 48,
     walls: 4,
-    id: "231",
+    id: "230",
   },
   {
     name: "Tippin' it up",
@@ -3528,6 +3514,6 @@ export const dances: Dance[] = [
     stepsheetLink: "https://www.get-in-line.de/dances/Tippin%27%20It%20Up_-_O%27Reilly.htm",
     counts: 32,
     walls: 4,
-    id: "232",
+    id: "231",
   }
 ];
