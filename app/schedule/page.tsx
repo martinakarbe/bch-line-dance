@@ -179,7 +179,7 @@ export default function SchedulePage() {
         </section>
 
         {/* CTA Section */}
-        <section className="py-16 bg-[#3d2314]">
+        <section className="py-8 bg-[#3d2314]">
           <div className="container mx-auto px-4 text-center">
             <div className="w-16 h-16 bg-[#5c4033] rounded-full flex items-center justify-center mx-auto mb-6">
               <HelpCircle className="w-8 h-8 text-[#d4a574]" />

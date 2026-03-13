@@ -3485,4 +3485,49 @@ export const dances: Dance[] = [
     walls: 2,
     id: "229",
   },
+  {
+    name: "Hoedown",
+    isPairDance: false,
+    level: "Beginner",
+    songs: [
+      "Hoedown - Ink",
+    ],
+    choreo: "Gary O'Reilly",
+    videoLink: ["https://youtu.be/8JlQrLfan3E?si=DnjpX_ZiidOJt0Z3"],
+    stepsheetLink:"https://www.get-in-line.de/dances/Hoedown_-_O%27Reilly.htm",
+    counts: 32,
+    walls: 4,
+    id: "231",
+  },
+{
+    name: "Jitterbuggin'",
+    isPairDance: false,
+    level: "Improver",
+    songs: [
+      "Think It Over - Tractors",
+      "The Wanderer - Dion and The Belmonts",
+      "Shaggin' the Strand With You - Lynn O'Quinn and Doyle Wood, featuring Jim Quick",
+      "jeder andere East Coast Swing"
+    ],
+    choreo: "Bunny & Bruce Burton",
+    videoLink: ["https://youtu.be/hULHhnv1_UA?si=9P3OyEZwFJLBR7bB"],
+    stepsheetLink:"https://www.get-in-line.de/dances/Jitterbuggin%27_-_Burton-Burton.htm",
+    counts: 48,
+    walls: 4,
+    id: "231",
+  },
+  {
+    name: "Tippin' it up",
+    isPairDance: false,
+    level: "Improver",
+    songs: [
+      "Tippin' it up to Nancy - Sean Magee"
+    ],
+    choreo: "Gary O'Reilly",
+    videoLink: ["https://youtu.be/zShe_veiPxc?si=ZNxLHsJaGikritEb"],
+    stepsheetLink: "https://www.get-in-line.de/dances/Tippin%27%20It%20Up_-_O%27Reilly.htm",
+    counts: 32,
+    walls: 4,
+    id: "232",
+  }
 ];
