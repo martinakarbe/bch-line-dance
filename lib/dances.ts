@@ -1,3 +1,5 @@
+import { Stars } from "lucide-react";
+
 export type Level =
   | "Beginner"
   | "Improver"
@@ -810,6 +812,7 @@ export const dances: Dance[] = [
       "L.A. Woman - Frankie Ballard",
       "How forever feels - Kenny Chesney",
       "Must be the whiskey - Cody Jinks",
+      "I just want to dance with you - George Strait",
     ],
     choreo: "Jo Thompson Szymanski",
     videoLink: [
@@ -3261,6 +3264,8 @@ export const dances: Dance[] = [
     level: "Beginner",
     songs: [
       "Waltz Across Texas - Dean Brothers",
+      "My kind of woman, my kind of man - Vince Gill",
+	    "Stars over Texas - Tracy Lawrence",
       "oder jeder andere langsame bis mittelschnelle Walzer",
     ],
     choreo: "Lois & John Nielson",
