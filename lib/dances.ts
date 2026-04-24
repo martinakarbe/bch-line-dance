@@ -3562,7 +3562,7 @@ export const dances: Dance[] = [
   {
     name: "Choosin Texas",
     isPairDance: true,
-    level: "beginner",
+    level: "Beginner",
     songs: ["Choosin' Texas - Ella Langley"],
     choreo: "Nidhi Risi",
     videoLink: ["https://youtu.be/09bEe9j2f4w?si=VVLQtHfi2ciJKvnN"
