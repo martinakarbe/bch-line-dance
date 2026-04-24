@@ -1371,6 +1371,20 @@ export const dances: Dance[] = [
     id: "227",
   },
     {
+    name: "Firestorm",
+    isPairDance: false,
+    level: "Intermediate",
+    songs: ["Cajun Hoedown - Karen McDawn"],
+    choreo: "Adriano Castagnoli",
+    videoLink: ["https://youtu.be/PuJGloWomGA?si=wFHHBigptwk1XxjT",
+      "https://youtu.be/1XO-z1wa0eg?si=b-CJ9z66KUau_SL3"
+    ],
+    stepsheetLink: "https://www.get-in-line.de/dances/Firestorm_-_Castagnoli.htm",
+    counts: 64,
+    walls: 2,
+    id: "234",
+  },
+    {
     name: "Fisher's Hornpipe",
     isPairDance: false,
     level: "Improver",
@@ -3544,5 +3558,18 @@ export const dances: Dance[] = [
     counts: 64,
     walls: 2,
     id: "233",
-  }
+  },
+  {
+    name: "Choosin Texas",
+    isPairDance: true,
+    level: "beginner",
+    songs: ["Choosin' Texas - Ella Langley"],
+    choreo: "Nidhi Risi",
+    videoLink: ["https://youtu.be/09bEe9j2f4w?si=VVLQtHfi2ciJKvnN"
+    ],
+    stepsheetLink: "https://www.get-in-line.de/dances/Choosin%27%20Texas_-_Risi.htm",
+    counts:24,
+    walls: 4,
+    id: "235",
+  },
 ];
