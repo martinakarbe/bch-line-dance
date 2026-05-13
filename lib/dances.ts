@@ -2613,7 +2613,7 @@ export const dances: Dance[] = [
     ],
     videoLink: [
       "https://youtu.be/0HjroP-wuiI?si=5txHJaTKDmmZGpyB",
-      "https://youtu.be/rva6P7HRBII?si=-Q0Oa_ZSYD0kETNM",
+      "https://youtu.be/rva6P7HRBII?si=55OOjYMx6KWmq38i&t=1516",
     ],
     stepsheetLink:"https://www.get-in-line.de/dances/Rhyme_Or_Reason_-_McEnaney.htm",
     id: "161",
@@ -2803,7 +2803,7 @@ export const dances: Dance[] = [
     isPairDance: false,
     level: "Improver",
     songs: ["Speak To The Sky - Brendon Walmsley"],
-    videoLink: ["https://youtu.be/rva6P7HRBII?si=-Q0Oa_ZSYD0kETNM"],
+    videoLink: ["https://youtu.be/rva6P7HRBII?si=mC5IXYp-jngUhBrR&t=1230"],
     stepsheetLink:"https://www.get-in-line.de/dances/Speak%20To%20The%20Sky_-_Davies.htm",
     choreo: "Keith Davies",
     counts: 56,
