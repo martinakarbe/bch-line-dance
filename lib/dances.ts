@@ -726,6 +726,19 @@ export const dances: Dance[] = [
     walls: 4,
     id: "39",
   },
+    {
+    name: "Choosin Texas",
+    isPairDance: false,
+    level: "Beginner",
+    songs: ["Choosin' Texas - Ella Langley"],
+    choreo: "Nidhi Risi",
+    videoLink: ["https://youtu.be/09bEe9j2f4w?si=VVLQtHfi2ciJKvnN"
+    ],
+    stepsheetLink: "https://www.get-in-line.de/dances/Choosin%27%20Texas_-_Risi.htm",
+    counts:24,
+    walls: 4,
+    id: "235",
+  },
   {
     name: "Clickety Clack",
     isPairDance: false,
@@ -753,7 +766,7 @@ export const dances: Dance[] = [
       "Closer - Susan Ashton,", 
       "Little Unlucky At Love - Jenai"
     ],
-    choreo: "TMary Kelly",
+    choreo: "Mary Kelly",
     videoLink: [
       "https://youtu.be/eNiuLUHhD_s?si=T_b5biJe2M9PgGOI"
     ],
@@ -771,7 +784,8 @@ export const dances: Dance[] = [
     ],
     choreo: "Tina & Ray Yeoman",
     videoLink: [
-      "https://youtu.be/_7xGvGX3OHc?si=4GEaAl6KbdkxJbaj"
+      "https://youtu.be/_7xGvGX3OHc?si=4GEaAl6KbdkxJbaj",
+      "https://youtu.be/_7xGvGX3OHc?si=zCSatuX4GmR_7c2D"
     ],
     stepsheetLink:"https://www.get-in-line.de/dances/Coastin%27_-_Yeoman.htm",
     counts: 40,
@@ -1971,6 +1985,7 @@ export const dances: Dance[] = [
     videoLink: [
       "https://youtu.be/9eiXWfMcxVg?si=9-kNyB_Zt6MlxlfF",
       "https://youtu.be/v7ISpg6nkYo?si=XjmSA7MmNW66Pjq8",
+      "https://youtu.be/cNddXS_05N8?si=Z71JiypX-sV8XWeO",
     ],
     stepsheetLink:"https://www.get-in-line.de/dances/Islands_In_The_Stream_-_Jones.htm",
     counts: 32,
@@ -3270,6 +3285,18 @@ export const dances: Dance[] = [
     walls:2,
     id: "209",
   },
+    {
+    name: "Trailblazer",
+    isPairDance: false,
+    level: "Intermediate",
+    songs: ["Trailblazer - Reba McEntire, Miranda Lambert, Lainey Wilson"],
+    choreo: "Sabine & Siggi Güldenfuß",
+    videoLink: ["https://youtu.be/zAqHA80pCfQ?si=G3Cse3nxJ0OSN6-6"],
+    stepsheetLink: "https://www.get-in-line.de/dances/Trailblazer_-_TFDSabine-Gueldenfuss.htm",
+    counts: 64,
+    walls: 2,
+    id: "233",
+  },
   {
     name: "Tush Push",
     isPairDance: false,
@@ -3547,29 +3574,18 @@ export const dances: Dance[] = [
     walls: 4,
     id: "226",
   },
-    {
-    name: "Trailblazer",
+ {
+    name: "Friday yet",
     isPairDance: false,
     level: "Intermediate",
-    songs: ["Trailblazer - Reba McEntire, Miranda Lambert, Lainey Wilson"],
-    choreo: "Sabine & Siggi Güldenfuß",
-    videoLink: ["https://youtu.be/zAqHA80pCfQ?si=G3Cse3nxJ0OSN6-6"],
-    stepsheetLink: "https://www.get-in-line.de/dances/Trailblazer_-_TFDSabine-Gueldenfuss.htm",
+    songs: ["Is It Friday Yet - Gord Bamford"],
+    choreo: "Nadja Krieg",
+    videoLink: ["https://youtu.be/aJuqAJY9S5U?si=iQz50ueibB5731x4",
+      "https://youtu.be/in4POGsIA38?si=mZoNJJZTmEv3sEkY"
+    ],
+    stepsheetLink: "https://www.get-in-line.de/dances/Friday%20Yet_-_Krieg.htm",
     counts: 64,
     walls: 2,
-    id: "233",
-  },
-  {
-    name: "Choosin Texas",
-    isPairDance: true,
-    level: "Beginner",
-    songs: ["Choosin' Texas - Ella Langley"],
-    choreo: "Nidhi Risi",
-    videoLink: ["https://youtu.be/09bEe9j2f4w?si=VVLQtHfi2ciJKvnN"
-    ],
-    stepsheetLink: "https://www.get-in-line.de/dances/Choosin%27%20Texas_-_Risi.htm",
-    counts:24,
-    walls: 4,
-    id: "235",
+    id: "236",
   },
 ];
