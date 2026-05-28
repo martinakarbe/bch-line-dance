@@ -1522,6 +1522,20 @@ export const dances: Dance[] = [
     walls: 2,
     id: "84",
   },
+ {
+    name: "Galway moon",
+    isPairDance: false,
+    level: "Improver",
+    songs: ["Galway moon - Paidrag Donelly"],
+    choreo: "Rob Fowler",
+    videoLink: ["https://youtu.be/ayfHYyUvK9Q?si=eqSr9zLwEkZZuaha",
+      "https://youtu.be/FAQnKbmneaE?si=kioOno5FaG-hHCDE "
+    ],
+    stepsheetLink: "https://www.get-in-line.de/dances/Galway%20Moon_-_Fowler.htm",
+    counts: 32,
+    walls: 4,
+    id: "237",
+  },
   /*{
     name: "Ghost Town",
     isPairDance: false,
@@ -1644,6 +1658,21 @@ export const dances: Dance[] = [
     counts: 32, 
     walls: 4,
     id: "92",
+  },
+ {
+    name: "Grandpa Tell Me Bout The Good Old Day's",
+    isPairDance: false,
+    level: "Intermediate",
+    songs: ["Grandpa (Tell Me 'Bout The Good Old Days) - The Judds",
+      "Grandpa - Dave Fenley (mit Restart)"
+    ],
+    choreo: "Marja Urgert & Jan van Tiggelen",
+    videoLink: ["https://youtu.be/pCZbU9QMY4U?si=qbq01AS_aS_e3JZb"
+    ],
+    stepsheetLink: "https://www.get-in-line.de/dances/Grandpa%20Tell%20Me%20Bout%20The%20Good%20Old%20Day%27s_-_Urgert-van%20Tiggelen.htm",
+    counts: 32,
+    walls: 4,
+    id: "238",
   },
   {
     name: "Grundy Gallop",
@@ -3595,32 +3624,16 @@ export const dances: Dance[] = [
     id: "236",
   },
  {
-    name: "Galway moon",
+    name: "Long live cowgirls",
     isPairDance: false,
     level: "Improver",
-    songs: ["Galway moon - Paidrag Donelly"],
-    choreo: "Rob Fowler",
-    videoLink: ["https://youtu.be/ayfHYyUvK9Q?si=eqSr9zLwEkZZuaha",
-      "https://youtu.be/FAQnKbmneaE?si=kioOno5FaG-hHCDE "
+    songs: ["Long Live Cowgirls - Ian Munsick & Cody Johnson"],
+    choreo: "Aurora de Jong",
+    videoLink: ["https://youtu.be/AhzdrZr_DiQ?si=9R17-s5nrygIjfZp"
     ],
-    stepsheetLink: "https://www.get-in-line.de/dances/Galway%20Moon_-_Fowler.htm",
-    counts: 32,
+    stepsheetLink: "https://www.copperknob.co.uk/stepsheets/XJK63DS/long-live-cowgirls",
+    counts: 24,
     walls: 4,
-    id: "237",
-  },
- {
-    name: "Grandpa Tell Me Bout The Good Old Day's",
-    isPairDance: false,
-    level: "Intermediate",
-    songs: ["Grandpa (Tell Me 'Bout The Good Old Days) - The Judds",
-      "Grandpa - Dave Fenley (mit Restart)"
-    ],
-    choreo: "Marja Urgert & Jan van Tiggelen",
-    videoLink: ["https://youtu.be/pCZbU9QMY4U?si=qbq01AS_aS_e3JZb"
-    ],
-    stepsheetLink: "https://www.get-in-line.de/dances/Grandpa%20Tell%20Me%20Bout%20The%20Good%20Old%20Day%27s_-_Urgert-van%20Tiggelen.htm",
-    counts: 32,
-    walls: 4,
-    id: "238",
+    id: "239",
   },
 ];
