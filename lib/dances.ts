@@ -245,6 +245,7 @@ export const dances: Dance[] = [
     songs: [
       "I Love You Arizona - Rex Allen Jr. : (Arizona State Song)",
       "Alt music : almost any slow to medium tempo waltz",
+      "Blue moon of Kentucky - Bill Monroe",
     ],
     choreo: "Mark & Rebecca Magdanz",
     videoLink: ["https://www.youtube.com/watch?v=hqV8N_b1B3o"],
@@ -374,6 +375,7 @@ export const dances: Dance[] = [
       "Designated Drinker - Alan Jackson",
       "I like it, I love it - Tim McGraw",
       "Familiy tradition - Hank Williams",
+      "You and tequila - Kenny Chesney"
     ],
     choreo: "unbekannt",
     videoLink: [
@@ -515,7 +517,8 @@ export const dances: Dance[] = [
     isPairDance: false,
     level: "Beginner",
     songs: [
-      "Boot Scootin Boogie - Brooks & Dunn"
+      "Boot Scootin Boogie - Brooks & Dunn",
+      "A little less talk and a lot more action - Toby Keith",
     ],
     choreo: "Unbekannt",
     videoLink: [
@@ -1092,6 +1095,7 @@ export const dances: Dance[] = [
       "Knockin on heaven's door - Guns & Roses",
       "Old lucky diamond motel - Vince Gill",
       "One horse town - Blackberry Smoke",
+      "The Thunder Rolls - Garth Brooks"
     ],
     choreo: "Jo Thompson Szymanski",
     videoLink: [
@@ -2693,7 +2697,8 @@ export const dances: Dance[] = [
     level: "Intermediate",
     songs: [
       "Rose Garden - Scooter Lee oder Lynn Anderson",
-      "Merry christmas - Ed Sheeran & Elton John"
+      "Merry christmas - Ed Sheeran & Elton John",
+      "Ole Slew Foot - Johnny Horton",
     ],
     videoLink: [
       "https://youtu.be/e4Bvwjo-OMk?si=1lvl3gPSl4JGVKdB",
@@ -3426,6 +3431,7 @@ export const dances: Dance[] = [
       "Waltz Across Texas - Dean Brothers",
       "My kind of woman, my kind of man - Vince Gill",
 	    "Stars over Texas - Tracy Lawrence",
+      "Blue moon of Kentucky - Bill Monroe",
       "oder jeder andere langsame bis mittelschnelle Walzer",
     ],
     choreo: "Lois & John Nielson",
@@ -3543,6 +3549,7 @@ export const dances: Dance[] = [
       "White Rose - Toby Keith",
       "Shut up and drive - Chely Wright",
       "What if - Daisy Town",
+      "You and tequila - Kenny Chesney"
     ],
     choreo: "Gaye Teather",
     videoLink: [
@@ -3560,15 +3567,17 @@ export const dances: Dance[] = [
     isPairDance: false,
     level: "Improver",
     songs: [
+      "Big River - The Highwayman",
       "Breathe - Faith Hill",
+      "Honky Ton is what I do best - Marty Stuart & Travis Tritt",
       "Is that a tear - Tracey Lawrence",
-      "Linda Lou - Tractors" ,
+      "Linda Lou - Tractors",
       "Let's make love - Faith Hill",
-      "Route 66 - J.Mayer" ,
       "Lovin' All Night - Rodney Crowell",
-      "Nobody knows - Kevin Sharp" ,
+      "Nobody knows - Kevin Sharp",
+      "Route 66 - J.Mayer",
       "Somedays you gotta dance - Dixie Chicks",
-      "Shortenin' Bread - Tractors" ,
+      "Shortenin' Bread   Tractors" ,
       "Sounds like something I do - Drake Milligan",
       "Lay down Sally - Eric Clapton", 
       "The Bug - Mary C. Carpenter",
@@ -3627,7 +3636,9 @@ export const dances: Dance[] = [
     name: "Long live cowgirls",
     isPairDance: false,
     level: "Improver",
-    songs: ["Long Live Cowgirls - Ian Munsick & Cody Johnson"],
+    songs: ["Long Live Cowgirls - Ian Munsick & Cody Johnson",
+      "Hickory wind - The Byrds (ohne Brücken, ohne Restart)",
+    ],
     choreo: "Aurora de Jong",
     videoLink: ["https://youtu.be/AhzdrZr_DiQ?si=9R17-s5nrygIjfZp"
     ],
