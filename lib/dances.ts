@@ -27,15 +27,18 @@ export const dances: Dance[] = [
     isPairDance: true,
     level: "Beginner",
     songs: [
+      "Back To Tourmakeady - Nathan Carter",
+      "Dixieland delight - Alabama",
+      "Down On The Farm - Tim Mc Craw",
+      "Fishin in the dark - Nitty Gritty Dirt Band",
+      "Gone Country - Alan Jackson",
+      "I don't even know her name - Alan Jackson",
+      "If your gonna play in Texas - Alabama",
+      "Love Like This - Gamblers",
+      "Old Hippie - Bellamy Brothers",
       "On the road again - Willie Nelson",
       "Rocky Top - Osborne Brothers",
       "Sold - John Michael Montgomery",
-      "If your gonna play in Texas - Alabama",
-      "I don't even know her name - Alan Jackson",
-      "Fishin in the dark - Nitty Gritty Dirt Band",
-      "Love Like This - Gamblers",
-      "Down On The Farm - Tim Mc Craw",
-      "Back To Tourmakeady - Nathan Carter",
       "Yankee Doodle - Boxcar Willie",
     ],
     choreo: "unbekannt",
@@ -109,9 +112,10 @@ export const dances: Dance[] = [
     isPairDance: false,
     level: "Beginner",
     songs: [
-      "Country Music Made Me Do It - Mike Henderson,",
-      "Setting The Woods On Fire - The Tractors",
       "Ashes of Love - Kentucky Headhunters",
+      "Country Music Made Me Do It - Mike Henderson,",
+      "On the road again - Willie Nelson",
+      "Setting The Woods On Fire - The Tractors",      
     ],
     choreo: "Diane Horner",
     videoLink: ["https://youtu.be/uSTJB84g8us?si=QnaoQIcD3LfvfUFo"],
@@ -159,10 +163,11 @@ export const dances: Dance[] = [
     isPairDance: false,
     level: "Intermediate",
     songs: [
-      "See You Later Alligator/R.O.C.K./",
       "Rock Around The Clock - Johnny Earle",
-      "You never can tell - Bruce Springsteen",
       "Run Rudolph run - Bryan Adams",
+      "See You Later Alligator/R.O.C.K./",
+      "You never can tell - Bruce Springsteen",
+      
     ],
     choreo: "The Berkshire County Line Dancers & Todd Lescarbeau",
     videoLink: [
@@ -180,7 +185,8 @@ export const dances: Dance[] = [
     isPairDance: false,
     level: "Advanced",
     songs: [
-      "All Shook Up - Billy Joel,", "All Shook Up - Elvis Presley"
+      "All Shook Up - Billy Joel,", 
+      "All Shook Up - Elvis Presley"
     ],
     choreo: "Naomi Fleetwood-Pyle",
     videoLink: [
@@ -371,11 +377,12 @@ export const dances: Dance[] = [
     isPairDance: true,
     level: "Beginner",
     songs: [
-      "Redneck Girl - Bellamy Brothers",
       "Designated Drinker - Alan Jackson",
-      "I like it, I love it - Tim McGraw",
       "Familiy tradition - Hank Williams",
-      "You and tequila - Kenny Chesney"
+      "I like it, I love it - Tim McGraw",
+      "Redneck Girl - Bellamy Brothers",
+      "You and tequila - Kenny Chesney",
+      "You ain't going nowhere - Bob Dylan",
     ],
     choreo: "unbekannt",
     videoLink: [
@@ -392,9 +399,9 @@ export const dances: Dance[] = [
     level: "Improver",
     songs: [
       "Beer For My Horses v on Toby Keith",
-      "Young & crazy - Frankie Ballard",
       "Feliz navidad - Boney M",
-    ],
+      "Young & crazy - Frankie Ballard",
+     ],
     choreo: "Christine Bass",
     videoLink: [
       "https://youtu.be/yQc9UrtsGNk?si=SOmqvPI0mE4iC5nx",
@@ -428,12 +435,13 @@ export const dances: Dance[] = [
     isPairDance: false,
     level: "Improver",
     songs: [
-      "Black Coffee - Lacy J. Dalton Western Girls - Marty Stuart",
       "As good as I once was - Toby Keith",
+      "Black Coffee - Lacy J. Dalton Western Girls - Marty Stuart",
+      "Five minutes from America - Kevin Kostner",
       "Lucky Lips - Rote Lippen",
-      "Whiskey over you - Daisy Town",
       "Little sister - Elvis Presley",
       "Mitternacht - E Nomine",
+      "Whiskey over you - Daisy Town",      
     ],
     choreo: "Helen O'Malley",
     videoLink: [
@@ -517,8 +525,9 @@ export const dances: Dance[] = [
     isPairDance: false,
     level: "Beginner",
     songs: [
-      "Boot Scootin Boogie - Brooks & Dunn",
       "A little less talk and a lot more action - Toby Keith",
+      "Boot Scootin Boogie - Brooks & Dunn",      
+      "Honky Tonk is what I do best - Mary Stuart & Travis Tritt",
     ],
     choreo: "Unbekannt",
     videoLink: [
@@ -574,7 +583,7 @@ export const dances: Dance[] = [
     level: "Intermediate",
     songs: [
       "Bring Down the House - Dean Brody",
-      "Pick out a christ mas tree - Dan+Shay",
+      "Pick out a christmas tree - Dan+Shay",
     ],
     choreo: "Stéphane Cormier & Denis Henley",
     videoLink: ["https://youtu.be/xLqtx6CvVz4?si=02-Mbr_XPBxr2e_l"],
@@ -621,13 +630,13 @@ export const dances: Dance[] = [
     isPairDance: false,
     level: "Beginner",
     songs: [
-      "Copperhead Road - Steve Earle",
-      "Louisiana Saturday night - Mel McDaniel",
       "Any Man Of Mine - Shania Twain One beer can vom Brad Paisley",
-      "What makes you country - Luke Bryan",
       "Beer never broke my heart - Luke Combs",
-      "Sweet home Alabama - Lynyrd Skynyrd", 
+      "Copperhead Road - Steve Earle",
       "Liquor Talking - Don Louis",
+      "Louisiana Saturday night - Mel McDaniel",
+      "What makes you country - Luke Bryan",
+      "Sweet home Alabama - Lynyrd Skynyrd",       
     ],
     choreo: "unbeannt",
     videoLink: [
@@ -679,10 +688,12 @@ export const dances: Dance[] = [
     songs: [
       "Chattahoochee - Alan Jackson,",
       "Chattahoochee (Extended Mix) - Alan Jackson,",
-      "Dallas Days And Fort Worth Nights - Chris LeDoux",
-      "The night I called the old man out - Garth Brooks",
       "Cherokee Boogie - BR5-49",
-    ],
+      "Dallas Days And Fort Worth Nights - Chris LeDoux",
+      "Honky tonk is what I do best - Mary Stuart & Travis Tritt",
+      "Summertime Blues - Alan Jackson",
+      "The night I called the old man out - Garth Brooks",
+      ],
     choreo: "Unbekannt",
     videoLink: [
       "https://youtu.be/oroaUj0s2v8?si=aah04_cqSrtUSMt7",
@@ -747,10 +758,10 @@ export const dances: Dance[] = [
     isPairDance: false,
     level: "Intermediate",
     songs: [
-      "Southbound Train - Travis Tritt",
-      "Redneck woman - Gretchen Wilson",
-      "Guitar Cadillacs - D. Yoakam",
       "Beer & woman - Steve Forde",
+      "Guitars, Cadillacs - Dwight Yoakam",
+      "Redneck woman - Gretchen Wilson",
+      "Southbound Train - Travis Tritt",     
     ],
     choreo: "Peter Metelnick & Kathy Hunyadi",
     videoLink: [
@@ -838,9 +849,11 @@ export const dances: Dance[] = [
     level: "Beginner",
     songs: [
       "Come Dance With Me - Nancy Hays",
+      "Designated Drinker - Alan Jackson",
       "L.A. Woman - Frankie Ballard",
       "How forever feels - Kenny Chesney",
       "Must be the whiskey - Cody Jinks",
+      "No shoes, no shirt, no problem - Kenny Chesney",
       "I just want to dance with you - George Strait",
     ],
     choreo: "Jo Thompson Szymanski",
@@ -1037,13 +1050,15 @@ export const dances: Dance[] = [
     isPairDance: false,
     level: "Beginner",
     songs: [
-      "Shadows In The Night - Scooter Lee",
-      "I need more of you - Bellamy Brothers",
-      "What Kind Of Fool - Scooter Lee",
-      "Still Cruisin' - Beach Boys",
-      "If I Said You Had a Beautiful Body - The Bellamy Brothers",
       "Amarillo by Morning - George Strait",
+      "Early morning rain - Gordon Lightfoot",
+      "I need more of you - Bellamy Brothers",
+      "If I Said You Had a Beautiful Body - The Bellamy Brothers",
       "Margaritaville - Alan Jackson & Jimmy Buffett",
+      "One horse town - Blackberry Smoke",
+      "Shadows In The Night - Scooter Lee",
+      "Still Cruisin' - Beach Boys",
+      "What Kind Of Fool - Scooter Lee",
     ],
     choreo: "Neil Hale",
     videoLink: [
@@ -1329,7 +1344,12 @@ export const dances: Dance[] = [
     name: "El Paso",
     isPairDance: true,
     level: "Beginner",
-    songs: ["Neon Moon - Brooks & Dunn", "Tequila Sunrise - Eagles"],
+    songs: ["Neon Moon - Brooks & Dunn", 
+      "Tequila Sunrise - Eagles",
+      "I need more of you - Bellamy brothers",
+      "If you gonna play in Texas - Alabama",
+      "This ain't no thinking things - Trace Adkins",
+    ],
     choreo: "Unbekannt",
     videoLink: ["https://youtu.be/vk7xvD1ezXM?si=HWCC9nMgA0RX_eKU"],
     stepsheetLink:"https://www.get-in-line.de/dances/El_Paso_-_Unbekannt.htm",
@@ -1406,7 +1426,9 @@ export const dances: Dance[] = [
     name: "Fisher's Hornpipe",
     isPairDance: false,
     level: "Improver",
-    songs: ["Fisher's Hornpipe - David Schnaufer"],
+    songs: ["Fisher's Hornpipe - David Schnaufer",
+      "The devil went down to Georgia - Charlie Daniels Band",
+    ],
     choreo: "Val Reeves",
     videoLink: [
       "https://youtu.be/Fyha771R3fU?si=W9R13HgR8YbU4BBZ",
@@ -1458,7 +1480,9 @@ export const dances: Dance[] = [
     level: "Intermediate",
     songs: [
       "Footloose - Kenny Loggins,", 
-      "Footloose - Blake Shelton"],
+      "Footloose - Blake Shelton",
+      "Thank god I'm a country boy - John Denver",
+    ],
     choreo: "Levi J. Hubbard & Starla Rodgers",  
     videoLink: [
       "https://youtu.be/fvbmQU9Y1Sg?si=LONnvS2xE0EXkX76"
@@ -1734,7 +1758,9 @@ export const dances: Dance[] = [
     name: "Happy, Happy, Happy",
     isPairDance: false,
     level: "Intermediate",
-    songs: ["Soggy Bottom Summer - Dean Brody"],
+    songs: ["Soggy Bottom Summer - Dean Brody",
+      "Food on the Table - Alabamas",
+    ],
     choreo: "Mª Angeles Mateu Simon",
     videoLink: [
       "https://youtu.be/i9zhQUTu4Pg?si=aPhNx5F0ycp2SOCv",
@@ -1762,11 +1788,12 @@ export const dances: Dance[] = [
     isPairDance: false,
     level: "Beginner",
     songs: [
-      "Hearts And Flowers - Dave Sheriff",
-      "Working man blues - Merke Haggard",
       "Five Minutes - Lorrie Morgan",
+      "Friend of the devil - grateful dead",
+      "Hearts And Flowers - Dave Sheriff",
       "Hello Mary Lou - Creedence Clearwater Revival",
       "I believe in Santa Claus - Dolly Parton",
+      "Working man blues - Merke Haggard",
     ],
     choreo: "Adrian Churm",
     videoLink: ["https://youtu.be/nFCA9iVW8aM?si=CvM9ONf1ZaevhX8o"],
@@ -1895,7 +1922,8 @@ export const dances: Dance[] = [
     level: "Beginner",
     songs: [
       "jeder Cha Cha", 
-      "Amarillo by Morning - George Strait"
+      "Amarillo by Morning - George Strait",
+      "On night at a time - George Strait",
     ],
     choreo: "Joe Serna",
     videoLink: ["https://youtu.be/BZCjMbUy7aA?si=aW3oDA-6tIXkdDAH"],
@@ -1922,6 +1950,7 @@ export const dances: Dance[] = [
     songs: [
       "I Love A Rainy Night - Eddie Rabbitt,",
       "Honky Tonk History - The Dean Brothers",
+      "Honky Tonk Song - BR5-49",
     ],
     choreo: "Iris M. Mooney",
     videoLink: ["https://youtu.be/73XVuNmpBKc?si=QRSkbnd0EQOqzgi0"],
@@ -1964,6 +1993,7 @@ export const dances: Dance[] = [
     songs: [
       "Seminole Wind - John Anderson",
       "Hold Your Horses (Radio Version) - E-Type",
+      "Bend it until it breaks - John Anderson",
     ],
     choreo: "Mary Kelly",
     videoLink: [
@@ -2144,6 +2174,7 @@ export const dances: Dance[] = [
     level: "Improver",
     songs: [
       "All Summer Long - Kid Rock",
+      "I don't look good naked anymore - The snake oil Willie Band",
       "Walking the country - Keith Urban",
       "Sweet home Alabama - Lynyrd Skynyrd",
     ],
@@ -2586,8 +2617,10 @@ export const dances: Dance[] = [
     isPairDance: false,
     level: "Improver",
     songs: [
+      "Food on the Table - Alabamas",
+      "Lit this year - Florida Georgia Line",
       "Playboys - Midland", 
-      "Lit this year - Florida Georgia Line"
+      
     ],
     videoLink: ["https://youtu.be/cqhF4rP-7LY?si=88ohetF3mDtTnVPx"],
     stepsheetLink:"https://www.get-in-line.de/dances/Playboys_-_Winson.htm",
@@ -2724,12 +2757,13 @@ export const dances: Dance[] = [
     isPairDance: true,
     level: "Intermediate",
     songs: [
+      "Gone Country - Alan Jackson",
+      "Mexican Flower - Larissia Murphy",
+      "My next broken heart - Brooks & Dunn",
       "Shadow In The Night - Scooter Lee",
       "Write this down - George Strait",
       "Suspicious minds - Fankie Ballard",
-      "Mexican Flower - Larissia Murphy",
-      "Trail of Tears - Tanya Tucker",
-      "My next broken heart - Brooks & Dunn",
+      "Trail of Tears - Tanya Tucker",      
     ],
     videoLink: ["https://youtu.be/_Y1lMkcwV3E?si=x6PDZBE_epaaPZPA"],
     stepsheetLink:"http://www.lucky-train-line-dancers.de/Taenze/Kreis-%20und%20Paartaenze/Shadow.pdf",
@@ -3345,8 +3379,10 @@ export const dances: Dance[] = [
       "Born To Boogie - Hank Williams Jr",
       "Drivin' My Life Away - Rhett Akins",
       "I like it, I love it - Tim McGraw",
+      "If you gonna play in Texas - Alabama",
       "Fall in love - Kenny Chesney",
       "God blessed Texas - Little Texas",
+      "Mama don't let your babies grow up to be cowboys - Gibson/Miller Band",
       "Take it easy",
       "The night I called the old man out - Garth Brooks",
     ],
@@ -3569,7 +3605,7 @@ export const dances: Dance[] = [
     songs: [
       "Big River - The Highwayman",
       "Breathe - Faith Hill",
-      "Honky Ton is what I do best - Marty Stuart & Travis Tritt",
+      "Honky Tonk is what I do best - Marty Stuart & Travis Tritt",
       "Is that a tear - Tracey Lawrence",
       "Linda Lou - Tractors",
       "Let's make love - Faith Hill",
@@ -3583,6 +3619,7 @@ export const dances: Dance[] = [
       "The Bug - Mary C. Carpenter",
       "Little Liza Jane", 
       "Queen of hearts - Juice Newton (sehr langsam)",
+      "Working man blues - Merle Haggard",
       "Another Rock'n Roll Christmas - Garry Glitter",
     ],
     choreo: "Jim O'Neill",
@@ -3646,5 +3683,21 @@ export const dances: Dance[] = [
     counts: 24,
     walls: 4,
     id: "239",
+  },
+ {
+    name: "Cotton pickin' morning",
+    isPairDance: false,
+    level: "Improver",
+    songs: ["Cotton Pickin' Time - Blake Shelton",
+      "Get back to the country - Marty Stuart & Travis Tritt",
+    ],
+    choreo: "Steve Mason",
+    videoLink: ["https://youtu.be/J_m7OoQKCk8?si=jo9-P3Nk2dlQHkfg",
+      "https://youtu.be/wR5fins3_pU?si=VUvCCyy3GcEFj-bq"
+    ],
+    stepsheetLink: "https://www.get-in-line.de/dances/Cotton%20Pickin%27%20Morning_-_Mason.htm",
+    counts: 32,
+    walls: 4,
+    id: "240",
   },
 ];
