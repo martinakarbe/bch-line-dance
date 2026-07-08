@@ -910,7 +910,23 @@ export const dances: Dance[] = [
     walls: 4,
     id: "48",
   },
-  {
+   {
+    name: "Cotton pickin' morning",
+    isPairDance: false,
+    level: "Improver",
+    songs: ["Cotton Pickin' Time - Blake Shelton",
+      "Get back to the country - Marty Stuart & Travis Tritt",
+    ],
+    choreo: "Steve Mason",
+    videoLink: ["https://youtu.be/J_m7OoQKCk8?si=jo9-P3Nk2dlQHkfg",
+      "https://youtu.be/wR5fins3_pU?si=VUvCCyy3GcEFj-bq"
+    ],
+    stepsheetLink: "https://www.get-in-line.de/dances/Cotton%20Pickin%27%20Morning_-_Mason.htm",
+    counts: 32,
+    walls: 4,
+    id: "240",
+  },
+   {
     name: "Country 2 Step",
     isPairDance: false,
     level: "Beginner",
@@ -1521,6 +1537,22 @@ export const dances: Dance[] = [
     id: "82",
   },
   {
+    name: "Friday yet",
+    isPairDance: false,
+    level: "Intermediate",
+    songs: ["Is It Friday Yet - Gord Bamford",
+      "Chicken Fried - Zac Brown Band",
+    ],
+    choreo: "Nadja Krieg",
+    videoLink: ["https://youtu.be/aJuqAJY9S5U?si=iQz50ueibB5731x4",
+      "https://youtu.be/in4POGsIA38?si=mZoNJJZTmEv3sEkY"
+    ],
+    stepsheetLink: "https://www.get-in-line.de/dances/Friday%20Yet_-_Krieg.htm",
+    counts: 64,
+    walls: 2,
+    id: "236",
+  },
+   {
     name: "Front Door Famous",
     isPairDance: false,
     level: "Improver",
@@ -2341,6 +2373,21 @@ export const dances: Dance[] = [
     stepsheetLink:"https://www.get-in-line.de/dances/Long%20Black%20Train_-_Argyle-Fowler.htm",
     id: "132",
   },
+  {
+    name: "Long live cowgirls",
+    isPairDance: false,
+    level: "Improver",
+    songs: ["Long Live Cowgirls - Ian Munsick & Cody Johnson",
+      "Hickory wind - The Byrds (ohne Brücken, ohne Restart)",
+    ],
+    choreo: "Aurora de Jong",
+    videoLink: ["https://youtu.be/AhzdrZr_DiQ?si=9R17-s5nrygIjfZp"
+    ],
+    stepsheetLink: "https://www.copperknob.co.uk/stepsheets/XJK63DS/long-live-cowgirls",
+    counts: 24,
+    walls: 4,
+    id: "239",
+  },
 /*{
     name: "Lorrie's Dance",
     isPairDance: true,
@@ -2674,7 +2721,7 @@ export const dances: Dance[] = [
   {
     name: "Rhyme Or Reason",
     isPairDance: false,
-    level: "Improver",
+    level: "Intermediate",
     songs: [
       "It Happens - Sugarland", 
       "Here comes Santa Claus - Elvis Presley"
@@ -3653,51 +3700,18 @@ export const dances: Dance[] = [
     walls: 4,
     id: "226",
   },
- {
-    name: "Friday yet",
+ 
+ /*{
+    name: " ",
     isPairDance: false,
-    level: "Intermediate",
-    songs: ["Is It Friday Yet - Gord Bamford",
-      "Chicken Fried - Zac Brown Band",
+    level: " ",
+    songs: [" "],
+    choreo: " ",
+    videoLink: [""
     ],
-    choreo: "Nadja Krieg",
-    videoLink: ["https://youtu.be/aJuqAJY9S5U?si=iQz50ueibB5731x4",
-      "https://youtu.be/in4POGsIA38?si=mZoNJJZTmEv3sEkY"
-    ],
-    stepsheetLink: "https://www.get-in-line.de/dances/Friday%20Yet_-_Krieg.htm",
-    counts: 64,
-    walls: 2,
-    id: "236",
-  },
- {
-    name: "Long live cowgirls",
-    isPairDance: false,
-    level: "Improver",
-    songs: ["Long Live Cowgirls - Ian Munsick & Cody Johnson",
-      "Hickory wind - The Byrds (ohne Brücken, ohne Restart)",
-    ],
-    choreo: "Aurora de Jong",
-    videoLink: ["https://youtu.be/AhzdrZr_DiQ?si=9R17-s5nrygIjfZp"
-    ],
-    stepsheetLink: "https://www.copperknob.co.uk/stepsheets/XJK63DS/long-live-cowgirls",
-    counts: 24,
-    walls: 4,
-    id: "239",
-  },
- {
-    name: "Cotton pickin' morning",
-    isPairDance: false,
-    level: "Improver",
-    songs: ["Cotton Pickin' Time - Blake Shelton",
-      "Get back to the country - Marty Stuart & Travis Tritt",
-    ],
-    choreo: "Steve Mason",
-    videoLink: ["https://youtu.be/J_m7OoQKCk8?si=jo9-P3Nk2dlQHkfg",
-      "https://youtu.be/wR5fins3_pU?si=VUvCCyy3GcEFj-bq"
-    ],
-    stepsheetLink: "https://www.get-in-line.de/dances/Cotton%20Pickin%27%20Morning_-_Mason.htm",
-    counts: 32,
-    walls: 4,
-    id: "240",
-  },
+    stepsheetLink: "",
+    counts:  ,
+    walls: ,
+    id: "241",
+  }*/
 ];
