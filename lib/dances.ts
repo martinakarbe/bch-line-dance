@@ -3700,7 +3700,21 @@ export const dances: Dance[] = [
     walls: 4,
     id: "226",
   },
- 
+	{
+    name: "Stomp & Twist",
+    isPairDance: false,
+    level: "Beginner",
+    songs: ["Glass of Wine - DJTEXX"],
+    choreo: "Michael Funke & Line Dance Biene",
+    videoLink: ["https://youtu.be/_SPGAJ9kXDk?si=GPrxld6HAAO-iS54"],
+    stepsheetLink: "https://www.get-in-line.de/dances/Stomp%20and%20Twist_-_Funke.htm",
+    counts: 32,
+    walls: 4,
+    id: "241",  
+  }	  
+
+
+
  /*{
     name: " ",
     isPairDance: false,
@@ -3712,6 +3726,6 @@ export const dances: Dance[] = [
     stepsheetLink: "",
     counts:  ,
     walls: ,
-    id: "241",
+    id: "242",
   }*/
 ];
