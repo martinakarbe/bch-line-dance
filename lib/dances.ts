@@ -383,6 +383,8 @@ export const dances: Dance[] = [
       "Redneck Girl - Bellamy Brothers",
       "You and tequila - Kenny Chesney",
       "You ain't going nowhere - Bob Dylan",
+      "Jim and Jack and Hank - Alan Jackson",
+      "Jeans on - Keith Urban",
     ],
     choreo: "unbekannt",
     videoLink: [
@@ -437,10 +439,12 @@ export const dances: Dance[] = [
     songs: [
       "As good as I once was - Toby Keith",
       "Black Coffee - Lacy J. Dalton Western Girls - Marty Stuart",
+      "Brand new man - Brooks & Dunn",
       "Five minutes from America - Kevin Kostner",
       "Lucky Lips - Rote Lippen",
       "Little sister - Elvis Presley",
       "Mitternacht - E Nomine",
+      "Red dirt road - Brooks & Dunn",
       "Whiskey over you - Daisy Town",      
     ],
     choreo: "Helen O'Malley",
@@ -566,6 +570,7 @@ export const dances: Dance[] = [
       "Shortenin' Bread - Tractors Sloop John B",
       "So called friend - Danni Leigh",
       "Summer of 69 - Bryan Adams",
+      "Only in America - Brooks & Dunn",
     ],
     choreo: "Roz Morgan",
     videoLink: [
@@ -636,7 +641,8 @@ export const dances: Dance[] = [
       "Liquor Talking - Don Louis",
       "Louisiana Saturday night - Mel McDaniel",
       "What makes you country - Luke Bryan",
-      "Sweet home Alabama - Lynyrd Skynyrd",       
+      "Sweet home Alabama - Lynyrd Skynyrd",
+      "The Bug - Dire Straits",       
     ],
     choreo: "unbeannt",
     videoLink: [
@@ -691,6 +697,8 @@ export const dances: Dance[] = [
       "Cherokee Boogie - BR5-49",
       "Dallas Days And Fort Worth Nights - Chris LeDoux",
       "Honky tonk is what I do best - Mary Stuart & Travis Tritt",
+      "Honky Tonk Time Machine - George Strait",    
+      "Mercury blues - Alan Jackson",
       "Summertime Blues - Alan Jackson",
       "The night I called the old man out - Garth Brooks",
       ],
@@ -832,6 +840,8 @@ export const dances: Dance[] = [
       "Coffee Days And Whiskey Nights - Robynn Shayne",
       "Ashes of love - Kentucky Headhunters",
       "Straight to hell - Darius Rucker",
+      "Let 'er rip - The Chicks",
+      "Hey, hey, hey - Andy Nickel", 
     ],
     choreo: "Ivonne Verhagen",
     videoLink: [
@@ -996,6 +1006,7 @@ export const dances: Dance[] = [
       "Neon Moon - Brooks & Dunn",
       "Margaritaville - Jimmy Buffett",
       "Segler aus Papier - Fair Play",
+      "The Cowboy Rides Away - George Strait",
     ],
     choreo: "Gilette Kelly & Michele Stremch",
     videoLink: [
@@ -1105,7 +1116,9 @@ export const dances: Dance[] = [
     name: "Cupid Shuffle",
     isPairDance: false,
     level: "Beginner",
-    songs: ["Cupid Shuffle - Cupid"],
+    songs: ["Cupid Shuffle - Cupid",
+      "Only in America - Brooks & Dunn",
+    ],
     choreo: "Cupid",
     videoLink: [
       "https://youtu.be/UVKooAlER20?si=vyknFJZiuqUQ6TpJ",
@@ -1378,10 +1391,14 @@ export const dances: Dance[] = [
     level: "Beginner",
     songs: [
       "Boot Scootin' Boogie - Brooks & Dunn",
+      "Brand new man - Brooks & Dunn",
       "Electric Boogie - Marcia Griffiths",
       "Achy Breaky Heart - Billy Ray Cyrus",
       "Play something country - Brooks & Dunn",
       "Walk softly - Kentucky Headhunters",
+      "Tulsa Time - Don Williams",
+      "Jeans on - Keith Urban",
+      "Only in America - Brooks & Dunn",
     ],
     choreo: "Ric Silver",
     videoLink: [
@@ -2055,7 +2072,8 @@ export const dances: Dance[] = [
     level: "Improver",
     songs: [
       "Irish Stew - Sham Rock", 
-      "Bells over belfast - The irish rover"
+      "Bells over belfast - The irish rover",
+      "Patsy Fagan - Derek Ryan",
     ],
     choreo: "Lois Lightfoot",
     videoLink: [
@@ -2351,7 +2369,7 @@ export const dances: Dance[] = [
     level: "Intermediate",
     songs: [
       "Lonely Drum - Aaron Goodvin", 
-      "Tulsa Time", 
+      "Tulsa Time - Don Williams", 
       "Roots - Zac Brown"
     ],
     videoLink: [
@@ -2779,7 +2797,7 @@ export const dances: Dance[] = [
       "Rose Garden - Scooter Lee oder Lynn Anderson",
       "Merry christmas - Ed Sheeran & Elton John",
       "Ole Slew Foot - Johnny Horton",
-    ],
+      "Little Hometown - Andy Nickel",   ],
     videoLink: [
       "https://youtu.be/e4Bvwjo-OMk?si=1lvl3gPSl4JGVKdB",
       "https://youtu.be/Qidt26HkhWM?si=icrkAw6cwtp1VUuD",
@@ -2810,7 +2828,10 @@ export const dances: Dance[] = [
       "Shadow In The Night - Scooter Lee",
       "Write this down - George Strait",
       "Suspicious minds - Fankie Ballard",
-      "Trail of Tears - Tanya Tucker",      
+      "Trail of Tears - Tanya Tucker",
+      "Daddys money - Ricochet",
+      "Somedays you gotta dance - The Ranch",
+      "Honky Tonk Time Machine - George Strait",      
     ],
     videoLink: ["https://youtu.be/_Y1lMkcwV3E?si=x6PDZBE_epaaPZPA"],
     stepsheetLink:"http://www.lucky-train-line-dancers.de/Taenze/Kreis-%20und%20Paartaenze/Shadow.pdf",
@@ -2947,6 +2968,7 @@ export const dances: Dance[] = [
       "Sticks And Stones - Tracy Lawrence",
       "Part of me, part of you - Glenn Frey",
       "Write this down - George Strait",
+      "Your man - Josh Turner",
     ],
     videoLink: [
       "https://youtu.be/IwYlKXN0NTI?si=lEyDZ4WDPfwSKLP4",
@@ -3430,6 +3452,7 @@ export const dances: Dance[] = [
       "Fall in love - Kenny Chesney",
       "God blessed Texas - Little Texas",
       "Mama don't let your babies grow up to be cowboys - Gibson/Miller Band",
+      "Sounds like something I'd do - Drake Milligan",
       "Take it easy",
       "The night I called the old man out - Garth Brooks",
     ],
@@ -3652,18 +3675,22 @@ export const dances: Dance[] = [
     songs: [
       "Big River - The Highwayman",
       "Breathe - Faith Hill",
+      "God blessed Texas - Little Texas",
       "Honky Tonk is what I do best - Marty Stuart & Travis Tritt",
       "Is that a tear - Tracey Lawrence",
       "Linda Lou - Tractors",
       "Let's make love - Faith Hill",
       "Lovin' All Night - Rodney Crowell",
       "Nobody knows - Kevin Sharp",
+      "One more last chance - Vince Gill",
       "Route 66 - J.Mayer",
       "Somedays you gotta dance - Dixie Chicks",
       "Shortenin' Bread   Tractors" ,
       "Sounds like something I do - Drake Milligan",
       "Lay down Sally - Eric Clapton", 
       "The Bug - Mary C. Carpenter",
+      "The Bug - Dire Straits",
+      "The race is on - Sawyer Brown",
       "Little Liza Jane", 
       "Queen of hearts - Juice Newton (sehr langsam)",
       "Working man blues - Merle Haggard",
