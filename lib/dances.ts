@@ -3456,7 +3456,7 @@ export const dances: Dance[] = [
       "Take it easy",
       "The night I called the old man out - Garth Brooks",
     ],
-    videoLink: ["https://youtu.be/T4TNgig7yRQ?si=dxSFvofMSzgDpGrU"],
+    videoLink: ["https://youtu.be/GGdYLRh54Fg?si=0LF-2CSAP7rC3KIh"],
     stepsheetLink:"https://www.get-in-line.de/dances/Tush%20Push_-_Ferrazzano.htm",
     choreo: "Jim Ferrazzano",
     counts:40,
