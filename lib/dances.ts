@@ -3738,9 +3738,35 @@ export const dances: Dance[] = [
     counts: 32,
     walls: 4,
     id: "241",  
-  }	  
-
-
+  },
+  {
+    name: "Stomp 2,3,4",
+    isPairDance: false,
+    level: "Improver",
+    songs: ["Stomp 2,3,4 - 2341studio"],
+    choreo: "Rob Fowler",
+    videoLink: ["https://youtu.be/rL90ueWWvKA?si=rPVt9YR55OIRH-ph",
+      "https://youtu.be/7NOBGM8Pric?si=IxftpPPcMKBHa1Z9"
+    ],
+    stepsheetLink: "https://www.get-in-line.de/dances/Stomp%202%203%204_-_Fowler.htm",
+    counts: 32,
+    walls: 4,
+    id: "242",
+  },	  
+{
+    name: "Wild West & Wicked",
+    isPairDance: false,
+    level: "Improver",
+    songs: ["Wild West & Wicked (Remix) (AI generated) - DJTEXX"],
+    choreo: "Rob Fowler",
+    videoLink: ["https://youtu.be/fyso8YQ-j7Y?si=OCTaQbaLgbIOCIWM",
+      "https://youtu.be/G9M_40R27C8?si=Q7eEY373CGITPPzF"
+    ],
+    stepsheetLink: "https://www.get-in-line.de/dances/Wild%20West%20and%20Wicked_-_Fowler.htm",
+    counts:  64,
+    walls: 2,    
+    id: "243",
+  }
 
  /*{
     name: " ",
@@ -3753,6 +3779,6 @@ export const dances: Dance[] = [
     stepsheetLink: "",
     counts:  ,
     walls: ,
-    id: "242",
+    id: "244",
   }*/
 ];
