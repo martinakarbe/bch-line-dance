@@ -94,7 +94,8 @@ export const dances: Dance[] = [
     level: "Intermediate",
     songs: [
       "High on a Country Song - Sam Riggs", 
-      "Sharp dressed Man"
+      "Sharp dressed Man",
+      "Next broken heart - Brooks & Dunn",
     ],
     choreo: "Norman Gifford",  
     videoLink: [
