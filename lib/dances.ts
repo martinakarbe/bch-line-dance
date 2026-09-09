@@ -1205,11 +1205,13 @@ export const dances: Dance[] = [
     walls: 4,
     id: "62",
   },
-  /*{
+  {
     name: "Dizzy",
     isPairDance: false,
     level: "Intermediate",
-    songs: ["Dizzy - Scooter Lee"],
+    songs: ["Dizzy - Scooter Lee",
+      "Honky Tonk Blues - Hank Williams"
+    ],
     choreo: "Jo Thompson Szymanski",
     videoLink: [
       "https://youtu.be/JY2EsnnLlBg?si=-wnHzov8AwyZ7elW",
@@ -1220,7 +1222,7 @@ export const dances: Dance[] = [
     counts: 32,
     walls: 4,
     id: "63",
-  },*/
+  },
   {
     name: "Do It All Again",
     isPairDance: false,
