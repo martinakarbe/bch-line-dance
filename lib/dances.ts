@@ -3769,8 +3769,22 @@ export const dances: Dance[] = [
     counts:  64,
     walls: 2,    
     id: "243",
+  },
+{
+    name: "Fishin' In The Dark a.k.a. Southside Shuffle",
+    isPairDance: false,
+    level: "Beginner",
+    songs: ["Fishing in the Dark - Nitty Gritty Dirt Band",  
+      "Third Rock from the Sun - Joe Diffie"],
+    choreo: "Unbekannt",
+    videoLink: ["https://youtu.be/NFbKWwJlwPs?si=RDxCzt7_UV4cMzfa",
+      "https://youtu.be/mpWFY-0EY7g?si=fl8YTjYsF4zjuvWV"
+    ],
+    stepsheetLink: "https://www.get-in-line.de/dances/Fishing%20in%20the%20Dark_-_Unknown.htm",
+    counts:  28,
+    walls: 2,
+    id: "244",
   }
-
  /*{
     name: " ",
     isPairDance: false,
@@ -3782,6 +3796,6 @@ export const dances: Dance[] = [
     stepsheetLink: "",
     counts:  ,
     walls: ,
-    id: "244",
+    id: "245",
   }*/
 ];
