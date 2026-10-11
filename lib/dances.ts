@@ -2987,7 +2987,9 @@ export const dances: Dance[] = [
     name: "Stitch It Up",
     isPairDance: false,
     level: "Improver",
-    songs: ["Elvis Medley - Dean Brothers"],
+    songs: ["Elvis Medley - Dean Brothers",
+      "Guitars, Cadillacs - Dwight Yoakam"
+    ],
     videoLink: [
       "https://youtu.be/LbyDSfD7bxU?si=9LxUtW-UqW3kqh87",
     ],
