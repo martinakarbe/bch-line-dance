@@ -3786,18 +3786,62 @@ export const dances: Dance[] = [
     counts:  28,
     walls: 2,
     id: "244",
-  }
- /*{
-    name: " ",
+  },
+  {
+    name: "Oh love",
     isPairDance: false,
-    level: " ",
-    songs: [" "],
-    choreo: " ",
+    level: "Improver",
+    songs: ["Oh Love - Thorsteinn Einarsson"],
+    choreo: "Gianmarco Rossato",
+    videoLink: ["https://youtu.be/jl8kUAiNo7E?si=MbHNdXdp8vjmUufc"
+    ],
+    stepsheetLink: "https://www.get-in-line.de/dances/Oh%20Love_-_G%20Rossato.htm",
+    counts: 32,
+    walls: 2,
+    id: "245",
+  },
+  {
+    name: "Cashback",
+    isPairDance: false,
+    level: "Intermediate",
+    songs: ["I Walk The Line (Revisited) - Rodney Crowell"],
+    choreo: "Dave Fife",
+    videoLink: ["https://youtu.be/0i18luCIgYs?si=xPj7HBkBT4_l75Ag",
+      "https://youtu.be/_3SkpBeIF2w?si=QYPu4bXzxUSShNdi"
+    ],
+    stepsheetLink: "https://www.get-in-line.de/dances/Cash%20Back_-_Fife.htm",
+    counts: 72,
+    walls: 4,
+    id: "246",
+  },
+  {
+    name: "The Bucket",
+    isPairDance: false,
+    level: "intermediate",
+    songs: ["Suds In The Bucket - Sara Evans",
+      "Jessico - Kentucky Headhunters",
+      "Indigo Moon - Heather Myles"
+    ],
+    choreo: "Gudrun Schneider",
+    videoLink: ["https://youtu.be/wUVesvGpIRs?si=VA5Q_AAySjCBmWSc",
+      "https://youtu.be/YG7qBoatzfM?si=v0YGsUfZpsqU7GU2"
+    ],
+    stepsheetLink: "https://www.get-in-line.de/dances/The_Bucket_-_Schneider.htm",
+    counts: 64,
+    walls: 4,
+    id: "247",
+  },
+ /*{
+    name: ",
+    isPairDance: false,
+    level: "",
+    songs: [""],
+    choreo: "",
     videoLink: [""
     ],
     stepsheetLink: "",
-    counts:  ,
+    counts: ,
     walls: ,
-    id: "245",
-  }*/
+    id: "248",
+  },*/
 ];
