@@ -3299,7 +3299,7 @@ export const dances: Dance[] = [
   {
     name: "The Bucket",
     isPairDance: false,
-    level: "intermediate",
+    level: "Intermediate",
     songs: ["Suds In The Bucket - Sara Evans",
       "Jessico - Kentucky Headhunters",
       "Indigo Moon - Heather Myles"
