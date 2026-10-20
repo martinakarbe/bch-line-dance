@@ -15,7 +15,8 @@ import {
 } from "lucide-react";
 import { dances, Dance } from "@/lib/dances";
 
-const levels = ["Alle", "Beginner", "Improver", "Intermediate", "Advanced"];
+const levels = ["Beginner", "Improver", "Intermediate", "Advanced"];
+const locations = ["G", "B"];
 
 function getLevelStyle(level: Dance["level"]) {
   switch (level) {
@@ -34,7 +35,8 @@ function getLevelStyle(level: Dance["level"]) {
 
 export function DanceTable() {
   const [searchQuery, setSearchQuery] = useState("");
-  const [selectedLevel, setSelectedLevel] = useState("Alle");
+  const [selectedLevel, setSelectedLevel] = useState("");
+  const [selectedLocation, setSelectedLocation] = useState("");
   const [showPairDancesOnly, setShowPairDancesOnly] = useState(false);
 
   const filteredDances = useMemo(() => {
@@ -46,17 +48,23 @@ export function DanceTable() {
         );
 
       const matchesLevel =
-        selectedLevel === "Alle" || dance.level === selectedLevel;
+        selectedLevel === "" || dance.level === selectedLevel;
+
+      const matchesLocation =
+        selectedLocation === "" ||
+        (dance.location && dance.location.includes(selectedLocation));
 
       const matchesPairDance = !showPairDancesOnly || dance.isPairDance;
 
-      return matchesSearch && matchesLevel && matchesPairDance;
+      return (
+        matchesSearch && matchesLevel && matchesLocation && matchesPairDance
+      );
     });
 
     return result.sort((a, b) =>
       a.name.localeCompare(b.name, "de", { sensitivity: "base" }),
     );
-  }, [searchQuery, selectedLevel, showPairDancesOnly]);
+  }, [searchQuery, selectedLevel, selectedLocation, showPairDancesOnly]);
 
   return (
     <div className="space-y-6">
@@ -81,7 +89,9 @@ export function DanceTable() {
               <Button
                 key={level}
                 variant={selectedLevel === level ? "default" : "outline"}
-                onClick={() => setSelectedLevel(level)}
+                onClick={() =>
+                  setSelectedLevel(selectedLevel === level ? "" : level)
+                }
                 className={
                   selectedLevel === level
                     ? "bg-[#b45309] hover:bg-[#92400e] text-[#fef3c7] border-2 border-[#78350f]"
@@ -89,6 +99,28 @@ export function DanceTable() {
                 }
               >
                 {level}
+              </Button>
+            ))}
+          </div>
+
+          {/* Location filters */}
+          <div className="flex flex-wrap gap-2">
+            {locations.map((location) => (
+              <Button
+                key={location}
+                variant={selectedLocation === location ? "default" : "outline"}
+                onClick={() =>
+                  setSelectedLocation(
+                    selectedLocation === location ? "" : location,
+                  )
+                }
+                className={
+                  selectedLocation === location
+                    ? "bg-[#b45309] hover:bg-[#92400e] text-[#fef3c7] border-2 border-[#78350f]"
+                    : "bg-white border-2 border-[#d4a574] text-[#78350f] hover:bg-[#faebd7] hover:border-[#b45309]"
+                }
+              >
+                {location}
               </Button>
             ))}
           </div>
@@ -147,6 +179,20 @@ export function DanceTable() {
                     <h3 className="font-serif text-lg text-[#3d2314] group-hover:text-[#b45309] transition-colors truncate">
                       {dance.name}
                     </h3>
+                    {dance.location && dance.location.length > 0 && (
+                      <div className="flex gap-1 shrink-0">
+                        {dance.location.includes("G") && (
+                          <span className="bg-[#15803d] text-white text-xs font-bold px-2 py-0.5 rounded-full">
+                            G
+                          </span>
+                        )}
+                        {dance.location.includes("B") && (
+                          <span className="bg-[#1e40af] text-white text-xs font-bold px-2 py-0.5 rounded-full">
+                            B
+                          </span>
+                        )}
+                      </div>
+                    )}
                   </div>
                   <div className="flex flex-wrap items-center gap-2 sm:justify-end">
                     {(dance.counts !== undefined ||

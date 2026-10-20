@@ -140,6 +140,10 @@ export default function DancesPage() {
                   <li className="flex items-center gap-2">
                     <Square className="w-4 h-4 text-[#92400e]" /> Walls
                   </li>
+                  <li className="flex items-center gap-2">B - Buchen</li>
+                  <li className="flex items-center gap-2">
+                    G - Großeicholzheim
+                  </li>
                 </ul>
               </div>
 
