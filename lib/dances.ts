@@ -83,7 +83,7 @@ export const dances: Dance[] = [
     walls: 4,
 
     id: "3",
-    location: ["B"],
+    location: ["B", "G"],
   },
   {
     name: "A country high",
@@ -103,6 +103,7 @@ export const dances: Dance[] = [
       "https://www.get-in-line.de/dances/A%20Country%20High_-_Gifford.htm",
     counts: 64,
     walls: 2,
+    location: ["B", "G"],
     id: "4",
   },
   {
@@ -122,6 +123,7 @@ export const dances: Dance[] = [
     counts: 32,
     walls: 4,
     id: "5",
+    location: ["B", "G"],
   },
   {
     name: "After the storm",
@@ -187,6 +189,7 @@ export const dances: Dance[] = [
       "https://www.get-in-line.de/dances/All_Shook_Up_-_Fleetwood_Pyle.htm",
     counts: 80,
     walls: 1,
+    location: ["B"],
     id: "8",
   },
   /*{
@@ -214,6 +217,7 @@ export const dances: Dance[] = [
       "https://www.get-in-line.de/dances/Irish%20Pub%20Song%20EZ_-_Joergensen.htm",
     counts: 32,
     walls: 4,
+    location: ["B", "G"], 
     id: "10",
   },
   {
@@ -244,6 +248,7 @@ export const dances: Dance[] = [
       "https://www.copperknob.co.uk/stepsheets/83808/arizona-waltz",
     counts: 36,
     walls: 1,
+    location: ["B"],
     id: "12",
   },
   {
@@ -270,6 +275,7 @@ export const dances: Dance[] = [
       "https://www.get-in-line.de/dances/Austin%20(mod%204w)_-_Dasha.htm",
     counts: 32,
     walls: 4,
+    location: ["G"],
     id: "14",
   },
   {
@@ -285,6 +291,7 @@ export const dances: Dance[] = [
     stepsheetLink: "https://www.get-in-line.de/dances/Baby_Belle_-_Teather.htm",
     counts: 32,
     walls: 4,
+     location: ["G"],
     id: "15",
   },
   {
@@ -306,6 +313,7 @@ export const dances: Dance[] = [
       "https://www.get-in-line.de/dances/Baby_Ride_Easy_-_Dynamite_Dot.htm",
     counts: 36,
     walls: 4,
+     location: ["B", "G"],
     id: "16",
   },
   {
@@ -322,6 +330,7 @@ export const dances: Dance[] = [
       "https://www.get-in-line.de/dances/Zjozzys%20Funk_-_Velde.htm",
     counts: 32,
     walls: 2,
+     location: ["B"],
     id: "17",
   },
   {
@@ -3636,6 +3645,7 @@ export const dances: Dance[] = [
     choreo: "Jim Ferrazzano",
     counts: 40,
     walls: 4,
+    location: ["G", "B"],
     id: "210",
   },
   {
@@ -3649,6 +3659,7 @@ export const dances: Dance[] = [
     choreo: "Michelle Risley",
     counts: 32,
     walls: 4,
+    location: ["G", "B"],
     id: "211",
   },
   {
@@ -3661,6 +3672,7 @@ export const dances: Dance[] = [
     choreo: "Maria Hennings Hunt",
     counts: 32,
     walls: 4,
+    location: ["G"],
     id: "212",
   },
   {
@@ -3674,6 +3686,7 @@ export const dances: Dance[] = [
     choreo: "Vera Fisher & Teresa Lawrence",
     counts: 32,
     walls: 4,
+    location: ["B"],
     id: "213",
   },
   {
@@ -3690,6 +3703,7 @@ export const dances: Dance[] = [
       "https://www.get-in-line.de/dances/Wagon_Wheel_Rock_-_Anderson.htm",
     counts: 64,
     walls: 4,
+    location: ["B"],
     id: "214",
   },
   {

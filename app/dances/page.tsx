@@ -42,7 +42,7 @@ export default function DancesPage() {
               Unsere Tänze von A-Z
             </h1>
             <p className="text-xl text-[#78350f] max-w-2xl mx-auto leading-relaxed">
-              Alle Tänze, die wir bei unseren Treffen tanzen - mit Videos und
+              Alle Tänze, die wir bei unseren Treffen in Buchen (B) und Großeicholzheim (G) tanzen - mit Videos und
               Stepsheets zum Nachschauen und Üben!
             </p>
           </div>
