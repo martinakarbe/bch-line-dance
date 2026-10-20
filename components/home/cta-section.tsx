@@ -32,9 +32,9 @@ export function CTASection() {
           {/* Image side */}
           <div className="relative">
             {/* Main image */}
-            <div className="relative aspect-[4/3] rounded-2xl overflow-hidden border-4 border-[#8b5a2b] shadow-2xl rotate-2 hover:rotate-0 transition-transform duration-500">
+            <div className="relative aspect-[16/9] rounded-2xl overflow-hidden border-4 border-[#8b5a2b] shadow-2xl rotate-2 hover:rotate-0 transition-transform duration-500">
               <Image
-                src="/images/dance-friends.jpg"
+                src="/images/golfclub-mudau-mit-solitary-man.jpeg"
                 alt="Unsere fröhliche Line Dance Gemeinschaft"
                 fill
                 className="object-cover"
@@ -85,12 +85,14 @@ export function CTASection() {
 
             {/* CTA Buttons */}
             <div className="flex flex-col sm:flex-row gap-4">
-              {false && (<Link href="/contact">
-                <Button className="bg-[#b45309] hover:bg-[#92400e] text-[#fef3c7] font-bold text-lg px-8 py-6 rounded-full border-3 border-[#78350f] shadow-lg hover:shadow-xl transition-all hover:-translate-y-1 w-full sm:w-auto">
-                  <Mail className="w-5 h-5 mr-2" />
-                  Schreib uns!
-                </Button>
-              </Link>)}
+              {false && (
+                <Link href="/contact">
+                  <Button className="bg-[#b45309] hover:bg-[#92400e] text-[#fef3c7] font-bold text-lg px-8 py-6 rounded-full border-3 border-[#78350f] shadow-lg hover:shadow-xl transition-all hover:-translate-y-1 w-full sm:w-auto">
+                    <Mail className="w-5 h-5 mr-2" />
+                    Schreib uns!
+                  </Button>
+                </Link>
+              )}
               <Link href="/resources">
                 <Button
                   variant="outline"
