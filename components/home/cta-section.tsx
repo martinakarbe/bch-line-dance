@@ -34,7 +34,7 @@ export function CTASection() {
             {/* Main image */}
             <div className="relative aspect-[16/9] rounded-2xl overflow-hidden border-4 border-[#8b5a2b] shadow-2xl rotate-2 hover:rotate-0 transition-transform duration-500">
               <Image
-                src="/images/golfclub-mudau-mit-solitary-man.jpeg"
+                src="/images/dance-friends.jpg"
                 alt="Unsere fröhliche Line Dance Gemeinschaft"
                 fill
                 className="object-cover"
