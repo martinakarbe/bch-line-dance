@@ -41,9 +41,10 @@ export default function DancesPage() {
             <h1 className="font-serif text-5xl sm:text-6xl text-[#3d2314] mb-6 text-balance">
               Unsere Tänze von A-Z
             </h1>
-            <p className="text-xl text-[#78350f] max-w-2xl mx-auto leading-relaxed">
+            <p className="text-xl text-[#78350f] max-w-6xl mx-auto leading-relaxed">
               Alle Tänze, die wir bei unseren Treffen in Buchen (B) und Großeicholzheim (G) tanzen - mit Videos und
-              Stepsheets zum Nachschauen und Üben!
+              Stepsheets zum Nachschauen und Üben! <br />
+             <font size="2"> Wenn kein Ort dabei steht, stammt der Tanz meist von einem Workshop bei einer Veranstaltung und ist aktuell nicht bei einer der Gruppen im Repertoire.</font>
             </p>
           </div>
         </section>

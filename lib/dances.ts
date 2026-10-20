@@ -65,7 +65,7 @@ export const dances: Dance[] = [
     counts: 32,
     walls: 2,
     id: "2",
-    location: ["G"],
+    location: ["B", "G"],
   },
   {
     name: "A bar song",
@@ -81,9 +81,8 @@ export const dances: Dance[] = [
       "https://www.get-in-line.de/dances/A%20Bar%20Song_-_B%20Murphy.htm",
     counts: 32,
     walls: 4,
-
-    id: "3",
     location: ["B", "G"],
+    id: "3",
   },
   {
     name: "A country high",
@@ -123,8 +122,7 @@ export const dances: Dance[] = [
     counts: 32,
     walls: 4,
     id: "5",
-    location: ["B", "G"],
-  },
+   },
   {
     name: "After the storm",
     isPairDance: false,
@@ -140,7 +138,8 @@ export const dances: Dance[] = [
       "https://www.get-in-line.de/dances/After%20The%20Storm_-_Argyle.htm",
     counts: 32,
     walls: 2,
-    id: "34",
+     location: ["B", "G"],
+      id: "34",
   },
   {
     name: "Ah Si!",
@@ -358,6 +357,7 @@ export const dances: Dance[] = [
       "https://www.get-in-line.de/dances/Bad%20Moon%20On%20The%20Rise_-_Biggs.htm",
     counts: 64,
     walls: 4,
+     location: ["B", "G"],
     id: "19",
   },
   {
@@ -382,6 +382,7 @@ export const dances: Dance[] = [
     stepsheetLink:
       "https://www.get-in-line.de/dances/Barn%20Dance%20(P)_-_Klietsch.htm",
     counts: 32,
+    location: ["B", "G"],
     id: "20",
   },
   {
@@ -403,6 +404,7 @@ export const dances: Dance[] = [
       "https://www.get-in-line.de/dances/Beer%20For%20My%20Horses_-_CBass.htm",
     counts: 40,
     walls: 4,
+    location: ["B", "G"],
     id: "21",
   },
   /* {
@@ -447,6 +449,7 @@ export const dances: Dance[] = [
       "https://www.get-in-line.de/dances/Black%20Coffee_-_O%27Malley.htm",
     counts: 48,
     walls: 4,
+    location: ["B", "G"],
     id: "23",
   },
   /*{
@@ -499,6 +502,7 @@ export const dances: Dance[] = [
       "https://www.get-in-line.de/dances/The%20Boat%20To%20Liverpool_-_Brown.htm",
     counts: 32,
     walls: 4,
+    location: ["B", "G"],
     id: "26",
   },
   {
@@ -515,6 +519,7 @@ export const dances: Dance[] = [
       "https://www.get-in-line.de/dances/Bonaparte%27s%20Retreat_-_Glover.htm",
     counts: 32,
     walls: 4,
+    location: ["B"],
     id: "27",
   },
   {
@@ -535,6 +540,7 @@ export const dances: Dance[] = [
       "https://linedance-berlin.de/wp-content/uploads/2009/10/Boot-Scootin-Boogie-.pdf",
     counts: 24,
     walls: 2,
+    location: ["B"],
     id: "28",
   },
   {
@@ -555,6 +561,7 @@ export const dances: Dance[] = [
       "https://www.get-in-line.de/dances/Bosa_Nova_-_Dennington.htm",
     counts: 64,
     walls: 4,
+    location: ["B", "G"],
     id: "29",
   },
   {
@@ -576,6 +583,7 @@ export const dances: Dance[] = [
       "https://www.get-in-line.de/dances/Bread_And_Butter_-_Morgan.htm",
     counts: 32,
     walls: 4,
+    location: ["B"],
     id: "30",
   },
   {
@@ -592,6 +600,7 @@ export const dances: Dance[] = [
       "https://www.get-in-line.de/dances/Bring%20Down%20The%20House_-_Cormier-Henley.htm",
     counts: 32,
     walls: 4,
+    location: ["G"],
     id: "31",
   },
   {
@@ -627,6 +636,7 @@ export const dances: Dance[] = [
       "https://www.get-in-line.de/dances/Cabo_San_Lucas_-_Ghazali.htm",
     counts: 32,
     walls: 4,
+    location: ["B", "G"],
     id: "33",
   },
   {
@@ -653,6 +663,7 @@ export const dances: Dance[] = [
       "https://www.get-in-line.de/dances/Canadian%20Stomp_-_Unbekannt.htm",
     counts: 36,
     walls: 4,
+    location: ["B", "G"],
     id: "35",
   },
   {
@@ -668,6 +679,7 @@ export const dances: Dance[] = [
     stepsheetLink: "https://www.get-in-line.de/dances/Cash%20Back_-_Fife.htm",
     counts: 72,
     walls: 4,
+    location: ["G"],
     id: "246",
   },
   {
@@ -688,6 +700,7 @@ export const dances: Dance[] = [
     stepsheetLink: "https://www.get-in-line.de/dances/C_C_S_-_Davis-Hammer.htm",
     counts: 32,
     walls: 4,
+    location: ["B"],
     id: "36",
   },
   {
@@ -701,6 +714,7 @@ export const dances: Dance[] = [
       "https://www.get-in-line.de/dances/Champagne%20Promise_-_Argyle.htm",
     counts: 32,
     walls: 4,
+    location: ["G"],
     id: "232",
   },
   {
@@ -728,6 +742,7 @@ export const dances: Dance[] = [
       "https://www.get-in-line.de/dances/Chattahoochee_-_Unbekannt.htm",
     counts: 48,
     walls: 4,
+    location: ["B", "G"],
     id: "37",
   },
   {
@@ -747,6 +762,7 @@ export const dances: Dance[] = [
       "https://www.get-in-line.de/dances/Cheyenne%20Rock_-_Reeves.htm",
     counts: 46,
     walls: 4,
+    location: ["B", "G"],
     id: "38",
   },
   {
@@ -776,6 +792,7 @@ export const dances: Dance[] = [
       "https://www.get-in-line.de/dances/Choosin%27%20Texas_-_Risi.htm",
     counts: 24,
     walls: 4,
+    location: ["B", "G"],
     id: "235",
   },
   {
@@ -794,6 +811,7 @@ export const dances: Dance[] = [
       "https://www.get-in-line.de/dances/Clickety_Clack_-_Metelnick-Hunyadi.htm",
     counts: 68,
     walls: 4,
+    location: ["B"],
     id: "40",
   },
   {
@@ -806,6 +824,7 @@ export const dances: Dance[] = [
     stepsheetLink: "https://www.get-in-line.de/dances/Closer_-_Kelly.htm",
     counts: 32,
     walls: 4,
+    location: ["B", "G"],
     id: "41",
   },
   {
@@ -821,6 +840,7 @@ export const dances: Dance[] = [
     stepsheetLink: "https://www.get-in-line.de/dances/Coastin%27_-_Yeoman.htm",
     counts: 40,
     walls: 4,
+    location: ["B"],
     id: "42",
   },
   {
@@ -839,6 +859,7 @@ export const dances: Dance[] = [
     stepsheetLink: "https://www.get-in-line.de/dances/Codigo_-_Stott.htm",
     counts: 32,
     walls: 4,
+    location: ["B", "G"],
     id: "43",
   },
   {
@@ -862,6 +883,7 @@ export const dances: Dance[] = [
       "https://www.get-in-line.de/dances/Coffee%20Days%20and%20Whiskey%20Nights_-_Verhagen.htm",
     counts: 32,
     walls: 2,
+    location: ["B"],
     id: "44",
   },
   {
@@ -891,6 +913,7 @@ export const dances: Dance[] = [
       "https://www.get-in-line.de/dances/Come_Dance_With_Me_-_Thompson.htm",
     counts: 32,
     walls: 4,
+    location: ["B"],
     id: "45",
   },
   {
@@ -907,6 +930,7 @@ export const dances: Dance[] = [
       "https://www.get-in-line.de/dances/Copperhead_Road-20_-_Unbekannt.htm",
     counts: 20,
     walls: 4,
+    location: ["B"],
     id: "46",
   },
   {
@@ -919,6 +943,7 @@ export const dances: Dance[] = [
     stepsheetLink: "https://www.get-in-line.de/dances/Corn_-_Fowler.htm",
     counts: 32,
     walls: 4,
+    location: ["B", "G"],
     id: "47",
   },
   {
@@ -954,6 +979,7 @@ export const dances: Dance[] = [
       "https://www.get-in-line.de/dances/Cotton%20Pickin%27%20Morning_-_Mason.htm",
     counts: 32,
     walls: 4,
+    location: ["B"],
     id: "240",
   },
   {
@@ -979,6 +1005,7 @@ export const dances: Dance[] = [
       "https://www.get-in-line.de/dances/Country_2_Step_-_Masters_In_Line.htm",
     counts: 40,
     walls: 4,
+    location: ["B", "G"],
     id: "49",
   },
   {
@@ -1009,6 +1036,7 @@ export const dances: Dance[] = [
       "https://www.get-in-line.de/dances/Country_Walkin%27_-_Desarro.htm",
     counts: 32,
     walls: 4,
+    location: ["B"],
     id: "51",
   },
   {
@@ -1102,6 +1130,7 @@ export const dances: Dance[] = [
     stepsheetLink: "https://www.get-in-line.de/dances/Cruisin%27_-_Hale.htm",
     counts: 32,
     walls: 1,
+    location: ["B"],
     id: "56",
   },
   {
@@ -1120,6 +1149,7 @@ export const dances: Dance[] = [
       "https://www.get-in-line.de/dances/Cucaracha_-_Dahl-Dahl.htm",
     counts: 32,
     walls: 4,
+    location: ["B", "G"],
     id: "57",
   },
   {
@@ -1159,6 +1189,7 @@ export const dances: Dance[] = [
       "https://www.get-in-line.de/dances/Dancing_In_The_Dark_-_Thompson.htm",
     counts: 32,
     walls: 2,
+    location: ["B"],
     id: "59",
   },
   {
@@ -1176,6 +1207,7 @@ export const dances: Dance[] = [
       "https://www.get-in-line.de/dances/Designated_Drinker_-_Brady.htm",
     counts: 64,
     walls: 4,
+    location: ["B"],
     id: "60",
   },
   {
@@ -1196,6 +1228,7 @@ export const dances: Dance[] = [
       "https://www.get-in-line.de/dances/A_Devil_In_Disguise_-_Stott-Birchall.htm",
     counts: 80,
     walls: 1,
+    location: ["B"],
     id: "61",
   },
   {
@@ -1215,6 +1248,7 @@ export const dances: Dance[] = [
       "https://www.get-in-line.de/dances/Disappearing_Tail_Lights_-_Metelnick-Biggs.htm",
     counts: 32,
     walls: 4,
+    location: ["B", "G"],
     id: "62",
   },
   {
@@ -1231,6 +1265,7 @@ export const dances: Dance[] = [
     stepsheetLink: "https://www.get-in-line.de/dances/Dizzy_-_Thompson.htm",
     counts: 32,
     walls: 4,
+    location: ["B"],
     id: "63",
   },
   {
@@ -1244,6 +1279,7 @@ export const dances: Dance[] = [
       "https://www.get-in-line.de/dances/Do%20It%20All%20Again_-_O%27Reilly-Gallagher.htm",
     counts: 32,
     walls: 4,
+    location: ["B"],
     id: "64",
   },
   {
@@ -1276,6 +1312,7 @@ export const dances: Dance[] = [
       "https://www.get-in-line.de/dances/Doctor%20Doctor_-_MIL.htm",
     counts: 80,
     walls: 4,
+    location: ["B", "G"],
     id: "66",
   },
   {
@@ -1292,6 +1329,7 @@ export const dances: Dance[] = [
       "https://www.get-in-line.de/dances/Don%27t_You_Wish_-_Simons.htm",
     counts: 32,
     walls: 4,
+    location: ["B"],
     id: "67",
   },
   {
@@ -1309,6 +1347,7 @@ export const dances: Dance[] = [
       "https://www.get-in-line.de/dances/Down_On_The_Corner_-_Metelnick.htm",
     counts: 32,
     walls: 4,
+    location: ["B"],
     id: "68",
   },
   {
@@ -1325,6 +1364,7 @@ export const dances: Dance[] = [
       "https://www.get-in-line.de/dances/Drinking%20Problem_-_Bailey.htm",
     counts: 32,
     walls: 4,
+    location: ["B", "G"],
     id: "69",
   },
   {
@@ -1341,6 +1381,7 @@ export const dances: Dance[] = [
       "https://www.get-in-line.de/dances/Drivin%27_My_Life_Away_-_Castle-Castle.htm",
     counts: 36,
     walls: 2,
+    location: ["B", "G"],
     id: "70",
   },
   {
@@ -1370,6 +1411,7 @@ export const dances: Dance[] = [
       "https://www.get-in-line.de/dances/East_Bound_And_Down_2000_-_Hunyadi.htm",
     counts: 32,
     walls: 4,
+    location: ["B"],
     id: "72",
   },
   {
@@ -1407,6 +1449,7 @@ export const dances: Dance[] = [
     videoLink: ["https://youtu.be/vk7xvD1ezXM?si=HWCC9nMgA0RX_eKU"],
     stepsheetLink: "https://www.get-in-line.de/dances/El_Paso_-_Unbekannt.htm",
     counts: 28,
+    location: ["B"],
     id: "74",
   },
   {
@@ -1434,6 +1477,7 @@ export const dances: Dance[] = [
       "https://www.get-in-line.de/dances/Electric%20Slide_-_Silver.htm",
     counts: 18,
     walls: 4,
+    location: ["B", "G"],
     id: "75",
   },
   {
@@ -1449,25 +1493,10 @@ export const dances: Dance[] = [
     stepsheetLink: "https://www.get-in-line.de/dances/Endless_-_Ryan.htm",
     counts: 32,
     walls: 4,
+    location: ["G"],
     id: "76",
   },
-  {
-    name: "Everybody dance",
-    isPairDance: false,
-    level: "Beginner",
-    songs: ["Everybody Dance (Joe Mangione Edit Mix) - Sister Sledge"],
-    choreo: "Ben Murphy & Sascha Wolf",
-    videoLink: [
-      "https://youtu.be/pj6LIB-piFw?si=BYGFtiiX3NNEM0XA",
-      "https://youtu.be/QSP3GvNNsGc?si=F0Qx55doApX5b321",
-    ],
-    stepsheetLink:
-      "https://www.get-in-line.de/dances/Everybody%20Dance_-_Murphy-S%20Wolf.htm",
-    counts: 32,
-    walls: 4,
-    id: "227",
-  },
-  {
+   {
     name: "Firestorm",
     isPairDance: false,
     level: "Intermediate",
@@ -1500,6 +1529,7 @@ export const dances: Dance[] = [
       "https://www.get-in-line.de/dances/Fisher%27s%20Hornpipe_-_Reeves.htm",
     counts: 32,
     walls: 4,
+    location: ["B"],
     id: "77",
   },
   {
@@ -1519,6 +1549,7 @@ export const dances: Dance[] = [
       "https://www.get-in-line.de/dances/Fishing%20in%20the%20Dark_-_Unknown.htm",
     counts: 28,
     walls: 2,
+    location: ["B"],
     id: "244",
   },
   {
@@ -1538,6 +1569,7 @@ export const dances: Dance[] = [
     stepsheetLink: "https://www.get-in-line.de/dances/Flobie_Slide_-_Cook.htm",
     counts: 32,
     walls: 2,
+    location: ["G"],
     id: "78",
   },
   {
@@ -1555,6 +1587,7 @@ export const dances: Dance[] = [
       "https://www.get-in-line.de/dances/The%20Flute_-_Gallagher.htm",
     counts: 64,
     walls: 3,
+    location: ["B"],
     id: "79",
   },
   {
@@ -1572,6 +1605,7 @@ export const dances: Dance[] = [
       "https://www.get-in-line.de/dances/Footloose_-_Hubbard-Rodgers.htm",
     counts: 32,
     walls: 4,
+    location: ["B"],
     id: "80",
   },
   {
@@ -1598,6 +1632,7 @@ export const dances: Dance[] = [
       "https://www.get-in-line.de/dances/Four%20Corner_-_Unbekannt.htm",
     counts: 32,
     walls: 4,
+    location: ["B"],
     id: "82",
   },
   {
@@ -1616,6 +1651,7 @@ export const dances: Dance[] = [
     stepsheetLink: "https://www.get-in-line.de/dances/Friday%20Yet_-_Krieg.htm",
     counts: 64,
     walls: 2,
+    location: ["G"],
     id: "236",
   },
   {
@@ -1648,6 +1684,7 @@ export const dances: Dance[] = [
       "https://www.get-in-line.de/dances/Galway_Girls_-_Hodgson.htm",
     counts: 31,
     walls: 2,
+    location: ["B", "G"],
     id: "84",
   },
   {
@@ -1664,6 +1701,7 @@ export const dances: Dance[] = [
       "https://www.get-in-line.de/dances/Galway%20Moon_-_Fowler.htm",
     counts: 32,
     walls: 4,
+    location: ["G"],
     id: "237",
   },
   /*{
@@ -1701,6 +1739,7 @@ export const dances: Dance[] = [
       "https://www.get-in-line.de/dances/Ghost_Train_-_Hunyadi.htm",
     counts: 32,
     walls: 4,
+    location: ["B"],
     id: "86",
   },
   {
@@ -1717,6 +1756,7 @@ export const dances: Dance[] = [
       "https://www.get-in-line.de/dances/Glass%20of%20Wine_-_Jakobsen.htm",
     counts: 32,
     walls: 4,
+    location: ["B"],
     id: "87",
   },
   {
@@ -1733,6 +1773,7 @@ export const dances: Dance[] = [
       "https://www.get-in-line.de/dances/God_Blessed_Texas_-_Batson.htm",
     counts: 32,
     walls: 2,
+    location: ["B"],
     id: "88",
   },
   {
@@ -1746,6 +1787,7 @@ export const dances: Dance[] = [
       "https://www.get-in-line.de/dances/Golden%20Wedding%20Ring_-_Fillion.htm",
     counts: 32,
     walls: 4,
+    location: ["G"],
     id: "89",
   },
   {
@@ -1762,6 +1804,7 @@ export const dances: Dance[] = [
       "https://www.get-in-line.de/dances/Gone%20West_-_O%27Reilly-Gallagher.htm",
     counts: 32,
     walls: 4,
+    location: ["B", "G"],
     id: "90",
   },
   {
@@ -1775,6 +1818,7 @@ export const dances: Dance[] = [
       "https://www.get-in-line.de/dances/Good_Day_To_Run_-_Ray.htm",
     counts: 32,
     walls: 4,
+    location: ["B"],
     id: "91",
   },
   {
@@ -1787,6 +1831,7 @@ export const dances: Dance[] = [
     stepsheetLink: "https://www.get-in-line.de/dances/Good_Time_-_Cain.htm",
     counts: 32,
     walls: 4,
+    location: ["B"],
     id: "92",
   },
   {
@@ -1803,6 +1848,7 @@ export const dances: Dance[] = [
       "https://www.get-in-line.de/dances/Grandpa%20Tell%20Me%20Bout%20The%20Good%20Old%20Day%27s_-_Urgert-van%20Tiggelen.htm",
     counts: 32,
     walls: 4,
+    location: ["G"],
     id: "238",
   },
   {
@@ -1821,6 +1867,7 @@ export const dances: Dance[] = [
       "https://www.lucky-country.de/lucky/userfiles/downloads/sheetsline/G/Grundy%20Gallop%20-32-2%20by%20Jenny%20Rockett%20DE.pdf",
     counts: 32,
     walls: 2,
+    location: ["B", "G"],
     id: "93",
   },
   {
@@ -1833,6 +1880,7 @@ export const dances: Dance[] = [
     stepsheetLink: "https://www.get-in-line.de/dances/Gypsy%20Queen_-_Pace.htm",
     counts: 32,
     walls: 4,
+    location: ["B"],
     id: "94",
   },
   /*{
@@ -1867,6 +1915,7 @@ export const dances: Dance[] = [
       "https://www.get-in-line.de/dances/Happy,%20Happy,%20Happy_-_Mateu.htm",
     counts: 32,
     walls: 2,
+    location: ["B"],
     id: "96",
   },
   {
@@ -1880,6 +1929,7 @@ export const dances: Dance[] = [
       "https://www.get-in-line.de/dances/Healing%20Hands_-_Argyle.htm",
     counts: 64,
     walls: 4,
+    location: ["G"],
     id: "97",
   },
   {
@@ -1900,6 +1950,7 @@ export const dances: Dance[] = [
       "https://www.get-in-line.de/dances/Hearts_And_Flowers_-_Churm.htm",
     counts: 32,
     walls: 4,
+    location: ["B"],
     id: "98",
   },
   {
@@ -1913,6 +1964,7 @@ export const dances: Dance[] = [
       "https://www.get-in-line.de/dances/Heel%20Toe%20Rodeo_-_O%27Reilly.htm",
     counts: 32,
     walls: 4,
+    location: ["B", "G"],
     id: "99",
   },
   {
@@ -1935,6 +1987,7 @@ export const dances: Dance[] = [
     stepsheetLink: "https://www.get-in-line.de/dances/Hey%20Girl_-_MSE.htm",
     counts: 32,
     walls: 4,
+    location: ["B"],
     id: "100",
   },
   {
@@ -1976,6 +2029,7 @@ export const dances: Dance[] = [
     stepsheetLink: "https://www.get-in-line.de/dances/Hoedown_-_O%27Reilly.htm",
     counts: 32,
     walls: 4,
+    location: ["B"],
     id: "228",
   },
   {
@@ -1989,6 +2043,7 @@ export const dances: Dance[] = [
       "https://www.get-in-line.de/dances/Home_To_Louisiana_-_Labrecque.htm",
     counts: 32,
     walls: 4,
+    location: ["G"],
     id: "103",
   },
   {
@@ -2018,6 +2073,7 @@ export const dances: Dance[] = [
     walls: 4,
     stepsheetLink:
       "https://www.get-in-line.de/dances/Homeward_Bound_-_Dornstedt-Dornstedt.htm",
+    location: ["B"],
     id: "105",
   },
   {
@@ -2047,6 +2103,7 @@ export const dances: Dance[] = [
       "https://www.get-in-line.de/dances/I%27m%20on%20My%20Way_-_Gallagher.htm",
     counts: 32,
     walls: 2,
+    location: ["G"],
     id: "107",
   },
   {
@@ -2064,6 +2121,7 @@ export const dances: Dance[] = [
       "https://www.get-in-line.de/dances/I%20Love%20A%20Rainy%20Night_-_Mooney.htm",
     counts: 32,
     walls: 4,
+    location: ["B"],
     id: "108",
   },
   {
@@ -2092,6 +2150,7 @@ export const dances: Dance[] = [
     stepsheetLink: "https://www.copperknob.co.uk/stepsheets/194296/i-never-lie",
     counts: 32,
     walls: 4,
+    location: ["G"],
     id: "110",
   },
   {
@@ -2112,6 +2171,7 @@ export const dances: Dance[] = [
       "https://www.get-in-line.de/dances/Ice%20Breaker_-_Kelly.htm",
     counts: 32,
     walls: 4,
+    location: ["B"],
     id: "111",
   },
   {
@@ -2125,6 +2185,7 @@ export const dances: Dance[] = [
       "https://www.get-in-line.de/dances/Inspiration_-_McGowan_Hickie.htm",
     counts: 32,
     walls: 4,
+    location: ["G"],
     id: "112",
   },
   {
@@ -2146,6 +2207,7 @@ export const dances: Dance[] = [
       "https://www.get-in-line.de/dances/Irish%20Stew_-_Lightfoot.htm",
     counts: 32,
     walls: 4,
+    location: ["B"],
     id: "113",
   },
   {
@@ -2166,9 +2228,10 @@ export const dances: Dance[] = [
       "https://www.get-in-line.de/dances/Islands_In_The_Stream_-_Jones.htm",
     counts: 32,
     walls: 4,
+    location: ["B", "G"],
     id: "114",
   },
-  {
+   {
     name: "It must be love",
     isPairDance: false,
     level: "Beginner",
@@ -2179,6 +2242,7 @@ export const dances: Dance[] = [
       "https://center.ssi.at/smart_users/ssi/user75/page107/explorer/sheet/must_be_vamos.pdf",
     counts: 32,
     walls: 4,
+    location: ["B"],
     id: "115",
   },
   {
@@ -2197,6 +2261,7 @@ export const dances: Dance[] = [
     stepsheetLink: "https://www.get-in-line.de/dances/Jambalaya_-_St._Leon.htm",
     counts: 32,
     walls: 4,
+    location: ["B", "G"],
     id: "116",
   },
   {
@@ -2215,6 +2280,7 @@ export const dances: Dance[] = [
       "https://www.get-in-line.de/dances/Jitterbuggin%27_-_Burton-Burton.htm",
     counts: 48,
     walls: 4,
+    location: ["G"],
     id: "230",
   },
   {
@@ -2237,6 +2303,7 @@ export const dances: Dance[] = [
     stepsheetLink: "https://www.get-in-line.de/dances/Joana_-_Massotti.htm",
     counts: 32,
     walls: 4,
+    location: ["B", "G"],
     id: "117",
   },
   {
@@ -2250,6 +2317,7 @@ export const dances: Dance[] = [
       "https://www.get-in-line.de/dances/Jolene%20Jolene%20(The%20BossHoss)_-_Schill.htm",
     counts: 40,
     walls: 2,
+    location: ["B"],
     id: "118",
   },
   {
@@ -2331,6 +2399,7 @@ export const dances: Dance[] = [
       "https://www.get-in-line.de/dances/Kiss%20of%20Death_-_Verdonk-Camps.htm",
     counts: 32,
     walls: 2,
+    location: ["G"],
     id: "123",
   },
   {
@@ -2347,6 +2416,7 @@ export const dances: Dance[] = [
     choreo: "Peter Metelnick & Alison Biggs",
     counts: 32,
     walls: 4,
+    location: ["B", "G"],
     id: "124",
   },
   {
@@ -2360,6 +2430,9 @@ export const dances: Dance[] = [
     ],
     stepsheetLink:
       "https://www.get-in-line.de/dances/Land_Of_Dreams_-_Hodgson.htm",
+      counts: 32,
+      walls: 2,
+      location: ["B"],
     id: "125",
   },
   {
@@ -2370,6 +2443,7 @@ export const dances: Dance[] = [
     videoLink: ["https://youtu.be/SXhFCgxTe4E?si=jaFHKVc8-YeI1Btt"],
     stepsheetLink:
       "https://www.get-in-line.de/dances/Last%20Christmas_-_Sansoun.htm",
+      location: ["B"],
     id: "126",
   },
   {
@@ -2383,6 +2457,9 @@ export const dances: Dance[] = [
     ],
     videoLink: ["https://youtu.be/UzspKjYeeh4?si=pdwBw0ASSmc_Wx6T"],
     stepsheetLink: "https://www.get-in-line.de/dances/Lay%20Low_-_Bailey.htm",
+    counts: 32,
+    walls: 4,
+    location: ["B", "G"],
     id: "127",
   },
   {
@@ -2423,6 +2500,9 @@ export const dances: Dance[] = [
     ],
     stepsheetLink:
       "https://www.lucky-country.de/lucky/userfiles/downloads/sheetsline/L/Lindi%20Shuffle%20-16-2%20by%20Jane%20Smee%20DE.pdf",
+      counts: 16,
+      walls: 2,
+      location: ["B"],
     id: "129",
   },
   {
@@ -2439,6 +2519,9 @@ export const dances: Dance[] = [
     ],
     stepsheetLink:
       "https://www.get-in-line.de/dances/Little%20Rumba_-_Laurin.htm",
+      counts: 32,
+      walls: 4,
+      location: ["B", "G"],
     id: "130",
   },
   {
@@ -2456,6 +2539,9 @@ export const dances: Dance[] = [
     ],
     stepsheetLink:
       "https://www.get-in-line.de/dances/Lonely%20Drum_-_Mitchell.htm",
+      counts: 32,
+      walls: 4,
+      location: ["B", "G"],
     id: "131",
   },
   {
@@ -2469,6 +2555,9 @@ export const dances: Dance[] = [
     ],
     stepsheetLink:
       "https://www.get-in-line.de/dances/Long%20Black%20Train_-_Argyle-Fowler.htm",
+      counts: 32,
+      walls: 4,
+      location: ["G"],
     id: "132",
   },
   {
@@ -2485,6 +2574,7 @@ export const dances: Dance[] = [
       "https://www.copperknob.co.uk/stepsheets/XJK63DS/long-live-cowgirls",
     counts: 24,
     walls: 4,
+    location: ["B", "G"],
     id: "239",
   },
   /*{
@@ -2506,6 +2596,9 @@ export const dances: Dance[] = [
     songs: ["Love Potion 666 - DJTEXX"],
     stepsheetLink:
       "https://www.get-in-line.de/dances/Love%20Potion%20666_-_Fowler.htm",
+    counts: 32,
+    walls: 2,
+    location: ["G"],  
     id: "134",
   },
   /*{
@@ -2528,6 +2621,9 @@ export const dances: Dance[] = [
     videoLink: ["https://youtu.be/gbZdQ1hVols?si=lxlWUt7bEjMFNVTw"],
     stepsheetLink:
       "https://www.get-in-line.de/dances/Made%20In%20Mexico_-_Glover.htm",
+    counts: 32,
+    walls: 4,
+    location: ["B", "G"],
     id: "136",
   },
   {
@@ -2541,6 +2637,9 @@ export const dances: Dance[] = [
     ],
     stepsheetLink:
       "https://www.get-in-line.de/dances/Make%20Some%20New%20Love_-_Camps-Belloque-Verdonk.htm",
+      counts: 32,
+    walls: 4,
+    location: ["B", "G"],
     id: "137",
   },
   {
@@ -2560,6 +2659,9 @@ export const dances: Dance[] = [
       "https://youtu.be/bptlrrYarMU?si=KyL3iPyFpVHydsTf",
     ],
     stepsheetLink: "https://www.get-in-line.de/dances/Mamma_Maria_-_Trace.htm",
+    counts: 32,
+    walls: 4,
+    location: ["B"],
     id: "138",
   },
   {
@@ -2570,6 +2672,8 @@ export const dances: Dance[] = [
     videoLink: ["https://youtu.be/MBj8URs7Pgc?si=KWnMdeit_kG16GnW"],
     stepsheetLink:
       "https://www.copperknob.co.uk/de/stepsheets/91550/margaritaville",
+      counts: 32,
+    walls: 4,
     id: "139",
   },
   {
@@ -2580,6 +2684,7 @@ export const dances: Dance[] = [
     videoLink: ["https://youtu.be/tgcnyjGo8Zw?si=x7grb8j8jBGtrYnt"],
     stepsheetLink:
       "https://www.get-in-line.de/dances/Memory%20Lanes%20(P)_-_Albro.htm",
+      counts: 32,
     id: "140",
   },
   {
@@ -2593,6 +2698,9 @@ export const dances: Dance[] = [
     ],
     stepsheetLink:
       "https://www.get-in-line.de/dances/Messed_Up_In_Memphis_-_Musk.htm",
+    counts: 64,
+    walls: 4,
+    location: ["B"],
     id: "141",
   },
   {
@@ -2605,6 +2713,9 @@ export const dances: Dance[] = [
       "https://youtu.be/p2wdMIwxCT0?si=rjaynJQ2bWSVXFHh",
     ],
     stepsheetLink: "https://www.get-in-line.de/dances/Missing_-_Barton.htm",
+    counts: 32,
+    walls: 4,
+    location: ["B", "G"],
     id: "142",
   },
   {
@@ -2618,6 +2729,8 @@ export const dances: Dance[] = [
     ],
     stepsheetLink:
       "https://www.get-in-line.de/dances/My_Maria_-_Camara-Albro.htm",
+      counts: 32, 
+      walls: 4,
     id: "143",
   },
   {
@@ -2628,6 +2741,9 @@ export const dances: Dance[] = [
     videoLink: ["https://youtu.be/w73IKVDlBzU?si=e7_OBmrPK8mfrjtO"],
     stepsheetLink:
       "https://www.countrybears-linedancer.com/taenze/no-no-never-niemals/",
+    counts: 32,
+    walls: 2,
+    location: ["B"],
     id: "144",
   },
   {
@@ -2637,6 +2753,9 @@ export const dances: Dance[] = [
     songs: ["No Body - Blake Shelton"],
     videoLink: ["https://youtu.be/SC3xAzGu_TM?si=dovbV9ieNQX3nMpu"],
     stepsheetLink: "https://www.get-in-line.de/dances/No%20Body_-_Argyle.htm",
+    counts: 64,
+    walls: 4,
+    location: ["G"],
     id: "145",
   },
   {
@@ -2649,6 +2768,9 @@ export const dances: Dance[] = [
     ],
     videoLink: ["https://youtu.be/knaF5-7QHcY?si=D_qxVHjWGYMwX5j9"],
     stepsheetLink: "https://www.get-in-line.de/dances/Not_Fair_-_Schneider.htm",
+    counts: 32,
+    walls: 4,
+    location: ["B", "G"],
     id: "146",
   },
   {
@@ -2662,6 +2784,9 @@ export const dances: Dance[] = [
     ],
     stepsheetLink:
       "https://www.get-in-line.de/dances/Nothing%20But%20You_-_Bailey.htm",
+    counts: 64,
+    walls: 2,
+    location: ["G"],
     id: "147",
   },
   {
@@ -2674,7 +2799,8 @@ export const dances: Dance[] = [
     stepsheetLink:
       "https://www.get-in-line.de/dances/Oh%20Love_-_G%20Rossato.htm",
     counts: 32,
-    walls: 2,
+    walls: 2, 
+    location: ["G"],
     id: "245",
   },
   {
@@ -2701,6 +2827,9 @@ export const dances: Dance[] = [
     ],
     stepsheetLink:
       "https://www.get-in-line.de/dances/Open_Heart_Cowboy_-_Tassinari-Lebrun.htm",
+      counts: 64,
+      walls: 2,
+      location: ["B", "G"],
     id: "149",
   },
   {
@@ -2710,6 +2839,9 @@ export const dances: Dance[] = [
     songs: ["Peaceful Easy Feeling - The Eagles"],
     stepsheetLink:
       "https://www.copperknob.co.uk/stepsheets/34267/peaceful-easy-feeling",
+      counts: 48,
+      walls: 4,
+      location: ["B"],
     id: "150",
   },
   {
@@ -2723,6 +2855,9 @@ export const dances: Dance[] = [
     ],
     stepsheetLink:
       "https://www.get-in-line.de/dances/People%20Are%20Crazy_-_Teather.htm",
+      counts: 64,
+      walls: 4,
+      location: ["B", "G"],
     id: "151",
   },
   {
@@ -2733,6 +2868,9 @@ export const dances: Dance[] = [
     videoLink: ["https://youtu.be/4rkgMEXAnpM?si=g_xs3Nvw8xgkBz28"],
     stepsheetLink:
       "https://www.get-in-line.de/dances/People%20Are%20Good_-_O%27Reilly.htm",
+      counts: 64,
+      walls: 2,
+      location: ["G"],
     id: "152",
   },
   {
@@ -2766,6 +2904,9 @@ export const dances: Dance[] = [
     ],
     stepsheetLink:
       "https://www.get-in-line.de/dances/Pina_Co-Cha-Cha_-_Birch-Hagan.htm",
+      counts: 32,
+      walls: 2,
+      location: ["B"],
     id: "154",
   },
   {
@@ -2776,6 +2917,9 @@ export const dances: Dance[] = [
     videoLink: ["https://youtu.be/znFKcIoc-yU?si=Qp-P8LZoqtdtu4BZ"],
     stepsheetLink:
       "https://www.get-in-line.de/dances/Pizziricco_-_Dynamite_Dot.htm",
+      counts: 32,
+      walls: 4,
+      location: ["B"],
     id: "155",
   },
   {
@@ -2789,6 +2933,9 @@ export const dances: Dance[] = [
     ],
     videoLink: ["https://youtu.be/cqhF4rP-7LY?si=88ohetF3mDtTnVPx"],
     stepsheetLink: "https://www.get-in-line.de/dances/Playboys_-_Winson.htm",
+    counts: 32,
+    walls: 4,
+    location: ["B", "G"],
     id: "156",
   },
   {
@@ -2802,6 +2949,9 @@ export const dances: Dance[] = [
     ],
     stepsheetLink:
       "https://www.get-in-line.de/dances/Quarter_After_One_-_Hubbard.htm",
+      counts: 56,
+      walls: 4,
+      location: ["B", "G"],
     id: "157",
   },
   {
@@ -2812,6 +2962,9 @@ export const dances: Dance[] = [
     videoLink: ["https://youtu.be/CZD9a9LXdQc?si=Rjkp9SohZJjKc5e7"],
     stepsheetLink:
       "https://www.get-in-line.de/dances/Ready%20For%20It_-_VanScoyk.htm",
+    counts: 48,
+    walls: 2,
+    location: ["B", "G"],
     id: "158",
   },
   {
@@ -2825,6 +2978,9 @@ export const dances: Dance[] = [
     ],
     stepsheetLink:
       "https://www.get-in-line.de/dances/Red_Hot_Salsa_-_Browne.htm",
+    counts: 64,
+    walls: 2,
+    location: ["B"],
     id: "159",
   },
   {
@@ -2835,6 +2991,9 @@ export const dances: Dance[] = [
     videoLink: ["https://youtu.be/cpXlSm2x0Gk?si=zhU00BzXt4PjSwZI"],
     stepsheetLink:
       "https://www.get-in-line.de/dances/Red_Solo_Cup_-_Manning.htm",
+    counts: 64,
+    walls: 2,
+    location: ["G"],
     id: "160",
   },
   {
@@ -2848,6 +3007,9 @@ export const dances: Dance[] = [
     ],
     stepsheetLink:
       "https://www.get-in-line.de/dances/Rhyme_Or_Reason_-_McEnaney.htm",
+    counts: 64,
+    walls: 4,
+    location: ["B", "G"],
     id: "161",
   },
   {
@@ -2861,6 +3023,7 @@ export const dances: Dance[] = [
       "https://www.copperknob.co.uk/stepsheets/203053/rocking-susanna",
     counts: 32,
     walls: 2,
+    location: ["G"],
     id: "229",
   },
   {
@@ -2873,6 +3036,9 @@ export const dances: Dance[] = [
       "https://youtu.be/pkAraEV2Seg?si=Aag5h2STE4_PcN0C",
     ],
     stepsheetLink: "https://www.get-in-line.de/dances/Roots_-_Argyle.htm",
+    counts: 48,
+    walls: 4,
+    location: ["G"],
     id: "162",
   },
   {
@@ -2886,6 +3052,9 @@ export const dances: Dance[] = [
     ],
     stepsheetLink:
       "https://www.get-in-line.de/dances/Rose-A-Lee_-_Klitgaard.htm",
+   counts: 48,
+    walls: 4,
+    location: ["B"],   
     id: "163",
   },
   {
@@ -2904,6 +3073,9 @@ export const dances: Dance[] = [
     ],
     stepsheetLink:
       "https://www.get-in-line.de/dances/Rose%20Garden_-_Thompson.htm",
+      counts: 32,
+      walls: 4,
+      location: ["B", "G"],
     id: "164",
   },
   {
@@ -2917,7 +3089,11 @@ export const dances: Dance[] = [
     ],
     stepsheetLink:
       "https://www.get-in-line.de/dances/Sam%27s%20Ghost%20Town_-_Gueldenfuss.htm",
+      counts: 64,
+      walls: 2,
+      location: ["G"],
     id: "165",
+
   },
   {
     name: "Shadow",
@@ -2938,6 +3114,8 @@ export const dances: Dance[] = [
     videoLink: ["https://youtu.be/_Y1lMkcwV3E?si=x6PDZBE_epaaPZPA"],
     stepsheetLink:
       "http://www.lucky-train-line-dancers.de/Taenze/Kreis-%20und%20Paartaenze/Shadow.pdf",
+      counts: 64,
+      location: ["B"],
     id: "166",
   },
   {
@@ -2947,6 +3125,8 @@ export const dances: Dance[] = [
     songs: ["Hitmix - Shakin' Stevens"],
     videoLink: ["https://youtu.be/Mry9Xg60Q1o?si=RFGutWWVff8bA0V3"],
     stepsheetLink: "https://www.get-in-line.de/dances/Shakin_Mix_-_Baalen.htm",
+    counts: 32,
+    location: ["B"],
     id: "167",
   },
   {
@@ -2980,6 +3160,9 @@ export const dances: Dance[] = [
     videoLink: ["https://youtu.be/L4QwspE2eKc?si=KnjRi8NDIwCDQG-8"],
     stepsheetLink:
       "https://www.get-in-line.de/dances/Silver%20Coins_-_Jacobson.htm",
+      counts: 32,
+      walls: 4,
+      location: ["B", "G"],
     id: "170",
   },
   {
@@ -2993,7 +3176,10 @@ export const dances: Dance[] = [
     ],
     stepsheetLink:
       "https://www.get-in-line.de/dances/Silver%20Lining_-_Gallagher.htm",
-    id: "171",
+      counts: 32,
+      walls: 4,
+      location: ["B"],
+       id: "171",
   },
   {
     name: "Snap",
@@ -3030,6 +3216,7 @@ export const dances: Dance[] = [
       "https://www.get-in-line.de/dances/Some_Beach_-_McGowan-Hickie.htm",
     counts: 64,
     walls: 4,
+    location: ["B"],
     id: "173",
   },
   {
@@ -3043,6 +3230,7 @@ export const dances: Dance[] = [
     choreo: "Niels Poulsen",
     counts: 32,
     walls: 4,
+    location: ["B"],
     id: "174",
   },
   {
@@ -3056,6 +3244,7 @@ export const dances: Dance[] = [
     choreo: "Keith Davies",
     counts: 56,
     walls: 2,
+    location: ["B"],
     id: "175",
   },
   {
@@ -3069,6 +3258,7 @@ export const dances: Dance[] = [
     choreo: "Raymond Sarlemijn & Roy Verdonk",
     counts: 32,
     walls: 4,
+    location: ["B"],
     id: "176",
   },
   {
@@ -3106,6 +3296,7 @@ export const dances: Dance[] = [
     choreo: "Robbie McGowan Hickie",
     counts: 64,
     walls: 4,
+    location: ["G"],
     id: "178",
   },
   {
@@ -3119,6 +3310,7 @@ export const dances: Dance[] = [
       "https://www.get-in-line.de/dances/Stomp%20and%20Twist_-_Funke.htm",
     counts: 32,
     walls: 4,
+    location: ["G"],
     id: "241",
   },
   {
@@ -3135,6 +3327,7 @@ export const dances: Dance[] = [
       "https://www.get-in-line.de/dances/Stomp%202%203%204_-_Fowler.htm",
     counts: 32,
     walls: 4,
+    location: ["B", "G"],
     id: "242",
   },
   {
@@ -3151,6 +3344,7 @@ export const dances: Dance[] = [
     choreo: "Maddison Glover",
     counts: 32,
     walls: 4,
+    location: ["B"],
     id: "179",
   },
   {
@@ -3172,6 +3366,7 @@ export const dances: Dance[] = [
     choreo: "unbekannt",
     counts: 32,
     walls: 4,
+    location: ["B"],
     id: "180",
   },
   {
@@ -3185,6 +3380,7 @@ export const dances: Dance[] = [
     choreo: "Kelli Haugen",
     counts: 32,
     walls: 4,
+    location: ["B"],
     id: "181",
   },
   {
@@ -3201,6 +3397,7 @@ export const dances: Dance[] = [
     choreo: "Cato Larsen",
     counts: 48,
     walls: 2,
+    location: ["G"],
     id: "182",
   },
   {
@@ -3218,6 +3415,7 @@ export const dances: Dance[] = [
     choreo: "Geoffrey Rothwell",
     counts: 32,
     walls: 2,
+    location: ["B"],
     id: "183",
   },
   {
@@ -3240,6 +3438,7 @@ export const dances: Dance[] = [
     choreo: "Fi Scott & Johnny Two-Step",
     counts: 32,
     walls: 4,
+    location: ["B", "G"],
     id: "184",
   },
   /*{
@@ -3271,6 +3470,7 @@ export const dances: Dance[] = [
     stepsheetLink: "https://www.get-in-line.de/dances/Tag%20On_-_Villellas.htm",
     counts: 64,
     walls: 2,
+    location: ["B", "G"],
     id: "186",
   },
 
@@ -3308,6 +3508,7 @@ export const dances: Dance[] = [
     choreo: "Kerstin & Peter Lienert",
     counts: 32,
     walls: 4,
+    location: ["B"],
     id: "190",
   },
   {
@@ -3321,6 +3522,7 @@ export const dances: Dance[] = [
     choreo: "Dan Albro",
     counts: 48,
     walls: 4,
+    location: ["G"],
     id: "191",
   },
   {
@@ -3334,6 +3536,7 @@ export const dances: Dance[] = [
     choreo: "Guylaine Bourdages",
     counts: 32,
     walls: 4,
+    location: ["G"],
     id: "192",
   },
   {
@@ -3347,6 +3550,7 @@ export const dances: Dance[] = [
     choreo: "Micaela Svensson Erlandsson",
     counts: 32,
     walls: 4,
+    location: ["G"],
     id: "193",
   },
   {
@@ -3359,7 +3563,7 @@ export const dances: Dance[] = [
     choreo: "Tina Argyle",
     counts: 32,
     walls: 2,
-    id: "194",
+        id: "194",
   },
   {
     name: "The Bucket",
@@ -3379,6 +3583,7 @@ export const dances: Dance[] = [
       "https://www.get-in-line.de/dances/The_Bucket_-_Schneider.htm",
     counts: 64,
     walls: 4,
+    location: ["G"],
     id: "247",
   },
   {
@@ -3452,6 +3657,7 @@ export const dances: Dance[] = [
     choreo: "Mona Leth",
     counts: 32,
     walls: 2,
+    location: ["G"],
     id: "199",
   },
   {
@@ -3465,7 +3671,8 @@ export const dances: Dance[] = [
     choreo: "Gary O'Reilly & Maggie Gallagher",
     counts: 16,
     walls: 4,
-    id: "200",
+   location: ["G"],
+     id: "200",
   },
   {
     name: "The Trail",
@@ -3478,6 +3685,7 @@ export const dances: Dance[] = [
     choreo: "Judy McDonald",
     counts: 64,
     walls: 2,
+    location: ["G"],
     id: "201",
   },
   {
@@ -3496,6 +3704,7 @@ export const dances: Dance[] = [
     choreo: "Tanzschule Weber",
     counts: 32,
     walls: 4,
+    location: ["G"],  
     id: "202",
   },
   {
@@ -3539,6 +3748,7 @@ export const dances: Dance[] = [
     choreo: "Yvonne Anderson",
     counts: 64,
     walls: 4,
+    location: ["B"],
     id: "205",
   },
   {
@@ -3552,6 +3762,7 @@ export const dances: Dance[] = [
       "https://www.get-in-line.de/dances/Tippin%27%20It%20Up_-_O%27Reilly.htm",
     counts: 32,
     walls: 4,
+    location: ["G"],
     id: "231",
   },
   {
@@ -3565,6 +3776,7 @@ export const dances: Dance[] = [
     choreo: "Gary O'Reilly",
     counts: 32,
     walls: 4,
+    location: ["G", "B"],
     id: "206",
   },
   {
@@ -3577,6 +3789,7 @@ export const dances: Dance[] = [
     choreo: "Rachael McEnaney",
     counts: 32,
     walls: 4,
+    location: ["G", "B"],
     id: "207",
   },
   {
@@ -3590,8 +3803,9 @@ export const dances: Dance[] = [
     choreo: "Magali Chabret Erhard",
     counts: 32,
     walls: 4,
+    location: ["G"],
     id: "208",
-  },
+  },  
   {
     name: "Touch Of Heaven",
     isPairDance: false,
@@ -3603,6 +3817,7 @@ export const dances: Dance[] = [
     choreo: "Silvia Denise Staiti",
     counts: 32,
     walls: 2,
+    location: ["B"],
     id: "209",
   },
   {
@@ -3619,6 +3834,7 @@ export const dances: Dance[] = [
       "https://www.get-in-line.de/dances/Trailblazer_-_TFDSabine-Gueldenfuss.htm",
     counts: 64,
     walls: 2,
+    location: ["B", "G"],
     id: "233",
   },
   {
@@ -3645,7 +3861,7 @@ export const dances: Dance[] = [
     choreo: "Jim Ferrazzano",
     counts: 40,
     walls: 4,
-    location: ["G", "B"],
+    location: ["B"],
     id: "210",
   },
   {
@@ -3720,6 +3936,7 @@ export const dances: Dance[] = [
       "https://www.get-in-line.de/dances/Walking_Away_-_McEnaney.htm",
     counts: 32,
     walls: 4,
+    location: ["G"],
     id: "215",
   },
   {
@@ -3742,6 +3959,7 @@ export const dances: Dance[] = [
       "https://www.get-in-line.de/dances/Waltz_Across_Texas_-_Nielson-Nielson.htm",
     counts: 48,
     walls: 1,
+    location: ["B"],
     id: "216",
   },
   {
@@ -3765,6 +3983,7 @@ export const dances: Dance[] = [
       "https://www.tuses.de/fileadmin/user_upload/Fotos/sparten/Line_Dance/Stepsheets/Wanderer.pdf",
     counts: 48,
     walls: 1,
+    location: ["B"],
     id: "217",
   },
   {
@@ -3782,6 +4001,7 @@ export const dances: Dance[] = [
       "https://www.get-in-line.de/dances/Watermelon_Crawl_-_Lipscomb.htm",
     counts: 40,
     walls: 4,
+    location: ["B"],
     id: "218",
   },
   {
@@ -3798,6 +4018,7 @@ export const dances: Dance[] = [
       "https://www.get-in-line.de/dances/Wave_On_Wave_-_Birchall.htm",
     counts: 32,
     walls: 2,
+    location: ["B"],
     id: "219",
   },
   {
@@ -3814,6 +4035,7 @@ export const dances: Dance[] = [
     walls: 4,
     stepsheetLink:
       "https://www.get-in-line.de/dances/Whiskey%27s%20Gone_-_Fowler.htm",
+      location: ["B"],
     id: "220",
   },
   {
@@ -3827,6 +4049,7 @@ export const dances: Dance[] = [
       "https://www.get-in-line.de/dances/When%20You%27re%20Drunk_-_Barton-Rodgers.htm",
     counts: 48,
     walls: 2,
+    location: ["B", "G"],
     id: "221",
   },
   {
@@ -3839,6 +4062,7 @@ export const dances: Dance[] = [
       "https://www.get-in-line.de/dances/Whiskey%20Bridges_-_Glover.htm",
     counts: 32,
     walls: 4,
+    location: ["G"],
     id: "222",
   },
   {
@@ -3860,6 +4084,7 @@ export const dances: Dance[] = [
     stepsheetLink: "https://www.get-in-line.de/dances/White_Rose_-_Teather.htm",
     counts: 36,
     walls: 4,
+    location: ["B", "G"],
     id: "223",
   },
   {
@@ -3876,6 +4101,7 @@ export const dances: Dance[] = [
       "https://www.get-in-line.de/dances/Wild%20West%20and%20Wicked_-_Fowler.htm",
     counts: 64,
     walls: 2,
+    location: ["B"],
     id: "243",
   },
   {
@@ -3912,6 +4138,7 @@ export const dances: Dance[] = [
       "https://www.get-in-line.de/dances/Wishful_Thinking_-_O%27Neill.htm",
     counts: 48,
     walls: 2,
+    location: ["B"],
     id: "224",
   },
   {
@@ -3925,6 +4152,7 @@ export const dances: Dance[] = [
       "https://www.get-in-line.de/dances/Wrong%20Direction_-_Schneider.htm",
     counts: 32,
     walls: 4,
+    location: ["G"],
     id: "225",
   },
   {
@@ -3938,6 +4166,7 @@ export const dances: Dance[] = [
       "https://www.get-in-line.de/dances/You%27re_So_Naughty_-_Holland.htm",
     counts: 32,
     walls: 4,
+    location: ["B"],
     id: "226",
   },
 
