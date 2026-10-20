@@ -231,9 +231,14 @@ export function DanceTable() {
                       Musik
                     </p>
                     <div className="text-[#78350f] text-sm space-y-0.5">
-                      {dance.songs.map((song, index) => (
-                        <p key={index}>{song}</p>
-                      ))}
+                      {dance.songs
+                        .slice()
+                        .sort((a, b) =>
+                          a.localeCompare(b, "de", { sensitivity: "base" }),
+                        )
+                        .map((song, index) => (
+                          <p key={index}>{song}</p>
+                        ))}
                     </div>
                     {choreo && (
                       <>
