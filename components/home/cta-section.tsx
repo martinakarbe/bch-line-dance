@@ -37,6 +37,7 @@ export function CTASection() {
                 src="/images/dance-friends.jpg"
                 alt="Unsere fröhliche Line Dance Gemeinschaft"
                 fill
+                sizes="(max-width: 1024px) 100vw, 50vw"
                 className="object-cover"
               />
             </div>

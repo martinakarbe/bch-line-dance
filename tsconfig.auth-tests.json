@@ -1,0 +1,14 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "noEmit": false,
+    "incremental": false,
+    "rootDir": ".",
+    "outDir": ".next/auth-tests",
+    "types": ["node"]
+  },
+  "include": ["tests/auth.test.ts", "lib/session.ts", "lib/env-config.ts", "proxy.ts"],
+  "exclude": ["node_modules", ".next"]
+}

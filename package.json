@@ -6,6 +6,7 @@
     "build": "next build",
     "dev": "next dev",
     "lint": "eslint .",
+    "test:auth": "tsc --project tsconfig.auth-tests.json && node --test .next/auth-tests/tests/auth.test.js",
     "start": "next start"
   },
   "dependencies": {

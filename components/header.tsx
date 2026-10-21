@@ -13,6 +13,7 @@ const navItems = [
   { href: "/dances", label: "Unsere Tänze" },
   { href: "/links", label: "Links & Tipps" },
   { href: "/contact", label: "Mitmachen" },
+  { href: "/intern", label: "Intern" },
 ];
 
 export function Header() {
@@ -98,7 +99,7 @@ export function Header() {
             className={cn(
               // Mobile: slide down under header
               "overflow-hidden transition-all duration-300",
-              isMenuOpen ? "max-h-96 pb-4" : "max-h-0",
+              isMenuOpen ? "max-h-[32rem] pb-4" : "max-h-0",
             )}
           >
             <nav

@@ -62,6 +62,28 @@ Wenn einer der Befehle nicht gefunden wird, zuerst Node.js installieren (z.B. vo
 
 ## 4. Entwicklung: Lokalen Dev-Server starten
 
+Für den passwortgeschützten Bereich unter `/intern` die Datei `.env.example`
+nach `.env.local` kopieren und beide Werte ausfüllen:
+
+- `INTERNAL_PASSWORD`: ein neues, langes Passwort für die Mitglieder.
+- `INTERNAL_SESSION_SECRET`: ein zufälliger geheimer Schlüssel mit mindestens
+  32 Bytes. Erzeugen mit `openssl rand -hex 32`.
+
+Beide Variablen auch in Vercel unter **Settings → Environment Variables** für
+die gewünschten Deployments setzen und anschließend neu deployen.
+Keine der Variablen darf das Präfix `NEXT_PUBLIC_` haben. `.env.local` wird
+nicht eingecheckt. Ohne vollständige Konfiguration bleibt der Bereich gesperrt.
+
+Sitzungen laufen nach sieben Tagen ab. Ein Wechsel des Passworts oder des
+Session-Schlüssels macht bestehende Sitzungen ungültig. Beim Ausloggen wird
+das Cookie im jeweiligen Browser gelöscht.
+
+Weitere interne Seiten und APIs müssen die Sitzung zusätzlich direkt vor dem
+Zugriff auf vertrauliche Daten mit `isAuthenticated()` aus `lib/auth-utils.ts`
+prüfen. Dateien in `public/` sind öffentlich; dort keine internen Dokumente ablegen.
+
+Die automatisierten Sitzungs- und Zugriffsschutztests laufen mit `npm run test:auth`.
+
 Um die Seite lokal zu bearbeiten und im Browser zu sehen:
 
 ```bash
