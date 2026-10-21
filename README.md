@@ -5,9 +5,9 @@ Eine kleine statische Website für **Buchens Multi-Generation Line Dancer** in B
 Die Seite zeigt u.a.
 - **Startseite** mit Hero, Call-to-Action und Infos
 - **Wer wir sind** (`/about`)
-- **Termine** mit eingebettetem Google Kalender (`/schedule`)
+- **Termine** mit eingebettetem Google Kalender (`/termine`)
 - **Tanzübersicht** (`/dances`)
-- **Links & Tipps** (`/resources`)
+- **Links & Tipps** (`/links`)
 - **Kontaktseite** (`/contact`) mit Kontaktformular (aktuell nur Demo, ohne Versand)
 
 ---
@@ -116,9 +116,9 @@ Ein kurzer Überblick, wo du was findest:
 - `app/`
   - `page.tsx` – Startseite (`/`)
   - `about/page.tsx` – "Wer wir sind" (`/about`)
-  - `schedule/page.tsx` – Termine (`/schedule`)
+  - `termine/page.tsx` – Termine (`/termine`)
   - `dances/page.tsx` – Tanzübersicht (`/dances`)
-  - `resources/page.tsx` – Links & Tipps (`/resources`)
+  - `links/page.tsx` – Links & Tipps (`/links`)
   - `contact/page.tsx` – Kontaktseite (`/contact`)
   - `imprint/page.tsx` – Impressum (`/imprint`)
   - `privacy/page.tsx` – Datenschutz (`/privacy`)

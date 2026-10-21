@@ -93,7 +93,7 @@ export function CTASection() {
                   </Button>
                 </Link>
               )}
-              <Link href="/resources">
+              <Link href="/links">
                 <Button
                   variant="outline"
                   className="bg-transparent border-3 border-[#8b5a2b] text-[#78350f] hover:bg-[#8b5a2b]/10 font-bold text-lg px-8 py-6 rounded-full transition-all w-full sm:w-auto"

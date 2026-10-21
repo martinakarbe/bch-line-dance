@@ -9,9 +9,9 @@ import { cn } from "@/lib/utils";
 const navItems = [
   { href: "/", label: "Start" },
   { href: "/about", label: "Wer wir sind" },
-  { href: "/schedule", label: "Termine" },
+  { href: "/termine", label: "Termine" },
   { href: "/dances", label: "Unsere Tänze" },
-  { href: "/resources", label: "Links & Tipps" },
+  { href: "/links", label: "Links & Tipps" },
   { href: "/contact", label: "Mitmachen" },
 ];
 

@@ -1,11 +1,13 @@
 import { Heart, Users, Youtube, Home, Star } from "lucide-react";
 import type { LucideIcon } from "lucide-react";
+import Link from "next/link";
 
 interface Feature {
   icon: LucideIcon;
   title: string;
   description: string;
   color: string;
+  link?: string;
 }
 
 const features: Feature[] = [
@@ -29,6 +31,7 @@ const features: Feature[] = [
     description:
       "Übe zu Hause mit unseren Playlists! Von Grundschritten bis zu ganzen Tänzen - alles kostenlos auf YouTube.",
     color: "bg-[#dc2626]",
+    link: "/links",
   },
   {
     icon: Home,
@@ -36,6 +39,7 @@ const features: Feature[] = [
     description:
       "Das Mehrgenerationenhaus Buchen bietet uns einen super Raum zum Tanzen. Komm einfach vorbei und mach mit!",
     color: "bg-[#1e40af]",
+    link: "https://www.mehrgenerationenhaus-buchen.de/",
   },
 ];
 
@@ -63,39 +67,68 @@ export function FeaturesSection() {
 
         {/* Features grid */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-4xl mx-auto">
-          {features.map((feature, index) => (
-            <div
-              key={feature.title}
-              className="group relative bg-[#fff9f2] rounded-2xl p-6 border-3 border-[#d4a574] hover:border-[#b45309] transition-all duration-300 hover:shadow-xl hover:-translate-y-1"
-            >
-              {/* Corner decoration */}
-              <div className="absolute -top-3 -right-3 w-8 h-8 bg-[#f5e6d3] rounded-full border-2 border-[#d4a574] flex items-center justify-center text-[#b45309] font-bold text-sm">
-                {index + 1}
-              </div>
+          {features.map((feature, index) => {
+            const cardContent = (
+              <>
+                {/* Corner decoration */}
+                <div className="absolute -top-3 -right-3 w-8 h-8 bg-[#f5e6d3] rounded-full border-2 border-[#d4a574] flex items-center justify-center text-[#b45309] font-bold text-sm">
+                  {index + 1}
+                </div>
 
-              <div className="flex gap-4">
-                <div
-                  className={`w-16 h-16 ${feature.color} rounded-xl flex items-center justify-center shrink-0 shadow-lg group-hover:scale-110 group-hover:rotate-6 transition-transform duration-300`}
+                <div className="flex gap-4">
+                  <div
+                    className={`w-16 h-16 ${feature.color} rounded-xl flex items-center justify-center shrink-0 shadow-lg group-hover:scale-110 group-hover:rotate-6 transition-transform duration-300`}
+                  >
+                    <feature.icon className="w-8 h-8 text-white" />
+                  </div>
+                  <div>
+                    <h3 className="font-serif text-xl text-[#3d2314] mb-2 group-hover:text-[#b45309] transition-colors">
+                      {feature.title}
+                    </h3>
+                    <p className="text-[#78350f] leading-relaxed">
+                      {feature.description}
+                    </p>
+                  </div>
+                </div>
+              </>
+            );
+
+            if (feature.link) {
+              return (
+                <Link
+                  key={feature.title}
+                  href={feature.link}
+                  target={
+                    feature.link.startsWith("http") ? "_blank" : undefined
+                  }
+                  rel={
+                    feature.link.startsWith("http")
+                      ? "noopener noreferrer"
+                      : undefined
+                  }
+                  className="group relative bg-[#fff9f2] rounded-2xl p-6 border-3 border-[#d4a574] hover:border-[#b45309] transition-all duration-300 hover:shadow-xl hover:-translate-y-1"
                 >
-                  <feature.icon className="w-8 h-8 text-white" />
-                </div>
-                <div>
-                  <h3 className="font-serif text-xl text-[#3d2314] mb-2 group-hover:text-[#b45309] transition-colors">
-                    {feature.title}
-                  </h3>
-                  <p className="text-[#78350f] leading-relaxed">
-                    {feature.description}
-                  </p>
-                </div>
+                  {cardContent}
+                </Link>
+              );
+            }
+
+            return (
+              <div
+                key={feature.title}
+                className="group relative bg-[#fff9f2] rounded-2xl p-6 border-3 border-[#d4a574] hover:border-[#b45309] transition-all duration-300 hover:shadow-xl hover:-translate-y-1"
+              >
+                {cardContent}
               </div>
-            </div>
-          ))}
+            );
+          })}
         </div>
 
         {/* Fun bottom text */}
         <div className="text-center mt-16">
           <p className="text-2xl font-serif text-[#b45309]">
-            Klingt gut? <span className="text-[#3d2314]">Dann komm vorbei!</span>
+            Klingt gut?{" "}
+            <span className="text-[#3d2314]">Dann komm vorbei!</span>
           </p>
         </div>
       </div>

@@ -12,9 +12,9 @@ import { getObfuscatedContactEmail } from "@/lib/contact-email";
 
 const quickLinks = [
   { href: "/about", label: "Wer wir sind" },
-  { href: "/schedule", label: "Termine" },
+  { href: "/termine", label: "Termine" },
   { href: "/dances", label: "Unsere Tänze" },
-  { href: "/resources", label: "Links & Tipps" },
+  { href: "/links", label: "Links & Tipps" },
 ];
 
 const legalLinks = [
@@ -103,22 +103,6 @@ export function Footer() {
                       </p>
                     </div>
                   </div>
-                </li>
-                <li>
-                  <a
-                    href="https://www.youtube.com/@bchlinedancer"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="flex items-center gap-3 group"
-                  >
-                    <div className="w-8 h-8 bg-[#5c4033] rounded-lg flex items-center justify-center group-hover:bg-[#dc2626] transition-colors">
-                      <Youtube className="w-4 h-4 text-[#dc2626] group-hover:text-white transition-colors" />
-                    </div>
-                    <span className="text-[#d4a574] group-hover:text-[#fef3c7] transition-colors flex items-center gap-1">
-                      YouTube Kanal
-                      <ExternalLink className="w-3 h-3" />
-                    </span>
-                  </a>
                 </li>
                 <li>
                   <div className="flex items-start gap-3">

@@ -42,9 +42,15 @@ export default function DancesPage() {
               Unsere Tänze von A-Z
             </h1>
             <p className="text-xl text-[#78350f] max-w-6xl mx-auto leading-relaxed">
-              Alle Tänze, die wir bei unseren Treffen in Buchen (B) und Großeicholzheim (G) tanzen - mit Videos und
-              Stepsheets zum Nachschauen und Üben! <br />
-             <font size="2"> Wenn kein Ort dabei steht, stammt der Tanz meist von einem Workshop bei einer Veranstaltung und ist aktuell nicht bei einer der Gruppen im Repertoire.</font>
+              Alle Tänze, die wir bei unseren Treffen in Buchen (B) und
+              Großeicholzheim (G) tanzen - mit Videos und Stepsheets zum
+              Nachschauen und Üben! <br />
+              <font size="2">
+                {" "}
+                Wenn kein Ort dabei steht, stammt der Tanz meist von einem
+                Workshop bei einer Veranstaltung und ist aktuell nicht bei einer
+                der Gruppen im Repertoire.
+              </font>
             </p>
           </div>
         </section>
@@ -62,14 +68,14 @@ export default function DancesPage() {
                     Neu beim Line Dance?
                   </p>
                   <p className="text-sm text-[#78350f]">
-                    Starte mit den <a href="/resources">Grundschritten</a> und
+                    Starte mit den <a href="/links">Grundschritten</a> und
                     nebenher mit den Beginner-Tänzen (nutze die Filter
                     neben/unter der Suchleiste) und schau dir unsere
                     YouTube-Tutorials an!
                   </p>
                 </div>
               </div>
-              <Link href="/resources">
+              <Link href="/links">
                 <Button className="bg-[#b45309] hover:bg-[#92400e] text-[#fef3c7] font-bold px-6 py-2 rounded-full border-2 border-[#78350f]">
                   Zu den Tutorials →
                 </Button>
