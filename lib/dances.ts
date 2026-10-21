@@ -2017,6 +2017,7 @@ export const dances: Dance[] = [
       "https://www.get-in-line.de/dances/Hillbilly_Strut_-_LaMotta.htm",
     counts: 32,
     walls: 4,
+    location: ["G"],
     id: "102",
   },
   {
@@ -4169,7 +4170,20 @@ export const dances: Dance[] = [
     location: ["B"],
     id: "226",
   },
-
+{
+    name: "Never ever",
+    isPairDance: false,
+    level: "Improver",
+    songs: ["No No Never - Texas Lightning"],
+    choreo: "Petra & Georg Kiesewetter",
+    videoLink: ["https://youtu.be/OvzowYtFwAo?si=1CcyxM68iJAl9af9"
+    ],
+    stepsheetLink: "https://www.get-in-line.de/dances/Never%20Ever_-_Kiesewetter.htm",
+    counts: 32,
+    walls: 4,
+    location: ["G"],
+    id: "248",
+  },
   /*{
     name: ",
     isPairDance: false,
@@ -4181,6 +4195,7 @@ export const dances: Dance[] = [
     stepsheetLink: "",
     counts: ,
     walls: ,
-    id: "248",
+     location: ["B", "G"],
+    id: "249",
   },*/
 ];
