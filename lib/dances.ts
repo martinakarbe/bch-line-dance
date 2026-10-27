@@ -4184,8 +4184,36 @@ export const dances: Dance[] = [
     location: ["G"],
     id: "248",
   },
+  {
+    name: "Oh my Lina",  
+    isPairDance: false,
+    level: "Intermediate",
+    songs: ["Oh My Lina (AI generated) - New Horizon"],
+    choreo: "Ole Jacobson & Nina K.",
+    videoLink: ["https://youtu.be/qvFGJUJdDsk?si=RDye9K1mlOOkQWzN"
+    ],
+    stepsheetLink: "https://www.get-in-line.de/dances/Oh%20My%20Lina_-_Jacobson.htm",
+    counts: 32,
+    walls: 4,
+     location: ["B"],
+    id: "249",
+  },
+  {
+    name: "Stomp & Grind",
+    isPairDance: false,
+    level: "Beginner",
+    songs: ["Stomp & Grind - Chad Mac"],
+    choreo: "Madison Lindley & Elise Lorcher",
+    videoLink: ["https://youtu.be/PF2X8yXmbwM?si=GekQ8beO957WD0Fz&t=39"
+    ],
+    stepsheetLink: "https://www.copperknob.co.uk/stepsheets/KDKSVW8/stomp-grind",
+    counts: 32,
+    walls: 4,
+     location: ["B" ],
+    id: "250",
+  },
   /*{
-    name: ",
+    name: "",
     isPairDance: false,
     level: "",
     songs: [""],
@@ -4196,6 +4224,6 @@ export const dances: Dance[] = [
     counts: ,
     walls: ,
      location: ["B", "G"],
-    id: "249",
+    id: "251",
   },*/
 ];

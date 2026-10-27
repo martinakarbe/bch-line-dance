@@ -72,16 +72,11 @@ export default async function InternPage() {
               <p className="text-[#78350f] mb-4">
                 Hier kannst du interne Termine und Veranstaltungen eintragen.
               </p>
-              <ul className="space-y-2 text-[#78350f] text-sm">
-                <li className="flex items-center gap-2">
-                  <span className="w-2 h-2 bg-[#b45309] rounded-full" />
-                  <span>Beispiel: Workshop am 15.11.2024</span>
-                </li>
-                <li className="flex items-center gap-2">
-                  <span className="w-2 h-2 bg-[#b45309] rounded-full" />
-                  <span>Beispiel: Ausflug am 22.11.2024</span>
-                </li>
-              </ul>
+              <div className="aspect-video bg-[#d4a574]/20 rounded-lg flex items-center justify-center">
+                <span className="text-[#78350f] text-sm">
+                  Platzhalter für Bilder
+                </span>
+              </div>
             </div>
 
             {/* Bilder Card */}
