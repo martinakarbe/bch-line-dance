@@ -4227,6 +4227,33 @@ export const dances: Dance[] = [
      location: ["B"],
     id: "251",
   },
+  {
+    name: "These boots, them beers",
+    isPairDance: false,
+    level: "Beginner",
+    songs: ["Honky Tonkin' About - The Reklaws & Drake Milligan"],
+    choreo: "Flora Petrie",
+    videoLink: ["https://youtu.be/7Kl1r_AQIY8?si=6AXo8s2_z1Y0nZFt"    ],
+    stepsheetLink: "https://www.copperknob.co.uk/stepsheets/3H46W63/these-boots-them-beers",
+    counts: 32,
+    walls: 2,
+     location: ["B"],
+    id: "252",
+  },
+  {
+    name: "Kane's Boots",
+    isPairDance: false,
+    level: "Beginner",
+    songs: ["Boots - Kane Brown feat. Shania Twain"],
+    choreo: "Andres Hayes",
+    videoLink: ["https://youtu.be/VNL-9YYTw8s?si=FOW6nkbt0vGJy_cK"
+    ],
+    stepsheetLink: "https://www.get-in-line.de/dances/Kane%27s%20Boots_-_Hayes.htm",
+    counts: 32,
+    walls: 4,
+     location: ["B"],
+    id: "253",
+  },
   /*{
     name: "",
     isPairDance: false,
@@ -4239,6 +4266,6 @@ export const dances: Dance[] = [
     counts: ,
     walls: ,
      location: ["B", "G"],
-    id: "252",
+    id: "254",
   },*/
 ];
