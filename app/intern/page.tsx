@@ -51,16 +51,29 @@ export default async function InternPage() {
               Willkommen im internen Bereich!
             </h2>
             <p className="text-[#78350f] leading-relaxed">
-              Hier findest du interne Informationen, Termine und Materialien,
-              die nur für Mitglieder bestimmt sind. Du kannst diesen Bereich
-              bearbeiten, um Inhalte hinzuzufügen.
+              Hier findest du interne Informationen, Termine und Materialien, die nur für Mitglieder bestimmt sind. 
             </p>
           </div>
-
+<div className="max-w-4xl mx-auto">
+          {/* Welcome Section */}
+          <div className="bg-[#fff9f2] rounded-2xl border-3 border-[#d4a574] p-8 mb-8">
+            <h3 className="font-serif text-xl text-[#3d2314]">Tanzbeschreibungen </h3>
+             <p className="text-[#78350f] mb-4">
+                nur für unsere Mitglieder - in verständlichen Schritten erklärt
+              </p>
+                <span> <a
+                      href="https://www.dropbox.com/scl/fi/rza27po4jpkz42gocyal1/_Alle-T-nze.pdf?rlkey=n1qtc2x7z6g2e77s8wlfr6isi&dl=0" 
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="inline-flex items-center gap-2 text-[#b45309] hover:text-[#78350f] font-medium text-sm"
+                    >Datei mit allen Tanzbeschreibungen</a>
+                    
+    </span>
+          </div></div>
           {/* Example Content Sections */}
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+           {/* <div className="grid grid-cols-1 md:grid-cols-2 gap-6">*/}
             {/* Termine Card */}
-            <div className="bg-[#fff9f2] rounded-2xl border-3 border-[#d4a574] p-6 hover:border-[#b45309] transition-colors">
+             {/* <div className="bg-[#fff9f2] rounded-2xl border-3 border-[#d4a574] p-6 hover:border-[#b45309] transition-colors">
               <div className="flex items-center gap-3 mb-4">
                 <div className="w-12 h-12 bg-[#15803d] rounded-xl flex items-center justify-center">
                   <Calendar className="w-6 h-6 text-white" />
@@ -77,10 +90,11 @@ export default async function InternPage() {
                   Platzhalter für Bilder
                 </span>
               </div>
-            </div>
+            </div>*/}
 
             {/* Bilder Card */}
-            <div className="bg-[#fff9f2] rounded-2xl border-3 border-[#d4a574] p-6 hover:border-[#b45309] transition-colors">
+             {/* 
+             <div className="bg-[#fff9f2] rounded-2xl border-3 border-[#d4a574] p-6 hover:border-[#b45309] transition-colors">
               <div className="flex items-center gap-3 mb-4">
                 <div className="w-12 h-12 bg-[#1e40af] rounded-xl flex items-center justify-center">
                   <ImageIcon className="w-6 h-6 text-white" />
@@ -99,34 +113,33 @@ export default async function InternPage() {
                 </span>
               </div>
             </div>
-
-            {/* Dokumente Card */}
-            <div className="bg-[#fff9f2] rounded-2xl border-3 border-[#d4a574] p-6 hover:border-[#b45309] transition-colors">
+*/}
+           {/* Dokumente Card */}
+           {/*  <div className="bg-[#fff9f2] rounded-2xl border-3 border-[#d4a574] p-6 hover:border-[#b45309] transition-colors">
               <div className="flex items-center gap-3 mb-4">
                 <div className="w-12 h-12 bg-[#b45309] rounded-xl flex items-center justify-center">
                   <FileText className="w-6 h-6 text-white" />
                 </div>
                 <h3 className="font-serif text-xl text-[#3d2314]">
-                  Dokumente
+                  Tanzbeschreibungen 
                 </h3>
               </div>
               <p className="text-[#78350f] mb-4">
-                Hier kannst du wichtige Dokumente für Mitglieder hochladen.
+                nur für unsere Mitglieder - in verständlichen Schritten erklärt
               </p>
-              <ul className="space-y-2 text-[#78350f] text-sm">
-                <li className="flex items-center gap-2">
+             
                   <span className="w-2 h-2 bg-[#b45309] rounded-full" />
-                  <span>Beispiel: Protokolle</span>
-                </li>
-                <li className="flex items-center gap-2">
-                  <span className="w-2 h-2 bg-[#b45309] rounded-full" />
-                  <span>Beispiel: Anleitungen</span>
-                </li>
-              </ul>
-            </div>
-
+                  <span> <a
+                      href="https://www.dropbox.com/scl/fi/rza27po4jpkz42gocyal1/_Alle-T-nze.pdf?rlkey=n1qtc2x7z6g2e77s8wlfr6isi&dl=0" 
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="inline-flex items-center gap-2 text-[#b45309] hover:text-[#78350f] font-medium text-sm"
+                    >Datei mit allen Tanzbeschreibungen</a>
+                </span>
+                         </div>
+*/}
             {/* Notizen Card */}
-            <div className="bg-[#fff9f2] rounded-2xl border-3 border-[#d4a574] p-6 hover:border-[#b45309] transition-colors">
+          {/*  <div className="bg-[#fff9f2] rounded-2xl border-3 border-[#d4a574] p-6 hover:border-[#b45309] transition-colors">
               <div className="flex items-center gap-3 mb-4">
                 <div className="w-12 h-12 bg-[#dc2626] rounded-xl flex items-center justify-center">
                   <FileText className="w-6 h-6 text-white" />
@@ -148,7 +161,7 @@ export default async function InternPage() {
               </div>
             </div>
           </div>
-
+*/}
           {/* Back to Home */}
           <div className="mt-8 text-center">
             <Link
