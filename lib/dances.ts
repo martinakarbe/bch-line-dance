@@ -4212,6 +4212,21 @@ export const dances: Dance[] = [
      location: ["B" ],
     id: "250",
   },
+  {
+    name: "Cowgirl",
+    isPairDance: false,
+    level: "Beginner",
+    songs: ["Cowgirl - Shaboozey"],
+    choreo: "Sara Honey-DeLong",
+    videoLink: ["https://youtu.be/SsvDnKmbrhk?si=PncRqlx9RfO_PtM1",
+      "https://youtu.be/i0uFtrtZulk?si=iV90fhNqCiHU2fkN"
+    ],
+    stepsheetLink: "https://www.get-in-line.de/dances/Cowgirl_-_Honey_DeLong.htm",
+    counts: 32,
+    walls: 2,
+     location: ["B"],
+    id: "251",
+  },
   /*{
     name: "",
     isPairDance: false,
@@ -4224,6 +4239,6 @@ export const dances: Dance[] = [
     counts: ,
     walls: ,
      location: ["B", "G"],
-    id: "251",
+    id: "252",
   },*/
 ];
