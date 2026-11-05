@@ -2,7 +2,7 @@ import { createHmac, randomBytes, timingSafeEqual } from "node:crypto";
 import { AuthConfigurationError, getAuthConfig } from "./env-config";
 
 export const SESSION_COOKIE_NAME = "internal_session";
-export const SESSION_DURATION_SECONDS = 7 * 24 * 60 * 60;
+export const SESSION_DURATION_SECONDS = 12 * 60 * 60;
 
 function sign(payload: string): Buffer {
   const { password, secret } = getAuthConfig();

@@ -74,9 +74,12 @@ die gewünschten Deployments setzen und anschließend neu deployen.
 Keine der Variablen darf das Präfix `NEXT_PUBLIC_` haben. `.env.local` wird
 nicht eingecheckt. Ohne vollständige Konfiguration bleibt der Bereich gesperrt.
 
-Sitzungen laufen nach sieben Tagen ab. Ein Wechsel des Passworts oder des
-Session-Schlüssels macht bestehende Sitzungen ungültig. Beim Ausloggen wird
-das Cookie im jeweiligen Browser gelöscht.
+Sitzungen laufen serverseitig nach 12 Stunden ab. Das Login-Cookie ist ein
+Session-Cookie und wird vom Browser normalerweise beim Schließen beendet.
+Manche Browser stellen Cookies jedoch zusammen mit wiederhergestellten Tabs
+wieder her; die serverseitige 12-Stunden-Grenze bleibt davon unberührt.
+Ein Wechsel des Passworts oder des Session-Schlüssels macht bestehende
+Sitzungen ungültig. Beim Ausloggen wird das Cookie im jeweiligen Browser gelöscht.
 
 Weitere interne Seiten und APIs müssen die Sitzung zusätzlich direkt vor dem
 Zugriff auf vertrauliche Daten mit `isAuthenticated()` aus `lib/auth-utils.ts`

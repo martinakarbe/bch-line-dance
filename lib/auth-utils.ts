@@ -5,7 +5,6 @@ import {
   createSessionToken,
   verifySessionToken,
   SESSION_COOKIE_NAME,
-  SESSION_DURATION_SECONDS,
 } from "./session";
 
 export async function verifyPassword(password: string): Promise<boolean> {
@@ -21,7 +20,6 @@ export async function createSession(): Promise<void> {
     httpOnly: true,
     secure: process.env.NODE_ENV === "production",
     sameSite: "lax",
-    maxAge: SESSION_DURATION_SECONDS,
     path: "/",
   });
 }
