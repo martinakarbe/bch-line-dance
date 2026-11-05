@@ -2,13 +2,26 @@ import { redirect } from "next/navigation";
 import { isAuthenticated } from "@/lib/auth-utils";
 import { LogOut, Lock, Calendar, Image as ImageIcon, FileText } from "lucide-react";
 import Link from "next/link";
+import { listPrivatePhotos } from "@/lib/private-photos";
+import { PhotoSlider } from "@/components/intern/photo-slider";
 
-export default async function InternPage() {
+export default async function InternPage({
+  searchParams,
+}: {
+  searchParams: Promise<{ foto?: string | string[] }>;
+}) {
   const isAuth = await isAuthenticated();
 
   if (!isAuth) {
     redirect("/intern/login");
   }
+
+  const [{ foto }, photos] = await Promise.all([searchParams, listPrivatePhotos()]);
+  const requestedIndex = Number(Array.isArray(foto) ? foto[0] : foto);
+  const activeIndex =
+    photos.length > 0 && Number.isInteger(requestedIndex) && requestedIndex >= 0
+      ? requestedIndex % photos.length
+      : 0;
 
   return (
     <div className="min-h-screen bg-[#fdf6ee]">
@@ -53,6 +66,9 @@ export default async function InternPage() {
             <p className="text-[#78350f] leading-relaxed">
               Hier findest du interne Informationen, Termine und Materialien, die nur für Mitglieder bestimmt sind. 
             </p>
+          </div>
+          <div className="mb-8">
+            <PhotoSlider photos={photos} activeIndex={activeIndex} />
           </div>
 <div className="max-w-4xl mx-auto">
           {/* Welcome Section */}

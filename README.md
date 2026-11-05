@@ -82,6 +82,11 @@ Weitere interne Seiten und APIs müssen die Sitzung zusätzlich direkt vor dem
 Zugriff auf vertrauliche Daten mit `isAuthenticated()` aus `lib/auth-utils.ts`
 prüfen. Dateien in `public/` sind öffentlich; dort keine internen Dokumente ablegen.
 
+Private Fotos kommen in `private-assets/intern/` (nicht in `public/`). Auf der
+internen Seite können angemeldete Mitglieder durch die unterstützten Bilddateien
+blättern. Nicht angemeldete Zugriffe auf die Bilder werden abgewiesen.
+Unterstützt werden AVIF, GIF, JPEG, PNG und WebP.
+
 Die automatisierten Sitzungs- und Zugriffsschutztests laufen mit `npm run test:auth`.
 
 Um die Seite lokal zu bearbeiten und im Browser zu sehen:
