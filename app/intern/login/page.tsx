@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { useRouter } from "next/navigation";
 import { Lock, Music } from "lucide-react";
 import { Button } from "@/components/ui/button";
@@ -10,6 +10,14 @@ export default function LoginPage() {
   const [error, setError] = useState("");
   const [isLoading, setIsLoading] = useState(false);
   const router = useRouter();
+
+  useEffect(() => {
+    const error = new URLSearchParams(window.location.search).get("error");
+    if (error === "invalid") setError("Falsches Passwort");
+    if (error === "unavailable") {
+      setError("Die Anmeldung ist derzeit nicht verfügbar. Bitte versuche es später erneut.");
+    }
+  }, []);
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
@@ -56,7 +64,12 @@ export default function LoginPage() {
           </div>
 
           {/* Form */}
-          <form onSubmit={handleSubmit} className="space-y-4">
+          <form
+            action="/api/auth/login"
+            method="post"
+            onSubmit={handleSubmit}
+            className="space-y-4"
+          >
             <div>
               <label
                 htmlFor="password"
