@@ -30,7 +30,7 @@ export function PhotoSlider({ photos, activeIndex }: PhotoSliderProps) {
       className="rounded-2xl border-3 border-[#d4a574] bg-[#fff9f2] p-4 sm:p-6"
     >
       <div className="mb-4 flex items-center justify-between gap-4">
-        <h2 className="font-serif text-xl text-[#3d2314]">Fotos</h2>
+        <h2 className="font-serif text-xl text-[#3d2314]">Termine</h2>
         <p className="text-sm text-[#78350f]" aria-live="polite">
           Bild {activeIndex + 1} von {photos.length}
         </p>
