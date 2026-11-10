@@ -61,7 +61,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="de" className={`${quicksand.variable} ${rye.variable}`}>
-      <body className="font-sans antialiased min-h-screen flex flex-col">
+      <body
+        className="font-sans antialiased min-h-screen flex flex-col"
+        suppressHydrationWarning
+      >
         {children}
         <ConsentBanner />
       </body>

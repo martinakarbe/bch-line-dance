@@ -43,7 +43,7 @@ export function Header() {
       <div className="h-2 bg-[repeating-linear-gradient(90deg,#d4a574_0px,#d4a574_10px,#8b5a2b_10px,#8b5a2b_20px)]" />
 
       <div className="bg-[#f5e6d3] border-b-4 border-[#8b5a2b] shadow-lg">
-        <div className="container mx-auto px-4">
+        <div ref={menuRef} className="container mx-auto px-4">
           <div className="flex items-center justify-between h-20">
             {/* Logo */}
             <Link href="/" className="flex items-center gap-2 md:gap-3 group">
@@ -79,7 +79,8 @@ export function Header() {
                 </Button>
               </Link>
               <button
-                onClick={() => setIsMenuOpen(!isMenuOpen)}
+                type="button"
+                onClick={() => setIsMenuOpen((open) => !open)}
                 className="p-2 text-[#78350f] hover:bg-[#faebd7] rounded-lg transition-colors"
                 aria-expanded={isMenuOpen}
                 aria-label={isMenuOpen ? "Menü schließen" : "Menü öffnen"}
@@ -95,10 +96,9 @@ export function Header() {
 
           {/* Navigation Dropdown */}
           <div
-            ref={menuRef}
             className={cn(
               // Mobile: slide down under header
-              "overflow-hidden transition-all duration-300",
+              "overflow-hidden transition-all duration-300 lg:overflow-visible",
               isMenuOpen ? "max-h-[32rem] pb-4" : "max-h-0",
             )}
           >
