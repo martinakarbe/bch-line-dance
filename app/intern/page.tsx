@@ -70,6 +70,35 @@ export default async function InternPage({
           <div className="mb-8">
             <PhotoSlider photos={photos} activeIndex={activeIndex} />
           </div>
+
+    <section className="max-w-4xl mx-auto mb-8 p-6 bg-white/60 border border-amber-900/20 rounded-xl">
+  <h2 className="text-xl font-bold mb-4">Umfrage 1: Breuberg</h2>
+  
+  {/* Dieses Grid stellt beide Teile ab Tablet/PC-Breite exakt nebeneinander */}
+  <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+    
+    {/* Linke Spalte: Google Formular */}
+    <div className="w-full">
+      <h3 className="font-bold mb-2">Bitte hier abstimmen</h3>
+          <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScbDtCWmyS-JjCoQrJbRlkxtZspBsgvGgrGugtsWZPQ5mY1Vw/viewform?embedded=true" width="100%" height="680" frameborder="0" marginheight="0" marginwidth="0">Wird geladen…
+          </iframe>
+        </div>
+
+        {/* Rechte Seite: Google Sheet Live-Ergebnisse */}
+        <div style={{ flex: '1 1 450px' }}>
+          <h3 className="font-bold text-base mb-1">Aktueller Stand</h3>
+      <p className="text-[11px] leading-tight text-gray-600 mb-2">
+        Achtung, es kann ein paar Minuten dauern, bis die Ergebnisse angezeigt werden. Bitte etwas Geduld, nicht erneut abstimmen.
+      </p>
+.
+          <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTazUgQKX4eWDHwrXnQ-NsYK-ud9oKy_A8b7yE_8h-fr4z5dLDtXeE0rG_gnIqbDYMq5P3V0wdM3Fwp/pubhtml?gid=1524356230&amp;single=true&amp;widget=true&amp;headers=false" width="100%"  height="680" frameborder="0" marginheight="0" marginwidth="0">Wird geladen…  
+          </iframe>
+        </div>
+      </div>
+    </section>
+
+
+
 <div className="max-w-4xl mx-auto">
           {/* Welcome Section */}
           <div className="bg-[#fff9f2] rounded-2xl border-3 border-[#d4a574] p-8 mb-8">
@@ -86,6 +115,9 @@ export default async function InternPage({
                     
     </span>
           </div></div>
+
+          
+
           {/* Example Content Sections */}
            {/* <div className="grid grid-cols-1 md:grid-cols-2 gap-6">*/}
             {/* Termine Card */}
