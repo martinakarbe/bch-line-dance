@@ -80,7 +80,7 @@ export default async function InternPage({
     {/* Linke Spalte: Google Formular */}
     <div className="w-full">
       <h3 className="font-bold mb-2">Bitte hier abstimmen</h3>
-          <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScbDtCWmyS-JjCoQrJbRlkxtZspBsgvGgrGugtsWZPQ5mY1Vw/viewform?embedded=true" width="100%" height="680" frameborder="0" marginheight="0" marginwidth="0">Wird geladen…
+          <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScbDtCWmyS-JjCoQrJbRlkxtZspBsgvGgrGugtsWZPQ5mY1Vw/viewform?embedded=true" width="100%" height="680">Wird geladen…
           </iframe>
         </div>
 
@@ -91,7 +91,7 @@ export default async function InternPage({
         Achtung, es kann ein paar Minuten dauern, bis die Ergebnisse angezeigt werden. Bitte etwas Geduld, nicht erneut abstimmen.
       </p>
 .
-          <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTazUgQKX4eWDHwrXnQ-NsYK-ud9oKy_A8b7yE_8h-fr4z5dLDtXeE0rG_gnIqbDYMq5P3V0wdM3Fwp/pubhtml?gid=1524356230&amp;single=true&amp;widget=true&amp;headers=false" width="100%"  height="680" frameborder="0" marginheight="0" marginwidth="0">Wird geladen…  
+          <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTazUgQKX4eWDHwrXnQ-NsYK-ud9oKy_A8b7yE_8h-fr4z5dLDtXeE0rG_gnIqbDYMq5P3V0wdM3Fwp/pubhtml?gid=1524356230&amp;single=true&amp;widget=true&amp;headers=false" width="100%"  height="680">Wird geladen…  
           </iframe>
         </div>
       </div>

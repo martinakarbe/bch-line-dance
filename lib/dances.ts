@@ -4253,6 +4253,21 @@ export const dances: Dance[] = [
      location: ["B"],
     id: "253",
   },
+  {
+    name: "Unhealthy",
+    isPairDance: false,
+    level: "Beginner",
+    songs: ["Unhealthy  (feat. Shania Twain) - Anne-Marie"],
+    choreo: "Betty Villard (FR), Jp Barrois (FR), Giuseppe Scaccianoce (IT) & Sébastien Bonnier (FR)",
+    videoLink: ["https://youtu.be/Y-addqP-Ajs?si=VqMFx9Qx4GLcm0-b"
+    ],
+    stepsheetLink: "https://www.copperknob.co.uk/stepsheets/67QCZQJ/unhealthy",
+    counts: 32,
+    walls: 2,
+     location: ["G"],
+    id: "254",
+  },
+
   /*{
     name: "",
     isPairDance: false,
