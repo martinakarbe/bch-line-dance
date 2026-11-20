@@ -4267,7 +4267,24 @@ export const dances: Dance[] = [
      location: ["G"],
     id: "254",
   },
-
+{
+    name: "MMMBop",
+    isPairDance: false,
+    level: "Intermediate",
+    songs: ["That's The Way It Goes - Anne Murray",
+	"MMMBop - Hanson",
+	"Almost Jamaica - Bellamy Brothers",
+],
+    choreo: "Kelly Kaylin",
+    videoLink: ["https://youtu.be/Z2tqKZMNO18?si=kM-kT7eLr_4Ezhcl",
+      "https://youtu.be/YjcHtY1N7O8?si=mNeBE5Ubo0YBznJU"
+    ],
+    stepsheetLink: "https://www.get-in-line.de/dances/MMMBop_-_Kaylin.htm",
+    counts: 32,
+    walls: 4,
+     location: [],
+    id: "255",
+  },
   /*{
     name: "",
     isPairDance: false,
@@ -4280,6 +4297,6 @@ export const dances: Dance[] = [
     counts: ,
     walls: ,
      location: ["B", "G"],
-    id: "254",
+    id: "256",
   },*/
 ];
