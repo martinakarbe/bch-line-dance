@@ -1,7 +1,6 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import { useRouter } from "next/navigation";
 import { Lock, Music } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
@@ -9,7 +8,6 @@ export default function LoginPage() {
   const [password, setPassword] = useState("");
   const [error, setError] = useState("");
   const [isLoading, setIsLoading] = useState(false);
-  const router = useRouter();
 
   useEffect(() => {
     const error = new URLSearchParams(window.location.search).get("error");
@@ -32,8 +30,7 @@ export default function LoginPage() {
       });
 
       if (response.ok) {
-        router.replace("/intern");
-        router.refresh();
+        window.location.replace("/intern");
       } else {
         setError(response.status === 401
           ? "Falsches Passwort"
